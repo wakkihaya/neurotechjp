@@ -1,0 +1,73 @@
+@import "./common.scss";
+@import "./variables.scss";
+
+.index {
+  display: flex;
+  flex-direction: column;
+  width: $content-width;
+  margin: 5em auto;
+  font-family: $lato-font-family;
+  &--title {
+    font-size: $large-font-size;
+    font-weight: bold;
+  }
+  &--subtitle {
+    padding-top: 1em;
+    font-size: $medium-font-size;
+  }
+}
+
+.blog-container_bg {
+  background-color: $light-gray-color;
+  min-height: calc(100vh - 80px); //Gray bg color till end of top page.
+}
+.blog-container {
+  padding: 5rem 0;
+  display: grid;
+  width: $content-width;
+  margin: auto;
+}
+
+.blog-item {
+  grid-row: 1;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  max-width: 50%;
+  min-height: 400px;
+  box-shadow: 0 0 5px $gray-color;
+  border-radius: 5px;
+  &--pic {
+    background: $gray-color;
+    min-height: 50%;
+  }
+  &--container {
+    padding-left: 3rem;
+    border-bottom: solid 1px $gray-color;
+  }
+  &--container-title {
+    font-size: $medium-font-size;
+    font-family: $lato-font-family;
+    font-weight: bold;
+    padding: 1rem 0;
+  }
+  &--container-subtitle {
+    font-size: $small-font-size;
+    font-family: $lato-font-family;
+    padding: 1rem 0;
+  }
+  &--container-readmore {
+    font-size: $small-font-size;
+    font-family: $lato-font-family;
+    color: $red-color;
+    font-weight: bold;
+    padding: 2rem 0;
+  }
+
+  &--date {
+    font-size: $small-font-size;
+    font-family: $lato-font-family;
+    padding: 1rem 3rem;
+    color: $gray-color;
+  }
+}

@@ -18,6 +18,9 @@
     font-size: $medium-font-size;
     justify-content: center;
   }
+  &--index-about:hover, &--index-blog:hover{
+    text-decoration: underline;
+  }
 
   &--index-about {
     padding-left: 5rem;
