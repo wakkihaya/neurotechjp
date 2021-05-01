@@ -92,3 +92,40 @@
     font-family: $lato-font-family;
   }
 }
+
+//Blog content page
+.blog-content {
+  width: $content-width;
+  margin: 5em auto;
+  font-family: $lato-font-family;
+
+  &--top {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+  }
+  &--top-pic {
+    width: 100%;
+    height: 300px; //TODO;
+    background-color: $gray-color;
+  }
+  &--top-date {
+    font-size: $small-font-size;
+    color: $gray-color;
+    width: 100%;
+    text-align: end;
+    padding: 1em 1em 0 0;
+  }
+  &--draft {
+    margin: 5rem 0 0 3rem;
+  }
+  &--draft-title {
+    font-size: $large-font-size;
+    font-weight: bold;
+  }
+  &--draft-text {
+    margin-top: 1rem;
+    font-size: $medium-font-size;
+  }
+}
