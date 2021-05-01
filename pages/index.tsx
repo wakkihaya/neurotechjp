@@ -1,4 +1,5 @@
-import Header from "../src/components/Header";
+import Header from "../src/components/Header"
+import Footer from "../src/components/Footer"
 
 const Home: React.FC = () => {
   return (
@@ -15,6 +16,7 @@ const Home: React.FC = () => {
           <BlogItem></BlogItem>
         </div>
       </div>
+      <Footer />
     </>
   );
 };

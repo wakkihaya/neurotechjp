@@ -18,7 +18,8 @@
     font-size: $medium-font-size;
     justify-content: center;
   }
-  &--index-about:hover, &--index-blog:hover{
+  &--index-about:hover,
+  &--index-blog:hover {
     text-decoration: underline;
   }
 
@@ -32,4 +33,14 @@
     font-size: $medium-font-size;
     justify-content: center;
   }
+}
+
+.footer {
+  width: 100%;
+  height: 50px;
+  background-color: white;
+  text-align: center;
+  font-size: $small-font-size;
+  font-family: $armata-font-family;
+  line-height: 50px;
 }

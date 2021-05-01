@@ -1,6 +1,7 @@
 @import "./common.scss";
 @import "./variables.scss";
 
+///About Home page
 .index {
   display: flex;
   flex-direction: column;
@@ -69,5 +70,25 @@
     font-family: $lato-font-family;
     padding: 1rem 3rem;
     color: $gray-color;
+  }
+}
+
+/// About page.
+.about-container {
+  min-height: calc(100vh - 80px - 50px); ///Minus header and footer height.
+  width: $content-width;
+  margin: 5em auto;
+  &--index {
+    margin: 10em 0;
+  }
+  &--index-title {
+    font-size: $large-font-size;
+    font-family: $lato-font-family;
+    font-weight: bold;
+  }
+
+  &--index-subtitle {
+    font-size: $medium-font-size;
+    font-family: $lato-font-family;
   }
 }
