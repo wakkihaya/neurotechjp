@@ -1,0 +1,32 @@
+@import "./variables.scss";
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 80px;
+  font-family: $armata-font-family;
+  &--logo {
+    font-size: $large-font-size;
+    flex: 1;
+  }
+  &--index {
+    display: flex;
+    flex: 2;
+    font-size: $medium-font-size;
+    justify-content: center;
+  }
+
+  &--index-about {
+    padding-left: 5rem;
+  }
+
+  &--lang {
+    display: flex;
+    flex: 0.5;
+    font-size: $medium-font-size;
+    justify-content: center;
+  }
+}
