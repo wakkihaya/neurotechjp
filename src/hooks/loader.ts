@@ -66,7 +66,6 @@ export const loadPost = async (path: string): Promise<PostData> => {
 };
 
 export const loadBlogPosts = async (): Promise<PostData[]> => {
-  console.log(await loadMarkdownFiles(`blog/*.md`))
   return await (await loadMarkdownFiles(`blog/*.md`))
     .map(mdToPost)
     .sort((a, b) => (b.datePublished || 0) - (a.datePublished || 0));
