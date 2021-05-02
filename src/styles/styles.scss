@@ -35,12 +35,15 @@
   flex-direction: column;
   background-color: white;
   max-width: 50%;
-  min-height: 400px;
+  height: 400px;
   box-shadow: 0 0 5px $gray-color;
   border-radius: 5px;
   &--pic {
     background: $gray-color;
-    min-height: 50%;
+    height: 50%;
+    img{
+      height: 100%;
+    }
   }
   &--container {
     padding-left: 3rem;

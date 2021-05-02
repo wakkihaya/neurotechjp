@@ -1,7 +1,8 @@
 import Header from "~/components/Header";
 import Footer from "~/components/Footer";
+import { PostData, loadBlogPosts } from "~/hooks/loader";
 
-const Home: React.FC = () => {
+const Home = (props: {posts: PostData[]}) => {
   return (
     <>
       <Header />
@@ -13,7 +14,9 @@ const Home: React.FC = () => {
       </div>
       <div className="blog-container_bg">
         <div className="blog-container">
-          <BlogItem></BlogItem>
+          {props.posts.map((post, j) => {
+            return <BlogItem post={post} key={j} />;
+          })}
         </div>
       </div>
       <Footer />
@@ -21,29 +24,35 @@ const Home: React.FC = () => {
   );
 };
 
-// TODO: Fetch blog title, subtitle, pic, date, link as props
-//TODO: if click item, go target page
-const BlogItem: React.FC = () => {
+const BlogItem: React.FC<{ post: PostData }> = (props) => {
+  const post = props.post
+  //TODO: link ref
   return (
     <div className="blog-item">
-      <div className="blog-item--pic">{/* TODO: show pic */}</div>
+      <div className="blog-item--pic"> <img src={post.bannerPhoto} /></div>
       <div className="blog-item--container">
         <div className="blog-item--container-title">
-          title
-          {/* TODO: fetch title */}
+          {post.title}
         </div>
         <div className="blog-item--container-subtitle">
-          subtitle
-          {/* TODO: fetch subtitle */}
+          {post.subtitle}
         </div>
         <div className="blog-item--container-readmore">READ MORE..</div>
       </div>
       <div className="blog-item--date">
-        April 4, 2021
-        {/* TODO: fetch date */}
+        {post.datePublished}
       </div>
     </div>
   );
 };
 
 export default Home;
+
+export const getStaticProps = async () => {
+  const posts = await loadBlogPosts();
+  const props = {
+    posts,
+  };
+
+  return { props };
+};

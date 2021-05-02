@@ -7,15 +7,19 @@
     "build": "next build",
     "start": "next start"
   },
-   "externals": {
+  "externals": {
     "/images/**/*": false
   },
   "dependencies": {
+    "glob": "^7.1.6",
+    "gray-matter": "^4.0.3",
     "next": "10.2.0",
     "parcel-bundler": "^1.12.5",
+    "raw-loader": "^4.0.2",
     "react": "17.0.2",
     "react-dom": "17.0.2",
     "react-markdown": "^6.0.1",
+    "react-syntax-highlighter": "^15.4.3",
     "sass": "^1.32.12"
   },
   "devDependencies": {
