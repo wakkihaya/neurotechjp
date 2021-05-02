@@ -9,7 +9,7 @@ function Post(props: any) {
 }
 
 export const getStaticPaths = () => {
-  const blogs = glob.sync("./md/blog/*.md");
+  const blogs = glob.sync("**/md/blog/*.md");
   const slugs = blogs.map((file: string) => {
     const popped = file.split("/").pop();
     if (!popped) throw new Error(`Invalid blog path: ${file}`);

@@ -1,8 +1,9 @@
 import Header from "~/components/Header";
 import Footer from "~/components/Footer";
+import Link from "next/link";
 import { PostData, loadBlogPosts } from "~/hooks/loader";
 
-const Home = (props: {posts: PostData[]}) => {
+const Home = (props: { posts: PostData[] }) => {
   return (
     <>
       <Header />
@@ -21,38 +22,36 @@ const Home = (props: {posts: PostData[]}) => {
       </div>
       <Footer />
     </>
-  );
-};
+  )
+}
 
 const BlogItem: React.FC<{ post: PostData }> = (props) => {
   const post = props.post
-  //TODO: link ref
   return (
-    <div className="blog-item">
-      <div className="blog-item--pic"> <img src={post.bannerPhoto} /></div>
-      <div className="blog-item--container">
-        <div className="blog-item--container-title">
-          {post.title}
+    <Link href={`/${post.path}`}>
+      <div className="blog-item">
+        <div className="blog-item--pic">
+          {" "}
+          <img src={post.bannerPhoto} />
         </div>
-        <div className="blog-item--container-subtitle">
-          {post.subtitle}
+        <div className="blog-item--container">
+          <div className="blog-item--container-title">{post.title}</div>
+          <div className="blog-item--container-subtitle">{post.subtitle}</div>
+          <div className="blog-item--container-readmore">READ MORE..</div>
         </div>
-        <div className="blog-item--container-readmore">READ MORE..</div>
+        <div className="blog-item--date">{post.datePublished}</div>
       </div>
-      <div className="blog-item--date">
-        {post.datePublished}
-      </div>
-    </div>
-  );
-};
+    </Link>
+  )
+}
 
 export default Home;
 
 export const getStaticProps = async () => {
-  const posts = await loadBlogPosts();
+  const posts = await loadBlogPosts()
   const props = {
     posts,
-  };
+  }
 
-  return { props };
-};
+  return { props }
+}
