@@ -4,7 +4,9 @@ const Header: React.FC = () => {
   return (
     <div className="header-container">
       <header className="header">
-        <div className="header--logo">NeurotechJP</div>
+        <div className="header--logo">
+          <Link href="/">NeurotechJP </Link>
+        </div>
         <div className="header--index">
           <div className="header--index-blog">
             <Link href="/">Blog</Link>

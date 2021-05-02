@@ -15,6 +15,7 @@
   &--subtitle {
     padding-top: 1em;
     font-size: $medium-font-size;
+    color: $heavy-gray-color;
   }
 }
 
@@ -92,8 +93,11 @@
   }
 
   &--index-subtitle {
+    margin-top: 1em;
     font-size: $medium-font-size;
     font-family: $lato-font-family;
+    line-height: 1.5em;
+    color: $heavy-gray-color;
   }
 }
 

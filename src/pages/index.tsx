@@ -10,7 +10,7 @@ const Home = (props: { posts: PostData[] }) => {
       <div className="index">
         <div className="index--title">Blog</div>
         <div className="index--subtitle">
-          Neurotechnology blogs through interviews all over the world
+          Neurotechnology - interviews for those who are active in the front lines all over the world.
         </div>
       </div>
       <div className="blog-container_bg">
