@@ -1,17 +1,16 @@
-import Header from "../../src/components/Header"
-import Footer from "../../src/components/Footer"
-import draft from "../../src/blog-draft/sample"
+import Header from "~/components/Header";
+import Footer from "~/components/Footer";
+import draft from "~/blog-draft/sample";
 
-import React from "react"
-import ReactMarkdown from "react-markdown"
-import { render } from "react-dom"
+import React from "react";
+import ReactMarkdown from "react-markdown";
 
 //TODO: templeteでまとめたい。
 const sample: React.FC = () => {
-  const title = draft.title
-  const png = draft.png
-  const date = draft.date
-  const markdown = draft.markdown
+  const title = draft.title;
+  const png = draft.png;
+  const date = draft.date;
+  const markdown = draft.markdown;
 
   return (
     <>
@@ -19,7 +18,7 @@ const sample: React.FC = () => {
       <div className="blog-content">
         <div className="blog-content--top">
           <div className="blog-content--top-pic">
-            <img src={png} />
+            <img src={`/blog/${png}`} />
           </div>
           <div className="blog-content--top-date">{date} </div>
         </div>
@@ -34,6 +33,5 @@ const sample: React.FC = () => {
     </>
   );
 };
-
 
 export default sample;
