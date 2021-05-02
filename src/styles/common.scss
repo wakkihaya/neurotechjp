@@ -1,5 +1,15 @@
 @import "./variables.scss";
 
+.header-container {
+  position: relative;
+  &--brain-wave {
+    width: 100%;
+    position: absolute;
+    z-index: 5;
+    bottom: -25%;
+  }
+}
+
 .header {
   display: flex;
   flex-direction: row;
@@ -8,6 +18,8 @@
   text-align: center;
   height: 80px;
   font-family: $armata-font-family;
+  position: relative;
+  z-index: 10;
   &--logo {
     font-size: $large-font-size;
     flex: 1;
