@@ -50,6 +50,12 @@
     font-size: $medium-font-size;
     justify-content: center;
   }
+  &--lang-char:hover{
+    text-decoration: underline;
+  }
+  &--lang-char.active {
+    color: $red-color;
+  }
   @media (max-width: $mobile-width) {
     &--logo {
       font-size: $medium-font-size;
