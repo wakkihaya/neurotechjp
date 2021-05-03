@@ -45,6 +45,21 @@
     font-size: $medium-font-size;
     justify-content: center;
   }
+  @media (max-width: $mobile-width) {
+    &--index {
+      color: white;
+      font-size: $medium-font-size;
+      margin-top: 10rem;
+    }
+    &--index-about {
+      padding: 0;
+      margin-top: 3rem;
+    }
+    &--index-about,
+    &--index-blog {
+      font-family: $armata-font-family;
+    }
+  }
 }
 
 .footer {
@@ -55,4 +70,38 @@
   font-size: $small-font-size;
   font-family: $armata-font-family;
   line-height: 50px;
+}
+
+///Hamburger menu
+/* Position and sizing of burger button */
+.bm-burger-button {
+  position: absolute;
+  width: 30px;
+  height: 25px;
+  right: 10px;
+  top: 50%;
+  bottom: 50%;
+}
+
+/* Color/shape of burger icon bars */
+.bm-burger-bars {
+  background: $text-base-color;
+}
+
+/* Position and sizing of clickable cross button */
+.bm-cross-button {
+  height: 30px !important;
+  width: 30px !important;
+  position: absolute !important;
+  right: 20px !important;
+  top: 50px !important;
+}
+
+/* Color/shape of close button cross */
+.bm-cross {
+  background: white;
+  height: 24px !important;
+}
+.bm-overlay {
+  background-color: rgba(0, 0, 0, 0.6) !important;
 }
