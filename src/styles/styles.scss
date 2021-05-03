@@ -19,6 +19,12 @@
   }
   @media (max-width: $mobile-width) {
     width: 90%;
+    &--title {
+      font-size: $medium-font-size;
+    }
+    &--subtitle {
+      font-size: $very-small-font-size;
+    }
   }
 }
 
@@ -33,6 +39,8 @@
   margin: auto;
   @media (max-width: $mobile-width) {
     width: 90%;
+    display: flex;
+    flex-direction: column;
   }
 }
 
@@ -81,6 +89,28 @@
     font-family: $lato-font-family;
     padding: 1rem 3rem;
     color: $gray-color;
+  }
+  @media (max-width: $mobile-width) {
+    max-width: 100%;
+    height: auto;
+    margin: 2rem 0;
+    &--pic {
+      img {
+        width: 100%;
+      }
+    }
+    &--container-title {
+      font-size: $small-font-size;
+    }
+    &--container-subtitle {
+      font-size: $very-small-font-size;
+    }
+    &--container-readmore {
+      font-size: $very-small-font-size;
+    }
+    &--date {
+      font-size: $very-small-font-size;
+    }
   }
 }
 
