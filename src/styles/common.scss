@@ -8,6 +8,11 @@
     z-index: 5;
     bottom: -25%;
   }
+  @media (max-width: $mobile-width) {
+    &--brain-wave {
+      bottom: 0%;
+    }
+  }
 }
 
 .header {
@@ -46,6 +51,9 @@
     justify-content: center;
   }
   @media (max-width: $mobile-width) {
+    &--logo {
+      font-size: $medium-font-size;
+    }
     &--index {
       color: white;
       font-size: $medium-font-size;
@@ -58,6 +66,12 @@
     &--index-about,
     &--index-blog {
       font-family: $armata-font-family;
+    }
+    &--index_menu-space {
+      width: 30px;
+    }
+    &--lang {
+      font-size: $very-small-font-size;
     }
   }
 }
@@ -76,16 +90,17 @@
 /* Position and sizing of burger button */
 .bm-burger-button {
   position: absolute;
-  width: 30px;
-  height: 25px;
-  right: 10px;
-  top: 50%;
-  bottom: 50%;
+  width: 26px;
+  height: 23px;
+  right: 20px;
+  top: calc((80px - 25px) / 2); ///Align item to middle in header.
 }
 
 /* Color/shape of burger icon bars */
 .bm-burger-bars {
-  background: $text-base-color;
+  background: $text-base-color !important;
+  height: 15% !important;
+  color: $text-base-color !important;
 }
 
 /* Position and sizing of clickable cross button */

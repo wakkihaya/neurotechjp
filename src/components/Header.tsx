@@ -41,12 +41,14 @@ const Header: React.FC = () => {
             </div>
           </div>
         )}
+
         <div className="header--lang">
           <div className="header--lang-en">EN/</div>
           {/* TODO: Change to English */}
           <div className="header--lang-JP">JP</div>
           {/* TODO: Change to Japanese */}
         </div>
+        {!isDesktop && <div className="header--index_menu-space"></div>}
       </header>
       <img src="/brain_wave.png" className="header-container--brain-wave" />
     </div>
