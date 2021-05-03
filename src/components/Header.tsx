@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { useMediaQuery } from "react-responsive";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { slide as Menu } from "react-burger-menu";
 
 type Lang = "EN" | "JP";
@@ -27,11 +27,18 @@ const Header: React.FC = () => {
   });
   const isMobile = useMediaQuery({ query: "(max-width: 798px)" });
   ///Default lang is EN.
-  const [lang, setLang] = useState<Lang>("EN");
+  const [lang, setLang] = useState("");
 
   const changeLang = (targetLang: Lang) => {
     setLang(targetLang);
+    localStorage.setItem("currentLang", JSON.stringify(targetLang));
   };
+
+  useEffect(() => {
+    const currentLang = localStorage.getItem("currentLang");
+    const modCurrentLang = currentLang ? JSON.parse(currentLang) : "EN";
+    setLang(modCurrentLang);
+  }, []);
 
   return (
     <div className="header-container">
@@ -54,7 +61,6 @@ const Header: React.FC = () => {
             </div>
           </div>
         )}
-        {/* TODO: ENに勝手になる */}
         <div className="header--lang">
           <div
             className={[
