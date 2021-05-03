@@ -84,6 +84,9 @@
   font-size: $small-font-size;
   font-family: $armata-font-family;
   line-height: 50px;
+  @media (max-width: $mobile-width) {
+    font-size: $very-small-font-size;
+  }
 }
 
 ///Hamburger menu

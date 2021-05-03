@@ -187,4 +187,23 @@
     margin-top: 1rem;
     font-size: $medium-font-size;
   }
+  @media (max-width: $mobile-width) {
+    width: 90%;
+    &--top-pic {
+      height: 200px;
+      img {
+        height: auto;
+        width: 100%;
+      }
+    }
+    &--top-date {
+      font-size: $very-small-font-size;
+    }
+    &--draft-title {
+      font-size: $medium-font-size;
+    }
+    &--draft-text {
+      font-size: $small-font-size;
+    }
+  }
 }
