@@ -18,7 +18,7 @@
     color: $heavy-gray-color;
   }
   @media (max-width: $mobile-width) {
-    width: 90%;
+    width: 80%;
     &--title {
       font-size: $medium-font-size;
     }
@@ -134,6 +134,18 @@
     font-family: $lato-font-family;
     line-height: 1.5em;
     color: $heavy-gray-color;
+  }
+  @media (max-width: $mobile-width) {
+    width: 80%;
+    &--index {
+      margin: 0 0 5em 0;
+    }
+    &--index-title {
+      font-size: $medium-font-size;
+    }
+    &--index-subtitle {
+      font-size: $small-font-size;
+    }
   }
 }
 

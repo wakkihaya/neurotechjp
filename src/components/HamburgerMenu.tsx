@@ -7,6 +7,7 @@ export function HamburgerMenu(): React.ReactElement {
       <div className="header--index">
         <div className="header--index-blog">
           <Link href="/">Blog</Link>
+          {/* TODO: 押したら、modal close */}
         </div>
         <div className="header--index-about">
           <Link href="/about">About NeurotechJP</Link>
