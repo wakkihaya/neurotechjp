@@ -1,3 +1,4 @@
+require('dotenv').config();
 module.exports = {
   trailingSlash: true,
   webpack: function (config) {
@@ -10,5 +11,8 @@ module.exports = {
       '~': __dirname,
     };
     return config;
-  }
+  },
+  env: {
+    GA_TRACKING_ID: process.env.GA_TRACKING_ID,
+  },
 };
