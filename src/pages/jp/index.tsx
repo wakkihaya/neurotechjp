@@ -1,7 +1,7 @@
 import Header from "~/components/Header";
 import Footer from "~/components/Footer";
 import Link from "next/link";
-import { PostData, loadBlogPosts } from "~/hooks/loader";
+import { PostData, loadBlogJPPosts } from "~/hooks/loader";
 import { Meta } from "~/components/Meta";
 
 const Home = (props: { posts: PostData[] }) => {
@@ -57,7 +57,7 @@ const BlogItem: React.FC<{ post: PostData }> = (props) => {
 export default Home;
 
 export const getStaticProps = async () => {
-  const posts = await loadBlogPosts();
+  const posts = await loadBlogJPPosts();
   const props = {
     posts,
   };

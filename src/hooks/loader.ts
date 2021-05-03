@@ -16,11 +16,6 @@ export type PostData = {
 
 type RawFile = { path: string; contents: string };
 
-export const loadMarkdownFile = async (path: string): Promise<RawFile> => {
-  const mdFile = await import(`~/md/${path}`);
-  return { path, contents: mdFile.default };
-};
-
 export const mdToPost = (file: RawFile): PostData => {
   const metadata = matter(file.contents);
   const path = file.path.replace('.md', '');
@@ -49,24 +44,61 @@ export const mdToPost = (file: RawFile): PostData => {
   return post as PostData;
 };
 
-export const loadMarkdownFiles = async (path: string) => {
-  const blogPaths = glob.sync(`**/md/${path}`);
+///For En blog
+export const loadMarkdownENFile = async (pathProps: string): Promise<RawFile> => {
+  const mdFile = await import(`~/md/${pathProps}`);
+          /// .com/en/blog/sample -> .com/blog/sample
+  const path = pathProps.replace('en/', '')
+  return { path, contents: mdFile.default };
+};
+
+export const loadMarkdownENFiles = async (path: string) => {
+  const blogPaths = glob.sync(`**/md/en/${path}`);
   const postDataList = await Promise.all(
     blogPaths.map((blogPath) => {
-      const modPath = blogPath.slice(blogPath.indexOf(`md/`) + 3);
-      return loadMarkdownFile(`${modPath}`);
+      const modPath = blogPath.slice(blogPath.indexOf(`md/en/`) + 3);
+      return loadMarkdownENFile(`${modPath}`);
     })
   );
   return postDataList;
 };
 
-export const loadPost = async (path: string): Promise<PostData> => {
-  const file = await loadMarkdownFile(path);
+export const loadENPost = async (path: string): Promise<PostData> => {
+  const file = await loadMarkdownENFile(path);
   return mdToPost(file);
 };
 
-export const loadBlogPosts = async (): Promise<PostData[]> => {
-  return await (await loadMarkdownFiles(`blog/*.md`))
+export const loadBlogENPosts = async (): Promise<PostData[]> => {
+  return await (await loadMarkdownENFiles(`blog/*.md`))
+    .map(mdToPost)
+    .sort((a, b) => (b.datePublished || 0) - (a.datePublished || 0));
+};
+
+
+///For Jp blog
+export const loadMarkdownJPFile = async (path: string): Promise<RawFile> => {
+  const mdFile = await import(`~/md/${path}`);
+  return { path, contents: mdFile.default };
+};
+
+export const loadMarkdownJPFiles = async (path: string) => {
+  const blogPaths = glob.sync(`**/md/jp/${path}`);
+  const postDataList = await Promise.all(
+    blogPaths.map((blogPath) => {
+      const modPath = blogPath.slice(blogPath.indexOf(`md/jp/`) + 3);
+      return loadMarkdownJPFile(`${modPath}`);
+    })
+  );
+  return postDataList;
+};
+
+export const loadJPPost = async (path: string): Promise<PostData> => {
+  const file = await loadMarkdownJPFile(path);
+  return mdToPost(file);
+};
+
+export const loadBlogJPPosts = async (): Promise<PostData[]> => {
+  return await (await loadMarkdownJPFiles(`blog/*.md`))
     .map(mdToPost)
     .sort((a, b) => (b.datePublished || 0) - (a.datePublished || 0));
 };
