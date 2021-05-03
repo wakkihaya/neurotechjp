@@ -2,15 +2,26 @@ import Header from "~/components/Header";
 import Footer from "~/components/Footer";
 import Link from "next/link";
 import { PostData, loadBlogPosts } from "~/hooks/loader";
+import { Meta } from "~/components/Meta";
 
 const Home = (props: { posts: PostData[] }) => {
   return (
     <>
+      <Meta
+        meta={{
+          title: "NeurotechJP",
+          desc:
+            "NeurotechJP is the website gathering information of neurotehcnology through interviews for those who are active in the front lines of this area all over the world",
+          link: "https://neurotechjp.com",
+          image: "/ogp.png",
+        }}
+      />
       <Header />
       <div className="index">
         <div className="index--title">Blog</div>
         <div className="index--subtitle">
-          Neurotechnology - interviews for those who are active in the front lines all over the world.
+          Neurotechnology - interviews for those who are active in the front
+          lines all over the world.
         </div>
       </div>
       <div className="blog-container_bg">
@@ -22,11 +33,11 @@ const Home = (props: { posts: PostData[] }) => {
       </div>
       <Footer />
     </>
-  )
-}
+  );
+};
 
 const BlogItem: React.FC<{ post: PostData }> = (props) => {
-  const post = props.post
+  const post = props.post;
   return (
     <Link href={`/${post.path}`}>
       <div className="blog-item">
@@ -42,16 +53,16 @@ const BlogItem: React.FC<{ post: PostData }> = (props) => {
         <div className="blog-item--date">{post.datePublished}</div>
       </div>
     </Link>
-  )
-}
+  );
+};
 
 export default Home;
 
 export const getStaticProps = async () => {
-  const posts = await loadBlogPosts()
+  const posts = await loadBlogPosts();
   const props = {
     posts,
-  }
+  };
 
-  return { props }
-}
+  return { props };
+};

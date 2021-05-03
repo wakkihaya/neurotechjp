@@ -20,7 +20,7 @@ const HamburgerMenu: React.FC = () => {
 
 const Header: React.FC = () => {
   const isDesktop = useMediaQuery({
-    query: "(min-width: 798px)",
+    query: "(min-width: 798px)"
   });
   const isMobile = useMediaQuery({ query: "(max-width: 798px)" });
 
@@ -31,7 +31,8 @@ const Header: React.FC = () => {
         <div className="header--logo">
           <Link href="/">NeurotechJP </Link>
         </div>
-        {isDesktop && (
+        {/* TODO: class名が変わる */}
+        {isDesktop &&
           <div className="header--index">
             <div className="header--index-blog">
               <Link href="/">Blog</Link>
@@ -40,7 +41,7 @@ const Header: React.FC = () => {
               <Link href="/about">About NeurotechJP</Link>
             </div>
           </div>
-        )}
+        }
 
         <div className="header--lang">
           <div className="header--lang-en">EN/</div>
@@ -48,7 +49,7 @@ const Header: React.FC = () => {
           <div className="header--lang-JP">JP</div>
           {/* TODO: Change to Japanese */}
         </div>
-        {!isDesktop && <div className="header--index_menu-space"></div>}
+        {isMobile && !isDesktop && <div className="header--index_menu-space"></div>}
       </header>
       <img src="/brain_wave.png" className="header-container--brain-wave" />
     </div>
