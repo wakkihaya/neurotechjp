@@ -121,19 +121,35 @@
   margin: 5em auto;
   &--index {
     margin: 10em 0;
+    font-family: $lato-font-family;
   }
   &--index-title {
     font-size: $large-font-size;
-    font-family: $lato-font-family;
     font-weight: bold;
   }
 
-  &--index-subtitle {
+  &--index-subtitle, &--index-subtitle-name {
     margin-top: 1em;
     font-size: $medium-font-size;
-    font-family: $lato-font-family;
     line-height: 1.5em;
     color: $heavy-gray-color;
+  }
+  &--index-subtitle-name{
+    font-weight: bold;
+  }
+  &--index-subtitle-text {
+    margin-top: 1em;
+    font-size: $small-font-size;
+    color: $heavy-gray-color;
+    line-height: 1.5em;
+  }
+  &--index-sns {
+    display: flex;
+    flex-direction: row;
+  }
+  &--index-sns-item {
+    width: 40px;
+    margin: 2em 1em 2em 0;
   }
   @media (max-width: $mobile-width) {
     width: 80%;
