@@ -162,8 +162,15 @@
     &--index-title {
       font-size: $medium-font-size;
     }
-    &--index-subtitle {
-      font-size: $small-font-size;
+    &--index-subtitle,
+    &--index-subtitle-name {
+      font-size: $very-small-font-size;
+    }
+    &--index-subtitle-text {
+      font-size: $sp-desc-small-font-size;
+    }
+    &--index-sns-item {
+      width: 25px;
     }
   }
 }
@@ -173,6 +180,7 @@
   width: $content-width;
   margin: 5em auto;
   font-family: $lato-font-family;
+  min-height: calc(100vh - 80px - 5em);
 
   &--top {
     width: 100%;
