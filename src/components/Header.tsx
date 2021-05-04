@@ -5,16 +5,22 @@ import { slide as Menu } from "react-burger-menu";
 
 type Lang = "EN" | "JP";
 
+type HamburgerMenuProps = {
+  lang: Lang;
+};
+
 //Only for Smartphone
-const HamburgerMenu: React.FC = () => {
+const HamburgerMenu: React.FC<HamburgerMenuProps> = ({ lang }) => {
   return (
     <Menu right>
       <div className="header--index">
         <div className="header--index-blog">
-          <Link href="/">Blog</Link>
+          {lang === "EN" && <Link href="/">Blog</Link>}
+          {lang === "JP" && <Link href="/jp">Blog</Link>}
         </div>
         <div className="header--index-about">
-          <Link href="/about">About NeurotechJP</Link>
+          {lang === "EN" && <Link href="/about">About NeurotechJP</Link>}
+          {lang === "JP" && <Link href="/jp/about">About NeurotechJP</Link>}
         </div>
       </div>
     </Menu>
@@ -27,7 +33,7 @@ const Header: React.FC = () => {
   });
   const isMobile = useMediaQuery({ query: "(max-width: 798px)" });
   ///Default lang is EN.
-  const [lang, setLang] = useState("");
+  const [lang, setLang] = useState<Lang>("EN");
 
   const changeLang = (targetLang: Lang) => {
     setLang(targetLang);
@@ -42,7 +48,7 @@ const Header: React.FC = () => {
 
   return (
     <div className="header-container">
-      {isMobile && <HamburgerMenu />}
+      {isMobile && <HamburgerMenu lang={lang} />}
       <header className="header">
         <div className="header--logo">
           {lang === "EN" && <Link href="/">NeurotechJP </Link>}
