@@ -1,4 +1,4 @@
-NeurotechJP is a website gathering information of neurotechnology through interviews.
+[NeurotechJP](https://neurotechjp.com) is the website in Japanese/English gathering information of neurotehcnology through interviews for those who are active in the flont lines of this are all over the world.
 
 ## Getting Started
 
@@ -17,7 +17,6 @@ If you want to add post, just add it along md type document. At the same time, m
 - `subtitle`
 - `datePublished`
 - `bannerPhoto`
-- `canonicalUrl`
 to show posts correclty. 
 After finishing it and deploying it, the page will be auto generated.
 (`md/blog/test-1.md` -> `https://neurotechjp.com/blog/test-1`)

@@ -1,10 +1,8 @@
 ---
-title: 'Sample'
-subtitle: 'Sub title'
+title: 'Coming soon...'
+subtitle: 'Coming soon...'
 datePublished: '2021/4/1'
-bannerPhoto: '/img/sample.png'
-canonicalUrl: 'https://localhost:3000/blog/sample'
+bannerPhoto: '/ogp.png'
 ---
 
-### Test
-test
+Coming soon.
