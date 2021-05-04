@@ -1,7 +1,7 @@
 import Link from "next/link";
-import { useMediaQuery } from "react-responsive";
 import { useState, useEffect } from "react";
 import { slide as Menu } from "react-burger-menu";
+import useResponsive from "~/hooks/use-responsive";
 
 type Lang = "EN" | "JP";
 
@@ -28,10 +28,8 @@ const HamburgerMenu: React.FC<HamburgerMenuProps> = ({ lang }) => {
 };
 
 const Header: React.FC = () => {
-  const isDesktop = useMediaQuery({
-    query: "(min-width: 798px)",
-  });
-  const isMobile = useMediaQuery({ query: "(max-width: 798px)" });
+  const { isDesktop, isMobile } = useResponsive();
+
   ///Default lang is EN.
   const [lang, setLang] = useState<Lang>("EN");
 
@@ -54,7 +52,6 @@ const Header: React.FC = () => {
           {lang === "EN" && <Link href="/">NeurotechJP </Link>}
           {lang === "JP" && <Link href="/jp">NeurotechJP </Link>}
         </div>
-        {/* TODO: bug class名が変わる */}
         {isDesktop && (
           <div className="header--index">
             <div className="header--index-blog">
