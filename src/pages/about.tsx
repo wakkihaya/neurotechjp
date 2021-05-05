@@ -15,7 +15,7 @@ const AboutPage: React.FC = () => {
         meta={{
           title: "NeurotechJP",
           desc:
-            "NeurotechJP is the website gathering information of neurotehcnology through interviews for those who are active in the front lines of this area all over the world",
+            "NeurotechJP is the website gathering information of neurotehcnology through interviews with those who are active in the front lines of this area all over the world",
           link: "https://neurotechjp.com",
           image: "/ogp.png",
         }}
@@ -26,7 +26,7 @@ const AboutPage: React.FC = () => {
           <div className="about-container--index-title">About NeurotechJP</div>
           <div className="about-container--index-subtitle">
             NeurotechJP is the website in Japanese/English gathering information
-            of neurotehcnology through interviews for those who are active in
+            of neurotehcnology through interviews with those who are active in
             the flont lines of this are all over the world.
           </div>
         </div>

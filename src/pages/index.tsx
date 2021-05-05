@@ -11,7 +11,7 @@ const Home = (props: { posts: PostData[] }) => {
         meta={{
           title: "NeurotechJP",
           desc:
-            "NeurotechJP is the website gathering information of neurotehcnology through interviews for those who are active in the front lines of this area all over the world",
+            "NeurotechJP is the website gathering information of neurotehcnology through interviews with those who are active in the front lines of this area all over the world",
           link: "https://neurotechjp.com",
           image: "/ogp.png",
         }}
@@ -20,7 +20,7 @@ const Home = (props: { posts: PostData[] }) => {
       <div className="index">
         <div className="index--title">Blog</div>
         <div className="index--subtitle">
-          Neurotechnology - interviews for those who are active in the front
+          Neurotechnology - interviews with those who are active in the front
           lines all over the world.
         </div>
       </div>
