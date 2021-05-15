@@ -214,7 +214,15 @@
   }
   &--draft-text {
     margin-top: 1rem;
-    font-size: $medium-font-size;
+     font-size: $small-font-size;
+    img {
+      width: 60%;
+      display: block;
+      margin: auto;
+    }
+  }
+  a {
+    text-decoration: underline;
   }
   @media (max-width: $mobile-width) {
     width: 90%;
