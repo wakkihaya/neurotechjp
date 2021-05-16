@@ -1,7 +1,7 @@
 ---
 title: 'Coming soon...'
 subtitle: 'Coming soon...'
-datePublished: ''
+datePublished: '2021/4/1'
 bannerPhoto: '/ogp.png'
 ---
 

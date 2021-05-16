@@ -1,5 +1,5 @@
 ---
-title: '世界記録をマーク。世界トップレベルの大学で活躍する日本人研究者'
+title: 'BCIの世界記録をマーク。世界トップレベルの大学で活躍する日本人研究者'
 subtitle: '今回は、世界トップレベルのVEPの研究を行う、UC SanDiegoのSCCNという研究施設にて、Project Scientistとして活躍する中西雅樹(Masaki Nakanishi)さんに、自身の軌跡とVEPの可能性についてインタビューをさせていただいた。'
 datePublished: '2021/5/15'
 bannerPhoto: '/img/mr-nakanishi-ucsd.png'
