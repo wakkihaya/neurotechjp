@@ -59,6 +59,7 @@
   @media (max-width: $mobile-width) {
     &--logo {
       font-size: $medium-font-size;
+      flex: 0.6;
     }
     &--index {
       color: white;

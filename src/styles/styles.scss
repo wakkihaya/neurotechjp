@@ -37,6 +37,7 @@
   display: grid;
   width: $content-width;
   margin: auto;
+  grid-template-columns: 540px 540px;
   @media (max-width: $mobile-width) {
     width: 90%;
     display: flex;
@@ -45,15 +46,14 @@
 }
 
 .blog-item {
-  grid-row: 1;
   display: flex;
   flex-direction: column;
   background-color: white;
-  max-width: 50%;
-  height: 400px;
+  min-height: 400px;
   box-shadow: 0 0 5px $gray-color;
   border-radius: 5px;
   cursor: pointer;
+  margin: 0 1rem;
   &--pic {
     background: white;
     box-shadow: 0 0 2px $gray-color;
@@ -61,11 +61,12 @@
     height: 50%;
     img {
       height: 100%;
+      width: 100%;
+      object-fit: cover;
     }
   }
   &--container {
-    padding-left: 3rem;
-    border-bottom: solid 1px $gray-color;
+    padding: 0 2rem;
   }
   &--container-title {
     font-size: $medium-font-size;
@@ -87,10 +88,12 @@
   }
 
   &--date {
+    border-top: solid 1px $gray-color;
     font-size: $small-font-size;
     font-family: $lato-font-family;
-    padding: 1rem 3rem;
+    padding: 1rem 2rem;
     color: $gray-color;
+    margin-top: auto;
   }
   @media (max-width: $mobile-width) {
     max-width: 100%;
@@ -190,12 +193,12 @@
   }
   &--top-pic {
     width: 100%;
-    height: 300px;
     text-align: center;
     box-shadow: 0 0 2px $gray-color;
     background-color: white;
     img {
-      height: 100%;
+      width: 100%;
+      border-radius: 10px;
     }
   }
   &--top-date {
@@ -206,16 +209,16 @@
     padding: 1em 1em 0 0;
   }
   &--draft {
-    margin: 5rem 5rem 0 5rem;
+    margin: 5rem 0;
   }
   &--draft-title {
     font-size: $large-font-size;
     font-weight: bold;
   }
   &--draft-text {
-    margin-top: 1rem;
-     font-size: $small-font-size;
-     line-height: 2.5em;
+    margin: 1rem 8rem 0 8rem;
+    font-size: $small-font-size;
+    line-height: 2.5em;
     img {
       width: 60%;
       display: block;
@@ -238,10 +241,12 @@
       font-size: $very-small-font-size;
     }
     &--draft-title {
-      font-size: $medium-font-size;
+      font-size: $small-font-size;
     }
     &--draft-text {
-      font-size: $small-font-size;
+      font-size: $very-small-font-size;
+      margin: 1rem;
+      line-height: 2em;
     }
   }
 }
