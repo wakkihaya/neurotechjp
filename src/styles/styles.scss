@@ -206,7 +206,7 @@
     padding: 1em 1em 0 0;
   }
   &--draft {
-    margin: 5rem 0 0 3rem;
+    margin: 5rem 5rem 0 5rem;
   }
   &--draft-title {
     font-size: $large-font-size;
@@ -215,6 +215,7 @@
   &--draft-text {
     margin-top: 1rem;
      font-size: $small-font-size;
+     line-height: 2.5em;
     img {
       width: 60%;
       display: block;
