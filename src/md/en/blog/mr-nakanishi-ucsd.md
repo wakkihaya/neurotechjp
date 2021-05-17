@@ -1,9 +1,9 @@
 ---
 title: "Interview with a world-class researcher of BCI: Masaki Nakanishi"
-subtitle: 'For this interview, I had the opportunity to talk with Masaki Nakanishi, a Project Scientist at SCCN, a research facility at UC San Diego that conducts world-class research, about his career and the potential of the world record-breaking "SSVEP" technology.'
+subtitle: 'For this interview, I had the opportunity to talk with Masaki Nakanishi, an Assistant Project Scientist at SCCN, a research facility at UC San Diego that conducts world-class research, about his career and the potential of the world record-breaking "SSVEP" technology.'
 datePublished: "2021/5/16"
 bannerPhoto: "/img/mr-nakanishi-ucsd/mr-nakanishi-ucsd.png"
-description:  'For this interview, I had the opportunity to talk with Masaki Nakanishi, a Project Scientist at SCCN, a research facility at UC San Diego that conducts world-class research, about his career and the potential of the world record-breaking "SSVEP" technology.'
+description:  'For this interview, I had the opportunity to talk with Masaki Nakanishi, an Assistant Project Scientist at SCCN, a research facility at UC San Diego that conducts world-class research, about his career and the potential of the world record-breaking "SSVEP" technology.'
 ---
 
 &nbsp;
@@ -14,7 +14,7 @@ The interface that connects the activity of neurons in the brain to a computer i
 
 The team that set the world record for the BCI in 2018 is the research team of [Masaki Nakanishi]([https://sccn.ucsd.edu/~masaki/]), who works at the research facility called [SCCN](https://sccn.ucsd.edu/) at UC San Diego.
 
-For this interview, I had the opportunity to talk with Masaki Nakanishi, who is working as a Project Scientist at a world-class research facility, about his career and the potential of the world record-breaking "SSVEP" technology.
+For this interview, I had the opportunity to talk with Masaki Nakanishi, who is working as an Assitant Project Scientist at a world-class research facility, about his career and the potential of the world record-breaking "SSVEP" technology.
 
 &nbsp;
 
@@ -22,12 +22,12 @@ For this interview, I had the opportunity to talk with Masaki Nakanishi, who is 
 
 ![SCCN](https://sccn.ucsd.edu/images/sccn.jpg)
 
-Mr.Nakanishi completed his M.D. at Tokyo University of Agriculture and Technology (TUAT) in 2010, followed by Ph.D. at Keio University in Japan. He then moved to the U.S. as a postdoctoral researcher at UC San Diego, where he is currently working as a Project Scientist.
+Dr. Nakanishi completed his M.S. at Tokyo University of Agriculture and Technology (TUAT) in 2010, followed by Ph.D. at Keio University in Japan. He then moved to the U.S. as a postdoctoral researcher at UC San Diego, where he is currently working as an Assistant Project Scientist.
 
-Mr.Nakanishi has been passionate about the field of neurotechnology for a long time, and when I asked him how he became interested in this field, he replied
+Dr. Nakanishi has been passionate about the field of neurotechnology for a long time, and when I asked him how he became interested in this field, he replied
 "When I was an undergraduate student, **I got the idea of this field in a class project titled 'What is the ultimate interface?'**. A few years later, in graduate school, I became involved in the research of BCI in earnest."
 
-Mr.Nakanishi mentioned that his decision to leave his Japanese environment and enter a top-level research environment in the U.S. was prompted by a four-month internship at UCSD that he grasped during his graduate school days.
+Dr. Nakanishi mentioned that his decision to leave his Japanese environment and enter a top-level research environment in the U.S. was prompted by a four-month internship at UCSD that he grasped during his graduate school days.
 
 After receiving Ph.D. in Japan, he decided to work as a postdoctoral researcher at UCSD to pursue higher technology.
 At the research facility SCCN, **he contributed to many achievements such as marking a world record in BCI using the SSVEP technology.**.
@@ -65,7 +65,7 @@ I asked him about its possibilities.
 
 &nbsp;
 
-Mr.Nakanishi said, "First of all, One area where it is already being applied is **in the medical field**.
+Dr. Nakanishi said, "First of all, One area where it is already being applied is **in the medical field**.
 **People with suspected visual field defects can use this SSVEP to perform EEG tests to detect which part of the function of seeing things with the eyes has a problem.**"
 
 ![Medical purpose with SSVEP](https://diopsys.com/wp-content/uploads/2017/08/VEP-Patient-Taking-Test.jpg)
@@ -75,7 +75,7 @@ In fact, many large hospital facilities are already conducting EEG tests using t
 
 &nbsp;
 
-Also, Mr.Nakanishi said, "**AR/VR** is the field that will accelerate in the future.
+Also, Dr. Nakanishi said, "**AR/VR** is the field that will accelerate in the future.
 **By displaying stimuli, which are used to be displayed on a screen on a computer, on the screen of AR glasses or VR, it will be possible to expand the input options for AR/VR.**
 
 For example, if multiple buttons are displayed on Google Glass, you can select any button by going through the steps of 'look → measure brain waves'. By linking smart home appliances with Google Glass, it will be possible to turn on/off the air conditioner automatically just by looking at it."
@@ -87,13 +87,13 @@ _Image: Control Hololens with SSVEP-based BCI_
 Because SSVEP can accurately detect what is gazing, unlike eye-tracking and other technologies that have been used in AR glasses/VR, **it can respond to small targets and can distinguish between gazing at the actual outside world and gazing at the digital world on the glasses.**
 
 
-In addition, Mr.Nakanishi mentioned that, although brain wave measurement devices cause unnaturalness when worn on a daily basis, **embedding electrodes that can measure brain waves in AR/VR head-mounted devices will make them more compatible in terms of convenience and practicality.**
+In addition, Dr. Nakanishi mentioned that, although brain wave measurement devices cause unnaturalness when worn on a daily basis, **embedding electrodes that can measure brain waves in AR/VR head-mounted devices will make them more compatible in terms of convenience and practicality.**
 
 &nbsp;
 
 ### Future trends in Neurotechnology
 
-Mr.Nakanishi told me, in order to incorporate neurotechnology more into our daily lives, there is still **a lot of progress that needs to be made in terms of both hardware and software**, such as improving the way of stimulation in SSVEP, in addition to developing more accurate and slimmer sensors and devices.
+Dr. Nakanishi told me, in order to incorporate neurotechnology more into our daily lives, there is still **a lot of progress that needs to be made in terms of both hardware and software**, such as improving the way of stimulation in SSVEP, in addition to developing more accurate and slimmer sensors and devices.
 
 Mr.Nakanishi also predicts that the new BCI technology, which is even more accurate in estimating which part of the brain the brain waves originate from, may be the key in the future.
 
