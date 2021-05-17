@@ -224,6 +224,14 @@
       display: block;
       margin: auto;
     }
+    em{
+      text-align: center;
+      display: block;
+      font-size: $very-small-font-size;
+    }
+    strong{
+      background: linear-gradient(transparent 60%, $marker-red-color  0%)
+    }
   }
   a {
     text-decoration: underline;
@@ -247,6 +255,9 @@
       font-size: $very-small-font-size;
       margin: 1rem;
       line-height: 2em;
+      em{
+        font-size: $sp-desc-small-font-size;
+      }
     }
   }
 }
