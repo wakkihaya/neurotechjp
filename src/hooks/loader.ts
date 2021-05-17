@@ -27,8 +27,8 @@ export const mdToPost = (file: RawFile): PostData => {
     datePublished: metadata.data.datePublished || null,
     description: metadata.data.description || 'Neurotechjp post',
     canonicalUrl: metadata.data.canonicalUrl || `https://neurotechjp.com/${path}`,
-    bannerPhoto: 'https://neurotechjp.com' + metadata.data.bannerPhoto || null,
-    thumbnailPhoto: 'https://neurotechjp.com' + metadata.data.thumbnailPhoto || null,
+    bannerPhoto: metadata.data.bannerPhoto || null,
+    thumbnailPhoto: metadata.data.thumbnailPhoto || null,
     content: metadata.content,
   };
 
