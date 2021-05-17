@@ -29,7 +29,7 @@ Dr. Nakanishi has been passionate about the field of neurotechnology for a long 
 
 Dr. Nakanishi mentioned that his decision to leave his Japanese environment and enter a top-level research environment in the U.S. was prompted by a four-month internship at UCSD that he grasped during his graduate school days.
 
-After receiving Ph.D. in Japan, he decided to work as a postdoctoral researcher at UCSD to pursue higher technology.
+After receiving a Ph.D. in Japan, he decided to work as a postdoctoral researcher at UCSD to pursue higher technology.
 At the research facility SCCN, **he contributed to many achievements such as marking a world record in BCI using the SSVEP technology.**.
 
 &nbsp;
@@ -44,7 +44,7 @@ The index of BCI's goodness is a value called **Information Transfer Rate(i.e.IT
 
 By increasing these three elements, we can aim for a high score in ITR.
 
-Mr. Nakanishi said that his team used a technology called SSVEP, and by solving the issues that arose there, they were able to **dramatically increase the number of commands** and improve ITR.
+Dr. Nakanishi said that his team used a technology called SSVEP, and by solving the issues that arose there, they were able to **dramatically increase the number of commands** and improve ITR.
 (In addition to SSVEP, there are other methods such as P300.)
 
 &nbsp;
@@ -95,7 +95,7 @@ In addition, Dr. Nakanishi mentioned that, although brain wave measurement devic
 
 Dr. Nakanishi told me, in order to incorporate neurotechnology more into our daily lives, there is still **a lot of progress that needs to be made in terms of both hardware and software**, such as improving the way of stimulation in SSVEP, in addition to developing more accurate and slimmer sensors and devices.
 
-Mr.Nakanishi also predicts that the new BCI technology, which is even more accurate in estimating which part of the brain the brain waves originate from, may be the key in the future.
+Dr. Nakanishi also predicts that the new BCI technology, which is even more accurate in estimating which part of the brain waves originate from, may be the key in the future.
 
 &nbsp;
 
