@@ -11,9 +11,9 @@ export const BlogPost: React.FunctionComponent<{ post: PostData }> = ({
   const { title, datePublished, bannerPhoto } = post;
   return (
     <>
+      <PostMeta post={post} />
       <Header />
       <div className="blog-content">
-        <PostMeta post={post} />
         <div className="blog-content--top">
           <div className="blog-content--top-pic">
             {post.bannerPhoto && <img src={bannerPhoto} />}
