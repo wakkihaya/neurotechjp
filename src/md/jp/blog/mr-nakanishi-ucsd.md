@@ -1,9 +1,9 @@
 ---
 title: "BCIで世界記録をマーク。世界トップレベルの大学で活躍する日本人研究者"
-subtitle: '今回は、世界トップレベルの研究を行う、UC SanDiegoのSCCNという研究施設にて、Project Scientistとして活躍する中西雅樹さんに、自身の軌跡と、世界記録を更新した"SSVEP"という技術の可能性についてインタビューをさせていただいた。'
+subtitle: '今回は、世界トップレベルの研究を行う、UC San DiegoのSCCNという研究施設にて、Assistant Project Scientistとして活躍する中西正樹さんに、自身の軌跡と、世界記録を更新した"SSVEP"という技術の可能性についてインタビューをさせていただいた。'
 datePublished: "2021/5/16"
 bannerPhoto: "/img/mr-nakanishi-ucsd/mr-nakanishi-ucsd.png"
-description: '今回は、世界トップレベルの研究を行う、UC SanDiegoのSCCNという研究施設にて、Project Scientistとして活躍する中西雅樹さんに、自身の軌跡と、世界記録を更新した"SSVEP"という技術の可能性についてインタビューをさせていただいた。'
+description: '今回は、世界トップレベルの研究を行う、UC SanDiegoのSCCNという研究施設にて、Assistant Project Scientistとして活躍する中西正樹さんに、自身の軌跡と、世界記録を更新した"SSVEP"という技術の可能性についてインタビューをさせていただいた。'
 ---
 
 &nbsp;
@@ -12,7 +12,7 @@ description: '今回は、世界トップレベルの研究を行う、UC SanDie
 
 脳のニューロンの活動とコンピュータとをつなげるインターフェイスを[BCI(Brain Computer Interface)](https://en.wikipedia.org/wiki/Brain%E2%80%93computer_interface)といい、脳の内部を調べたり、脳の機能の強化したりすることができる、まさにサイエンスフィクションのような技術である。
 
-その BCI の良さを図る記録で 2018 年に世界記録をマークしたチームが、今回インタビューさせていただく UC SanDiego の[SCCN](https://sccn.ucsd.edu/)という研究施設にて活躍する[中西雅樹(Masaki Nakanishi)](https://sccn.ucsd.edu/~masaki/)さんの研究チームだ。
+その BCI の良さを図る記録で 2018 年に世界記録をマークしたチームが、今回インタビューさせていただく UC SanDiego の[SCCN](https://sccn.ucsd.edu/)という研究施設にて活躍する[中西正樹(Masaki Nakanishi)](https://sccn.ucsd.edu/~masaki/)さんの研究チームだ。
 
 今回は、世界トップレベルの研究施設にて Project Scientist として活躍する中西さんに、自身の軌跡と、世界記録を更新した"SSVEP"という技術の可能性についてインタビューをさせていただいた。
 
@@ -22,7 +22,7 @@ description: '今回は、世界トップレベルの研究を行う、UC SanDie
 
 ![SCCN](https://sccn.ucsd.edu/images/sccn.jpg)
 
-中西さんは、2010 年に東京農工大学の修士課程を終了後、慶応大学の博士課程を終了。その後、UC SanDiego にポスドク(博士研究員)として渡米し、現在同大学にて Project Scientist として活躍する。
+中西さんは、2010 年に東京農工大学の修士課程を終了後、慶應義塾大学の博士課程を終了。その後、UC SanDiego にポスドク(博士研究員)として渡米し、現在同大学にて Assistant Project Scientist として活躍する。
 
 Neurotechnology という分野に、長きに渡り研究の熱を注ぐ中西さんであるが、この分野に興味を持ったきっかけをお伺いしたところ、
 
