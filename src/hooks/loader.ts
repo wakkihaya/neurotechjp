@@ -22,10 +22,10 @@ export const mdToPost = (file: RawFile): PostData => {
   const post = {
     path,
     title: metadata.data.title,
-    subtitle: metadata.data.subtitle || null,
+    subtitle: metadata.data.subtitle || 'Neurotechjp post',
     published: metadata.data.published || false,
     datePublished: metadata.data.datePublished || null,
-    description: metadata.data.description || null,
+    description: metadata.data.description || 'Neurotechjp post',
     canonicalUrl: metadata.data.canonicalUrl || `https://neurotechjp.com/${path}`,
     bannerPhoto: metadata.data.bannerPhoto || null,
     thumbnailPhoto: metadata.data.thumbnailPhoto || null,
