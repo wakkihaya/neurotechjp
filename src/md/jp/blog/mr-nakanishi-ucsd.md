@@ -22,7 +22,7 @@ description: '今回は、世界トップレベルの研究を行う、UC SanDie
 
 ![SCCN](https://sccn.ucsd.edu/images/sccn.jpg)
 
-中西さんは、2010 年に東京農工大学の修士課程を終了後、慶應義塾大学の博士課程を終了。その後、UC SanDiego にポスドク(博士研究員)として渡米し、現在同大学にて Assistant Project Scientist として活躍する。
+中西さんは、2010 年に東京農工大学の修士課程を終了後、慶應義塾大学理工学部の博士課程を終了。その後、UC SanDiego にポスドク(博士研究員)として渡米し、現在同大学にて Assistant Project Scientist として活躍する。
 
 Neurotechnology という分野に、長きに渡り研究の熱を注ぐ中西さんであるが、この分野に興味を持ったきっかけをお伺いしたところ、
 
