@@ -10,7 +10,7 @@ description: "For this interview, I had the opportunity to talk with Masaki Naka
 
 There are about 86 billion [neurons](https://en.wikipedia.org/wiki/Neuron) in the brain, and the activity of these neurons controls our lives.
 
-The interface that connects the activity of neurons in the brain to a computer is called [BCI (Brain Computer Interface)](https://en.wikipedia.org/wiki/Brain%E2%80%93computer_interface). BCI is a science fiction technology that can be used to study the inside of the brain to enhance brain functions.
+The interface that connects the activity of neurons in the brain to a computer is called [BCI (Brain Computer Interface)](https://en.wikipedia.org/wiki/Brain%E2%80%93computer_interface). BCI is a science fiction technology that can be used to study the inside of the brain and to enhance brain functions.
 
 The team that set the world record for the BCI in 2018 is the research team of [Masaki Nakanishi]([https://sccn.ucsd.edu/~masaki/]), who works at the research facility called [SCCN](https://sccn.ucsd.edu/) at UC San Diego.
 
@@ -61,7 +61,7 @@ _Typing letters using only brain waves with SSVEP_
 
 So, how can this technology be used in our daily lives?
 
-I asked him about his possibilities.
+I asked him about its possibilities.
 
 &nbsp;
 
@@ -78,7 +78,7 @@ In fact, many large hospital facilities are already conducting EEG tests using t
 Also, Dr. Nakanishi said, "**AR/VR** is the field that will accelerate in the future.
 **By displaying stimuli, which are used to be displayed on a screen on a computer, on the screen of AR glasses or VR, it will be possible to expand the input options for AR/VR.**
 
-For example, if multiple buttons are displayed on Google Glass, you can select any button by going through the steps of 'seeing → measuring brain waves'. By linking smart home appliances with Google Glass, it will still be possible to turn on/off the air conditioner automatically just by looking at it."
+For example, if multiple buttons are displayed on Google Glass, you can select any button by going through the steps of 'seeing → measuring brain waves'. By linking smart home appliances with Google Glass, it will be possible to turn on/off the air conditioner automatically just by looking at it."
 
 
 ![AR with SSVEP](https://neurotechjp.com/img/mr-nakanishi-ucsd/hololens-bci.png)
@@ -87,7 +87,7 @@ _Image: Control Hololens with SSVEP-based BCI_
 Because SSVEP can accurately detect what is gazing, unlike eye-tracking and other technologies that have been used in AR glasses/VR, **it can respond to small targets and can distinguish between gazing at the actual outside world and gazing at the digital world on the glasses.**
 
 
-In addition, Dr. Nakanishi mentioned that, although brain wave measurement devices cause unnaturalness when worn on a daily basis, **embedding electrodes that can measure brain waves in AR/VR head-mounted devices will be more compatible in terms of convenience and practicality.**
+In addition, Dr. Nakanishi mentioned that, although brain wave measurement devices cause unnaturalness when worn on a daily basis, **embedding electrodes that can measure brain waves in AR/VR head-mounted devices will make them more compatible in terms of convenience and practicality.**
 
 &nbsp;
 
