@@ -14,7 +14,7 @@ description: '今回は、世界トップレベルの研究を行う、UC SanDie
 
 その BCI の良さを図る記録で 2018 年に世界記録をマークしたチームが、今回インタビューさせていただく UC SanDiego の[SCCN](https://sccn.ucsd.edu/)という研究施設にて活躍する[中西正樹(Masaki Nakanishi)](https://sccn.ucsd.edu/~masaki/)さんの研究チームだ。
 
-今回は、世界トップレベルの研究施設にて Project Scientist として活躍する中西さんに、自身の軌跡と、世界記録を更新した"SSVEP"という技術の可能性についてインタビューをさせていただいた。
+今回は、世界トップレベルの研究施設にて Assistant Project Scientist として活躍する中西さんに、自身の軌跡と、世界記録を更新した"SSVEP"という技術の可能性についてインタビューをさせていただいた。
 
 &nbsp;
 

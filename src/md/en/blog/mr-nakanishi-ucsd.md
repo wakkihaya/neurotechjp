@@ -12,7 +12,7 @@ There are about 86 billion [neurons](https://en.wikipedia.org/wiki/Neuron) in th
 
 The interface that connects the activity of neurons in the brain to a computer is called [BCI (Brain Computer Interface)](https://en.wikipedia.org/wiki/Brain%E2%80%93computer_interface). BCI is a science fiction technology that can be used to study the inside of the brain and to enhance brain functions.
 
-The team that set the world record for the BCI in 2018 is the research team of [Masaki Nakanishi]([https://sccn.ucsd.edu/~masaki/]), who works at the research facility called [SCCN](https://sccn.ucsd.edu/) at UC San Diego.
+The team that set the world record for the BCI in 2018 is the research team of [Masaki Nakanishi](https://sccn.ucsd.edu/~masaki/), who works at the research facility called [SCCN](https://sccn.ucsd.edu/) at UC San Diego.
 
 For this interview, I had the opportunity to talk with Masaki Nakanishi, who is working as an Assitant Project Scientist at a world-class research facility, about his career and the potential of the world record-breaking "SSVEP" technology.
 
