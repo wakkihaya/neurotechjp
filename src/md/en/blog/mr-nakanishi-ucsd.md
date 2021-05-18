@@ -22,6 +22,8 @@ For this interview, I had the opportunity to talk with Masaki Nakanishi, who is 
 
 ![SCCN](https://sccn.ucsd.edu/images/sccn.jpg)
 
+&nbsp;
+
 Dr. Nakanishi completed his M.S. at Tokyo University of Agriculture and Technology (TUAT) in 2010, followed by Ph.D. at Keio University in Japan. He then moved to the U.S. as a postdoctoral researcher at UC San Diego, where he is currently working as an Assistant Project Scientist.
 
 Dr. Nakanishi has been passionate about the field of neurotechnology for a long time, and when I asked him how he became interested in this field, he replied
@@ -83,6 +85,8 @@ For example, if multiple buttons are displayed on Google Glass, you can select a
 
 ![AR with SSVEP](https://neurotechjp.com/img/mr-nakanishi-ucsd/hololens-bci.png)
 _Image: Control Hololens with SSVEP-based BCI_
+
+&nbsp;
 
 Because SSVEP can accurately detect what is gazing, unlike eye-tracking and other technologies that have been used in AR glasses/VR, **it can respond to small targets and can distinguish between gazing at the actual outside world and gazing at the digital world on the glasses.**
 

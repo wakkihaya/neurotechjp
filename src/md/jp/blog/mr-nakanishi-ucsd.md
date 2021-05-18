@@ -22,6 +22,8 @@ description: '今回は、世界トップレベルの研究を行う、UC SanDie
 
 ![SCCN](https://sccn.ucsd.edu/images/sccn.jpg)
 
+&nbsp;
+
 中西さんは、2010 年に東京農工大学の修士課程を終了後、慶應義塾大学理工学部の博士課程を終了。その後、UC SanDiego にポスドク(博士研究員)として渡米し、現在同大学にて Assistant Project Scientist として活躍する。
 
 Neurotechnology という分野に、長きに渡り研究の熱を注ぐ中西さんであるが、この分野に興味を持ったきっかけをお伺いしたところ、
@@ -82,6 +84,8 @@ _SSVEP を利用して脳波だけで文字のタイピング_
 
 ![AR with SSVEP](http://neurotechjp.com/img/mr-nakanishi-ucsd/hololens-bci.png)
 _イメージ: SSVEP を用いた BCI で Hololens を操作_
+
+&nbsp;
 
 SSVEP を用いれば凝視しているもののみを正確に検知することができるため、今まで AR グラス/VR に活用されていたアイトラッキングなどの技術と違って、 **小さいターゲットでも反応できたり、実際の外の世界への視線とグラス上にあるデジタル世界への視線を区別したりすることもできる。**
 
