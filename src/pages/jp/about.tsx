@@ -38,7 +38,7 @@ const AboutPage: React.FC = () => {
           </div>
           <div className="about-container--index-subtitle-text">
             筑波大学にて、BCIに関する研究プロジェクトに従事。
-            日本と米国のソフトウェアスタートアップにて、ファウンダーやエンジニアとして経験を積んだ後、Neurotechnologyが我々の生活に多くのイノベーションをもたらすと思い、弊サイトを立ち上げる。
+            日本と米国のソフトウェアスタートアップにて、ファウンダーやエンジニアとして経験をした後、Neurotechnologyが我々の生活に多くのイノベーションをもたらすと思い、弊サイトを立ち上げる。
             <br />
             彼のパッションは、「創造性と技術力を持って、Science-Fictionを実現する1人になること」である。
           </div>
