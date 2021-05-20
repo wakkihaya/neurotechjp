@@ -17,6 +17,7 @@ If you want to add post, just add it along md type document. At the same time, m
 - `subtitle`
 - `datePublished`
 - `bannerPhoto`
+- `description`
 to show posts correclty. 
 After finishing it and deploying it, the page will be auto generated.
 (`md/blog/test-1.md` -> `https://neurotechjp.com/blog/test-1`)
