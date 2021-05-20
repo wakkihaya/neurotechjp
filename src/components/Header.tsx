@@ -43,24 +43,34 @@ const Header: React.FC = () => {
     localStorage.setItem("currentLang", JSON.stringify(targetLang));
   };
 
+  const moveToPageInSpecifiedLang = (targetLang: Lang) => {
+    const currentPathName = window.location.pathname; /// '/' or '/jp/
+    const listOfPath = currentPathName.split("/");
+    if (listOfPath[1] === "jp") {
+      if (targetLang === "EN") {
+        /// .com/jp/hoge -> .com/hoge
+        const redirectToPath = currentPathName.replace("jp/", "");
+        router.push(redirectToPath);
+      }
+    } else {
+      if (targetLang === "JP") {
+        /// .com/hoge -> .com/jp/hoge
+        const redirectToPath = "/jp" + currentPathName;
+        router.push(redirectToPath);
+      }
+    }
+  };
+
   useEffect(() => {
     const currentLang = localStorage.getItem("currentLang");
     const modCurrentLang = currentLang ? JSON.parse(currentLang) : "EN";
     setLang(modCurrentLang);
 
     /// Redirect to the page in selected language.
-    const currentPathName = window.location.pathname;
-    if (currentPathName === "/") {
-      if (modCurrentLang === "JP") {
-        router.push("/jp");
-      }
-    } else if (currentPathName === "/jp/") {
-      if (modCurrentLang === "EN") {
-        router.push("/");
-      }
-    }
+    moveToPageInSpecifiedLang(modCurrentLang);
   }, []);
 
+  //TODO: when pushing blog in blog page, do something.
   return (
     <div className="header-container">
       {isMobile && <HamburgerMenu lang={lang} />}
@@ -87,18 +97,24 @@ const Header: React.FC = () => {
               "header--lang-char",
               lang === "EN" ? "active" : null,
             ].join(" ")}
-            onClick={() => changeLang("EN")}
+            onClick={() => {
+              changeLang("EN");
+              moveToPageInSpecifiedLang("EN");
+            }}
           >
-            <Link href="/">EN/</Link>
+            EN/
           </div>
           <div
             className={[
               "header--lang-char",
               lang === "JP" ? "active" : null,
             ].join(" ")}
-            onClick={() => changeLang("JP")}
+            onClick={() => {
+              changeLang("JP");
+              moveToPageInSpecifiedLang("JP");
+            }}
           >
-            <Link href="/jp">JP</Link>
+            JP
           </div>
         </div>
         {isMobile && !isDesktop && (
