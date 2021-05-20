@@ -38,7 +38,6 @@ const HamburgerMenu: React.FC<HamburgerMenuProps> = ({ lang }) => {
           className="header--index-about"
           onClick={() => setIsMenuOpen(!isMenuOpen)}
         >
-          {lang === "EN" && <Link href="/">Blog</Link>}
           {lang === "EN" && <Link href="/about">About NeurotechJP</Link>}
           {lang === "JP" && <Link href="/jp/about">About NeurotechJP</Link>}
         </div>
