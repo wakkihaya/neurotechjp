@@ -52,6 +52,7 @@
   }
   &--lang-char:hover {
     text-decoration: underline;
+    cursor: pointer;
   }
   &--lang-char.active {
     color: $red-color;
