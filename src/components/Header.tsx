@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { useRouter } from "next/router";
 import { useState, useEffect } from "react";
-import { slide as Menu } from "react-burger-menu";
+import { slide as Menu, handleOnClose } from "react-burger-menu";
 import useResponsive from "~/hooks/use-responsive";
 
 type Lang = "EN" | "JP";
@@ -10,18 +10,35 @@ type HamburgerMenuProps = {
   lang: Lang;
 };
 
-type RedirectTo = "ToEN" | "ToJP" | "Stay";
-
 //Only for Smartphone
 const HamburgerMenu: React.FC<HamburgerMenuProps> = ({ lang }) => {
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
+
+  // This keeps your state in sync with the opening/closing of the menu
+  // via the default means, e.g. clicking the X, pressing the ESC key etc.
+  const handleStateChange = (state) => {
+    setIsMenuOpen(state.isOpen);
+  };
+
   return (
-    <Menu right>
+    <Menu
+      right
+      isOpen={isMenuOpen}
+      onStateChange={(state) => handleStateChange(state)}
+    >
       <div className="header--index">
-        <div className="header--index-blog">
+        <div
+          className="header--index-blog"
+          onClick={() => setIsMenuOpen(!isMenuOpen)}
+        >
           {lang === "EN" && <Link href="/">Blog</Link>}
           {lang === "JP" && <Link href="/jp">Blog</Link>}
         </div>
-        <div className="header--index-about">
+        <div
+          className="header--index-about"
+          onClick={() => setIsMenuOpen(!isMenuOpen)}
+        >
+          {lang === "EN" && <Link href="/">Blog</Link>}
           {lang === "EN" && <Link href="/about">About NeurotechJP</Link>}
           {lang === "JP" && <Link href="/jp/about">About NeurotechJP</Link>}
         </div>
@@ -70,7 +87,6 @@ const Header: React.FC = () => {
     moveToPageInSpecifiedLang(modCurrentLang);
   }, []);
 
-  //TODO: when pushing blog in blog page, do something.
   return (
     <div className="header-container">
       {isMobile && <HamburgerMenu lang={lang} />}
