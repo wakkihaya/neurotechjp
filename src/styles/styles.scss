@@ -7,7 +7,6 @@
   flex-direction: column;
   width: $content-width;
   margin: 5em auto;
-  font-family: $lato-font-family;
   &--title {
     font-size: $large-font-size;
     font-weight: bold;
@@ -70,18 +69,15 @@
   }
   &--container-title {
     font-size: $medium-font-size;
-    font-family: $lato-font-family;
     font-weight: bold;
     padding: 1rem 0;
   }
   &--container-subtitle {
     font-size: $small-font-size;
-    font-family: $lato-font-family;
     padding: 1rem 0;
   }
   &--container-readmore {
     font-size: $small-font-size;
-    font-family: $lato-font-family;
     color: $red-color;
     font-weight: bold;
     padding: 2rem 0;
@@ -90,7 +86,6 @@
   &--date {
     border-top: solid 1px $gray-color;
     font-size: $small-font-size;
-    font-family: $lato-font-family;
     padding: 1rem 2rem;
     color: $gray-color;
     margin-top: auto;
@@ -126,7 +121,6 @@
   margin: 5em auto;
   &--index {
     margin: 10em 0;
-    font-family: $lato-font-family;
   }
   &--index-title {
     font-size: $large-font-size;
@@ -182,7 +176,6 @@
 .blog-content {
   width: $content-width;
   margin: 5em auto;
-  font-family: $lato-font-family;
   min-height: calc(100vh - 80px - 5em);
 
   &--top {

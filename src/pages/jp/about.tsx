@@ -7,16 +7,18 @@ import {
   faGithubSquare,
   faFacebookSquare,
 } from "@fortawesome/free-brands-svg-icons";
+import useResponsive from "~/hooks/use-responsive";
 
 
 const AboutPage: React.FC = () => {
+    const { isDesktop } = useResponsive();
+
   return (
     <>
       <Meta
         meta={{
           title: "NeurotechJP",
-          desc:
-            "NeurotechJPは、Neurotechnology分野で最前線で活躍する、世界中の方々へのインタビューを通して得た情報をまとめたブログサイトです。",
+          desc: "NeurotechJPは、Neurotechnology分野で最前線で活躍する、世界中の方々へのインタビューを通して得た情報をまとめたブログサイトです。",
           link: "https://neurotechjp.com/jp",
           image: "/ogp.png",
         }}
@@ -48,21 +50,33 @@ const AboutPage: React.FC = () => {
               target="_blank"
               className="about-container--index-sns-item"
             >
-              <FontAwesomeIcon icon={faLinkedin} />
+              {isDesktop ? (
+                <FontAwesomeIcon icon={faLinkedin} size="5x" />
+              ) : (
+                <FontAwesomeIcon icon={faLinkedin} size="3x" />
+              )}
             </a>
             <a
               href="https://www.facebook.com/waki.hayato.1"
               target="_blank"
               className="about-container--index-sns-item"
             >
-              <FontAwesomeIcon icon={faFacebookSquare} />
+              {isDesktop ? (
+                <FontAwesomeIcon icon={faFacebookSquare} size="5x" />
+              ) : (
+                <FontAwesomeIcon icon={faFacebookSquare} size="3x" />
+              )}
             </a>
             <a
               href="https://github.com/wakkihaya"
               target="_blank"
               className="about-container--index-sns-item"
             >
-              <FontAwesomeIcon icon={faGithubSquare} />
+              {isDesktop ? (
+                <FontAwesomeIcon icon={faGithubSquare} size="5x" />
+              ) : (
+                <FontAwesomeIcon icon={faGithubSquare} size="3x" />
+              )}
             </a>
           </div>
         </div>
