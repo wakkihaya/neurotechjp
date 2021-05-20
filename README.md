@@ -1,4 +1,4 @@
-[NeurotechJP](https://neurotechjp.com) is the website in Japanese/English gathering information of neurotehcnology through interviews for those who are active in the flont lines of this are all over the world.
+[NeurotechJP](https://neurotechjp.com) is the website in Japanese/English gathering information of neurotehcnology through interviews for those who are active in the flont lines of this area all over the world.
 
 ## Getting Started
 

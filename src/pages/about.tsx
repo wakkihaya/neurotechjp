@@ -29,7 +29,7 @@ const AboutPage: React.FC = () => {
           <div className="about-container--index-subtitle">
             NeurotechJP is the website in Japanese/English gathering information
             of neurotehcnology through interviews with those who are active in
-            the flont lines of this are all over the world.
+            the flont lines of this area all over the world.
           </div>
         </div>
         <div className="about-container--index">
