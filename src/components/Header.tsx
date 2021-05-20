@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { useRouter } from "next/router";
 import { useState, useEffect } from "react";
 import { slide as Menu } from "react-burger-menu";
 import useResponsive from "~/hooks/use-responsive";
@@ -8,6 +9,8 @@ type Lang = "EN" | "JP";
 type HamburgerMenuProps = {
   lang: Lang;
 };
+
+type RedirectTo = "ToEN" | "ToJP" | "Stay";
 
 //Only for Smartphone
 const HamburgerMenu: React.FC<HamburgerMenuProps> = ({ lang }) => {
@@ -28,6 +31,8 @@ const HamburgerMenu: React.FC<HamburgerMenuProps> = ({ lang }) => {
 };
 
 const Header: React.FC = () => {
+  const router = useRouter();
+
   const { isDesktop, isMobile } = useResponsive();
 
   ///Default lang is EN.
@@ -42,6 +47,18 @@ const Header: React.FC = () => {
     const currentLang = localStorage.getItem("currentLang");
     const modCurrentLang = currentLang ? JSON.parse(currentLang) : "EN";
     setLang(modCurrentLang);
+
+    /// Redirect to the page in selected language.
+    const currentPathName = window.location.pathname;
+    if (currentPathName === "/") {
+      if (modCurrentLang === "JP") {
+        router.push("/jp");
+      }
+    } else if (currentPathName === "/jp/") {
+      if (modCurrentLang === "EN") {
+        router.push("/");
+      }
+    }
   }, []);
 
   return (
