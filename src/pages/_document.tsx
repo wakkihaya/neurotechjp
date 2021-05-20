@@ -46,6 +46,18 @@ export default class MyDocument extends Document<WithNonceProp> {
               `,
             }}
           />
+          <link
+            rel="stylesheet"
+            href="https://fonts.googleapis.com/css2?family=Armata&display=swap"
+          />
+          <link
+            rel="stylesheet"
+            href="https://fonts.googleapis.com/css2?family=Lato&display=swap"
+          />
+          <link
+            rel="stylesheet"
+            href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap"
+          />
         </Head>
         <body>
           <Main />
