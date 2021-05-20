@@ -1,5 +1,8 @@
 require('dotenv').config();
 module.exports = {
+  experimental: {
+    optimizeFonts: true,
+  },
   trailingSlash: true,
   webpack: function (config) {
     config.module.rules.push({
