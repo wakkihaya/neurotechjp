@@ -7,15 +7,17 @@ import {
   faGithubSquare,
   faFacebookSquare,
 } from "@fortawesome/free-brands-svg-icons";
+import useResponsive from "~/hooks/use-responsive";
 
 const AboutPage: React.FC = () => {
+  const { isDesktop } = useResponsive();
+
   return (
     <>
       <Meta
         meta={{
           title: "NeurotechJP",
-          desc:
-            "NeurotechJP is the website gathering information of neurotehcnology through interviews with those who are active in the front lines of this area all over the world",
+          desc: "NeurotechJP is the website gathering information of neurotehcnology through interviews with those who are active in the front lines of this area all over the world",
           link: "https://neurotechjp.com",
           image: "/ogp.png",
         }}
@@ -38,8 +40,9 @@ const AboutPage: React.FC = () => {
           <div className="about-container--index-subtitle-text">
             At University of Tsukuba in Japan, he worked on the research project
             about BCI. <br /> After experiencing multiple software startups as a
-            founder and an engineer in U.S. and Japan, he believes that neurotechnology is the
-            most likely to be able to bring our lives destructive innovation.
+            founder and an engineer in U.S. and Japan, he believes that
+            neurotechnology is the most likely to be able to bring our lives
+            destructive innovation.
             <br />
             His passion is to become a person who achieves Science-Fiction with
             creativity and technology.
@@ -50,21 +53,33 @@ const AboutPage: React.FC = () => {
               target="_blank"
               className="about-container--index-sns-item"
             >
-              <FontAwesomeIcon icon={faLinkedin} />
+              {isDesktop ? (
+                <FontAwesomeIcon icon={faLinkedin} size="5x" />
+              ) : (
+                <FontAwesomeIcon icon={faLinkedin} size="3x" />
+              )}
             </a>
             <a
               href="https://www.facebook.com/waki.hayato.1"
               target="_blank"
               className="about-container--index-sns-item"
             >
-              <FontAwesomeIcon icon={faFacebookSquare} />
+              {isDesktop ? (
+                <FontAwesomeIcon icon={faFacebookSquare} size="5x" />
+              ) : (
+                <FontAwesomeIcon icon={faFacebookSquare} size="3x" />
+              )}
             </a>
             <a
               href="https://github.com/wakkihaya"
               target="_blank"
               className="about-container--index-sns-item"
             >
-              <FontAwesomeIcon icon={faGithubSquare} />
+              {isDesktop ? (
+                <FontAwesomeIcon icon={faGithubSquare} size="5x" />
+              ) : (
+                <FontAwesomeIcon icon={faGithubSquare} size="3x" />
+              )}
             </a>
           </div>
         </div>
