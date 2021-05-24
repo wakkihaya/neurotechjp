@@ -8,6 +8,7 @@ export const Meta: React.FC<{
     image?: string;
   };
 }> = (props) => {
+  const FB_APP_ID = process.env.FB_APP_ID || "";
   const { meta } = props;
   return (
     <NextHead>
@@ -25,6 +26,7 @@ export const Meta: React.FC<{
         />
       )}
       <meta property="og:site_name" content="neurotechjp" />
+      <meta property="fb:app_id" content={FB_APP_ID} />
       {meta.link && <meta property="og:url" content={`${meta.link}`} />}
       <meta name="twitter:card" content="summary" />
       <meta name="twitter:title" content={meta.title} />
