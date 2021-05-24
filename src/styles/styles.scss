@@ -283,6 +283,11 @@
       em {
         font-size: $sp-desc-small-font-size;
       }
+      table,
+      th,
+      td {
+        padding: 0;
+      }
     }
   }
 }
