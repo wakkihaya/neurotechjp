@@ -2,8 +2,9 @@
 title: "BCIで世界記録をマーク。世界トップレベルの大学で活躍する日本人研究者"
 subtitle: '今回は、世界トップレベルの研究を行う、UC San DiegoのSCCNという研究施設にて、Assistant Project Scientistとして活躍する中西正樹さんに、自身の軌跡と、世界記録を更新した"SSVEP"という技術の可能性についてインタビューをさせていただいた。'
 datePublished: "2021/5/16"
-bannerPhoto: "/img/mr-nakanishi-ucsd/mr-nakanishi-ucsd.png"
+bannerPhoto: "/img/mr-nakanishi-ucsd/mr-nakanishi-ucsd.jpg"
 description: '今回は、世界トップレベルの研究を行う、UC SanDiegoのSCCNという研究施設にて、Assistant Project Scientistとして活躍する中西正樹さんに、自身の軌跡と、世界記録を更新した"SSVEP"という技術の可能性についてインタビューをさせていただいた。'
+category: "インタビュー"
 ---
 
 &nbsp;
@@ -82,7 +83,7 @@ _SSVEP を利用して脳波だけで文字のタイピング_
 **コンピュータ上の画面に表示していた刺激を、AR グラスや VR の画面上に表示することで、AR/VR の入力の選択肢を広げることが可能になるという。**
 例えば、Google グラス上に複数のボタンが表示されている場合、「見る → 脳波を測定」という段階を踏んで、任意のボタンを選択することができる。スマート家電と Google グラスを連携することによって、エアコンを視線だけで自動でつけるなどの行為が可能になるそうだ。
 
-![AR with SSVEP](http://neurotechjp.com/img/mr-nakanishi-ucsd/hololens-bci.png)
+![AR with SSVEP](http://neurotechjp.com/img/mr-nakanishi-ucsd/hololens-bci.jpg)
 _イメージ: SSVEP を用いた BCI で Hololens を操作_
 
 &nbsp;

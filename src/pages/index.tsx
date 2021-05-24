@@ -10,8 +10,7 @@ const Home = (props: { posts: PostData[] }) => {
       <Meta
         meta={{
           title: "NeurotechJP",
-          desc:
-            "NeurotechJP is the website gathering information of neurotehcnology through interviews with those who are active in the front lines of this area all over the world",
+          desc: "NeurotechJP is the website gathering information of neurotehcnology through interviews with those who are active in the front lines of this area all over the world",
           link: "https://neurotechjp.com",
           image: "https://neurotechjp.com/ogp.png",
         }}
@@ -47,6 +46,7 @@ const BlogItem: React.FC<{ post: PostData }> = (props) => {
         </div>
         <div className="blog-item--container">
           <div className="blog-item--container-title">{post.title}</div>
+          <div className="blog-item--container-category">{post.category}</div>
           <div className="blog-item--container-subtitle">{post.subtitle}</div>
           <div className="blog-item--container-readmore">READ MORE..</div>
         </div>
