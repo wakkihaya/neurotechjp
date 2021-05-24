@@ -99,7 +99,7 @@ What's noteworthy is **the simplicity of the device and their amazing data scien
 
 By reading brain waves in the visual cortex, which are associated with visual information, NextMind's device can do things like **move a cursor on a TV or computer screen or defeat an enemy in a VR game just by thinking about it.**
 
-![NextMind](https://neurotechjp.com/img/5-startups-of-interest/next-mind.jpg)
+[![NextMind](https://neurotechjp.com/img/5-startups-of-interest/next-mind.jpg)](https://youtu.be/yfzDcfQpdp0?list=TLGGw0P7hwgH87kyNDA1MjAyMQ)
 
 _Demo video: VR game that lets you defeat enemies by thinking_
 
@@ -181,7 +181,7 @@ Neuromarketing is the process of having test subjects watch an advertising video
 
 [![How Neuromarketing works](https://neurotechjp.com/img/5-startups-of-interest/spark-neuro.jpg)](https://youtu.be/g7kCxJy1gSA)
 
-_Neuromarketing DEMO_
+_Demo Video: Neuromarketing_
 
 This makes it possible to create ads with high conversion rates and to reduce the mismatch of ads to users.
 

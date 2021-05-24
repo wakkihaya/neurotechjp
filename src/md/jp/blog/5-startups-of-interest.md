@@ -99,7 +99,7 @@ NextMind は、ゲームや TV のカーソル操作ができる非侵襲型 BCI
 
 NextMind が提供するデバイスは、視覚情報と紐づく視覚野の脳波を読み取ることで、**念じるだけで、テレビやコンピュータの画面上のカーソルを動かしたり、VR ゲームの敵を倒したりする**などの行為を可能とする。
 
-![NextMind](https://neurotechjp.com/img/5-startups-of-interest/next-mind.jpg)
+[![NextMind](https://neurotechjp.com/img/5-startups-of-interest/next-mind.jpg)](https://youtu.be/yfzDcfQpdp0?list=TLGGw0P7hwgH87kyNDA1MjAyMQ)
 
 _デモ動画: 念じるだけで敵を倒す VR ゲーム_
 
@@ -181,7 +181,7 @@ SPARK Neuro は、2016 年に New York で創業されたスタートアップ�
 
 [![How Neuromarketing works](https://neurotechjp.com/img/5-startups-of-interest/spark-neuro.jpg)](https://youtu.be/g7kCxJy1gSA)
 
-_ニューロマーケティング DEMO_
+_デモ動画: ニューロマーケティング_
 
 これにより、コンバージョン率の高い広告を作ることが可能となり、ユーザーに対する広告のミスマッチを減らす。
 
