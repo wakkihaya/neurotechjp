@@ -52,7 +52,7 @@
   box-shadow: 0 0 5px $gray-color;
   border-radius: 5px;
   cursor: pointer;
-  margin: 0 1rem;
+  margin: 2rem 1rem;
   &--pic {
     background: white;
     box-shadow: 0 0 2px $gray-color;
@@ -187,8 +187,6 @@
   &--top-pic {
     width: 100%;
     text-align: center;
-    box-shadow: 0 0 2px $gray-color;
-    background-color: white;
     img {
       width: 100%;
       border-radius: 10px;
@@ -217,13 +215,47 @@
       display: block;
       margin: auto;
     }
-    em{
+    em {
       text-align: center;
       display: block;
       font-size: $very-small-font-size;
     }
-    strong{
-      background: linear-gradient(transparent 60%, $marker-red-color  0%)
+    strong {
+      background: linear-gradient(transparent 60%, $marker-red-color 0%);
+    }
+    table {
+      margin: auto;
+      thead {
+        background-color: $light-gray-color;
+      }
+    }
+    table,
+    th,
+    td {
+      border-collapse: collapse;
+      border: 1px solid $gray-color;
+      padding: 0.5em 2em;
+    }
+    blockquote {
+      position: relative;
+      padding: 1em 2em;
+      box-sizing: border-box;
+      font-style: italic;
+      background: #efefef;
+      color: #555;
+    }
+
+    blockquote p {
+      padding: 0;
+      margin: 10px 0;
+      line-height: 1.7;
+    }
+
+    blockquote cite {
+      display: block;
+      text-align: right;
+      color: #888888;
+      font-size: 0.9em;
     }
   }
   a {
@@ -248,7 +280,7 @@
       font-size: $very-small-font-size;
       margin: 1rem;
       line-height: 2em;
-      em{
+      em {
         font-size: $sp-desc-small-font-size;
       }
     }

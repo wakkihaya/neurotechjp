@@ -2,7 +2,7 @@
 title: "Interview with a world-class researcher of BCI: Masaki Nakanishi"
 subtitle: 'For this interview, I had the opportunity to talk with Masaki Nakanishi, an Assistant Project Scientist at SCCN, a research facility at UC San Diego that conducts world-class research. We discussed about his career and the potential of the world record-breaking "SSVEP" technology.'
 datePublished: "2021/5/16"
-bannerPhoto: "/img/mr-nakanishi-ucsd/mr-nakanishi-ucsd.png"
+bannerPhoto: "/img/mr-nakanishi-ucsd/mr-nakanishi-ucsd.jpg"
 description: 'For this interview, I had the opportunity to talk with Masaki Nakanishi, an Assistant Project Scientist at SCCN, a research facility at UC San Diego that conducts world-class research. We discussed about his career and the potential of the world record-breaking "SSVEP" technology.'
 ---
 
@@ -83,7 +83,7 @@ Also, Dr. Nakanishi said, "**AR/VR** is the field that will accelerate in the fu
 For example, if multiple buttons are displayed on Google Glass, you can select any button by going through the steps of 'seeing → measuring brain waves'. By linking smart home appliances with Google Glass, it will be possible to turn on/off the air conditioner automatically just by looking at it."
 
 
-![AR with SSVEP](https://neurotechjp.com/img/mr-nakanishi-ucsd/hololens-bci.png)
+![AR with SSVEP](https://neurotechjp.com/img/mr-nakanishi-ucsd/hololens-bci.jpg)
 _Image: Control Hololens with SSVEP-based BCI_
 
 &nbsp;

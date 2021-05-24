@@ -1,5 +1,6 @@
 import React from "react";
 import ReactMarkdown from "react-markdown";
+import gfm from "remark-gfm";
 import darcula from "react-syntax-highlighter/dist/cjs/styles/prism/darcula";
 import { PrismLight, PrismAsyncLight } from "react-syntax-highlighter";
 
@@ -9,6 +10,7 @@ export const Markdown: React.FC<{ source: string }> = (props) => {
     <div style={{ width: "100%" }} className="devii-markdown">
       <ReactMarkdown
         key="content"
+        remarkPlugins={[gfm]}
         children={props.source}
       />
     </div>
