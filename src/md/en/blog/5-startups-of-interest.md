@@ -177,7 +177,7 @@ Unlike the four startups above, they do not provide BCI, but use their superior 
 
 What's noteworthy is that the company is **active in the field of marketing using brain waves, commonly known as neuromarketing**.
 
-Neuromarketing is the process of having test subjects watch an advertising video that a client is considering, and analyzing their reaction to the ad using quantitative data such as brain waves in addition to qualitative feedback.
+Neuromarketing is the process of having test subjects watch an advertising video that a client is considering, and analyzing their reaction to the ad using brain waves data for quantitative data in addition to qualitative feedback.
 
 [![How Neuromarketing works](https://neurotechjp.com/img/5-startups-of-interest/spark-neuro.jpg)](https://youtu.be/g7kCxJy1gSA)
 
