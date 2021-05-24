@@ -18,9 +18,9 @@ const AboutPage: React.FC = () => {
       <Meta
         meta={{
           title: "NeurotechJP",
-          desc: "NeurotechJPは、Neurotechnology分野で最前線で活躍する、世界中の方々へのインタビューを通して得た情報をまとめたブログサイトです。",
+          desc: "NeurotechJPは、ニューロテクノロジー分野で最前線で活躍する、世界中の方々へのインタビューを通して得た情報をまとめたブログサイトです。",
           link: "https://neurotechjp.com/jp",
-          image: "/ogp.png",
+          image: "https://neurotechjp.com/ogp.png",
         }}
       />
       <Header />
@@ -30,7 +30,7 @@ const AboutPage: React.FC = () => {
             NeurotechJPについて
           </div>
           <div className="about-container--index-subtitle">
-            NeurotechJPは、Neurotechnology分野で最前線で活躍する、世界中の方々へのインタビューを通して得た情報をまとめたサイトです。
+            NeurotechJPは、ニューロテクノロジー分野で最前線で活躍する、世界中の方々へのインタビューを通して得た情報をまとめたサイトです。
           </div>
         </div>
         <div className="about-container--index">

@@ -19,7 +19,7 @@ const AboutPage: React.FC = () => {
           title: "NeurotechJP",
           desc: "NeurotechJP is the website gathering information of neurotehcnology through interviews with those who are active in the front lines of this area all over the world",
           link: "https://neurotechjp.com",
-          image: "/ogp.png",
+          image: "https://neurotechjp.com/ogp.png",
         }}
       />
       <Header />
