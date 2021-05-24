@@ -83,7 +83,12 @@
   }
   &--container-subtitle {
     font-size: $small-font-size;
-    padding: 1rem 0;
+    margin: 1rem 0;
+    overflow: hidden;
+
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
   }
   &--container-readmore {
     font-size: $small-font-size;
@@ -113,6 +118,10 @@
     }
     &--container-subtitle {
       font-size: $very-small-font-size;
+    }
+    &--container-category {
+      font-size: $very-small-font-size;
+      width: 100px;
     }
     &--container-readmore {
       font-size: $very-small-font-size;
