@@ -66,7 +66,7 @@ Link を装着すれば、「念じる」だけでモバイル端末のカーソ
 
 ![Neuralink gif](https://neurotechjp.com/img/5-startups-of-interest/neuralink.gif)
 
-_念じるだけでカーソルを動かせる iOS アプリ_
+_デモGIF: 念じるだけでカーソルを動かせる iOS アプリ_
 
 **どこへ行ってもコンピュータやモバイル端末を操作できる、初めてのニューラルインプラント**を提供していくと Neuralink は述べる。
 
@@ -99,9 +99,9 @@ NextMind は、ゲームや TV のカーソル操作ができる非侵襲型 BCI
 
 NextMind が提供するデバイスは、視覚情報と紐づく視覚野の脳波を読み取ることで、**念じるだけで、テレビやコンピュータの画面上のカーソルを動かしたり、VR ゲームの敵を倒したりする**などの行為を可能とする。
 
-![NextMind gif](https://neurotechjp.com/img/5-startups-of-interest/next-mind.gif)
+![NextMind](https://neurotechjp.com/img/5-startups-of-interest/next-mind.jpg)
 
-_念じるだけで敵を倒す VR ゲーム_
+_デモ動画: 念じるだけで敵を倒す VR ゲーム_
 
 これを実現するには精度の高い機械学習/AI 技術が必要であり、非侵襲型 BCI 業界ではトップを駆け抜けているといっても過言ではない。
 
@@ -157,9 +157,9 @@ CTRL-labs は、筋肉の電気活動(筋電位 = EMG)を読み取る、リス�
 
 このデバイスをつけ、AR や VR 上で表示されているコンテンツに対して「空中で腕を動かす」「空中でスワイプする」「空中でタイピングをする」などのアクションをすれば、デバイスがその命令を筋電位から受け取り、AR/VR 上に動作を反映させることができる。
 
-[![Facebook reality labs](https://neurotechjp.com/img/5-startups-of-interest/facebook-reality-labs.gif)](https://www.facebook.com/watch/?v=1146186389155473)
+[![Facebook reality labs](https://neurotechjp.com/img/5-startups-of-interest/facebook-reality-labs.jpg)](https://www.facebook.com/watch/?v=1146186389155473)
 
-_空中でタイピング_
+_デモ動画: 空中でタイピング_
 
 今まで XR 上で操作するにあたって、リモコンや携帯などの何かしらの入力装置を必要としていたが、それが CTRL-labs によって不要となる。**空中で行う手の動きで何もかも操作できてしまう未来**が実現されるのは、想像するより近いうちなのかもしれない。
 
