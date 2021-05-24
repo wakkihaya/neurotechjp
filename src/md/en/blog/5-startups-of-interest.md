@@ -66,7 +66,7 @@ With Link, you can control the cursor on your mobile device or enter text just b
 
 ![Neuralink gif](https://neurotechjp.com/img/5-startups-of-interest/neuralink.gif)
 
-_iOS app that lets you move the cursor by thinking_
+_Demo GIF: iOS app that lets you move the cursor by thinking_
 
 Neuralink says that **they will provide the first neural implant that will allow you to control computers and mobile devices anywhere you go.**
 
@@ -99,9 +99,9 @@ What's noteworthy is **the simplicity of the device and their amazing data scien
 
 By reading brain waves in the visual cortex, which are associated with visual information, NextMind's device can do things like **move a cursor on a TV or computer screen or defeat an enemy in a VR game just by thinking about it.**
 
-![NextMind gif](https://neurotechjp.com/img/5-startups-of-interest/next-mind.gif)
+![NextMind](https://neurotechjp.com/img/5-startups-of-interest/next-mind.jpg)
 
-_VR game that lets you defeat enemies by thinking_
+_Demo video: VR game that lets you defeat enemies by thinking_
 
 To achieve this, highly accurate machine learning/AI technology is required, and it is no exaggeration to say that they are leading the way in the non-invasive BCI industry.
 
@@ -157,9 +157,9 @@ What's noteworthy is **the integration of this technology with XR**.
 
 By wearing this device and performing actions such as "moving your arm in the air," "swiping in the air," or "typing in the air" in response to the content displayed in AR or VR, the device will receive the commands from the EMG and reflect the movements in AR/VR.
 
-[![Facebook reality labs](https://neurotechjp.com/img/5-startups-of-interest/facebook-reality-labs.gif)](https://www.facebook.com/watch/?v=1146186389155473)
+[![Facebook reality labs](https://neurotechjp.com/img/5-startups-of-interest/facebook-reality-labs.jpg)](https://www.facebook.com/watch/?v=1146186389155473)
 
-_Air typing_
+_Demo Video: Air typing_
 
 CTRL-labs will eliminate the need for input devices such as remote controls and cell phones to operate the XR, and may soon realize **a future where everything can be controlled by hand movements in the air.**
 
