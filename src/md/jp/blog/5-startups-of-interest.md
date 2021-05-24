@@ -4,6 +4,7 @@ subtitle: "この記事では、我々の生活をNeurotechnologyで革新して
 description: "この記事では、我々の生活をNeurotechnologyで革新してくれるであろう、5つの勢いあるスタートアップを厳選して紹介する。"
 datePublished: "2021/5/24"
 bannerPhoto: "/img/5-startups-of-interest/cover.jpg"
+category: "コラム"
 ---
 
 &nbsp;

@@ -12,6 +12,7 @@ export type PostData = {
   datePublished: number;
   bannerPhoto?: string;
   thumbnailPhoto?: string;
+  category?: string;
 };
 
 type RawFile = { path: string; contents: string };
@@ -30,6 +31,7 @@ export const mdToPost = (file: RawFile): PostData => {
     bannerPhoto: metadata.data.bannerPhoto || null,
     thumbnailPhoto: metadata.data.thumbnailPhoto || null,
     content: metadata.content,
+    category: metadata.data.category || null,
   };
 
   if (!post.title)

@@ -8,7 +8,7 @@ import { PostMeta } from "./PostMeta";
 export const BlogPost: React.FunctionComponent<{ post: PostData }> = ({
   post,
 }) => {
-  const { title, datePublished, bannerPhoto } = post;
+  const { title, datePublished, bannerPhoto, category } = post;
   return (
     <>
       <PostMeta post={post} />
@@ -18,7 +18,10 @@ export const BlogPost: React.FunctionComponent<{ post: PostData }> = ({
           <div className="blog-content--top-pic">
             {post.bannerPhoto && <img src={bannerPhoto} />}
           </div>
-          <div className="blog-content--top-date">{datePublished} </div>
+          <div className="blog-content--top-info">
+            <div className="blog-content--top-info-category">{category}</div>
+            <div className="blog-content--top-info-date">{datePublished} </div>
+          </div>
         </div>
         <div className="blog-content--draft">
           <div className="blog-content--draft-title">{title}</div>
