@@ -53,6 +53,7 @@
   border-radius: 5px;
   cursor: pointer;
   margin: 2rem 1rem;
+  animation: fadeIn 1.5s ease 0s 1 normal;
   &--pic {
     background: white;
     box-shadow: 0 0 2px $gray-color;
@@ -324,5 +325,15 @@
         padding: 0;
       }
     }
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
   }
 }
