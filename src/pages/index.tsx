@@ -28,7 +28,10 @@ const Home = (props: { posts: PostData[] }) => {
         <div className="top--header">
           <Header />
         </div>
-       
+        <div className="top--center-text">
+          Hoge hoge
+          {/* TODO: change text */}
+        </div>
 
       </div>
       <div className="top-blog">

@@ -20,7 +20,15 @@
     top: 0;
     width: 100%;
   }
- 
+  &--center-text{
+    position: absolute;
+    top: 50%;
+    color: white;
+    text-align: center;
+    left: 0;
+    right: 0;
+    font-size: $large-font-size;
+  }
 }
 .top-blog{
   margin-top: -10vh;
