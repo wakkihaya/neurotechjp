@@ -25,8 +25,7 @@ const AboutPage: React.FC = () => {
       <div className="about__bg">
         <Header />
         <div className="about--title">
-          Hoge Hoge
-          {/* TODO:change */}
+          Get a front line in Neurotech
         </div>
       </div>
       <div className="about-container">

@@ -20,7 +20,7 @@ const BlogPage = (props: { posts: PostData[] }) => {
         <div className="blog">
           <div className="blog--title">Blog</div>
           <div className="blog--subtitle">
-            Neurotechnology - 最前線で活躍する方々へのインタビューブログ
+            Neurotech分野の世界最前線で活躍する方々へのインタビューブログ
           </div>
         </div>
       </div>

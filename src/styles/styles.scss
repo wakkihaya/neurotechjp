@@ -22,12 +22,16 @@
   }
   &--center-text {
     position: absolute;
-    top: 50%;
+    top: 45%;
+    left: 15%;
     color: white;
-    text-align: center;
-    left: 0;
-    right: 0;
-    font-size: $large-font-size;
+    text-align: left;
+    font-size: $very-large-font-size;
+    font-family: $armata-font-family;
+    line-height: 1.5;
+     -ms-transform: translate(0%, -150%);
+    -webkit-transform: translate(0%, -15%);
+    transform: translate(0%, -15%);
   }
 }
 .top-blog {
@@ -67,11 +71,13 @@
     font-size: $large-font-size;
     font-weight: bold;
     color: white;
+    font-family: $armata-font-family;
   }
   &--subtitle {
     padding-top: 1em;
     font-size: $medium-font-size;
     color: white;
+        font-family: $armata-font-family;
   }
   &__bg {
     background-color: $blue-color;
@@ -207,6 +213,7 @@
     margin: 1.5em auto;
     font-size: $large-font-size;
     font-weight: bold;
+    font-family: $armata-font-family;
     color: white;
   }
 }
@@ -215,6 +222,7 @@
   min-height: calc(100vh - 80px - 50px); ///Minus header and footer height.
   width: $content-width;
   margin: 5em auto;
+  padding: 0 3em;
   &--index {
     margin: 10em 0;
   }

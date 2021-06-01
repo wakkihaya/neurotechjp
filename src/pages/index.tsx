@@ -29,8 +29,9 @@ const Home = (props: { posts: PostData[] }) => {
           <Header />
         </div>
         <div className="top--center-text">
-          Hoge hoge
-          {/* TODO: change text */}
+          Get <br />
+          a front line <br />
+          in Neurotech
         </div>
       </div>
       <div className="top-blog">
@@ -54,7 +55,6 @@ const BlogItem: React.FC<{ post: PostData }> = (props) => {
     <Link href={`/${post.path}`}>
       <div className="blog-item">
         <div className="blog-item--pic">
-          {" "}
           <img src={post.bannerPhoto} />
         </div>
         <div className="blog-item--container">
