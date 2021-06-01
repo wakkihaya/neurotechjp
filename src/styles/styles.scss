@@ -22,16 +22,17 @@
   }
   &--center-text {
     position: absolute;
-    top: 45%;
+    top: 50%;
     left: 15%;
     color: white;
     text-align: left;
     font-size: $very-large-font-size;
     font-family: $armata-font-family;
     line-height: 1.5;
-     -ms-transform: translate(0%, -150%);
-    -webkit-transform: translate(0%, -15%);
-    transform: translate(0%, -15%);
+    -ms-transform: translate(0%, -50%);
+    -webkit-transform: translate(0%, -50%);
+    transform: translate(0%, -50%);
+    font-weight: bold;
   }
 }
 .top-blog {
@@ -51,6 +52,12 @@
   }
 }
 @media (max-width: $mobile-width) {
+  .top {
+    &--center-text {
+      color: black;
+      font-size: $large-font-size;
+    }
+  }
   .top-blog {
     margin: -20vh auto 0 auto;
     width: 80vw;
@@ -77,7 +84,7 @@
     padding-top: 1em;
     font-size: $medium-font-size;
     color: white;
-        font-family: $armata-font-family;
+    font-family: $armata-font-family;
   }
   &__bg {
     background-color: $blue-color;
@@ -216,6 +223,12 @@
     font-family: $armata-font-family;
     color: white;
   }
+  @media (max-width: $mobile-width) {
+    &--title {
+      width: 80%;
+      font-size: $medium-font-size;
+    }
+  }
 }
 
 .about-container {
@@ -257,6 +270,7 @@
   }
   @media (max-width: $mobile-width) {
     width: 80%;
+    padding: 0;
     &--index {
       margin: 0 0 5em 0;
     }
