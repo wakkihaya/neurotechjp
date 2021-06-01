@@ -15,19 +15,19 @@ const BlogPage = (props: { posts: PostData[] }) => {
           image: "https://neurotechjp.com/ogp.png",
         }}
       />
-      <Header />
-      <div className="blog">
-        <div className="blog--title">Blog</div>
-        <div className="blog--subtitle">
-          Neurotechnology - 最前線で活躍する方々へのインタビューブログ
+      <div className="blog__bg">
+        <Header />
+        <div className="blog">
+          <div className="blog--title">Blog</div>
+          <div className="blog--subtitle">
+            Neurotechnology - 最前線で活躍する方々へのインタビューブログ
+          </div>
         </div>
       </div>
-      <div className="blog-container_bg">
-        <div className="blog-container">
-          {props.posts.map((post, j) => {
-            return <BlogItem post={post} key={j} />;
-          })}
-        </div>
+      <div className="blog-container">
+        {props.posts.map((post, j) => {
+          return <BlogItem post={post} key={j} />;
+        })}
       </div>
       <Footer />
     </>

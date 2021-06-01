@@ -66,11 +66,17 @@
   &--title {
     font-size: $large-font-size;
     font-weight: bold;
+    color: white;
   }
   &--subtitle {
     padding-top: 1em;
     font-size: $medium-font-size;
-    color: $heavy-gray-color;
+    color: white;
+  }
+  &__bg{
+    background-color: $blue-color;
+    padding-bottom: 2rem;
+
   }
   @media (max-width: $mobile-width) {
     width: 80%;
@@ -81,6 +87,7 @@
       font-size: $very-small-font-size;
     }
   }
+
 }
 
 .blog-container_bg {
@@ -105,8 +112,8 @@
   flex-direction: column;
   background-color: white;
   min-height: 400px;
-  box-shadow: 0 0 5px $gray-color;
-  border-radius: 5px;
+  box-shadow: 0 0 10px $gray-color;
+  border-radius: 15px;
   cursor: pointer;
   margin: 2rem 1rem;
   animation: fadeIn 1.5s ease 0s 1 normal;
@@ -115,10 +122,12 @@
     box-shadow: 0 0 2px $gray-color;
     text-align: center;
     height: 50%;
+    border-radius: 15px 15px 0 0;
     img {
       height: 100%;
       width: 100%;
       object-fit: cover;
+      border-radius: 15px 15px 0 0;
     }
   }
   &--container {
