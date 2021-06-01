@@ -19,7 +19,7 @@ const Home = (props: { posts: PostData[] }) => {
         <div className="top--video">
           <video
             src="/video/top-page.mp4"
-            poster="img/top-page-img.jpg"
+            poster="/img/top-page-img.jpg"
             autoPlay
             loop
             muted
