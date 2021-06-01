@@ -23,7 +23,13 @@ const AboutPage: React.FC = () => {
           image: "https://neurotechjp.com/ogp.png",
         }}
       />
-      <Header />
+      <div className="about__bg">
+        <Header />
+        <div className="about--title">
+          Hoge Hoge
+          {/* TODO:change */}
+        </div>
+      </div>
       <div className="about-container">
         <div className="about-container--index">
           <div className="about-container--index-title">

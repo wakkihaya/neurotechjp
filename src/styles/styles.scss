@@ -73,10 +73,9 @@
     font-size: $medium-font-size;
     color: white;
   }
-  &__bg{
+  &__bg {
     background-color: $blue-color;
     padding-bottom: 2rem;
-
   }
   @media (max-width: $mobile-width) {
     width: 80%;
@@ -87,7 +86,6 @@
       font-size: $very-small-font-size;
     }
   }
-
 }
 
 .blog-container_bg {
@@ -199,6 +197,20 @@
 }
 
 /// About page.
+.about {
+  &__bg {
+    background-color: $blue-color;
+    padding-bottom: 2rem;
+  }
+  &--title {
+    width: $content-width;
+    margin: 1.5em auto;
+    font-size: $large-font-size;
+    font-weight: bold;
+    color: white;
+  }
+}
+
 .about-container {
   min-height: calc(100vh - 80px - 50px); ///Minus header and footer height.
   width: $content-width;
