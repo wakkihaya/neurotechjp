@@ -32,7 +32,6 @@ const Home = (props: { posts: PostData[] }) => {
           Hoge hoge
           {/* TODO: change text */}
         </div>
-
       </div>
       <div className="top-blog">
         <div className="blog-container">

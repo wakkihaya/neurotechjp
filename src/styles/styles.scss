@@ -2,10 +2,10 @@
 @import "./variables.scss";
 
 ///About Top page
-.top{
+.top {
   position: relative;
   height: 90vh;
-  &--video{
+  &--video {
     position: absolute;
     top: 0;
     height: 100%;
@@ -15,12 +15,12 @@
       object-fit: cover;
     }
   }
-  &--header{
+  &--header {
     position: absolute;
     top: 0;
     width: 100%;
   }
-  &--center-text{
+  &--center-text {
     position: absolute;
     top: 50%;
     color: white;
@@ -30,23 +30,32 @@
     font-size: $large-font-size;
   }
 }
-.top-blog{
+.top-blog {
   margin-top: -10vh;
   position: relative;
   z-index: 10;
-  &--readmore{
+  &--readmore {
     color: $red-color;
     border-radius: 15px;
     border: solid 2px $red-color;
     font-size: $medium-font-size;
     width: 230px;
     text-align: center;
-    padding: .3em 0;
+    padding: 0.3em 0;
     margin: 0 auto 5rem auto;
     font-family: $armata-font-family;
   }
 }
-
+@media (max-width: $mobile-width) {
+  .top-blog {
+    margin: -20vh auto 0 auto;
+    width: 80vw;
+    &--readmore {
+      font-size: $small-font-size;
+      width: 180px;
+    }
+  }
+}
 
 ///About Blog page
 .blog {

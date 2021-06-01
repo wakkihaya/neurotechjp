@@ -28,6 +28,13 @@ const HamburgerMenu: React.FC<HamburgerMenuProps> = ({ lang }) => {
     >
       <div className="header--index">
         <div
+          className="header--index-home"
+          onClick={() => setIsMenuOpen(!isMenuOpen)}
+        >
+          {lang === "EN" && <Link href="/">Home</Link>}
+          {lang === "JP" && <Link href="/jp">Home</Link>}
+        </div>
+        <div
           className="header--index-blog"
           onClick={() => setIsMenuOpen(!isMenuOpen)}
         >
@@ -96,6 +103,10 @@ const Header: React.FC = () => {
         </div>
         {isDesktop && (
           <div className="header--index">
+            <div className="header--index-home">
+              {lang === "EN" && <Link href="/">Home</Link>}
+              {lang === "JP" && <Link href="/jp">Home</Link>}
+            </div>
             <div className="header--index-blog">
               {lang === "EN" && <Link href="/blog">Blog</Link>}
               {lang === "JP" && <Link href="/jp/blog">Blog</Link>}
