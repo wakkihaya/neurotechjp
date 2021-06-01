@@ -17,6 +17,13 @@
       padding: 0 0.1rem;
     }
   }
+
+  &--brain-wave:not(.bg-none) {
+    background-color: $blue-color;
+  }
+  &:not(.bg-none) {
+    background-color: $blue-color;
+  }
 }
 
 .header {

@@ -23,10 +23,8 @@ const AboutPage: React.FC = () => {
         }}
       />
       <div className="about__bg">
-        <Header />
-        <div className="about--title">
-          Get a front line in Neurotech
-        </div>
+        <Header isTop={false} />
+        <div className="about--title">Get a front line in Neurotech</div>
       </div>
       <div className="about-container">
         <div className="about-container--index">

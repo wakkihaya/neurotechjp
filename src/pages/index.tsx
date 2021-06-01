@@ -26,7 +26,7 @@ const Home = (props: { posts: PostData[] }) => {
           ></video>
         </div>
         <div className="top--header">
-          <Header />
+          <Header isTop = {true}/>
         </div>
         <div className="top--center-text">
           Get <br />

@@ -16,7 +16,7 @@ const BlogPage = (props: { posts: PostData[] }) => {
         }}
       />
       <div className="blog__bg">
-        <Header />
+        <Header isTop={false}/>
         <div className="blog">
           <div className="blog--title">Blog</div>
           <div className="blog--subtitle">
