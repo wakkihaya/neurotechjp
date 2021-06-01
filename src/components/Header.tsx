@@ -97,8 +97,8 @@ const Header: React.FC = () => {
         {isDesktop && (
           <div className="header--index">
             <div className="header--index-blog">
-              {lang === "EN" && <Link href="/">Blog</Link>}
-              {lang === "JP" && <Link href="/jp">Blog</Link>}
+              {lang === "EN" && <Link href="/blog">Blog</Link>}
+              {lang === "JP" && <Link href="/jp/blog">Blog</Link>}
             </div>
             <div className="header--index-about">
               {lang === "EN" && <Link href="/about">About NeurotechJP</Link>}
@@ -136,7 +136,9 @@ const Header: React.FC = () => {
           <div className="header--index_menu-space"></div>
         )}
       </header>
-      <img src="/brain_wave.png" className="header-container--brain-wave" />
+      <div className="header-container--brain-wave">
+        <img src="/brainwave.svg" />
+      </div>
     </div>
   );
 };

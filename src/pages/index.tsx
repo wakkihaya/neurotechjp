@@ -28,6 +28,8 @@ const Home = (props: { posts: PostData[] }) => {
         <div className="top--header">
           <Header />
         </div>
+       
+
       </div>
       <div className="top-blog">
         <div className="blog-container">

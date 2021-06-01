@@ -4,7 +4,7 @@
 ///About Top page
 .top{
   position: relative;
-  height: 80vh;
+  height: 90vh;
   &--video{
     position: absolute;
     top: 0;
@@ -20,9 +20,10 @@
     top: 0;
     width: 100%;
   }
+ 
 }
 .top-blog{
-  margin-top: -20vh;
+  margin-top: -10vh;
   position: relative;
   z-index: 10;
   &--readmore{
