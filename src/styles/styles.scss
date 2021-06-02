@@ -213,11 +213,11 @@
 .about {
   &__bg {
     background-color: $blue-color;
-    padding-bottom: 2rem;
+    padding-bottom: 0.1rem;
   }
   &--title {
     width: $content-width;
-    margin: 1.5em auto;
+    margin: 2em auto;
     font-size: $large-font-size;
     font-weight: bold;
     font-family: $armata-font-family;
@@ -226,6 +226,7 @@
   @media (max-width: $mobile-width) {
     &--title {
       width: 80%;
+      margin: 1.5em auto;
       font-size: $medium-font-size;
     }
   }
@@ -236,6 +237,7 @@
   width: $content-width;
   margin: 5em auto;
   padding: 0 3em;
+  animation: fadeIn 1.5s ease 0s 1 normal;
   &--index {
     margin: 10em 0;
   }
