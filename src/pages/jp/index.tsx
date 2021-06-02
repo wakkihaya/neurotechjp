@@ -21,6 +21,7 @@ const Home = (props: { posts: PostData[] }) => {
             src="/video/top-page.mp4"
             poster="/img/top-page-img.jpg"
             autoPlay
+            playsInline
             loop
             muted
           ></video>
