@@ -146,7 +146,7 @@
   }
   &--container-title {
     font-size: $medium-font-size;
-    font-weight: bold;
+    font-weight: 500;
     padding: 1rem 0;
   }
   &--container-category {
@@ -170,7 +170,7 @@
   &--container-readmore {
     font-size: $small-font-size;
     color: $red-color;
-    font-weight: bold;
+    font-weight: 500;
     padding: 2rem 0;
   }
 
@@ -241,7 +241,7 @@
   }
   &--index-title {
     font-size: $large-font-size;
-    font-weight: bold;
+    font-weight: 500;
   }
 
   &--index-subtitle,
@@ -252,7 +252,7 @@
     color: $heavy-gray-color;
   }
   &--index-subtitle-name {
-    font-weight: bold;
+    font-weight: 500;
   }
   &--index-subtitle-text {
     margin-top: 1em;
@@ -338,7 +338,7 @@
   }
   &--draft-title {
     font-size: $large-font-size;
-    font-weight: bold;
+    font-weight: 500;
   }
   &--draft-text {
     margin: 1rem 8rem 0 8rem;
