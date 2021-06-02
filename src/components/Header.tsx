@@ -28,11 +28,18 @@ const HamburgerMenu: React.FC<HamburgerMenuProps> = ({ lang }) => {
     >
       <div className="header--index">
         <div
+          className="header--index-home"
+          onClick={() => setIsMenuOpen(!isMenuOpen)}
+        >
+          {lang === "EN" && <Link href="/">Home</Link>}
+          {lang === "JP" && <Link href="/jp">Home</Link>}
+        </div>
+        <div
           className="header--index-blog"
           onClick={() => setIsMenuOpen(!isMenuOpen)}
         >
-          {lang === "EN" && <Link href="/">Blog</Link>}
-          {lang === "JP" && <Link href="/jp">Blog</Link>}
+          {lang === "EN" && <Link href="/blog">Blog</Link>}
+          {lang === "JP" && <Link href="/jp/blog">Blog</Link>}
         </div>
         <div
           className="header--index-about"
@@ -46,7 +53,8 @@ const HamburgerMenu: React.FC<HamburgerMenuProps> = ({ lang }) => {
   );
 };
 
-const Header: React.FC = () => {
+const Header: React.FC<{ isTop: boolean }> = (props) => {
+  const isTop = props.isTop ?? false;
   const router = useRouter();
 
   const { isDesktop, isMobile } = useResponsive();
@@ -87,7 +95,7 @@ const Header: React.FC = () => {
   }, []);
 
   return (
-    <div className="header-container">
+    <div className={["header-container", isTop ? "bg-none" : null].join(" ")}>
       {isMobile && <HamburgerMenu lang={lang} />}
       <header className="header">
         <div className="header--logo">
@@ -96,9 +104,13 @@ const Header: React.FC = () => {
         </div>
         {isDesktop && (
           <div className="header--index">
+            <div className="header--index-home">
+              {lang === "EN" && <Link href="/">Home</Link>}
+              {lang === "JP" && <Link href="/jp">Home</Link>}
+            </div>
             <div className="header--index-blog">
-              {lang === "EN" && <Link href="/">Blog</Link>}
-              {lang === "JP" && <Link href="/jp">Blog</Link>}
+              {lang === "EN" && <Link href="/blog">Blog</Link>}
+              {lang === "JP" && <Link href="/jp/blog">Blog</Link>}
             </div>
             <div className="header--index-about">
               {lang === "EN" && <Link href="/about">About NeurotechJP</Link>}
@@ -136,7 +148,14 @@ const Header: React.FC = () => {
           <div className="header--index_menu-space"></div>
         )}
       </header>
-      <img src="/brain_wave.png" className="header-container--brain-wave" />
+      <div
+        className={[
+          "header-container--brain-wave",
+          isTop ? "bg-none" : null,
+        ].join(" ")}
+      >
+        <img src="/brainwave.svg" />
+      </div>
     </div>
   );
 };

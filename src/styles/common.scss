@@ -3,15 +3,26 @@
 .header-container {
   position: relative;
   &--brain-wave {
-    width: 100%;
     position: absolute;
     z-index: 5;
-    bottom: -25%;
+    bottom: -15%;
+    margin: auto;
+    right: 0;
+    padding: 0 3rem;
+    left: 0;
   }
   @media (max-width: $mobile-width) {
     &--brain-wave {
-      bottom: 0%;
+      bottom: 5%;
+      padding: 0 0.1rem;
     }
+  }
+
+  &--brain-wave:not(.bg-none) {
+    background-color: $blue-color;
+  }
+  &:not(.bg-none) {
+    background-color: $blue-color;
   }
 }
 
@@ -25,6 +36,7 @@
   font-family: $armata-font-family;
   position: relative;
   z-index: 10;
+  color: white;
   &--logo {
     font-size: $large-font-size;
     flex: 1;
@@ -36,11 +48,13 @@
     justify-content: center;
   }
   &--index-about:hover,
-  &--index-blog:hover {
+  &--index-blog:hover,
+  &--index-home:hover {
     text-decoration: underline;
   }
 
-  &--index-about {
+  &--index-about,
+  &--index-blog {
     padding-left: 5rem;
   }
 
@@ -67,10 +81,12 @@
       font-size: $medium-font-size;
       margin-top: 10rem;
     }
-    &--index-about {
+    &--index-about,
+    &--index-blog {
       padding: 0;
       margin-top: 3rem;
     }
+    &--index-home,
     &--index-about,
     &--index-blog {
       font-family: $armata-font-family;
@@ -109,9 +125,9 @@
 
 /* Color/shape of burger icon bars */
 .bm-burger-bars {
-  background: $text-base-color !important;
+  background: white !important;
   height: 15% !important;
-  color: $text-base-color !important;
+  color: white !important;
 }
 
 /* Position and sizing of clickable cross button */

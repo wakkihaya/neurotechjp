@@ -22,7 +22,10 @@ const AboutPage: React.FC = () => {
           image: "https://neurotechjp.com/ogp.png",
         }}
       />
-      <Header />
+      <div className="about__bg">
+        <Header isTop={false} />
+        <div className="about--title">Get a front line in Neurotech</div>
+      </div>
       <div className="about-container">
         <div className="about-container--index">
           <div className="about-container--index-title">About NeurotechJP</div>

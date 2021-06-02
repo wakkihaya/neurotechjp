@@ -15,20 +15,29 @@ const Home = (props: { posts: PostData[] }) => {
           image: "https://neurotechjp.com/ogp.png",
         }}
       />
-      <Header />
-      <div className="index">
-        <div className="index--title">Blog</div>
-        <div className="index--subtitle">
-          Neurotechnology - 最前線で活躍する方々へのインタビューブログ
+      <div className="top">
+        <div className="top--gif">
+          <img src="/img/top-page.gif" />
+        </div>
+        <div className="top--header">
+          <Header isTop={true} />
+        </div>
+        <div className="top--center-text">
+          Get <br />
+          a front line <br />
+          in Neurotech
         </div>
       </div>
-      <div className="blog-container_bg">
+      <div className="top-blog">
         <div className="blog-container">
-          {props.posts.map((post, j) => {
-            return <BlogItem post={post} key={j} />;
-          })}
+          <BlogItem post={props.posts[0]} key={0} />
+          <BlogItem post={props.posts[1]} key={1} />
+        </div>
+        <div className="top-blog--readmore">
+          <Link href="/blog">Read more</Link>
         </div>
       </div>
+
       <Footer />
     </>
   );
