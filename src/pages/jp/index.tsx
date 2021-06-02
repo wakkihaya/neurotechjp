@@ -16,15 +16,8 @@ const Home = (props: { posts: PostData[] }) => {
         }}
       />
       <div className="top">
-        <div className="top--video">
-          <video
-            src="/video/top-page.mp4"
-            poster="/img/top-page-img.jpg"
-            autoPlay
-            playsInline
-            loop
-            muted
-          ></video>
+        <div className="top--gif">
+          <img src="/img/top-page.gif" />
         </div>
         <div className="top--header">
           <Header isTop={true} />
