@@ -3,6 +3,7 @@ import Footer from "~/components/Footer";
 import Link from "next/link";
 import { PostData, loadBlogJPPosts } from "~/hooks/loader";
 import { Meta } from "~/components/Meta";
+import Typical from "react-typical";
 
 const Home = (props: { posts: PostData[] }) => {
   return (
@@ -17,15 +18,24 @@ const Home = (props: { posts: PostData[] }) => {
       />
       <div className="top">
         <div className="top--gif">
-          <img src="/img/top-page.gif" />
+          <img src="/img/top-page.jpg" />
         </div>
         <div className="top--header">
           <Header isTop={true} />
         </div>
         <div className="top--center-text">
-          Get <br />
-          a front line <br />
-          in Neurotech
+          <Typical
+            steps={[
+              "Get",
+              1000,
+              "Get \n a front line",
+              500,
+              "Get \n a front line \n in ",
+              200,
+              "Get \n a front line \n in Neurotech.",
+              500,
+            ]}
+          />
         </div>
       </div>
       <div className="top-blog">
