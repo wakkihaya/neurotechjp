@@ -28,7 +28,7 @@ const ResourcesPage: React.FC = () => {
             </div>
             <div className="resources-container--content-text content-text">
               <div className="content-text--title">
-                Basic Theories of Neurotechnology.
+                Basic Theories of Neurotechnology
               </div>
               <div className="content-text--subtitle">
                 This slide is about the basic theories of Neurotechnology. It
