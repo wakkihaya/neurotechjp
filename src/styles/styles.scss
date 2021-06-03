@@ -236,7 +236,7 @@
 .about-container {
   min-height: calc(100vh - 80px - 50px); ///Minus header and footer height.
   width: $content-width;
-  padding: 5em 3em;
+  padding: 0 3em;
   margin: auto;
   animation: fadeIn 1.5s ease 0s 1 normal;
   &--index {
@@ -494,6 +494,8 @@
     &--content{
       flex-direction: column;
       padding: 2rem 0;
+          margin: 3em auto;
+
     }
     &--content-image{
       img{
