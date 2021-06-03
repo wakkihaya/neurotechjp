@@ -236,8 +236,8 @@
 .about-container {
   min-height: calc(100vh - 80px - 50px); ///Minus header and footer height.
   width: $content-width;
-  margin: 5em auto;
   padding: 0 3em;
+  margin: auto;
   animation: fadeIn 1.5s ease 0s 1 normal;
   &--index {
     margin: 10em 0;
@@ -273,7 +273,7 @@
   }
   @media (max-width: $mobile-width) {
     width: 80%;
-    padding: 0;
+    padding: 3em 0;
     &--index {
       margin: 0 0 5em 0;
     }
@@ -426,6 +426,146 @@
       td {
         padding: 0;
       }
+    }
+  }
+}
+
+/// Resources page
+/// About page.
+.resources {
+  &__bg {
+    background-color: $blue-color;
+    padding-bottom: 0.1rem;
+  }
+  &--title {
+    width: $content-width;
+    margin: 2em auto;
+    font-size: $large-font-size;
+    font-weight: bold;
+    font-family: $armata-font-family;
+    color: white;
+  }
+  @media (max-width: $mobile-width) {
+    &--title {
+      width: 80%;
+      margin: 1.5em auto;
+      font-size: $medium-font-size;
+    }
+  }
+}
+
+.resources-container {
+  min-height: calc(100vh - 80px - 50px); ///Minus header and footer height.
+  width: $content-width;
+  margin: 5em auto;
+  padding: 0 3em;
+  animation: fadeIn 1.5s ease 0s 1 normal;
+  &--content {
+    display: flex;
+    flex-direction: row;
+    margin: 6em auto;
+    min-height: 250px;
+    border-radius: 30px;
+    box-shadow: 0 0 10px $gray-color;
+    padding: 3rem 5rem;
+  }
+  &--content-image {
+    flex: 1;
+    text-align: center;
+    img {
+      height: 100%;
+      width: 80%;
+      object-fit: cover;
+    }
+  }
+  &--content-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex: 1;
+  }
+  &--content:hover {
+    cursor: pointer;
+    background-color: $light-gray-color;
+  }
+  @media (max-width: $mobile-width) {
+    width: 90%;
+    padding: 0;
+    &--content{
+      flex-direction: column;
+      padding: 2rem 0;
+          margin: 3em auto;
+
+    }
+    &--content-image{
+      img{
+        width: 90%;
+      }
+    }
+  }
+}
+
+.content-text {
+  &--title {
+    font-size: $medium-font-size;
+    font-weight: 500;
+    padding-left: 3rem;
+  }
+  &--subtitle {
+    font-size: $small-font-size;
+    line-height: 1.5em;
+    color: $heavy-gray-color;
+    padding: 1rem 0 0 3rem;
+  }
+  @media (max-width: $mobile-width) {
+    &--title {
+      font-size: $small-font-size;
+      padding: 1rem 1.5rem;
+    }
+    &--subtitle {
+      font-size: $very-small-font-size;
+      padding: 0 1.5rem;
+    }
+  }
+}
+
+/// Resources-item page
+.resources-item {
+    min-height: calc(100vh - 80px - 50px); ///Minus header and footer height.
+  width: $content-width;
+  padding: 5em 0;
+  margin: auto;
+  &--main {
+    position: relative;
+    overflow: hidden;
+    padding-top: 80%;
+    iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      border: 0;
+    }
+  }
+  &--title {
+    margin-top: 2rem;
+    font-size: $medium-font-size;
+    font-weight: 500;
+  }
+  &--subtitle {
+    font-size: $small-font-size;
+    margin-top: 1rem;
+    line-height: 1.5em;
+    color: $heavy-gray-color;
+  }
+  @media (max-width: $mobile-width) {
+    width: 90%;
+    &--title {
+      font-size: $small-font-size;
+    }
+    &--subtitle {
+      font-size: $very-small-font-size;
     }
   }
 }

@@ -48,6 +48,13 @@ const HamburgerMenu: React.FC<HamburgerMenuProps> = ({ lang }) => {
           {lang === "EN" && <Link href="/about">About NeurotechJP</Link>}
           {lang === "JP" && <Link href="/jp/about">About NeurotechJP</Link>}
         </div>
+        <div
+          className="header--index-resources"
+          onClick={() => setIsMenuOpen(!isMenuOpen)}
+        >
+          {lang === "EN" && <Link href="/resources">Resources</Link>}
+          {lang === "JP" && <Link href="/jp/resources">Resources</Link>}
+        </div>
       </div>
     </Menu>
   );
@@ -115,6 +122,10 @@ const Header: React.FC<{ isTop: boolean }> = (props) => {
             <div className="header--index-about">
               {lang === "EN" && <Link href="/about">About NeurotechJP</Link>}
               {lang === "JP" && <Link href="/jp/about">About NeurotechJP</Link>}
+            </div>
+            <div className="header--index-resources">
+              {lang === "EN" && <Link href="/resources">Resources</Link>}
+              {lang === "JP" && <Link href="/jp/resources">Resources</Link>}
             </div>
           </div>
         )}
