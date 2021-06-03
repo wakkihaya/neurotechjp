@@ -16,12 +16,12 @@ const BlogPage = (props: { posts: PostData[] }) => {
         }}
       />
       <div className="blog__bg">
-        <Header isTop={false}/>
+        <Header isBgTransparent={true} />
         <div className="blog">
           <div className="blog--title">Blog</div>
           <div className="blog--subtitle">
-            Interviews with those who are active in the front
-            lines all over the world in Neurotech.
+            Interviews with those who are active in the front lines all over the
+            world in Neurotech.
           </div>
         </div>
       </div>

@@ -4,7 +4,7 @@ import Footer from "~components/Footer";
 const BasicTheoriesOfNeurotechnology: React.FC = () => {
   return (
     <>
-      <Header isTop={false} />
+      <Header isBgTransparent={false} />
       <div className="resources-item">
         <div className="resources-item--main">
           <iframe

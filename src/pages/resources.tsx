@@ -15,7 +15,7 @@ const ResourcesPage: React.FC = () => {
         }}
       />
       <div className="resources__bg">
-        <Header isTop={false} />
+        <Header isBgTransparent={true} />
         <div className="resources--title">
           Useful resources about Neurotechnology.
         </div>

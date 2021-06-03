@@ -24,7 +24,7 @@ const AboutPage: React.FC = () => {
         }}
       />
       <div className="about__bg">
-        <Header isTop={false} />
+        <Header isBgTransparent={true} />
         <div className="about--title">Get a front line in Neurotech.</div>
       </div>
       <div className="about-container">

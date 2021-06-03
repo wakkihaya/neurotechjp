@@ -12,7 +12,7 @@ export const BlogPost: React.FunctionComponent<{ post: PostData }> = ({
   return (
     <>
       <PostMeta post={post} />
-      <Header isTop={false} />
+      <Header isBgTransparent={false} />
       <div className="blog-content">
         <div className="blog-content--top">
           <div className="blog-content--top-pic">

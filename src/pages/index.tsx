@@ -21,7 +21,7 @@ const Home = (props: { posts: PostData[] }) => {
           <img src="/img/top-page.jpg" />
         </div>
         <div className="top--header">
-          <Header isTop={true} />
+          <Header isBgTransparent={true} />
         </div>
         <div className="top--center-text">
           <Typical

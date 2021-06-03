@@ -60,8 +60,8 @@ const HamburgerMenu: React.FC<HamburgerMenuProps> = ({ lang }) => {
   );
 };
 
-const Header: React.FC<{ isTop: boolean }> = (props) => {
-  const isTop = props.isTop ?? false;
+const Header: React.FC<{ isBgTransparent: boolean }> = (props) => {
+  const isBgTransparent = props.isBgTransparent ?? false;
   const router = useRouter();
 
   const { isDesktop, isMobile } = useResponsive();
@@ -102,7 +102,11 @@ const Header: React.FC<{ isTop: boolean }> = (props) => {
   }, []);
 
   return (
-    <div className={["header-container", isTop ? "bg-none" : null].join(" ")}>
+    <div
+      className={["header-container", isBgTransparent ? "bg-none" : null].join(
+        " "
+      )}
+    >
       {isMobile && <HamburgerMenu lang={lang} />}
       <header className="header">
         <div className="header--logo">
@@ -162,7 +166,7 @@ const Header: React.FC<{ isTop: boolean }> = (props) => {
       <div
         className={[
           "header-container--brain-wave",
-          isTop ? "bg-none" : null,
+          isBgTransparent ? "bg-none" : null,
         ].join(" ")}
       >
         <img src="/brainwave.svg" />

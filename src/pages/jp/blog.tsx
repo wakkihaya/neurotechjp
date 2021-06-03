@@ -16,7 +16,7 @@ const BlogPage = (props: { posts: PostData[] }) => {
         }}
       />
       <div className="blog__bg">
-        <Header isTop={false} />
+        <Header isBgTransparent={true} />
         <div className="blog">
           <div className="blog--title">Blog</div>
           <div className="blog--subtitle">
