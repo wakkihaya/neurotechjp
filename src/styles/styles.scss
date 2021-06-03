@@ -520,11 +520,11 @@
   @media (max-width: $mobile-width) {
     &--title {
       font-size: $small-font-size;
-      padding: 1rem;
+      padding: 1rem 1.5rem;
     }
     &--subtitle {
       font-size: $very-small-font-size;
-      padding: 0 1rem;
+      padding: 0 1.5rem;
     }
   }
 }
