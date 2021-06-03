@@ -21,7 +21,7 @@ const ResourcesPage: React.FC = () => {
         </div>
       </div>
       <div className="resources-container">
-        <Link href="/resources/basic-theories-of-neurotechnology">
+        <Link href="/jp/resources/basic-theories-of-neurotechnology">
           <div className="resources-container--content">
             <div className="resources-container--content-image">
               <img src="/img/resources/slide-basic-theory-neurotech.jpg" />
