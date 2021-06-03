@@ -430,6 +430,99 @@
   }
 }
 
+/// Resources page
+/// About page.
+.resources {
+  &__bg {
+    background-color: $blue-color;
+    padding-bottom: 0.1rem;
+  }
+  &--title {
+    width: $content-width;
+    margin: 2em auto;
+    font-size: $large-font-size;
+    font-weight: bold;
+    font-family: $armata-font-family;
+    color: white;
+  }
+  @media (max-width: $mobile-width) {
+    &--title {
+      width: 80%;
+      margin: 1.5em auto;
+      font-size: $medium-font-size;
+    }
+  }
+}
+
+.resources-container {
+  min-height: calc(100vh - 80px - 50px); ///Minus header and footer height.
+  width: $content-width;
+  margin: 5em auto;
+  padding: 0 3em;
+  animation: fadeIn 1.5s ease 0s 1 normal;
+  &--content {
+    display: flex;
+    flex-direction: row;
+    margin: 6em auto;
+    min-height: 250px;
+    border-radius: 30px;
+    box-shadow: 0 0 10px $gray-color;
+    padding: 3rem 5rem;
+  }
+  &--content-image {
+    flex: 1;
+    text-align: center;
+    img {
+      height: 100%;
+      width: 80%;
+      object-fit: cover;
+    }
+  }
+  &--content-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex: 1;
+  }
+}
+
+.content-text {
+  &--title {
+    font-size: $medium-font-size;
+    font-weight: 500;
+    padding-left: 3rem;
+  }
+  &--subtitle {
+    font-size: $small-font-size;
+    line-height: 1.5em;
+    color: $heavy-gray-color;
+    padding: 1rem 0 0 3rem;
+  }
+}
+
+/// Resources-item page
+.resources-item {
+  width: $content-width;
+  margin: 5em auto;
+  &--main {
+    iframe {
+      width: 100%;
+      height: $content-width * 0.815; ///For slide, height: width = 1: 0.815.
+    }
+  }
+  &--title {
+    margin-top: 2rem;
+    font-size: $medium-font-size;
+    font-weight: 500;
+  }
+  &--subtitle {
+    font-size: $small-font-size;
+    margin-top: 1rem;
+    line-height: 1.5em;
+    color: $heavy-gray-color;
+  }
+}
+
 @keyframes fadeIn {
   0% {
     opacity: 0;
