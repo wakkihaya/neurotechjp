@@ -34,7 +34,7 @@
     -webkit-transform: translate(0%, -50%);
     transform: translate(0%, -50%);
     font-weight: bold;
-    p{
+    p {
       white-space: pre-line;
     }
   }
@@ -91,7 +91,11 @@
     font-family: $armata-font-family;
   }
   &__bg {
-    background-image: linear-gradient(to bottom right, $blue-color, $deep-blue-color);
+    background-image: linear-gradient(
+      to bottom right,
+      $blue-color,
+      $deep-blue-color
+    );
     padding-bottom: 2rem;
   }
   @media (max-width: $mobile-width) {
@@ -216,7 +220,11 @@
 /// About page.
 .about {
   &__bg {
-    background-image: linear-gradient(to bottom right, $blue-color, $deep-blue-color);
+    background-image: linear-gradient(
+      to bottom right,
+      $blue-color,
+      $deep-blue-color
+    );
     padding-bottom: 0.1rem;
   }
   &--title {
@@ -437,7 +445,11 @@
 /// About page.
 .resources {
   &__bg {
-    background-image: linear-gradient(to bottom right, $blue-color, $deep-blue-color);
+    background-image: linear-gradient(
+      to bottom right,
+      $blue-color,
+      $deep-blue-color
+    );
     padding-bottom: 0.1rem;
   }
   &--title {
@@ -494,14 +506,13 @@
   @media (max-width: $mobile-width) {
     width: 90%;
     padding: 0;
-    &--content{
+    &--content {
       flex-direction: column;
       padding: 2rem 0;
-          margin: 3em auto;
-
+      margin: 3em auto;
     }
-    &--content-image{
-      img{
+    &--content-image {
+      img {
         width: 90%;
       }
     }
@@ -534,7 +545,7 @@
 
 /// Resources-item page
 .resources-item {
-    min-height: calc(100vh - 80px - 50px); ///Minus header and footer height.
+  min-height: calc(100vh - 80px - 50px); ///Minus header and footer height.
   width: $content-width;
   padding: 5em 0;
   margin: auto;

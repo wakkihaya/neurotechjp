@@ -57,7 +57,6 @@ Dr. Nakanishi said that his team used a technology called SSVEP, and by solving 
 ![SSVEP](https://sccn.ucsd.edu/~masaki/img/bci.gif)
 _Typing letters using only brain waves with SSVEP_
 
-
 &nbsp;
 
 ### SSVEP to be applied in medical and AR/VR industries
@@ -72,7 +71,7 @@ Dr. Nakanishi said, "First of all, one area where it is already being applied is
 **People with suspected visual field defects can use this SSVEP technology to perform EEG tests to detect which parts of the (brain) function responsible for eyesight is the problem.**"
 
 ![Medical purpose with SSVEP](https://diopsys.com/wp-content/uploads/2017/08/VEP-Patient-Taking-Test.jpg)
-*Vision testing with SSVEP @Shree Ramkrishna Netralaya*
+_Vision testing with SSVEP @Shree Ramkrishna Netralaya_
 
 In fact, many large hospital facilities are already conducting EEG tests using this SSVEP technology.
 
@@ -83,14 +82,12 @@ Also, Dr. Nakanishi said, "**AR/VR** is the field that will accelerate in the fu
 
 For example, if multiple buttons are displayed on Google Glass, you can select any button by going through the steps of 'seeing → measuring brain waves'. By linking smart home appliances with Google Glass, it will be possible to turn on/off the air conditioner automatically just by looking at it."
 
-
 ![AR with SSVEP](https://neurotechjp.com/img/mr-nakanishi-ucsd/hololens-bci.jpg)
 _Image: Control Hololens with SSVEP-based BCI_
 
 &nbsp;
 
 Because SSVEP can accurately detect what is gazing, unlike eye-tracking and other technologies that have been used in AR glasses/VR, **it can respond to small targets and can distinguish between gazing at the actual outside world and gazing at the digital world on the glasses.**
-
 
 In addition, Dr. Nakanishi mentioned that, although brain wave measurement devices cause unnaturalness when worn on a daily basis, **embedding electrodes that can measure brain waves in AR/VR head-mounted devices will make them more compatible in terms of convenience and practicality.**
 

@@ -1,8 +1,11 @@
-import Header from "~/components/Header";
-import Footer from "~/components/Footer";
 import Link from "next/link";
-import { PostData, loadBlogENPosts } from "~/hooks/loader";
+
+import Footer from "~/components/Footer";
+import Header from "~/components/Header";
+
 import { Meta } from "~/components/Meta";
+import type { PostData } from "~/hooks/loader";
+import { loadBlogENPosts } from "~/hooks/loader";
 
 const BlogPage = (props: { posts: PostData[] }) => {
   return (
@@ -27,7 +30,7 @@ const BlogPage = (props: { posts: PostData[] }) => {
       </div>
       <div className="blog-container">
         {props.posts.map((post, j) => {
-          return <BlogItem post={post} key={j} />;
+          return <BlogItem key={j} post={post} />;
         })}
       </div>
       <Footer />
@@ -35,7 +38,7 @@ const BlogPage = (props: { posts: PostData[] }) => {
   );
 };
 
-const BlogItem: React.FC<{ post: PostData }> = (props) => {
+const BlogItem: React.FC<{ post: PostData }> = props => {
   const post = props.post;
   return (
     <Link href={`/${post.path}`}>
