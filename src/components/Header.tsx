@@ -2,6 +2,7 @@ import Link from "next/link";
 import { useRouter } from "next/router";
 import { useState, useEffect } from "react";
 import { slide as Menu, handleOnClose } from "react-burger-menu";
+
 import useResponsive from "~/hooks/use-responsive";
 
 type Lang = "EN" | "JP";
@@ -16,7 +17,7 @@ const HamburgerMenu: React.FC<HamburgerMenuProps> = ({ lang }) => {
 
   // This keeps your state in sync with the opening/closing of the menu
   // via the default means, e.g. clicking the X, pressing the ESC key etc.
-  const handleStateChange = (state) => {
+  const handleStateChange = state => {
     setIsMenuOpen(state.isOpen);
   };
 
@@ -24,7 +25,7 @@ const HamburgerMenu: React.FC<HamburgerMenuProps> = ({ lang }) => {
     <Menu
       right
       isOpen={isMenuOpen}
-      onStateChange={(state) => handleStateChange(state)}
+      onStateChange={state => handleStateChange(state)}
     >
       <div className="header--index">
         <div
@@ -60,7 +61,7 @@ const HamburgerMenu: React.FC<HamburgerMenuProps> = ({ lang }) => {
   );
 };
 
-const Header: React.FC<{ isBgTransparent: boolean }> = (props) => {
+const Header: React.FC<{ isBgTransparent: boolean }> = props => {
   const isBgTransparent = props.isBgTransparent ?? false;
   const router = useRouter();
 
@@ -104,7 +105,7 @@ const Header: React.FC<{ isBgTransparent: boolean }> = (props) => {
   return (
     <div
       className={["header-container", isBgTransparent ? "bg-none" : null].join(
-        " "
+        " ",
       )}
     >
       {isMobile && <HamburgerMenu lang={lang} />}
@@ -159,9 +160,7 @@ const Header: React.FC<{ isBgTransparent: boolean }> = (props) => {
             JP
           </div>
         </div>
-        {isMobile && !isDesktop && (
-          <div className="header--index_menu-space"></div>
-        )}
+        {isMobile && !isDesktop && <div className="header--index_menu-space" />}
       </header>
       <div
         className={[

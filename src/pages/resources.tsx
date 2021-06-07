@@ -1,7 +1,8 @@
-import { Meta } from "~components/Meta";
-import Header from "~components/Header";
-import Footer from "~components/Footer";
 import Link from "next/link";
+
+import Footer from "~components/Footer";
+import Header from "~components/Header";
+import { Meta } from "~components/Meta";
 
 const ResourcesPage: React.FC = () => {
   return (

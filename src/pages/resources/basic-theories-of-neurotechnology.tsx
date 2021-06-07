@@ -1,5 +1,5 @@
-import Header from "~components/Header";
 import Footer from "~components/Footer";
+import Header from "~components/Header";
 import { Meta } from "~components/Meta";
 
 const BasicTheoriesOfNeurotechnology: React.FC = () => {
@@ -22,8 +22,8 @@ const BasicTheoriesOfNeurotechnology: React.FC = () => {
       <div className="resources-item">
         <div className="resources-item--main">
           <iframe
-            src="https://www.slideshare.net/slideshow/embed_code/key/ohvZ4HKmUH5cGa"
             allowFullScreen
+            src="https://www.slideshare.net/slideshow/embed_code/key/ohvZ4HKmUH5cGa"
           />
         </div>
         <div className="resources-item--title">

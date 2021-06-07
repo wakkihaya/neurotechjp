@@ -1,5 +1,6 @@
-import React from "react";
 import glob from "glob";
+import React from "react";
+
 import { BlogPost } from "~/components/BlogPost";
 import { loadJPPost } from "~/hooks/loader";
 
@@ -16,7 +17,7 @@ export const getStaticPaths = () => {
     return popped.slice(0, -3).trim();
   });
 
-  const paths = slugs.map((slug) => `/jp/blog/${slug}`);
+  const paths = slugs.map(slug => `/jp/blog/${slug}`);
   return { paths, fallback: false };
 };
 

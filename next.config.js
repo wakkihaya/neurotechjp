@@ -1,4 +1,5 @@
-require('dotenv').config();
+require("dotenv").config();
+
 module.exports = {
   experimental: {
     optimizeFonts: true,
@@ -7,11 +8,11 @@ module.exports = {
   webpack: function (config) {
     config.module.rules.push({
       test: /\.md$/,
-      use: 'raw-loader',
+      use: "raw-loader",
     });
     config.resolve.alias = {
       ...config.resolve.alias,
-      '~': __dirname,
+      "~": __dirname,
     };
     return config;
   },

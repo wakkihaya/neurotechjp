@@ -2,6 +2,7 @@ import "~/styles/globals.scss";
 import "~/styles/styles.scss";
 import { useRouter } from "next/router";
 import { useEffect } from "react";
+
 import * as gtag from "~/lib/gtag";
 
 function MyApp({ Component, pageProps }) {

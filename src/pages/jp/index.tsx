@@ -1,9 +1,13 @@
-import Header from "~/components/Header";
-import Footer from "~/components/Footer";
 import Link from "next/link";
-import { PostData, loadBlogJPPosts } from "~/hooks/loader";
-import { Meta } from "~/components/Meta";
+
 import Typical from "react-typical";
+
+import Footer from "~/components/Footer";
+import Header from "~/components/Header";
+
+import { Meta } from "~/components/Meta";
+import type { PostData } from "~/hooks/loader";
+import { loadBlogJPPosts } from "~/hooks/loader";
 
 const Home = (props: { posts: PostData[] }) => {
   return (
@@ -40,8 +44,8 @@ const Home = (props: { posts: PostData[] }) => {
       </div>
       <div className="top-blog">
         <div className="blog-container">
-          <BlogItem post={props.posts[0]} key={0} />
-          <BlogItem post={props.posts[1]} key={1} />
+          <BlogItem key={0} post={props.posts[0]} />
+          <BlogItem key={1} post={props.posts[1]} />
         </div>
         <div className="top-blog--readmore">
           <Link href="/blog">Read more</Link>
@@ -53,7 +57,7 @@ const Home = (props: { posts: PostData[] }) => {
   );
 };
 
-const BlogItem: React.FC<{ post: PostData }> = (props) => {
+const BlogItem: React.FC<{ post: PostData }> = props => {
   const post = props.post;
   return (
     <Link href={`/${post.path}`}>

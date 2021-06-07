@@ -1,9 +1,13 @@
 import React from "react";
-import Header from "~/components/Header";
-import Footer from "~/components/Footer";
+
 import { Markdown } from "./Markdown";
-import { PostData } from "~/hooks/loader";
+
 import { PostMeta } from "./PostMeta";
+
+import Footer from "~/components/Footer";
+import Header from "~/components/Header";
+
+import type { PostData } from "~/hooks/loader";
 
 export const BlogPost: React.FunctionComponent<{ post: PostData }> = ({
   post,

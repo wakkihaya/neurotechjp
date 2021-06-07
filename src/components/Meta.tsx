@@ -7,7 +7,7 @@ export const Meta: React.FC<{
     desc?: string;
     image?: string;
   };
-}> = (props) => {
+}> = props => {
   const FB_APP_ID = process.env.FB_APP_ID || "";
   const { meta } = props;
   return (
