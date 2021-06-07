@@ -70,7 +70,7 @@ Canning explained that this case can be used not only in invasive devices that a
 
 &nbsp;
 
-Also, Canning replied that **the killer use case of the future is in terms of controlling a computer is for the technology to mature for users to manipulate as intuitively as possible.**
+Also, Canning replied that **the killer use case of the future is manipulating a computer as intuitively as possible.**
 
 > "For example, when you first start using Adobe Photoshop, you click on one button and you get 10 buttons, and it takes you a while to make a choice. However, if a brain-computer interface could know enough about what you want to do, it can cut back the unnecessary 90% of options and you see just 10% of options. I think it would be a killer app. And that type of application is possible in non-invasive BCIs. "
 
@@ -105,7 +105,7 @@ When I asked Canning about his future plans, he said,
 
 &nbsp;
 
-Also, as for the future of BCI Guys, which provides a lot of online technical material, he quoted as the following.
+Also, as for the future of BCI Guys, which provides a lot of online technical material, he told me as the following.
 
 > "At first, we're going to be offering online classes of some **technical walkthrough**, such as demos using the [Arduino](https://www.arduino.cc/). We will teach you how to code a little bit. Secondly, what we're looking at is **sponsored content** such as project videos using a different device from a different company each time."
 
