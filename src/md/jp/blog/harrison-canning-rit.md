@@ -81,6 +81,8 @@ Harission は幼い頃からロボットエンジニアリングを学んでい�
 
 > 「人々は、この技術を受け入れることに積極的すぎて、それにまつわる懸念を考えないことがある。[Neuralink](http://neuralink.com/)が以前臨床実験を発表した際、多くの人が、病気でもないのに"脳で音楽を操りたい"などと興味本位で事前登録を望んでいた。私たちはもっと脳にデバイスを埋め込むことに慎重になった方が良い。」
 
+&nbsp;
+
 ![Neuralink デバイス](https://img-cdn.tnwcdn.com/image?fit=1280%2C720&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2019%2F11%2Fneuralink.jpg&signature=166a1426cb99b54b052eeee203306399)
 
 *Neuralink デバイス*

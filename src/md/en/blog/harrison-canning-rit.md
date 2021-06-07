@@ -83,6 +83,8 @@ While the technology is like something out of science fiction, Canning said that
 He explained that 
 > "I think people are over willing to accept the technology sometimes without thinking about concerns around the technology. When [Neuralink](http://neuralink.com/) previously announced the clinical trial, many people wanted to sign up for it although there isn't even an illness underneath. For instance, I want to listen to music with my mind. So, we need to be careful with this stuff."
 
+&nbsp;
+
 ![Neuralink Device](https://img-cdn.tnwcdn.com/image?fit=1280%2C720&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2019%2F11%2Fneuralink.jpg&signature=166a1426cb99b54b052eeee203306399)
 
 *Neuralink Device*
