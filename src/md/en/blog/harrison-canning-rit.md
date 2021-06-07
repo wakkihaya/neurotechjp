@@ -58,7 +58,7 @@ I asked Canning about how the technology will be used in our lives, dividing the
 
 &nbsp;
 
-Canning replied that t**he current killer use case is Neuromodulation.**
+Canning replied that **the current killer use case is Neuromodulation.**
 
 &nbsp;
 
@@ -71,7 +71,7 @@ Canning explained that this case can be used not only in invasive devices that a
 
 &nbsp;
 
-Also, Canning replied that **the killer use case of the future is the ability to control a computer as intuitively as possible.**
+Also, Canning replied that **the killer use case of the future is in terms of controlling a computer as intuitively as possible.**
 
 > "For example, when you first start using Adobe Photoshop, you click on one button and you get 10 buttons, and it takes you a while to make a choice. However, if a brain-computer interface could know enough about what you want to do, it can cut back the unnecessary 90% of options and you see just 10% of options. I think it would be a killer app. And that type of application is possible in non-invasive BCIs. "
 
@@ -116,4 +116,4 @@ Also, as for the future of BCI Guys, which provides a lot of online content, he 
 
 This time, I had the pleasure of interviewing Harrison Canning, who is very active at a young age.
 
-I found the contents of The BCI Guys to be very helpful in studying this fied. so I would highly recommend watching their contents to anyone interested in this field.
+I found the contents of The BCI Guys to be very helpful in studying this field, so I would highly recommend watching their contents to anyone interested in this field.
