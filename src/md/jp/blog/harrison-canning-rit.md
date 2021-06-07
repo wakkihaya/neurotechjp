@@ -6,7 +6,7 @@ subtitle: "今回は、RITでNeurotechnologyを専攻する学生をする傍ら
 description: "今回は、RITでNeurotechnologyを専攻する学生をする傍ら、ニューロテクノロジー領域において、90人規模の学生研究チームを創立・牽引するに加え、独自コンテンツを提供するメディア会社を創立するなど、ニューロテクノロジーとビジネスを掛け合わせて活躍するHarrison Canningにインタビューをさせていただいた。"
 
 datePublished: "2021/6/6"
-bannerPhoto: "/ogp.png"
+bannerPhoto: "/img/harrison-canning-rit/harrison-top.jpg"
 category: "インタビュー"
 ---
 
@@ -56,6 +56,11 @@ Harission は幼い頃からロボットエンジニアリングを学んでい�
 
 **現状のキラーユースケースは、Neuromodulation だ**という。
 
+&nbsp;
+
+![Neuromodulation](https://www.researchgate.net/profile/Erika-Ross/publication/319423397/figure/fig1/AS:546704563937280@1507355933540/Neuromodulation-devices-for-the-treatment-of-neurologic-disorders-Schematic-summarizing.png)
+*Neuromodulation*
+
 [Neuromodulation](https://en.wikipedia.org/wiki/Neuromodulation)とは、特定の神経系を直接刺激して、その神経活動を変更させる技術である。これを行うことによって、パーキンソン病を改善できたり、聴覚や視覚に障害を持つ人を改善できたりする。
 
 脳に埋め込むタイプの侵襲型(Invasive)デバイスだけでなく、埋め込む必要のない非侵襲型(Non-Invasive)デバイスでも、絶大な効果を見込めるのが、キラーユースケースになりうる点であると Harrison は説明する。
@@ -73,6 +78,10 @@ Harission は幼い頃からロボットエンジニアリングを学んでい�
 まるでサイエンスフィクションのような技術である一方、**その技術が健常者にも定着していくには、彼らがこの技術を使い始めるタイミングを見極めるのが必要**だと Harrison は言う。
 
 「人々は、この技術を受け入れることに積極的すぎて、それにまつわる懸念を考えないことがある。[Neuralink](http://neuralink.com/)が以前臨床実験を発表した際、多くの人が病気でもないのに、"脳で音楽を操りたい"などとサインアップをしたがった。私たちはもっと脳にデバイスを埋め込むことに慎重になった方が良い。」
+
+![Neuralink デバイス](https://img-cdn.tnwcdn.com/image?fit=1280%2C720&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2019%2F11%2Fneuralink.jpg&signature=166a1426cb99b54b052eeee203306399)
+
+*Neuralink デバイス*
 
 &nbsp;
 

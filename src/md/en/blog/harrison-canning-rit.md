@@ -4,11 +4,11 @@ title: "Student entrepreneur in neurotechnology | Harrison Canning"
 subtitle: "For this interview, I had the opportunity to talk with Harrison Canning, a student at RIT majoring in neurotechnology, a founder and leader of a 90-member student research team in neurotechnology, and a founder of a media company that provides original contents on neurotechnology."
 description: "For this interview, I had the opportunity to talk with Harrison Canning, a student at RIT majoring in neurotechnology, a founder and leader of a 90-member student research team in neurotechnology, and a founder of a media company that provides original contents on neurotechnology."
 datePublished: "2021/6/6"
-bannerPhoto: "/ogp.png"
+bannerPhoto: "/img/harrison-canning-rit/harrison-top.jpg"
 category: "Interview"
 ---
 
-//TODO: Add images.
+//TODO: change order of articles.
 
 &nbsp;
 
@@ -60,6 +60,11 @@ I asked Canning about how the technology will be used in our lives, dividing the
 
 Canning replied that t**he current killer use case is Neuromodulation.**
 
+&nbsp;
+
+![Neuromodulation](https://www.researchgate.net/profile/Erika-Ross/publication/319423397/figure/fig1/AS:546704563937280@1507355933540/Neuromodulation-devices-for-the-treatment-of-neurologic-disorders-Schematic-summarizing.png)
+*Neuromodulation*
+
 [Neuromodulation](https://en.wikipedia.org/wiki/Neuromodulation) is a technology that directly stimulates a specific nervous system to change its neural activity. This can improve Parkinson's disease or help people with hearing or vision impairments.
 
 Canning explained that this case can be used not only in invasive devices that are implanted in the brain, but also in non-invasive devices that do not need to be implanted.
@@ -77,6 +82,10 @@ Also, Canning replied that **the killer use case of the future is the ability to
 While the technology is like something out of science fiction, Canning said that **in order for the technology to reach healthy people, it is necessary to determine where it's good enough for people to start using it.**
 
 He explained that "I think people are over willing to accept the technology sometimes without thinking about concerns around the technology. When [Neuralink](http://neuralink.com/) previously announced the clinical trial, many people wanted to sign up for it although there isn't even an illness underneath. For instance, I want to listen to music with my mind. So, we need to be careful with this stuff."
+
+![Neuralink Device](https://img-cdn.tnwcdn.com/image?fit=1280%2C720&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2019%2F11%2Fneuralink.jpg&signature=166a1426cb99b54b052eeee203306399)
+
+*Neuralink Device*
 
 &nbsp;
 
