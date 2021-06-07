@@ -38,11 +38,13 @@ Canning said that in both cases, **his motivation is to remove the barrier to en
 
 Canning works with neurotechnology and business, and he told me that **his work was inspired by an accident when he was 13 years old.**
 
-"I got a bad concussion in an accident when I was 13, and lost abilities to speak, reading, and writing well for a couple of years after that. Someday, I was thinking of a robotic exosuit that I had wanted to design. And I was thinking like, how can you control it? Because I wanted this for people with ALS, people that can't move their bodies normally. So if you can't move your bodies, then how can you control it? And so I was thinking about the brain a lot, probably because of the concussion stuff. And so I was wondering if maybe you can control the exosuit with your mind. And so I got really excited about that. And my mind just started to wander and think about where this could go in the future."
+> "I got a bad concussion in an accident when I was 13, and lost abilities to speak, reading, and writing well for a couple of years after that. Someday, I was thinking of a robotic exosuit that I had wanted to design. And I was thinking like, how can you control it? Because I wanted this for people with ALS, people that can't move their bodies normally. So if you can't move your bodies, then how can you control it? And so I was thinking about the brain a lot, probably because of the concussion stuff. And so I was wondering if maybe you can control the exosuit with your mind. And so I got really excited about that. And my mind just started to wander and think about where this could go in the future."
 
 &nbsp;
 
-Canning had studied robotics engineering from an early age. However, after an accident that left him unable to do the math and forced him to abandon his engineering career, he thought that "**I can't be an engineer, but I want to be a business leader to really push this vision and try to develop the technology.**," and ever since, he has been business-minded.
+Canning had studied robotics engineering from an early age. However, after an accident that left him unable to do the math and forced him to abandon his engineering career, he thought that 
+> "**I can't be an engineer, but I want to be a business leader to really push this vision and try to develop the technology.**."
+ and ever since, he has been business-minded.
 
 Afterward, when he was in high school, he studied business and computer science online and started his own e-commerce and digital marketing company.
 
@@ -71,15 +73,16 @@ Canning explained that this case can be used not only in invasive devices that a
 
 Also, Canning replied that **the killer use case of the future is the ability to control a computer as intuitively as possible.**
 
-"For example, when you first start using Adobe Photoshop, you click on one button and you get 10 buttons, and it takes you a while to make a choice. However, if a brain-computer interface could know enough about what you want to do, it can cut back the unnecessary 90% of options and you see just 10% of options. I think it would be a killer app. And that type of application is possible in non-invasive BCIs. "
+> "For example, when you first start using Adobe Photoshop, you click on one button and you get 10 buttons, and it takes you a while to make a choice. However, if a brain-computer interface could know enough about what you want to do, it can cut back the unnecessary 90% of options and you see just 10% of options. I think it would be a killer app. And that type of application is possible in non-invasive BCIs. "
 
 &nbsp;
 
 ### Timing and solving technical issues are critical to the establishment of neurotechnology.
 
-While the technology is like something out of science fiction, Canning said that **in order for the technology to reach healthy people, it is necessary to determine where it's good enough for people to start using it.**
+While the technology is like something out of science fiction, Canning said that **in order for the technology to reach healthy people, it is necessary to determine where it's good enough for them to start using it.**
 
-He explained that "I think people are over willing to accept the technology sometimes without thinking about concerns around the technology. When [Neuralink](http://neuralink.com/) previously announced the clinical trial, many people wanted to sign up for it although there isn't even an illness underneath. For instance, I want to listen to music with my mind. So, we need to be careful with this stuff."
+He explained that 
+> "I think people are over willing to accept the technology sometimes without thinking about concerns around the technology. When [Neuralink](http://neuralink.com/) previously announced the clinical trial, many people wanted to sign up for it although there isn't even an illness underneath. For instance, I want to listen to music with my mind. So, we need to be careful with this stuff."
 
 ![Neuralink Device](https://img-cdn.tnwcdn.com/image?fit=1280%2C720&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2019%2F11%2Fneuralink.jpg&signature=166a1426cb99b54b052eeee203306399)
 
@@ -91,21 +94,21 @@ For this technology to become a technology that will make a significant differen
 
 When I asked him what the biggest challenge is at present, Canning told me that **the challenge is how to acquire and process data with the least amount of noise.**
 
-He also said that "Especially with EEG, which is recording on the scalp, we need to try to cancel out the noise. We also need to keep training the algorithms to read what the brain is doing from the EEG."
+He also said that 
+> "Especially with EEG, which is recording on the scalp, we need to try to cancel out the noise. We also need to keep training the algorithms to read what the brain is doing from the EEG."
 
 &nbsp;
 
 ### Future as a business leader
 
-When I asked Canning about his future plans, he said, "**I want to be a business leader** who can at least talk to people of different disciplines... I believe that **the brain is the last frontier of user experience,** so I'm interested in doing the business stuff around user experience, customer relations."
+When I asked Canning about his future plans, he said,
+> "**I want to be a business leader** who can at least talk to people of different disciplines... I believe that **the brain is the last frontier of user experience,** so I'm interested in doing the business stuff around user experience, customer relations."
 
 &nbsp;
 
 Also, as for the future of BCI Guys, which provides a lot of online content, he told me
 
-"At first, we're going to be offering online classes of some **technical walkthrough**, such as demos using the [Arduino](https://www.arduino.cc/). We will teach you how to code a little bit.
-
-Secondly, what we're looking at is **sponsored content** such as project videos using a different device from a different company each time."
+> "At first, we're going to be offering online classes of some **technical walkthrough**, such as demos using the [Arduino](https://www.arduino.cc/). We will teach you how to code a little bit. Secondly, what we're looking at is **sponsored content** such as project videos using a different device from a different company each time."
 
 &nbsp;
 
@@ -113,4 +116,4 @@ Secondly, what we're looking at is **sponsored content** such as project videos 
 
 This time, I had the pleasure of interviewing Harrison Canning, who is very active at a young age.
 
-I learned about this field by watching the contents of The BCI Guys, and I highly recommend watching their contents to anyone who is interested in this field.
+I found the contents of The BCI Guys to be very helpful in studying this fied. so I would highly recommend watching their contents to anyone interested in this field.
