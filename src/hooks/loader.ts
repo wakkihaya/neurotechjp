@@ -49,7 +49,7 @@ export const mdToPost = (file: RawFile): PostData => {
 ///For En blog
 export const loadMarkdownENFile = async (pathProps: string): Promise<RawFile> => {
   const mdFile = await import(`~/md/${pathProps}`);
-          /// .com/en/blog/sample -> .com/blog/sample
+  /// .com/en/blog/sample -> .com/blog/sample
   const path = pathProps.replace('en/', '')
   return { path, contents: mdFile.default };
 };
@@ -73,7 +73,13 @@ export const loadENPost = async (path: string): Promise<PostData> => {
 export const loadBlogENPosts = async (): Promise<PostData[]> => {
   return await (await loadMarkdownENFiles(`blog/*.md`))
     .map(mdToPost)
-    .sort((a, b) => (b.datePublished || 0) - (a.datePublished || 0));
+    .sort((a, b) => {
+      const aDate = new Date(a.datePublished)
+      const aDateTime = aDate.getTime()
+      const bDate = new Date(b.datePublished)
+      const bDateTime = bDate.getTime()
+      return bDateTime - aDateTime
+    });
 };
 
 
@@ -102,5 +108,11 @@ export const loadJPPost = async (path: string): Promise<PostData> => {
 export const loadBlogJPPosts = async (): Promise<PostData[]> => {
   return await (await loadMarkdownJPFiles(`blog/*.md`))
     .map(mdToPost)
-    .sort((a, b) => (b.datePublished || 0) - (a.datePublished || 0));
+    .sort((a, b) => {
+      const aDate = new Date(a.datePublished)
+      const aDateTime = aDate.getTime()
+      const bDate = new Date(b.datePublished)
+      const bDateTime = bDate.getTime()
+      return bDateTime - aDateTime
+    });
 };
