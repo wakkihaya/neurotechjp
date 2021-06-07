@@ -1,6 +1,9 @@
 ---
 title: "Student entrepreneur in neurotechnology | Harrison Canning"
 
+
+
+
 subtitle: "For this interview, I had the opportunity to talk with Harrison Canning, a student at RIT majoring in neurotechnology, a founder and leader of a 90-member student research team in neurotechnology, and a founder of a media company that provides original contents on neurotechnology."
 description: "For this interview, I had the opportunity to talk with Harrison Canning, a student at RIT majoring in neurotechnology, a founder and leader of a 90-member student research team in neurotechnology, and a founder of a media company that provides original contents on neurotechnology."
 datePublished: "2021/6/6"
