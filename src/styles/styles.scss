@@ -213,6 +213,9 @@
       font-size: $very-small-font-size;
     }
   }
+  &:hover{
+    background-color: $light-gray-color;
+  }
 }
 
 /// About page.
