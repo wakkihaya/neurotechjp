@@ -8,8 +8,6 @@ bannerPhoto: "/img/harrison-canning-rit/harrison-top.jpg"
 category: "Interview"
 ---
 
-//TODO: change order of articles.
-
 &nbsp;
 
 In order to start a startup using neurotechnology, it is essential to have a deep understanding of these three elements: neuroscience, which is the understanding of how the brain works; software engineering, which is centered on machine learning; and highly usable hardware engineering.
