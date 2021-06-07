@@ -11,6 +11,7 @@ export const Markdown: React.FC<{ source: string }> = (props) => {
       <ReactMarkdown
         key="content"
         remarkPlugins={[gfm]}
+        linkTarget="_blank"
         children={props.source}
       />
     </div>
