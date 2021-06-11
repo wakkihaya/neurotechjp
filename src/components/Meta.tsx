@@ -32,7 +32,7 @@ export const Meta: React.FC<{
       <meta name="twitter:title" content={meta.title} />
       {meta.desc && <meta name="twitter:description" content={meta.desc} />}
       {meta.image && <meta name="twitter:image" content={meta.image} />}
-      {meta.image && <meta property="og:image" content={`${meta.image}`} />}
+      {meta.image && <meta name="image" property="og:image" content={`${meta.image}`} />}
     </NextHead>
   );
 };
