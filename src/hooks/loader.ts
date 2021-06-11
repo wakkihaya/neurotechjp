@@ -75,11 +75,11 @@ export const loadBlogENPosts = async (): Promise<PostData[]> => {
   return await (await loadMarkdownENFiles(`blog/*.md`))
     .map(mdToPost)
     .sort((a, b) => {
-      const aDate = new Date(a.datePublished)
-      const aDateTime = aDate.getTime()
-      const bDate = new Date(b.datePublished)
-      const bDateTime = bDate.getTime()
-      return bDateTime - aDateTime
+      const aDate = new Date(a.datePublished);
+      const aDateTime = aDate.getTime();
+      const bDate = new Date(b.datePublished);
+      const bDateTime = bDate.getTime();
+      return bDateTime - aDateTime;
     });
 };
 
@@ -109,10 +109,10 @@ export const loadBlogJPPosts = async (): Promise<PostData[]> => {
   return await (await loadMarkdownJPFiles(`blog/*.md`))
     .map(mdToPost)
     .sort((a, b) => {
-      const aDate = new Date(a.datePublished)
-      const aDateTime = aDate.getTime()
-      const bDate = new Date(b.datePublished)
-      const bDateTime = bDate.getTime()
-      return bDateTime - aDateTime
+      const aDate = new Date(a.datePublished);
+      const aDateTime = aDate.getTime();
+      const bDate = new Date(b.datePublished);
+      const bDateTime = bDate.getTime();
+      return bDateTime - aDateTime;
     });
 };

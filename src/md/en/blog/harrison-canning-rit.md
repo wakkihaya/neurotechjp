@@ -41,9 +41,10 @@ Canning works with neurotechnology and business, and he told me that **his work 
 
 &nbsp;
 
-Canning had studied robotics engineering from an early age. However, after an accident that left him unable to do the math and forced him to abandon his engineering career, he thought that 
+Canning had studied robotics engineering from an early age. However, after an accident that left him unable to do the math and forced him to abandon his engineering career, he thought that
+
 > "**I can't be an engineer, but I want to be a business leader to really push this vision and try to develop the technology.**."
-and ever since, he has changed his course to become business-minded.
+> and ever since, he has changed his course to become business-minded.
 
 Afterwards, when he was in high school, he studied business and computer science online and started his own e-commerce and digital marketing company.
 
@@ -62,7 +63,7 @@ Canning replied that **the current killer use case is Neuromodulation.**
 &nbsp;
 
 ![Neuromodulation](https://www.researchgate.net/profile/Erika-Ross/publication/319423397/figure/fig1/AS:546704563937280@1507355933540/Neuromodulation-devices-for-the-treatment-of-neurologic-disorders-Schematic-summarizing.png)
-*Neuromodulation*
+_Neuromodulation_
 
 [Neuromodulation](https://en.wikipedia.org/wiki/Neuromodulation) is a technology that directly stimulates a specific nervous system to alter its neural activity. This can improve Parkinson's disease or help people with hearing or vision impairments.
 
@@ -80,14 +81,15 @@ Also, Canning replied that **the killer use case of the future is manipulating a
 
 While the technology is like something out of science fiction, Canning said that **in order for the technology to reach healthy people, it is necessary to determine where it's good enough for them to start using it.**
 
-He explained that 
+He explained that
+
 > "I think people are over willing to accept the technology sometimes without thinking about concerns around the technology. When [Neuralink](http://neuralink.com/) previously announced the clinical trial, many people wanted to sign up for it although there isn't even an illness underneath. For instance, I want to listen to music with my mind. So, we need to be careful with this stuff."
 
 &nbsp;
 
 ![Neuralink Device](https://img-cdn.tnwcdn.com/image?fit=1280%2C720&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2019%2F11%2Fneuralink.jpg&signature=166a1426cb99b54b052eeee203306399)
 
-*Neuralink Device*
+_Neuralink Device_
 
 &nbsp;
 
@@ -95,7 +97,8 @@ For this technology to become a technology that will make a significant differen
 
 When I asked him what the biggest challenge is at the present, Canning told me that **the challenge is how to acquire and process data with the least amount of noise.**
 
-He also said that 
+He also said that
+
 > "Especially with EEG, which is recording on the scalp, we need to try to cancel out the noise. We also need to keep training the algorithms to read what the brain is doing from the EEG."
 
 &nbsp;
@@ -103,6 +106,7 @@ He also said that
 ### Future as a business leader
 
 When I asked Canning about his future plans, he said,
+
 > "**I want to be a business leader** who can at least talk to people of different disciplines... I believe that **the brain is the last frontier of user experience,** so I'm interested in doing the business stuff around user experience, customer relations."
 
 &nbsp;
