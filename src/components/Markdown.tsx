@@ -9,8 +9,9 @@ export const Markdown: React.FC<{ source: string }> = props => {
     <div style={{ width: "100%" }} className="devii-markdown">
       <ReactMarkdown
         key="content"
-        children={props.source}
         remarkPlugins={[gfm]}
+        linkTarget="_blank"
+        children={props.source}
       />
     </div>
   );

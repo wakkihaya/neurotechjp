@@ -74,7 +74,13 @@ export const loadENPost = async (path: string): Promise<PostData> => {
 export const loadBlogENPosts = async (): Promise<PostData[]> => {
   return await (await loadMarkdownENFiles(`blog/*.md`))
     .map(mdToPost)
-    .sort((a, b) => (b.datePublished || 0) - (a.datePublished || 0));
+    .sort((a, b) => {
+      const aDate = new Date(a.datePublished)
+      const aDateTime = aDate.getTime()
+      const bDate = new Date(b.datePublished)
+      const bDateTime = bDate.getTime()
+      return bDateTime - aDateTime
+    });
 };
 
 ///For Jp blog
@@ -102,5 +108,11 @@ export const loadJPPost = async (path: string): Promise<PostData> => {
 export const loadBlogJPPosts = async (): Promise<PostData[]> => {
   return await (await loadMarkdownJPFiles(`blog/*.md`))
     .map(mdToPost)
-    .sort((a, b) => (b.datePublished || 0) - (a.datePublished || 0));
+    .sort((a, b) => {
+      const aDate = new Date(a.datePublished)
+      const aDateTime = aDate.getTime()
+      const bDate = new Date(b.datePublished)
+      const bDateTime = bDate.getTime()
+      return bDateTime - aDateTime
+    });
 };

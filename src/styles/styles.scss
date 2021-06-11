@@ -156,6 +156,8 @@
     font-size: $medium-font-size;
     font-weight: 500;
     padding: 1rem 0;
+    height: 4em;
+    display: table-cell;
   }
   &--container-category {
     font-size: $small-font-size;
@@ -214,6 +216,9 @@
     &--date {
       font-size: $very-small-font-size;
     }
+  }
+  &:hover{
+    background-color: $light-gray-color;
   }
 }
 
