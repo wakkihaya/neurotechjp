@@ -12,6 +12,7 @@ export const Meta: React.FC<{
   const { meta } = props;
   return (
     <NextHead>
+      <head lang="en-US" prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# website: http://ogp.me/ns/website#" />
       <title>{meta.title}</title>
       <meta name="copyright" content="Colin McDonnell" />
       {meta.link && <link rel="canonical" href={meta.link} />}
