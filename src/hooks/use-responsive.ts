@@ -1,16 +1,15 @@
 import { useState, useLayoutEffect } from "react";
 import { useMediaQuery } from "react-responsive";
 
-
 const useResponsive = () => {
   const [isClient, setIsClient] = useState(false);
 
   const isMobile = useMediaQuery({
-    query: "(max-width: 798px)"
+    query: "(max-width: 798px)",
   });
 
   const isDesktop = useMediaQuery({
-    query: "(min-width: 798px)"
+    query: "(min-width: 798px)",
   });
 
   useLayoutEffect(() => {
@@ -21,6 +20,6 @@ const useResponsive = () => {
     isDesktop: isClient ? isDesktop : true,
     isMobile: isClient ? isMobile : false,
   };
-}
+};
 
 export default useResponsive;

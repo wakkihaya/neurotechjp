@@ -1,11 +1,10 @@
 import React from "react";
 import ReactMarkdown from "react-markdown";
-import gfm from "remark-gfm";
-import darcula from "react-syntax-highlighter/dist/cjs/styles/prism/darcula";
 import { PrismLight, PrismAsyncLight } from "react-syntax-highlighter";
+import darcula from "react-syntax-highlighter/dist/cjs/styles/prism/darcula";
+import gfm from "remark-gfm";
 
-
-export const Markdown: React.FC<{ source: string }> = (props) => {
+export const Markdown: React.FC<{ source: string }> = props => {
   return (
     <div style={{ width: "100%" }} className="devii-markdown">
       <ReactMarkdown
@@ -17,7 +16,6 @@ export const Markdown: React.FC<{ source: string }> = (props) => {
     </div>
   );
 };
-
 
 const SyntaxHighlighter =
   typeof window === "undefined" ? PrismLight : PrismAsyncLight;

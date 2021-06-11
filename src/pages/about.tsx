@@ -1,12 +1,14 @@
-import Header from "~/components/Header";
-import Footer from "~/components/Footer";
-import { Meta } from "~/components/Meta";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faLinkedin,
   faGithubSquare,
   faFacebookSquare,
 } from "@fortawesome/free-brands-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+
+import Footer from "~/components/Footer";
+import Header from "~/components/Header";
+import { Meta } from "~/components/Meta";
+
 import useResponsive from "~/hooks/use-responsive";
 
 const AboutPage: React.FC = () => {
@@ -55,6 +57,7 @@ const AboutPage: React.FC = () => {
               href="https://www.linkedin.com/in/wakkihaya/"
               target="_blank"
               className="about-container--index-sns-item"
+              rel="noreferrer"
             >
               {isDesktop ? (
                 <FontAwesomeIcon icon={faLinkedin} size="5x" />
@@ -66,6 +69,7 @@ const AboutPage: React.FC = () => {
               href="https://www.facebook.com/waki.hayato.1"
               target="_blank"
               className="about-container--index-sns-item"
+              rel="noreferrer"
             >
               {isDesktop ? (
                 <FontAwesomeIcon icon={faFacebookSquare} size="5x" />
@@ -77,6 +81,7 @@ const AboutPage: React.FC = () => {
               href="https://github.com/wakkihaya"
               target="_blank"
               className="about-container--index-sns-item"
+              rel="noreferrer"
             >
               {isDesktop ? (
                 <FontAwesomeIcon icon={faGithubSquare} size="5x" />

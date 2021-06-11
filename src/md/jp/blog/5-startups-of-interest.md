@@ -66,7 +66,7 @@ Link を装着すれば、「念じる」だけでモバイル端末のカーソ
 
 ![Neuralink gif](https://neurotechjp.com/img/5-startups-of-interest/neuralink.gif)
 
-_デモGIF: 念じるだけでカーソルを動かせる iOS アプリ_
+_デモ GIF: 念じるだけでカーソルを動かせる iOS アプリ_
 
 **どこへ行ってもコンピュータやモバイル端末を操作できる、初めてのニューラルインプラント**を提供していくと Neuralink は述べる。
 
