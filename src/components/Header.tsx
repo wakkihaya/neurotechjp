@@ -43,18 +43,18 @@ const HamburgerMenu: React.FC<HamburgerMenuProps> = ({ lang }) => {
           {lang === "JP" && <Link href="/jp/blog">Blog</Link>}
         </div>
         <div
+          className="header--index-slides"
+          onClick={() => setIsMenuOpen(!isMenuOpen)}
+        >
+          {lang === "EN" && <Link href="/slides">Slides</Link>}
+          {lang === "JP" && <Link href="/jp/slides">Slides</Link>}
+        </div>
+        <div
           className="header--index-about"
           onClick={() => setIsMenuOpen(!isMenuOpen)}
         >
-          {lang === "EN" && <Link href="/about">About NeurotechJP</Link>}
-          {lang === "JP" && <Link href="/jp/about">About NeurotechJP</Link>}
-        </div>
-        <div
-          className="header--index-resources"
-          onClick={() => setIsMenuOpen(!isMenuOpen)}
-        >
-          {lang === "EN" && <Link href="/resources">Resources</Link>}
-          {lang === "JP" && <Link href="/jp/resources">Resources</Link>}
+          {lang === "EN" && <Link href="/about">About us</Link>}
+          {lang === "JP" && <Link href="/jp/about">About us</Link>}
         </div>
       </div>
     </Menu>
@@ -124,13 +124,13 @@ const Header: React.FC<{ isBgTransparent: boolean }> = props => {
               {lang === "EN" && <Link href="/blog">Blog</Link>}
               {lang === "JP" && <Link href="/jp/blog">Blog</Link>}
             </div>
-            <div className="header--index-about">
-              {lang === "EN" && <Link href="/about">About NeurotechJP</Link>}
-              {lang === "JP" && <Link href="/jp/about">About NeurotechJP</Link>}
+            <div className="header--index-slides">
+              {lang === "EN" && <Link href="/slides">Slides</Link>}
+              {lang === "JP" && <Link href="/jp/slides">Slides</Link>}
             </div>
-            <div className="header--index-resources">
-              {lang === "EN" && <Link href="/resources">Resources</Link>}
-              {lang === "JP" && <Link href="/jp/resources">Resources</Link>}
+            <div className="header--index-about">
+              {lang === "EN" && <Link href="/about">About us</Link>}
+              {lang === "JP" && <Link href="/jp/about">About us</Link>}
             </div>
           </div>
         )}
