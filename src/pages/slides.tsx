@@ -4,30 +4,30 @@ import Footer from "~components/Footer";
 import Header from "~components/Header";
 import { Meta } from "~components/Meta";
 
-const ResourcesPage: React.FC = () => {
+const SlidesPage: React.FC = () => {
   return (
     <>
       <Meta
         meta={{
           title: "NeurotechJP",
-          desc: 'NeurotechJP is running to reveal “The killer use cases of Neurotech”.We will publish trends, columns, and interviews with pioneers who are working at the cutting edge of the neurotech field.',
+          desc: "NeurotechJP is running to reveal “The killer use cases of Neurotech”.We will publish trends, columns, and interviews with pioneers who are working at the cutting edge of the neurotech field.",
           link: "https://neurotechjp.com",
           image: "https://neurotechjp.com/ogp.png",
         }}
       />
-      <div className="resources__bg">
+      <div className="slides__bg">
         <Header isBgTransparent={true} />
-        <div className="resources--title">
+        <div className="slides--title">
           Useful resources about Neurotechnology.
         </div>
       </div>
-      <div className="resources-container">
-        <Link href="/resources/basic-theories-of-neurotechnology">
-          <div className="resources-container--content">
-            <div className="resources-container--content-image">
-              <img src="/img/resources/slide-basic-theory-neurotech.jpg" />
+      <div className="slides-container">
+        <Link href="/slides/basic-theories-of-neurotechnology">
+          <div className="slides-container--content">
+            <div className="slides-container--content-image">
+              <img src="/img/slides/slide-basic-theory-neurotech.jpg" />
             </div>
-            <div className="resources-container--content-text content-text">
+            <div className="slides-container--content-text content-text">
               <div className="content-text--title">
                 Basic Theories of Neurotechnology
               </div>
@@ -48,4 +48,4 @@ const ResourcesPage: React.FC = () => {
   );
 };
 
-export default ResourcesPage;
+export default SlidesPage;

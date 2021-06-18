@@ -15,7 +15,7 @@ const Home = (props: { posts: PostData[] }) => {
       <Meta
         meta={{
           title: "NeurotechJP",
-          desc: 'NeurotechJP is running to reveal “The killer use cases of Neurotech”.We will publish trends, columns, and interviews with pioneers who are working at the cutting edge of the neurotech field.',
+          desc: "NeurotechJP is running to reveal “The killer use cases of Neurotech”.We will publish trends, columns, and interviews with pioneers who are working at the cutting edge of the neurotech field.",
           link: "https://neurotechjp.com",
           image: "https://neurotechjp.com/ogp.png",
         }}

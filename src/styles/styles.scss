@@ -446,9 +446,9 @@
   }
 }
 
-/// Resources page
+/// Slides page
 /// About page.
-.resources {
+.slides {
   &__bg {
     background-image: linear-gradient(
       to bottom right,
@@ -474,7 +474,7 @@
   }
 }
 
-.resources-container {
+.slides-container {
   min-height: calc(100vh - 80px - 50px); ///Minus header and footer height.
   width: $content-width;
   margin: 5em auto;
@@ -548,8 +548,8 @@
   }
 }
 
-/// Resources-item page
-.resources-item {
+/// slides-item page
+.slides-item {
   min-height: calc(100vh - 80px - 50px); ///Minus header and footer height.
   width: $content-width;
   padding: 5em 0;
