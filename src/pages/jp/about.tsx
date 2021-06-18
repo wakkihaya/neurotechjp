@@ -2,6 +2,7 @@ import {
   faLinkedin,
   faGithubSquare,
   faFacebookSquare,
+  faTwitterSquare,
 } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
@@ -34,57 +35,98 @@ const AboutPage: React.FC = () => {
             NeurotechJPについて
           </div>
           <div className="about-container--index-subtitle">
-            NeurotechJPは、ニューロテクノロジー分野で最前線で活躍する、世界中の方々へのインタビューを通して得た情報をまとめたサイトです。
+            NeurotechJPはブレインテックのキラーユースケースを明らかにする目的で運営しています。{" "}
+            <br />
+            ニューロテクノロジー分野の最先端で活躍する先人へのインタビューやトレンド、コラムなどを発信していきます。
           </div>
         </div>
         <div className="about-container--index">
           <div className="about-container--index-title">運営者について</div>
-          <div className="about-container--index-subtitle-name">
-            和木勇人 Hayato Waki (ライター/インタビュアー) <br />
+          <div className="about-container--index_box">
+            <div className="about-container--index-subtitle-name">
+              和木勇人 Hayato Waki (ライター/インタビュアー) <br />
+            </div>
+            <div className="about-container--index-subtitle-text">
+              筑波大学にて、BCIに関する研究プロジェクトに従事。
+              日本と米国のソフトウェアスタートアップにて、ファウンダーやエンジニアとして経験をした後、Neurotechnologyが我々の生活に多くのイノベーションをもたらすと思い、弊サイトを立ち上げる。
+              <br />
+              彼のパッションは、「創造性と技術力を持って、Science-Fictionを実現する1人になること」である。
+            </div>
+            <div className="about-container--index-sns">
+              <a
+                href="https://www.linkedin.com/in/wakkihaya/"
+                target="_blank"
+                className="about-container--index-sns-item"
+                rel="noreferrer"
+              >
+                {isDesktop ? (
+                  <FontAwesomeIcon icon={faLinkedin} size="5x" />
+                ) : (
+                  <FontAwesomeIcon icon={faLinkedin} size="3x" />
+                )}
+              </a>
+              <a
+                href="https://www.facebook.com/waki.hayato.1"
+                target="_blank"
+                className="about-container--index-sns-item"
+                rel="noreferrer"
+              >
+                {isDesktop ? (
+                  <FontAwesomeIcon icon={faFacebookSquare} size="5x" />
+                ) : (
+                  <FontAwesomeIcon icon={faFacebookSquare} size="3x" />
+                )}
+              </a>
+              <a
+                href="https://github.com/wakkihaya"
+                target="_blank"
+                className="about-container--index-sns-item"
+                rel="noreferrer"
+              >
+                {isDesktop ? (
+                  <FontAwesomeIcon icon={faGithubSquare} size="5x" />
+                ) : (
+                  <FontAwesomeIcon icon={faGithubSquare} size="3x" />
+                )}
+              </a>
+            </div>
           </div>
-          <div className="about-container--index-subtitle-text">
-            筑波大学にて、BCIに関する研究プロジェクトに従事。
-            日本と米国のソフトウェアスタートアップにて、ファウンダーやエンジニアとして経験をした後、Neurotechnologyが我々の生活に多くのイノベーションをもたらすと思い、弊サイトを立ち上げる。
-            <br />
-            彼のパッションは、「創造性と技術力を持って、Science-Fictionを実現する1人になること」である。
-          </div>
-          <div className="about-container--index-sns">
-            <a
-              href="https://www.linkedin.com/in/wakkihaya/"
-              target="_blank"
-              className="about-container--index-sns-item"
-              rel="noreferrer"
-            >
-              {isDesktop ? (
-                <FontAwesomeIcon icon={faLinkedin} size="5x" />
-              ) : (
-                <FontAwesomeIcon icon={faLinkedin} size="3x" />
-              )}
-            </a>
-            <a
-              href="https://www.facebook.com/waki.hayato.1"
-              target="_blank"
-              className="about-container--index-sns-item"
-              rel="noreferrer"
-            >
-              {isDesktop ? (
-                <FontAwesomeIcon icon={faFacebookSquare} size="5x" />
-              ) : (
-                <FontAwesomeIcon icon={faFacebookSquare} size="3x" />
-              )}
-            </a>
-            <a
-              href="https://github.com/wakkihaya"
-              target="_blank"
-              className="about-container--index-sns-item"
-              rel="noreferrer"
-            >
-              {isDesktop ? (
-                <FontAwesomeIcon icon={faGithubSquare} size="5x" />
-              ) : (
-                <FontAwesomeIcon icon={faGithubSquare} size="3x" />
-              )}
-            </a>
+          <div className="about-container--index_box">
+            <div className="about-container--index-subtitle">
+              門井 翔佳 Shouka Kadoi (ライター/インタビュアー) <br />
+            </div>
+            <div className="about-container--index-subtitle-text">
+              2018年、同志社大学社会学部メディア学科卒業。社会心理学専攻。{" "}
+              <br />
+              Israel Brain
+              Technologiesの主宰するカンファレンスに参加を機に、2019年6月よりマインドフルネス瞑想アプリ『Relook』にジョイン。CS、Webマーケ、プロダクトマネージャーとして働きM&Aを経験。
+            </div>
+            <div className="about-container--index-sns">
+              <a
+                href="https://www.facebook.com/shouka.kadoi"
+                target="_blank"
+                className="about-container--index-sns-item"
+                rel="noreferrer"
+              >
+                {isDesktop ? (
+                  <FontAwesomeIcon icon={faFacebookSquare} size="5x" />
+                ) : (
+                  <FontAwesomeIcon icon={faFacebookSquare} size="3x" />
+                )}
+              </a>
+              <a
+                href="https://twitter.com/kadyboy1216"
+                target="_blank"
+                className="about-container--index-sns-item"
+                rel="noreferrer"
+              >
+                {isDesktop ? (
+                  <FontAwesomeIcon icon={faTwitterSquare} size="5x" />
+                ) : (
+                  <FontAwesomeIcon icon={faTwitterSquare} size="3x" />
+                )}
+              </a>
+            </div>
           </div>
         </div>
       </div>
