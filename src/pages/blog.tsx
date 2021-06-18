@@ -13,7 +13,7 @@ const BlogPage = (props: { posts: PostData[] }) => {
       <Meta
         meta={{
           title: "NeurotechJP",
-          desc: "NeurotechJP is the website gathering information of neurotehcnology through interviews with those who are active in the front lines of this area all over the world",
+          desc: 'Neurotech JP is running to reveal “The killer use cases of Neurotech".We will publish trends, columns, and interviews with pioneers who are working at the cutting edge of the neurotech field.',
           link: "https://neurotechjp.com",
           image: "https://neurotechjp.com/ogp.png",
         }}
@@ -44,7 +44,6 @@ const BlogItem: React.FC<{ post: PostData }> = props => {
     <Link href={`/${post.path}`}>
       <div className="blog-item">
         <div className="blog-item--pic">
-          {" "}
           <img src={post.bannerPhoto} />
         </div>
         <div className="blog-item--container">

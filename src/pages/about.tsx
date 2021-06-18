@@ -20,7 +20,7 @@ const AboutPage: React.FC = () => {
       <Meta
         meta={{
           title: "NeurotechJP",
-          desc: "Neurotech JP is running to reveal “The killer use cases of Neurotech. We will publish trends, columns, and interviews with pioneers who are working at the cutting edge of the neurotech field.",
+          desc: 'Neurotech JP is running to reveal “The killer use cases of Neurotech.We will publish trends", columns, and interviews with pioneers who are working at the cutting edge of the neurotech field.',
           link: "https://neurotechjp.com",
           image: "https://neurotechjp.com/ogp.png",
         }}

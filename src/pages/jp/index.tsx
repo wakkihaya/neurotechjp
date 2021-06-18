@@ -15,7 +15,7 @@ const Home = (props: { posts: PostData[] }) => {
       <Meta
         meta={{
           title: "NeurotechJP",
-          desc: "NeurotechJPは、ニューロテクノロジー分野で最前線で活躍する、世界中の方々へのインタビューを通して得た情報をまとめたブログサイトです。",
+          desc: 'Neurotech JPはブレインテックのキラーユースケースを明らかにする目的で運営しています。ニューロテクノロジー分野の最先端で活躍する先人へのインタビューやトレンド、コラムなどを発信していきます。',
           link: "https://neurotechjp.com",
           image: "https://neurotechjp.com/ogp.png",
         }}
