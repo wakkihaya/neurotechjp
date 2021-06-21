@@ -143,9 +143,9 @@ Neurable が提供する非侵襲型 BCI は、一見ただのヘッドフォン
 
 &nbsp;
 
-### 4. [CTRL-labs](https://www.ctrl-labs.com/)
+### 4. [CTRL-labs](https://tech.fb.com/ar-vr/)
 
-![CTRL-labs](https://www.ctrl-labs.com/wp-content/uploads/2019/09/Family1_Transparent_4k--1024x576.png)
+![CTRL-labs](https://image.itmedia.co.jp/news/articles/1909/24/l_yu_ctrl1.jpg)
 
 CTRL-labs は、2015 年に New York で創業されたスタートアップであり、2019 年 Facebook(Facebook Reality Labs)によって買収された。
 
