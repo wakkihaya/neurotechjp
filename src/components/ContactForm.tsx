@@ -1,9 +1,6 @@
-//TODO: send notification to slack
-
 import { TextField } from "@material-ui/core";
 
 import axios from "axios";
-
 import { useForm } from "react-hook-form";
 
 import { ContactGoogleForm } from "~/constants/ContactGoogleForm";
@@ -24,7 +21,22 @@ const ContactForm: React.FC<ContactFormProps> = ({ lang }) => {
     formState: { errors },
   } = useForm<IFormInput>();
 
-  const onSubmit = async data => {
+  const sendSlack = async data => {
+    const slack_webhook_url = process.env.SLACK_WEBHOOK;
+    const text = `New post! \n Name: ${data.name} \n Mail: ${data.mail} \n Message: ${data.message}`;
+
+    const sendData = `payload={
+        "text": "${text}",
+    }`;
+    const param = {
+      headers: {
+        "Content-Type": "application/x-www-form-urlencoded; charset=UTF-8",
+      },
+    };
+    await axios.post(slack_webhook_url, sendData, param);
+  };
+
+  const onSubmit = async (data, e) => {
     const GOOGLE_FORM_ACTION = ContactGoogleForm.action;
     const CORS_PROXY = "https://cors-anywhere.herokuapp.com/";
     const submitParams = new FormData();
@@ -34,9 +46,11 @@ const ContactForm: React.FC<ContactFormProps> = ({ lang }) => {
     submitParams.append(ContactGoogleForm.message, data.message);
     try {
       await axios.post(CORS_PROXY + GOOGLE_FORM_ACTION, submitParams);
+      await sendSlack(data);
     } catch (e) {
       console.log(e);
     }
+    e.target.reset();
   };
 
   return (

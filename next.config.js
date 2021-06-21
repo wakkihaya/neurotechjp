@@ -19,5 +19,6 @@ module.exports = {
   env: {
     GA_TRACKING_ID: process.env.GA_TRACKING_ID,
     FB_APP_ID: process.env.FB_APP_ID,
+    SLACK_WEBHOOK: process.env.SLACK_WEBHOOK,
   },
 };
