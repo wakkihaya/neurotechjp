@@ -20,6 +20,7 @@
     "@shunkakinoki/dev": "^1.0.0",
     "@shunkakinoki/eslint-config": "^1.0.1",
     "@shunkakinoki/prettier": "^1.0.0",
+    "axios": "^0.21.1",
     "dotenv": "^8.2.0",
     "glob": "^7.1.6",
     "gray-matter": "^4.0.3",

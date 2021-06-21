@@ -1,9 +1,13 @@
-//TODO: send data to google form
 //TODO: Set a condition by props Jp or En
 //TODO: send notification to slack
 
 import { TextField } from "@material-ui/core";
+
+import axios from "axios";
+
 import { useForm } from "react-hook-form";
+
+import { ContactGoogleForm } from "~/constants/ContactGoogleForm";
 
 interface IFormInput {
   name: string;
@@ -17,8 +21,21 @@ const ContactForm: React.FC = () => {
     handleSubmit,
     formState: { errors },
   } = useForm<IFormInput>();
-  
-  const onSubmit = data => alert(JSON.stringify(data));
+
+  const onSubmit = async data => {
+    const GOOGLE_FORM_ACTION = ContactGoogleForm.action;
+    const CORS_PROXY = "https://cors-anywhere.herokuapp.com/";
+    const submitParams = new FormData();
+
+    submitParams.append(ContactGoogleForm.name, data.name);
+    submitParams.append(ContactGoogleForm.mail, data.mail);
+    submitParams.append(ContactGoogleForm.message, data.message);
+    try {
+      await axios.post(CORS_PROXY + GOOGLE_FORM_ACTION, submitParams);
+    } catch (e) {
+      console.log(e);
+    }
+  };
 
   return (
     <>
