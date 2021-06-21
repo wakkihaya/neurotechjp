@@ -330,6 +330,28 @@
       color: white;
       border-radius: 15px;
     }
+    input:hover {
+      cursor: pointer;
+    }
+  }
+  @media (max-width: $mobile-width) {
+    &--title {
+      font-size: $medium-font-size;
+    }
+    &--detail-text {
+      width: 100% !important;
+
+      input,
+      label,
+      textarea {
+        font-size: $small-font-size;
+      }
+    }
+    &--detail-submit {
+      input {
+        font-size: $small-font-size;
+      }
+    }
   }
 }
 
