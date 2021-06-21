@@ -91,11 +91,7 @@
     font-family: $armata-font-family;
   }
   &__bg {
-    background-image: linear-gradient(
-      to bottom right,
-      $blue-color,
-      $deep-blue-color
-    );
+    background-image: linear-gradient(to bottom right, $blue-color, $deep-blue-color);
     padding-bottom: 2rem;
   }
   @media (max-width: $mobile-width) {
@@ -225,11 +221,7 @@
 /// About page.
 .about {
   &__bg {
-    background-image: linear-gradient(
-      to bottom right,
-      $blue-color,
-      $deep-blue-color
-    );
+    background-image: linear-gradient(to bottom right, $blue-color, $deep-blue-color);
     padding-bottom: 0.1rem;
   }
   &--title {
@@ -305,6 +297,38 @@
     }
     &--index-sns-item {
       width: 25px;
+    }
+  }
+}
+
+.contact-form {
+  &--title {
+    font-size: $large-font-size;
+    font-weight: 500;
+  }
+  &--detail {
+    text-align: center;
+  }
+  &--detail-text {
+    width: 60% !important;
+    margin: 3em auto !important;
+    input,
+    label,
+    textarea {
+      font-size: $medium-font-size;
+      line-height: 1.2em;
+    }
+  }
+  &--detail-submit {
+    width: 100%;
+    text-align: center;
+    margin: 5em 0;
+    input {
+      font-size: $medium-font-size;
+      padding: 0.5em 2em;
+      background-color: $text-base-color;
+      color: white;
+      border-radius: 15px;
     }
   }
 }
@@ -450,11 +474,7 @@
 /// About page.
 .slides {
   &__bg {
-    background-image: linear-gradient(
-      to bottom right,
-      $blue-color,
-      $deep-blue-color
-    );
+    background-image: linear-gradient(to bottom right, $blue-color, $deep-blue-color);
     padding-bottom: 0.1rem;
   }
   &--title {
