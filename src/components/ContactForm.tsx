@@ -1,4 +1,3 @@
-//TODO: Set a condition by props Jp or En
 //TODO: send notification to slack
 
 import { TextField } from "@material-ui/core";
@@ -14,8 +13,11 @@ interface IFormInput {
   mail: string;
   message: string;
 }
+type ContactFormProps = {
+  lang: string;
+};
 
-const ContactForm: React.FC = () => {
+const ContactForm: React.FC<ContactFormProps> = ({ lang }) => {
   const {
     register,
     handleSubmit,
@@ -40,7 +42,10 @@ const ContactForm: React.FC = () => {
   return (
     <>
       <div className="contact-form">
-        <div className="contact-form--title">Contact us</div>
+        <div className="contact-form--title">
+          {lang === "EN" && <p> Contact us</p>}
+          {lang === "JP" && <p> ご連絡はこちらから</p>}
+        </div>
         <div className="contact-form--detail">
           <form onSubmit={handleSubmit(onSubmit)}>
             <TextField

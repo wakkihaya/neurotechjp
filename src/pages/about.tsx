@@ -135,7 +135,7 @@ const AboutPage: React.FC = () => {
             </div>
           </div>
         </div>
-        <ContactForm />
+        <ContactForm lang="EN" />
       </div>
       <Footer />
     </>
