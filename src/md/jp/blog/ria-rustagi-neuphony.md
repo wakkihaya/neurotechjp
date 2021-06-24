@@ -1,13 +1,13 @@
 ---
 
-title: "ハードウェアの強みで世界トップへ。心の状態に寄り添うヘッドバンド Neuphony  Ria Rustagi"
+title: "追求するのは正確性と汎用性。心に寄り添う脳波バンドNeuphony | Ria Rustagi"
 
 subtitle: "今回は、ニューロフィードバック技術を用いて集中力を高めたり睡眠の質を上げたりする非侵襲型の脳波デバイス'Neuphony'を提供する、ドイツのスタートアップ'PankhTech'の創業者Ria Rustagiに、Neuphonyの魅力やその技術、今後のビジョンについて、インタビューをさせていただいた。"
 
 description: "今回は、ニューロフィードバック技術を用いて集中力を高めたり睡眠の質を上げたりする非侵襲型の脳波デバイス'Neuphony'を提供する、ドイツのスタートアップ'PankhTech'の創業者Ria Rustagiに、Neuphonyの魅力やその技術、今後のビジョンについて、インタビューをさせていただいた。"
 
 datePublished: "2021/6/24"
-bannerPhoto: "/img/5-startups-of-interest/cover.jpg"
+bannerPhoto: "/img/ria-rustagi-neuphony/neuphony-top.jpg"
 category: "インタビュー"
 ---
 
