@@ -55,7 +55,7 @@ Neuphonyは、ハードウェアエンジニアであるRiaと、Riaの夫でも
 ### 正確なニューロフィードバック技術を持つNeuphony
 
 
-![Neuphony application](https://play-lh.googleusercontent.com/375IlvjMg3nSWp0v7f5wgXaXkkMhQDXJbI6CVBjSfZoZYdHD-xGF77M7dA2V9FokUb-d=w1440-h620-rw) 
+![Neuphony app screen shot](https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2Fd8eeeb38-6483-48f0-bba7-cb365ad36683%2Fneuphony-app.jpg?id=f8b6cbb8-203a-430d-a467-1fd1ee77e76e&table=block&spaceId=8b430fd8-8b96-4ce2-8e1d-e8dadcca5ec3&width=3580&userId=d6f53ba8-d549-40ed-94c4-55a404a8701a&cache=v2)
 *Neuphony アプリケーション*
 
 Neuphonyは、対応のアプリケーションと一緒に使うことで、
