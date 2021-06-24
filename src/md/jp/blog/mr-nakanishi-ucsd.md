@@ -1,5 +1,5 @@
 ---
-title: "BCIで世界記録をマーク。世界トップレベルの大学で活躍する日本人研究者"
+title: "BCIで世界記録をマーク。世界トップレベルの大学で活躍する日本人研究者 中西正樹"
 subtitle: '今回は、世界トップレベルの研究を行う、UC San DiegoのSCCNという研究施設にて、Assistant Project Scientistとして活躍する中西正樹さんに、自身の軌跡と、世界記録を更新した"SSVEP"という技術の可能性についてインタビューをさせていただいた。'
 datePublished: "2021/5/16"
 bannerPhoto: "/img/mr-nakanishi-ucsd/mr-nakanishi-ucsd.jpg"

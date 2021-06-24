@@ -1,5 +1,5 @@
 ---
-title: "Interview with a world-class researcher of BCI: Masaki Nakanishi"
+title: "Interview with a world-class researcher of BCI | Masaki Nakanishi"
 subtitle: 'For this interview, I had the opportunity to talk with Masaki Nakanishi, an Assistant Project Scientist at SCCN, a research facility at UC San Diego that conducts world-class research. We discussed about his career and the potential of the world record-breaking "SSVEP" technology.'
 datePublished: "2021/5/16"
 bannerPhoto: "/img/mr-nakanishi-ucsd/mr-nakanishi-ucsd.jpg"

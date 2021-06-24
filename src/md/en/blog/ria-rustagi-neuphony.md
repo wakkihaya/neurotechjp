@@ -1,10 +1,7 @@
 ---
 title: 'Becoming a world leader with Hardware strengths. Meditation Headband "Neuphony" | Ria Rustagi'
-
 subtitle: "For this interview, I had the opportunity to talk with Ria Rustagi, founder of Neuphony, a non-invasive EEG device which uses neurofeedback to improve concentration, sleep quality, and so on."
-
 description: "For this interview, I had the opportunity to talk with Ria Rustagi, founder of Neuphony, a non-invasive EEG device which uses neurofeedback to improve concentration, sleep quality, and so on."
-
 datePublished: "2021/6/24"
 bannerPhoto: "/img/harrison-canning-rit/harrison-top.jpg"
 category: "Interview"
@@ -21,7 +18,7 @@ category: "Interview"
 
 &nbsp;
 
-In today's information society, there are probably many people who have such problems related to their state of mind. There is a technology called **[Neurofeedback](https://en.wikipedia.org/wiki/Neurofeedback)** that uses brain waves to solve these problems.
+In today's information society, there are probably many people who have such problems related to their state of mind. There is a technology called [Neurofeedback](https://en.wikipedia.org/wiki/Neurofeedback) that uses brain waves to solve these problems.
 
 &nbsp;
 
@@ -138,7 +135,9 @@ Ria answered that **neurofeedback is the best technology to use in daily life be
 Neuphony is helping many people with neurofeedback, and we asked Ria about the future of Neuphony and Neurotech as she envisions it.
 
 
-> First of all, people should be aware and educated about this technology,  because we don't know what we can do with this. And people should be using this like we use our smartwatch in daily life because we want to track our sleep and we want to track our steps. I want neurofeedback to be that technology at first. Secondly, I want to create a platform where people can come together and create something for neurofeedback. I feel that the people who are working in this domain are very less spread all across the world. I want everybody out there to be connected to help this growth, for the betterment of the people that are living because the brain is everything。
+> First of all, people should be aware and educated about this technology,  because we don't know what we can do with this. And people should be using this like we use our smartwatch in daily life because we want to track our sleep and we want to track our steps. I want neurofeedback to be that technology at first. 
+
+> Secondly, I want to create a platform where people can come together and create something for neurofeedback. I feel that the people who are working in this domain are very less spread all across the world. I want everybody out there to be connected to help this growth, for the betterment of the people that are living because the brain is everything。
 
 
 Ria answered.
