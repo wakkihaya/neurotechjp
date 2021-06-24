@@ -21,7 +21,7 @@ In today's information society, there are probably many people who have such pro
 
 &nbsp;
 
-**Neurofeedback is a method of visualizing one's brain activity using an EEG device, monitoring it in real-time, and controlling that activity through training.**
+**Neurofeedback is a technology that uses a device that measures brain waves to visualize brain activity in real-time and allows users to control their own brain activity through training.**
 
 ![Neurofeedback](https://www.frontiersin.org/files/Articles/527026/fnhum-14-00192-HTML/image_m/fnhum-14-00192-g001.jpg)
 _Neurofeedback Concept_
@@ -95,11 +95,11 @@ Ria said that Neuphony's strength is that it's designed so that **it can be used
 
 > We feel that there is a big gap between consumer devices and research devices. Research devices are good, with lots of sensors, but they are expensive. On the other hand, consumer devices are reasonable, but often do not have sensors in the right place. In order to fill this gap, we carefully chose the location of the sensors and created a unique device that covers the frontal, parietal, and temporal lobes.
 
-By cleverly analyzing data from three different lobes - the frontal lobe, which controls concentration and emotions; the temporal lobe, which controls auditory perception and memory; and the parietal lobe, which has the [default mode network (DMN)](https://en.wikipedia.org/wiki/Default_mode_network) that leads to creativity - Neuphony should be able to accurately respond to many use cases with neurofeedback.
+By cleverly analyzing data from three different lobes - the frontal lobe, which controls concentration and emotions; the temporal lobe, which controls auditory perception and memory; and the parietal lobe, which controls somatosensory perception - Neuphony should be able to accurately respond to many use cases with neurofeedback.
 
 &nbsp;
 
-In addition, Ria explained me that **another strength of Neuphony is that it has a traction mechanism which can fit different head sizes and has replaceable sensors.**
+In addition, Ria explained to me that **another strength of Neuphony is that it has a traction mechanism which can fit different head sizes and has replaceable sensors.**
 With other devices, if one sensor is broken, it is impossible to replace it, but with Neuphony, you can replace the sensor yourself.
 
 &nbsp;

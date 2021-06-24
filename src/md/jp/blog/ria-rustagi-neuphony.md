@@ -132,7 +132,7 @@ Neuphony の強みは、様々なデータが取れるよう正しい位置に�
 
 &nbsp;
 
-現在、Neuphony は、そのプラットフォームを作るべく、Developer 用 SDK を開発中だという。
+現在、Neuphony は、そのようなプラットフォームを作るべく、Developer 用 SDK を開発中だという。
 
 &nbsp;
 
