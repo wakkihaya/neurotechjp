@@ -21,7 +21,7 @@ In today's information society, there are probably many people who have such pro
 
 &nbsp;
 
-**Neurofeedback is a technology that uses a device that measures brain waves to visualize brain activity in real-time and allows users to control their own brain activity through training.**
+**Neurofeedback is a technology that utilizes devices to measure brain waves to visualize brain activity in real-time and allows users to control their own brain activity through training.**
 
 ![Neurofeedback](https://www.frontiersin.org/files/Articles/527026/fnhum-14-00192-HTML/image_m/fnhum-14-00192-g001.jpg)
 _Neurofeedback Concept_
@@ -40,7 +40,7 @@ Neuphony was founded in 2019 in Germany by Ria who is a hardware engineer, and [
 
 &nbsp;
 
-The company's vision, "unlocking the unlimited potential of the human mind", was inspired by a rare brain infection that occurred to Ria's sister in 2016. After being continuously fighting for 6 months she passed away and that led Ria and the entire family in a state of trauma. Despite the trauma, Ria didn’t stop studying about the brain or the issue.
+The company's vision, "unlocking the unlimited potential of the human mind", was inspired by a rare brain infection that occurred to Ria's sister in 2016. After continuously fighting for 6 months she passed away which led Ria and the entire family in a state of trauma. Despite the trauma, Ria didn’t stop studying about the brain or the issue.
 She told me that she decided to start a Neurotech startup because she wanted to create a device for people who are bedridden to help the family understand what they want to say, and also because she thought that **Neurotech was important for curing unstable mental states such as trauma.**
 
 > When my sister was hospitalized, I went through mental trauma. I have been always a very high passionate individual, so accepting my weakness was overwhelming and stressful. So that's why I felt that counseling therapies or any other sort of treatments are very time-consuming. That's what I think happens in the world, like people are less mindful, less sensitive. That's where exactly neurotech comes into the picture in mine.
@@ -64,7 +64,7 @@ and many other benefits to improve mental health.
 
 It is very easy to use.
 
-After getting the device and the app, you can measure your brain's state (mood) by measuring your brain waves under normal conditions. After that, you can start the meditation provided by the app. This will apply the most appropriate meditation according to the mood, such as "not enough focus". During the meditation, auditory stimulation feedback using the volume of background music is provided according to the brain's activity state to guide you to deeper meditation. At the end of the session, you can view your insight.
+After getting the device and the app, you can measure your brain's state (mood) by measuring your brain waves under normal conditions. After that, you can start the meditation though the app. This will apply the most appropriate meditation according to the mood, such as "not enough focus". During meditation, auditory stimulation feedback using the volume of background music is provided according to the brain's activity state to guide you to a deeper meditation. At the end of the session, you can view your insight through a dedicated dashboard.
 
 &nbsp;
 
@@ -82,7 +82,7 @@ Ria said that the system of EEG analysis by these detailed conditions is built i
 
 &nbsp;
 
-Also, Ria told me, the meditations for the neurofeedback can be divided into four categories such as relaxed meditation, focus meditation, and **by looking at the type of the meditations as well as the EEG of the corresponding locations, they can provide neurofeedback for several different purposes, such as "improving concentration" and "reducing stress.**
+Also, Ria told me, the meditations for the neurofeedback can be divided into four categories such as relaxed meditation, focus meditation, and **by looking at the type of meditation as well as the EEG of the corresponding locations, since they can provide neurofeedback for several different purposes, such as "improving concentration" and "reducing stress.**
 
 &nbsp;
 
@@ -91,9 +91,9 @@ Also, Ria told me, the meditations for the neurofeedback can be divided into fou
 ![Neuphony GIF](https://www.neuphony.com/wp-content/uploads/2021/04/home.gif)
 _Neuphony_
 
-Ria said that Neuphony's strength is that it's designed so that **it can be used by researchers as well as general consumers**, as it has placed the minimum number of sensors in the right places to get various data.
+Ria said that Neuphony's strength is that it's designed so that **it can be used by researchers as well as general consumers**, as it has placed the minimum number of sensors in the right places to obtain various data.
 
-> We feel that there is a big gap between consumer devices and research devices. Research devices are good, with lots of sensors, but they are expensive. On the other hand, consumer devices are reasonable, but often do not have sensors in the right place. In order to fill this gap, we carefully chose the location of the sensors and created a unique device that covers the frontal, parietal, and temporal lobes.
+> We feel that there is a big gap between consumer devices and research devices. Research devices are superior, with lots of sensors, but they are expensive. On the other hand, consumer devices are cheap, but often do not have sensors in the right place. In order to fill this gap, we carefully chose the location of the sensors and created unique devices that covers the frontal, parietal, and temporal lobes.
 
 By cleverly analyzing data from three different lobes - the frontal lobe, which controls concentration and emotions; the temporal lobe, which controls auditory perception and memory; and the parietal lobe, which controls somatosensory perception - Neuphony should be able to accurately respond to many use cases with neurofeedback.
 
@@ -134,18 +134,18 @@ Ria answered.
 
 &nbsp;
 
-She also said that currently, Neuphony is developing a developer SDK to create that community.
+She also said that currently, Neuphony is developing a developer SDK to enable easier access to that community.
 
 &nbsp;
 
-As for the future shape of Neuphony's device, Ria told me that **they want to add more sensors** for such as the occipital lobe, which is associated with visual information, to **provide users with another type of information.**
+As for the future shape of Neuphony's device, Ria told me that **they want to add more sensors** for such as the occipital lobe, which is associated with visual information, to **provide users with other types of information.**
 
-Ria explained they have teamed up with a team of neuroscientists who have been studying brain mechanisms for over 60 years to target the right sensor location.
+Ria explained they have teamed up with a team of neuroscientists whom have been studying brain mechanisms for over 60 years to target the precise sensor location.
 
 &nbsp;
 
 ### Conclusion
 
-In this article, I interviewed Ria from Neuphony, a company that provides a variety of applications using neurofeedback.
+In this article, I interviewed Ria from Neuphony, a company that provides a variety of applications through neurofeedback.
 
 Neurofeedback, with its ease of use and functionality, will soon be available to many people and may make Neurotech more popular.
