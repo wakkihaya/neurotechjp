@@ -64,7 +64,7 @@ and many other benefits to improve mental health.
 
 It is very easy to use.
 
-After getting the device and the app, you can measure your brain's state (mood) by measuring your brain waves under normal conditions. After that, you can start the meditation though the app. This will apply the most appropriate meditation according to the mood, such as "not enough focus". During meditation, auditory stimulation feedback using the volume of background music is provided according to the brain's activity state to guide you to a deeper meditation. At the end of the session, you can view your insight through a dedicated dashboard.
+After getting the device and the app, you can measure your brain's state (mood) by measuring your brain waves under normal conditions. After that, you can start the meditation through the app. This will apply the most appropriate meditation according to the mood, such as "not enough focus". During meditation, auditory stimulation feedback using the volume of background music is provided according to the brain's activity state to guide you to a deeper meditation. At the end of the session, you can view your insight through a dedicated dashboard.
 
 &nbsp;
 
