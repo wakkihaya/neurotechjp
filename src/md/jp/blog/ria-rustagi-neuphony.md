@@ -1,10 +1,7 @@
 ---
 title: "追求するのは正確性と汎用性。心に寄り添う瞑想バンドNeuphony | Ria Rustagi"
-
 subtitle: "今回は、ニューロフィードバック技術を用いて集中力を高めたり睡眠の質を上げたりする非侵襲型の脳波デバイス'Neuphony'を提供する、ドイツのスタートアップ'PankhTech'の創業者Ria Rustagiに、Neuphonyの魅力やその技術、今後のビジョンについて、インタビューをさせていただいた。"
-
 description: "今回は、ニューロフィードバック技術を用いて集中力を高めたり睡眠の質を上げたりする非侵襲型の脳波デバイス'Neuphony'を提供する、ドイツのスタートアップ'PankhTech'の創業者Ria Rustagiに、Neuphonyの魅力やその技術、今後のビジョンについて、インタビューをさせていただいた。"
-
 datePublished: "2021/6/24"
 bannerPhoto: "/img/ria-rustagi-neuphony/neuphony-top.jpg"
 category: "インタビュー"
