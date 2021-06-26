@@ -40,7 +40,7 @@ For this interview,  I had the opportunity to talk with [Ria Rustagi](https://ww
 
 &nbsp;
 
-### Loss of her sister sparked her interest in brain
+## Loss of her sister sparked her interest in brain
 
 Neuphony was founded in 2019 in Germany by Ria who is a hardware engineer, and [Bhavya](https://www.linkedin.com/in/bhavya-madan-07/) who is Ria's fiance and a software engineer as well.
 
@@ -53,7 +53,7 @@ She told me that she decided to start a Neurotech startup because she wanted to 
 
 &nbsp;
 
-### Neuphony with accurate neurofeedback technology
+## Neuphony with accurate neurofeedback technology
 
 ![Neuphony app screen shot](https://neurotechjp.com/img/ria-rustagi-neuphony/neuphony-app.jpg)
 _Neuphony Application_
@@ -92,7 +92,7 @@ Also, Ria told me, the meditations for the neurofeedback can be divided into fou
 
 &nbsp;
 
-### Strengths in hardware and software
+## Strengths in hardware and software
 
 ![Neuphony GIF](https://www.neuphony.com/wp-content/uploads/2021/04/home.gif)
 _Neuphony_
@@ -118,7 +118,7 @@ Ria said that the company also has strength in **machine learning algorithms**.
 
 &nbsp;
 
-### Neurofeedback is the easiest method for mental health in daily life.
+## Neurofeedback is the easiest method for mental health in daily life.
 
 Is it really necessary to use neurofeedback for mental health?
 
@@ -128,7 +128,7 @@ Ria answered that **neurofeedback is the best technology to use in daily life be
 
 &nbsp;
 
-### The Future - Making Neurotech more common
+## The Future - Making Neurotech more common
 
 Neuphony is helping many people with neurofeedback, and we asked Ria about the future of Neuphony and Neurotech as she envisions it.
 
@@ -150,7 +150,7 @@ Ria explained they have teamed up with a team of neuroscientists whom have been 
 
 &nbsp;
 
-### Conclusion
+## Conclusion
 
 In this article, I interviewed Ria from Neuphony, a company that provides a variety of applications through neurofeedback.
 

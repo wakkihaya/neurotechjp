@@ -410,6 +410,9 @@
       color: #888888;
       font-size: 0.9em;
     }
+    h2{
+      border-bottom: solid 0.5px $gray-color
+    }
   }
   a {
     text-decoration: underline;

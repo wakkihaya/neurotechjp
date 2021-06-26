@@ -37,7 +37,7 @@ _Neurofeedback 概念図_
 
 &nbsp;
 
-### 姉の喪失で、脳に興味を持つ
+## 姉の喪失で、脳に興味を持つ
 
 Neuphony は、ハードウェアエンジニアである Ria と、Ria の婚約者でもありソフトウェアエンジニアでもある[Bhavya](https://www.linkedin.com/in/bhavya-madan-07/)とで、2019 年ドイツにて創業された。
 
@@ -49,7 +49,7 @@ Neuphony は、ハードウェアエンジニアである Ria と、Ria の婚�
 
 &nbsp;
 
-### 正確なニューロフィードバック技術を持つ Neuphony
+## 正確なニューロフィードバック技術を持つ Neuphony
 
 ![Neuphony app screen shot](https://neurotechjp.com/img/ria-rustagi-neuphony/neuphony-app.jpg)
 _Neuphony アプリケーション_
@@ -88,7 +88,7 @@ Neurophony のソフトウェアには、これら細かい条件によって作
 
 &nbsp;
 
-### ハードウェアとソフトウェアでの強み
+## ハードウェアとソフトウェアでの強み
 
 ![Neuphony](https://www.neuphony.com/wp-content/uploads/2021/04/home.gif) _Neuphony_
 
@@ -112,7 +112,7 @@ Neuphony の強みは、様々なデータが取れるよう正しい位置に�
 
 &nbsp;
 
-### 日常生活で一番扱いやすい精神安定法がニューロフィードバック
+## 日常生活で一番扱いやすい精神安定法がニューロフィードバック
 
 精神を安定させるために、果たしてそこまでしてニューロフィードバックを使う必要があるのか？
 
@@ -122,7 +122,7 @@ Neuphony の強みは、様々なデータが取れるよう正しい位置に�
 
 &nbsp;
 
-### 今後 - Neurotech をより一般的なものへ
+## 今後 - Neurotech をより一般的なものへ
 
 ニューロフィードバックで数多くの人を助ける Neuphony であるが、Ria が描く Neuphony、そして Neurotech の今後について伺った。
 
@@ -144,7 +144,7 @@ Neuphony の強みは、様々なデータが取れるよう正しい位置に�
 
 &nbsp;
 
-### さいごに
+## さいごに
 
 今回は、ニューロフィードバックを用いて様々なアプリケーションを提供する、Neuphony の Ria にインタビューをさせて頂いた。
 
