@@ -19,7 +19,7 @@ For this interview, I had the opportunity to talk with Masaki Nakanishi, who is 
 
 &nbsp;
 
-### Went to UCSD for seeking higher technology and environment
+## Went to UCSD for seeking higher technology and environment
 
 ![SCCN](https://sccn.ucsd.edu/images/sccn.jpg)
 
@@ -36,8 +36,7 @@ After receiving a Ph.D. in Japan, he decided to work as a postdoctoral researche
 At the research facility SCCN, **he contributed to many achievements such as marking a world record in BCI using the SSVEP technology.**.
 
 &nbsp;
-
-### Background to the World Record
+## Background to the World Record
 
 The index of BCI's goodness is a value called **Information Transfer Rate(i.e.ITR)**, which consists of the following three elements:
 
@@ -59,7 +58,7 @@ _Typing letters using only brain waves with SSVEP_
 
 &nbsp;
 
-### SSVEP to be applied in medical and AR/VR industries
+## SSVEP to be applied in medical and AR/VR industries
 
 So, how can this technology be used in our daily lives?
 
@@ -93,7 +92,7 @@ In addition, Dr. Nakanishi mentioned that, although brain wave measurement devic
 
 &nbsp;
 
-### Future trends in Neurotechnology
+## Future trends in Neurotechnology
 
 Dr. Nakanishi told me, in order to incorporate neurotechnology more into our daily lives, there is still **a lot of progress that needs to be made in terms of both hardware and software**, such as improving the way of stimulation in SSVEP, in addition to developing more accurate and slimmer sensors and devices.
 
@@ -101,7 +100,7 @@ Dr. Nakanishi also predicts that the new BCI technology, which is even more accu
 
 &nbsp;
 
-### Conclusion
+## Conclusion
 
 This time, I had the pleasure of interviewing Masaki Nakanishi, who is conducting research on a technology called VEP at UCSD.
 
