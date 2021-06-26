@@ -23,7 +23,7 @@ For this post, I had the opportunity to talk with him about **his background, vi
 
 &nbsp;
 
-### A childhood accident sparked his interest in neurotechnology.
+## A childhood accident sparked his interest in neurotechnology.
 
 Canning is a student at [Rochester Institute of Technology (RIT)](https://www.rit.edu/) majoring in Neurotechnology and is active in a variety of activities.
 
@@ -52,7 +52,7 @@ Later, in college, Canning dedicated his passion to neurotechnology and founded 
 
 &nbsp;
 
-### Killer use cases
+## Killer use cases
 
 I asked Canning about how the technology will be used in our lives, dividing the killer use cases into two categories: current and future.
 
@@ -77,7 +77,7 @@ Also, Canning replied that **the killer use case of the future is manipulating a
 
 &nbsp;
 
-### Timing and solving technical issues are critical to the establishment of neurotechnology.
+## Timing and solving technical issues are critical to the establishment of neurotechnology.
 
 While the technology is like something out of science fiction, Canning said that **in order for the technology to reach healthy people, it is necessary to determine where it's good enough for them to start using it.**
 
@@ -103,7 +103,7 @@ He also said that
 
 &nbsp;
 
-### Future as a business leader
+## Future as a business leader
 
 When I asked Canning about his future plans, he said,
 
@@ -117,7 +117,7 @@ Also, as for the future of BCI Guys, which provides a lot of online technical ma
 
 &nbsp;
 
-### Conclusion
+## Conclusion
 
 This time, I had the pleasure of interviewing Harrison Canning.
 
