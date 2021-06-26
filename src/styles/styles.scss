@@ -410,7 +410,7 @@
       color: #888888;
       font-size: 0.9em;
     }
-    h2{
+    h2 {
       border-bottom: solid 0.5px $gray-color;
       margin: 1em 0;
     }
@@ -445,6 +445,10 @@
       th,
       td {
         padding: 0;
+      }
+      blockquote {
+        margin: 1em 0.5em;
+        padding: 1em;
       }
     }
   }
