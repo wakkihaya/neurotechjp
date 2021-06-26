@@ -2,10 +2,15 @@
 title: "追求するのは正確性と汎用性。心に寄り添う瞑想バンドNeuphony | Ria Rustagi"
 subtitle: "今回は、ニューロフィードバック技術を用いて集中力を高めたり睡眠の質を上げたりする非侵襲型の脳波デバイス'Neuphony'を提供する、ドイツのスタートアップ'PankhTech'の創業者Ria Rustagiに、Neuphonyの魅力やその技術、今後のビジョンについて、インタビューをさせていただいた。"
 description: "今回は、ニューロフィードバック技術を用いて集中力を高めたり睡眠の質を上げたりする非侵襲型の脳波デバイス'Neuphony'を提供する、ドイツのスタートアップ'PankhTech'の創業者Ria Rustagiに、Neuphonyの魅力やその技術、今後のビジョンについて、インタビューをさせていただいた。"
-datePublished: "2021/6/24"
+datePublished: "2021/6/26"
 bannerPhoto: "/img/ria-rustagi-neuphony/neuphony-top.jpg"
 category: "インタビュー"
 ---
+
+&nbsp;
+
+[![Neuphony Youtube](https://neurotechjp.com/img/ria-rustagi-neuphony/neuphony-youtube.jpg)](https://youtu.be/cYKG7QrHhXI)
+*Youtube: How Neuphony works*
 
 &nbsp;
 
@@ -34,7 +39,7 @@ _Neurofeedback 概念図_
 
 ### 姉の喪失で、脳に興味を持つ
 
-Neuphony は、ハードウェアエンジニアである Ria と、Ria の夫でもありソフトウェアエンジニアでもある[Bhavya](https://www.linkedin.com/in/bhavya-madan-07/)とで、2019 年ドイツにて創業された。
+Neuphony は、ハードウェアエンジニアである Ria と、Ria の婚約者でもありソフトウェアエンジニアでもある[Bhavya](https://www.linkedin.com/in/bhavya-madan-07/)とで、2019 年ドイツにて創業された。
 
 &nbsp;
 
@@ -46,7 +51,7 @@ Neuphony は、ハードウェアエンジニアである Ria と、Ria の夫�
 
 ### 正確なニューロフィードバック技術を持つ Neuphony
 
-![Neuphony app screen shot](https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2Fd8eeeb38-6483-48f0-bba7-cb365ad36683%2Fneuphony-app.jpg?id=f8b6cbb8-203a-430d-a467-1fd1ee77e76e&table=block&spaceId=8b430fd8-8b96-4ce2-8e1d-e8dadcca5ec3&width=3580&userId=d6f53ba8-d549-40ed-94c4-55a404a8701a&cache=v2)
+![Neuphony app screen shot](https://neurotechjp.com/img/ria-rustagi-neuphony/neuphony-app.jpg)
 _Neuphony アプリケーション_
 
 Neuphony は、対応のアプリケーションと一緒に使うことで、

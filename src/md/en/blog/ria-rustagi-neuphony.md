@@ -2,12 +2,18 @@
 title: 'High accurate and versatile. Meditation headband "Neuphony" | Ria Rustagi'
 subtitle: "For this interview, I had the opportunity to talk with Ria Rustagi, founder of Neuphony, a non-invasive EEG device which uses neurofeedback to improve concentration, sleep quality, and so on."
 description: "For this interview, I had the opportunity to talk with Ria Rustagi, founder of Neuphony, a non-invasive EEG device which uses neurofeedback to improve concentration, sleep quality, and so on."
-datePublished: "2021/6/24"
+datePublished: "2021/6/26"
 bannerPhoto: "/img/ria-rustagi-neuphony/neuphony-top.jpg"
 category: "Interview"
 ---
 
 &nbsp;
+
+[![Neuphony Youtube](https://neurotechjp.com/img/ria-rustagi-neuphony/neuphony-youtube.jpg)](https://youtu.be/cYKG7QrHhXI)
+*Youtube: How Neuphony works*
+
+&nbsp;
+
 
 "Can't sleep well."
 
@@ -28,7 +34,7 @@ _Neurofeedback Concept_
 
 &nbsp;
 
-PankhTech, a German startup, provides a non-invasive EEG device called "[Neuphony](https://www.neuphony.com/)," which uses neurofeedback technology to improve concentration, sleep quality, and so on.
+PankhTech, a Germany-based startup, provides a non-invasive EEG device called "[Neuphony](https://www.neuphony.com/)," which uses neurofeedback technology to improve concentration, sleep quality, and so on.
 
 For this interview,  I had the opportunity to talk with [Ria Rustagi](https://www.linkedin.com/in/ria-rustagi/), founder of Neuphony, about the appeals and technologies of Neuphony, and its vision for the future.
 
@@ -36,7 +42,7 @@ For this interview,  I had the opportunity to talk with [Ria Rustagi](https://ww
 
 ### Loss of her sister sparked her interest in brain
 
-Neuphony was founded in 2019 in Germany by Ria who is a hardware engineer, and [Bhavya](https://www.linkedin.com/in/bhavya-madan-07/) who is Ria's husband and a software engineer as well.
+Neuphony was founded in 2019 in Germany by Ria who is a hardware engineer, and [Bhavya](https://www.linkedin.com/in/bhavya-madan-07/) who is Ria's fiance and a software engineer as well.
 
 &nbsp;
 
@@ -49,7 +55,7 @@ She told me that she decided to start a Neurotech startup because she wanted to 
 
 ### Neuphony with accurate neurofeedback technology
 
-![Neuphony app screen shot](https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2Fd8eeeb38-6483-48f0-bba7-cb365ad36683%2Fneuphony-app.jpg?id=f8b6cbb8-203a-430d-a467-1fd1ee77e76e&table=block&spaceId=8b430fd8-8b96-4ce2-8e1d-e8dadcca5ec3&width=3580&userId=d6f53ba8-d549-40ed-94c4-55a404a8701a&cache=v2)
+![Neuphony app screen shot](https://neurotechjp.com/img/ria-rustagi-neuphony/neuphony-app.jpg)
 _Neuphony Application_
 
 Neuphony can be used in conjunction with compatible applications to
