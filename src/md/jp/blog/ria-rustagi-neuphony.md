@@ -10,7 +10,7 @@ category: "インタビュー"
 &nbsp;
 
 [![Neuphony Youtube](https://neurotechjp.com/img/ria-rustagi-neuphony/neuphony-youtube.jpg)](https://youtu.be/cYKG7QrHhXI)
-*Youtube: How Neuphony works*
+_Youtube: How Neuphony works_
 
 &nbsp;
 

@@ -36,6 +36,7 @@ After receiving a Ph.D. in Japan, he decided to work as a postdoctoral researche
 At the research facility SCCN, **he contributed to many achievements such as marking a world record in BCI using the SSVEP technology.**.
 
 &nbsp;
+
 ## Background to the World Record
 
 The index of BCI's goodness is a value called **Information Transfer Rate(i.e.ITR)**, which consists of the following three elements:

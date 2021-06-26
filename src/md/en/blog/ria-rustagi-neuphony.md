@@ -10,10 +10,9 @@ category: "Interview"
 &nbsp;
 
 [![Neuphony Youtube](https://neurotechjp.com/img/ria-rustagi-neuphony/neuphony-youtube.jpg)](https://youtu.be/cYKG7QrHhXI)
-*Youtube: How Neuphony works*
+_Youtube: How Neuphony works_
 
 &nbsp;
-
 
 "Can't sleep well."
 
@@ -36,7 +35,7 @@ _Neurofeedback Concept_
 
 PankhTech, a Germany-based startup, provides a non-invasive EEG device called "[Neuphony](https://www.neuphony.com/)," which uses neurofeedback technology to improve concentration, sleep quality, and so on.
 
-For this interview,  I had the opportunity to talk with [Ria Rustagi](https://www.linkedin.com/in/ria-rustagi/), founder of Neuphony, about the appeals and technologies of Neuphony, and its vision for the future.
+For this interview, I had the opportunity to talk with [Ria Rustagi](https://www.linkedin.com/in/ria-rustagi/), founder of Neuphony, about the appeals and technologies of Neuphony, and its vision for the future.
 
 &nbsp;
 
