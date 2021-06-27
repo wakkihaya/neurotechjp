@@ -47,7 +47,7 @@ const ContactForm: React.FC<ContactFormProps> = ({ lang }) => {
           <textarea
             id="message"
             name="message"
-            rows="5"
+            rows={5}
             className="contact-form--detail-text"
             required
           />
