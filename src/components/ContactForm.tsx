@@ -1,5 +1,3 @@
-import { TextField } from "@material-ui/core";
-
 import { useForm, ValidationError } from "@formspree/react";
 
 type ContactFormProps = {

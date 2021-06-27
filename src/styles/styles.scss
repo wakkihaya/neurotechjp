@@ -364,6 +364,9 @@
         font-size: $small-font-size;
       }
     }
+    &--detail-text {
+      margin-bottom: 1em;
+    }
 
     &--detail-submit {
       button {
