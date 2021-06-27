@@ -1,101 +1,71 @@
 import { TextField } from "@material-ui/core";
 
-import axios from "axios";
-import { useForm } from "react-hook-form";
+import { useForm, ValidationError } from "@formspree/react";
 
-import { ContactGoogleForm } from "~/constants/ContactGoogleForm";
-
-interface IFormInput {
-  name: string;
-  mail: string;
-  message: string;
-}
 type ContactFormProps = {
   lang: string;
 };
 
 const ContactForm: React.FC<ContactFormProps> = ({ lang }) => {
-  const {
-    register,
-    handleSubmit,
-    formState: { errors },
-  } = useForm<IFormInput>();
-
-  const sendSlack = async data => {
-    const slack_webhook_url = process.env.SLACK_WEBHOOK;
-    const text = `New post! \n Name: ${data.name} \n Mail: ${data.mail} \n Message: ${data.message}`;
-
-    const sendData = `payload={
-        "text": "${text}",
-    }`;
-    const param = {
-      headers: {
-        "Content-Type": "application/x-www-form-urlencoded; charset=UTF-8",
-      },
-    };
-    await axios.post(slack_webhook_url, sendData, param);
-  };
-
-  const onSubmit = async (data, e) => {
-    const GOOGLE_FORM_ACTION = ContactGoogleForm.action;
-    const CORS_PROXY = "https://cors-anywhere.herokuapp.com/";
-    const submitParams = new FormData();
-
-    submitParams.append(ContactGoogleForm.name, data.name);
-    submitParams.append(ContactGoogleForm.mail, data.mail);
-    submitParams.append(ContactGoogleForm.message, data.message);
-    try {
-      await axios.post(CORS_PROXY + GOOGLE_FORM_ACTION, submitParams);
-      await sendSlack(data);
-    } catch (e) {
-      console.log(e);
-    }
-    e.target.reset();
-  };
-
-  return (
-    <>
+  const [state, handleSubmit] = useForm("mzbyvdko");
+  if (state.succeeded) {
+    return (
       <div className="contact-form">
         <div className="contact-form--title">
           {lang === "EN" && <p> Contact us</p>}
           {lang === "JP" && <p> ご連絡はこちらから</p>}
         </div>
-        <div className="contact-form--detail">
-          <form onSubmit={handleSubmit(onSubmit)}>
-            <TextField
-              fullWidth
-              label="name"
-              {...register("name", { required: true })}
-              error={Boolean(errors.name)}
-              helperText={errors.name && errors.name.message}
-              className="contact-form--detail-text"
-              size="medium"
-            />
-            <TextField
-              fullWidth
-              label="mail"
-              {...register("mail", { required: true })}
-              error={Boolean(errors.mail)}
-              helperText={errors.mail && errors.mail.message}
-              className="contact-form--detail-text"
-            />
-            <TextField
-              fullWidth
-              multiline
-              rows={3}
-              label="message"
-              {...register("message", { required: true })}
-              error={Boolean(errors.message)}
-              helperText={errors.message && errors.message.message}
-              className="contact-form--detail-text"
-            />
-            <div className="contact-form--detail-submit">
-              <input type="submit" />
-            </div>
-          </form>
-        </div>
+        <div className="contact-form--done"> Thanks for contacting!</div>
       </div>
-    </>
+    );
+  }
+  return (
+    <div className="contact-form">
+      <div className="contact-form--title">
+        {lang === "EN" && <p> Contact us</p>}
+        {lang === "JP" && <p> ご連絡はこちらから</p>}
+      </div>
+      <div className="contact-form--detail">
+        <form onSubmit={handleSubmit}>
+          <label htmlFor="name">Name</label>
+          <input
+            id="name"
+            type="name"
+            name="name"
+            className="contact-form--detail-text"
+            required
+          />
+          <ValidationError prefix="Name" field="name" errors={state.errors} />
+          <label htmlFor="email">Email</label>
+          <input
+            id="email"
+            type="email"
+            name="email"
+            className="contact-form--detail-text"
+            required
+          />
+          <ValidationError prefix="Email" field="email" errors={state.errors} />
+          <label htmlFor="message">Message</label>
+          <textarea
+            id="message"
+            name="message"
+            rows="5"
+            className="contact-form--detail-text"
+            required
+          />
+          <ValidationError
+            prefix="Message"
+            field="message"
+            errors={state.errors}
+          />
+          <div className="contact-form--detail-submit">
+            <button type="submit" disabled={state.submitting}>
+              Submit
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
   );
 };
 

@@ -12,6 +12,7 @@
     "start": "next start"
   },
   "dependencies": {
+    "@formspree/react": "^2.2.3",
     "@fortawesome/fontawesome-svg-core": "^1.2.35",
     "@fortawesome/free-brands-svg-icons": "^5.15.3",
     "@fortawesome/free-solid-svg-icons": "^5.15.3",
