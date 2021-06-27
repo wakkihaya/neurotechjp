@@ -6,6 +6,7 @@ import {
 } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
+import ContactForm from "~/components/ContactForm";
 import Footer from "~/components/Footer";
 import Header from "~/components/Header";
 import { Meta } from "~/components/Meta";
@@ -134,6 +135,7 @@ const AboutPage: React.FC = () => {
             </div>
           </div>
         </div>
+        <ContactForm lang="EN" />
       </div>
       <Footer />
     </>

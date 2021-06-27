@@ -309,6 +309,77 @@
   }
 }
 
+.contact-form {
+  &--title {
+    font-size: $large-font-size;
+    font-weight: 500;
+  }
+  &--detail {
+    width: 60%;
+    text-align: left;
+    margin: 5rem auto;
+    input,
+    label,
+    textarea {
+      width: 100%;
+      font-size: $medium-font-size;
+      line-height: 1.2em;
+    }
+  }
+  &--detail-text {
+    margin: 0.5em 0 2em 0;
+    padding: 0.5em;
+    border: solid 0.1px $gray-color;
+    border-radius: 5px;
+  }
+  &--detail-submit {
+    width: 100%;
+    text-align: center;
+    margin: 5em 0;
+    button {
+      font-size: $medium-font-size;
+      padding: 0.5em 2em;
+      background-color: $text-base-color;
+      color: white;
+      border-radius: 15px;
+    }
+    button:hover {
+      cursor: pointer;
+    }
+  }
+  &--done {
+    font-size: $medium-font-size;
+    text-align: center;
+    margin: 10rem auto;
+  }
+  @media (max-width: $mobile-width) {
+    &--title {
+      font-size: $medium-font-size;
+    }
+    &--detail {
+      width: 100%;
+      input,
+      label,
+      textarea {
+        font-size: $small-font-size;
+      }
+    }
+    &--detail-text {
+      margin-bottom: 1em;
+    }
+
+    &--detail-submit {
+      button {
+        font-size: $small-font-size;
+      }
+    }
+    &--done {
+      margin: 5rem 0;
+      font-size: $small-font-size;
+    }
+  }
+}
+
 //Blog content page
 .blog-content {
   width: $content-width;
