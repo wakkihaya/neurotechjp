@@ -1,4 +1,5 @@
 import NextHead from "next/head";
+import React from "react";
 
 export const Meta: React.FC<{
   meta: {

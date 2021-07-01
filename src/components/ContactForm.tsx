@@ -1,4 +1,5 @@
 import { useForm, ValidationError } from "@formspree/react";
+import React from "react";
 
 type ContactFormProps = {
   lang: string;

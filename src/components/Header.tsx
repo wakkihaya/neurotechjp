@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { useRouter } from "next/router";
-import { useState, useEffect } from "react";
-import { slide as Menu, handleOnClose } from "react-burger-menu";
+import React, { useState, useEffect } from "react";
+import { slide as Menu } from "react-burger-menu";
 
 import useResponsive from "~/hooks/use-responsive";
 
