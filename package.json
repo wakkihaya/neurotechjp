@@ -3,12 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "fix": "concurrently 'yarn:*:fix'",
-    "lint": "concurrently 'yarn:*:lint'",
+    "fix": "prettier --write . --ignore-unknown",
+    "lint": "eslint .",
     "dev": "next dev",
-    "prettier:lint": "prettier --check . --ignore-unknown",
-    "prettier:fix": "prettier --write . --ignore-unknown",
-    "eslint": "eslint .",
     "build": "next build",
     "start": "next start"
   },
@@ -19,7 +16,6 @@
     "@fortawesome/free-solid-svg-icons": "^5.15.3",
     "@fortawesome/react-fontawesome": "^0.1.14",
     "@material-ui/core": "^4.11.4",
-    "@shunkakinoki/dev": "^1.0.0",
     "@shunkakinoki/prettier": "^1.0.0",
     "axios": "^0.21.1",
     "dotenv": "^8.2.0",
