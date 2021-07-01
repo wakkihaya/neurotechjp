@@ -1,4 +1,6 @@
 import Link from "next/link";
+import React from "react";
+import { GetStaticPropsResult } from "next";
 
 import Footer from "~/components/Footer";
 import Header from "~/components/Header";
@@ -7,7 +9,11 @@ import { Meta } from "~/components/Meta";
 import type { PostData } from "~/hooks/loader";
 import { loadBlogJPPosts } from "~/hooks/loader";
 
-const BlogPage = (props: { posts: PostData[] }) => {
+type BlogPageProps = {
+  posts: PostData[];
+};
+
+const BlogPage: React.FC<BlogPageProps> = props => {
   return (
     <>
       <Meta
@@ -59,7 +65,9 @@ const BlogItem: React.FC<{ post: PostData }> = props => {
 
 export default BlogPage;
 
-export const getStaticProps = async () => {
+export const getStaticProps = async (): Promise<
+  GetStaticPropsResult<BlogPageProps>
+> => {
   const posts = await loadBlogJPPosts();
   const props = {
     posts,

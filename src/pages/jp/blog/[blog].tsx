@@ -1,15 +1,25 @@
 import glob from "glob";
 import React from "react";
+import { GetStaticPropsResult } from "next";
 
 import { BlogPost } from "~/components/BlogPost";
-import { loadJPPost } from "~/hooks/loader";
+import { loadJPPost, PostData } from "~/hooks/loader";
 
-function Post(props: any) {
+type StaticPathsProps = { paths: string[]; fallback: boolean };
+
+type PostProps = { post: PostData };
+
+type FileProps = {
+  params: {
+    blog: string;
+  };
+};
+const Post: React.FC<PostProps> = props => {
   const { post } = props;
   return <BlogPost post={post} />;
-}
+};
 
-export const getStaticPaths = () => {
+export const getStaticPaths = (): StaticPathsProps => {
   const blogs = glob.sync("**/md/jp/blog/*.md");
   const slugs = blogs.map((file: string) => {
     const popped = file.split("/").pop();
@@ -21,8 +31,10 @@ export const getStaticPaths = () => {
   return { paths, fallback: false };
 };
 
-export const getStaticProps = async ({ params }: any) => {
-  const post = await loadJPPost(`jp/blog/${params.blog}.md`);
+export const getStaticProps = async (
+  file: FileProps,
+): Promise<GetStaticPropsResult<PostProps>> => {
+  const post = await loadJPPost(`jp/blog/${file.params.blog}.md`);
   return { props: { post } };
 };
 

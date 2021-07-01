@@ -55,7 +55,7 @@ export const loadMarkdownENFile = async (
   return { path, contents: mdFile.default };
 };
 
-export const loadMarkdownENFiles = async (path: string) => {
+export const loadMarkdownENFiles = async (path: string): Promise<RawFile[]> => {
   const blogPaths = glob.sync(`**/md/en/${path}`);
   const postDataList = await Promise.all(
     blogPaths.map(blogPath => {
@@ -89,7 +89,7 @@ export const loadMarkdownJPFile = async (path: string): Promise<RawFile> => {
   return { path, contents: mdFile.default };
 };
 
-export const loadMarkdownJPFiles = async (path: string) => {
+export const loadMarkdownJPFiles = async (path: string): Promise<RawFile[]> => {
   const blogPaths = glob.sync(`**/md/jp/${path}`);
   const postDataList = await Promise.all(
     blogPaths.map(blogPath => {

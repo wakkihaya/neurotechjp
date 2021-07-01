@@ -1,0 +1,4 @@
+notarize/
+build/
+next.config.js
+jest.config.js

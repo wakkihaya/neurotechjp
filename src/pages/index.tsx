@@ -1,5 +1,6 @@
 import Link from "next/link";
-
+import React from "react";
+import { GetStaticPropsResult } from "next";
 import Typical from "react-typical";
 
 import Footer from "~/components/Footer";
@@ -9,7 +10,11 @@ import { Meta } from "~/components/Meta";
 import type { PostData } from "~/hooks/loader";
 import { loadBlogENPosts } from "~/hooks/loader";
 
-const Home = (props: { posts: PostData[] }) => {
+type HomeProps = {
+  posts: PostData[];
+};
+
+const Home: React.FC<HomeProps> = props => {
   return (
     <>
       <Meta
@@ -79,7 +84,9 @@ const BlogItem: React.FC<{ post: PostData }> = props => {
 
 export default Home;
 
-export const getStaticProps = async () => {
+export const getStaticProps = async (): Promise<
+  GetStaticPropsResult<HomeProps>
+> => {
   const posts = await loadBlogENPosts();
   const props = {
     posts,
