@@ -1,4 +1,4 @@
 notarize/
 build/
-webpack.config.js
+next.config.js
 jest.config.js

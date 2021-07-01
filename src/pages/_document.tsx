@@ -1,6 +1,6 @@
 import { randomBytes } from "crypto";
 
-import type { DocumentContext } from "next/document";
+import type { DocumentContext, DocumentInitialProps } from "next/document";
 import Document, { Head, Html, Main, NextScript } from "next/document";
 import React from "react";
 
@@ -11,7 +11,9 @@ type WithNonceProp = {
 };
 
 export default class MyDocument extends Document<WithNonceProp> {
-  static async getInitialProps(ctx: DocumentContext) {
+  static async getInitialProps(
+    ctx: DocumentContext,
+  ): Promise<DocumentInitialProps & WithNonceProp> {
     const initialProps = await Document.getInitialProps(ctx);
     const nonce = randomBytes(128).toString("base64");
 
@@ -21,7 +23,7 @@ export default class MyDocument extends Document<WithNonceProp> {
     };
   }
 
-  render() {
+  render(): JSX.Element {
     const nonce = this.props.nonce;
     return (
       <Html>

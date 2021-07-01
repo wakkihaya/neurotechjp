@@ -1,7 +1,12 @@
 import { useState, useLayoutEffect } from "react";
 import { useMediaQuery } from "react-responsive";
 
-const useResponsive = () => {
+type useResponsiveReturnType = {
+  isDesktop: boolean;
+  isMobile: boolean;
+};
+
+const useResponsive = (): useResponsiveReturnType => {
   const [isClient, setIsClient] = useState(false);
 
   const isMobile = useMediaQuery({
