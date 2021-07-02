@@ -26,7 +26,7 @@ export default class MyDocument extends Document<WithNonceProp> {
   render(): JSX.Element {
     const nonce = this.props.nonce;
     return (
-      <Html>
+      <Html lang="en">
         <Head nonce={nonce}>
           <script
             async={true}
@@ -58,6 +58,7 @@ export default class MyDocument extends Document<WithNonceProp> {
             href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500&display=swap"
             rel="stylesheet"
           />
+          <link rel="canonical" href="https://neurotechjp.com" />
         </Head>
         <body>
           <Main />
