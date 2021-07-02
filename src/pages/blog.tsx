@@ -50,7 +50,10 @@ const BlogItem: React.FC<{ post: PostData }> = props => {
     <Link href={`/${post.path}`}>
       <div className="blog-item">
         <div className="blog-item--pic">
-          <img src={post.bannerPhoto} />
+          <img
+            src={post.bannerPhoto}
+            alt={`NeurotechJP bannar ${post.title}`}
+          />
         </div>
         <div className="blog-item--container">
           <div className="blog-item--container-title">{post.title}</div>
