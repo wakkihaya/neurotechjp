@@ -26,7 +26,10 @@ const SlidesPage: React.FC = () => {
         <Link href="/slides/basic-theories-of-neurotechnology">
           <div className="slides-container--content">
             <div className="slides-container--content-image">
-              <img src="/img/slides/slide-basic-theory-neurotech.jpg" />
+              <img
+                src="/img/slides/slide-basic-theory-neurotech.jpg"
+                alt="Basic throry of Neurotech slide"
+              />
             </div>
             <div className="slides-container--content-text content-text">
               <div className="content-text--title">

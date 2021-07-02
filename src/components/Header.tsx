@@ -168,7 +168,7 @@ const Header: React.FC<{ isBgTransparent: boolean }> = props => {
           isBgTransparent ? "bg-none" : null,
         ].join(" ")}
       >
-        <img src="/brainwave.svg" />
+        <img src="/brainwave.svg" alt="NeurotechJP Header brain wave" />
       </div>
     </div>
   );

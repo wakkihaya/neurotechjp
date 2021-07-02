@@ -20,7 +20,9 @@ export const BlogPost: React.FunctionComponent<{ post: PostData }> = ({
       <div className="blog-content">
         <div className="blog-content--top">
           <div className="blog-content--top-pic">
-            {post.bannerPhoto && <img src={bannerPhoto} />}
+            {post.bannerPhoto && (
+              <img src={bannerPhoto} alt={`NeurotechJP banner ${title}`} />
+            )}
           </div>
           <div className="blog-content--top-info">
             <div className="blog-content--top-info-category">{category}</div>
