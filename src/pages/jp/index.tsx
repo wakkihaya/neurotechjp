@@ -27,7 +27,7 @@ const Home: React.FC<HomeProps> = props => {
       />
       <div className="top">
         <div className="top--gif">
-          <img src="/img/top-page.jpg" />
+          <img src="/img/top-page.jpg" alt="NeurotechJP トップ画像" />
         </div>
         <div className="top--header">
           <Header isBgTransparent={true} />
@@ -53,7 +53,7 @@ const Home: React.FC<HomeProps> = props => {
           <BlogItem key={1} post={props.posts[1]} />
         </div>
         <div className="top-blog--readmore">
-          <Link href="/blog">Read more</Link>
+          <Link href="/blog">More posts</Link>
         </div>
       </div>
 
@@ -68,7 +68,7 @@ const BlogItem: React.FC<{ post: PostData }> = props => {
     <Link href={`/${post.path}`}>
       <div className="blog-item">
         <div className="blog-item--pic">
-          <img src={post.bannerPhoto} />
+          <img src={post.bannerPhoto} alt="NeurotechJP ブログ　バナー画像" />
         </div>
         <div className="blog-item--container">
           <div className="blog-item--container-title">{post.title}</div>
