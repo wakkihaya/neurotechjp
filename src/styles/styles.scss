@@ -172,6 +172,7 @@
     font-size: $small-font-size;
     margin: 1rem 0;
     overflow: hidden;
+    min-height: 4.5em;
 
     display: -webkit-box;
     -webkit-box-orient: vertical;
@@ -208,7 +209,7 @@
     }
     &--container-category {
       font-size: $very-small-font-size;
-      width: 100px;
+      width: 120px;
     }
     &--container-readmore {
       font-size: $very-small-font-size;
