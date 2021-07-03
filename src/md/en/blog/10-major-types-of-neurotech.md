@@ -12,7 +12,7 @@ bannerPhoto: "/img/10-major-types-of-neurotech/ogp.jpg"
 
 &nbsp;
 
-The technology of Neurotech is the result of many layers of research results woven together by the history of various studies by our great predecessors.
+The technology of Neurotech is the result of many layers of research woven together by the history of various studies by our great predecessors.
 
 When you first came into contact with Neurotech, you may have been fascinated by the BCI that connects the brain to the computer and imagined a future of science fiction.
 
@@ -32,7 +32,7 @@ In this article, we would like to introduce the first five technologies.
 
 &nbsp;
 
-Cognitive assessment and enhancing are **a practice designed to help people improve their brain and cognitive development, social cognition, and increase vocational capabilities**.
+Cognitive assessment and enhancing is **a practice designed to help people improve their brain and cognitive development, social cognition, and increase vocational capabilities**.
 
 &nbsp;
 
@@ -85,7 +85,7 @@ _Neuromodulation stimulation types_
 
 &nbsp;
 
-|                                       |                                                      Who                                                       |                                                   Content                                                   |
+|                                       |                                                    For Whom                                                    |                                                   Content                                                   |
 | :-----------------------------------: | :------------------------------------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------------------------------: |
 |      **Deep Brain Stimulation**       |                                 Movement disorders such as Parkinson's disease                                 |             Electrical stimulation to a specific location in the brain via implanted electrodes             |
 |     **Sacral Nerve Stimulation**      |               People with bladder symptoms that don't respond to medication or physical therapy                |                         Changes the function of the sacral nerve near the tailbone.                         |
@@ -104,6 +104,7 @@ Companies that use this technology are represented by [Thync](https://thync.com/
 ## 4. Neuromonitoring / imaging
 
 Neuromonitoring/imaging is **a way to scan the brain and spinal cord**.
+
 &nbsp;
 
 ![Neuromonitoring](http://localhost:3000/img/10-major-types-of-neurotech/neuromonitoring.jpg)
