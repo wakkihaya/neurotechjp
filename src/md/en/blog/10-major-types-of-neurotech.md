@@ -167,7 +167,19 @@ Companies that use this technology are represented by [Muse by InteraXon](https:
 
 &nbsp;
 
-Data reference
+## In conclusion
+
+In this article, we introduced the first five of the ten technologies that represent Neurotech.
+
+Although the technologies are based on research in pharmacology as well as brain science, there may be a market emerging like Neuromodulation where the scale is so large that it is becoming easier for startups to enter.
+
+&nbsp;
+
+In the next article, we will introduce the latter five technologies.
+
+&nbsp;
+
+Data reference:
 
 [Neurotech Analytics](http://analytics.neurotech.com/q4/industry-landscape-overview.pdf)
 

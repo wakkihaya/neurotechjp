@@ -166,6 +166,18 @@ Market watch 社によると、ニューロフィードバック市場は、2019
 
 &nbsp;
 
+## さいごに
+
+今回は、Neurotech を代表する 10 の技術のうち、前半 5 つの技術を紹介した。
+
+脳科学限らず薬理学などの研究がベースとなる技術ではあるが、ニューロモデュレーションのように規模が大きく、スタートアップが参入しやすくなっている市場が出てきているのかもしれない。
+
+&nbsp;
+
+次回は、後半 5 つの技術を紹介していく。
+
+&nbsp;
+
 データ参照：
 
 [Neurotech Analytics](http://analytics.neurotech.com/q4/industry-landscape-overview.pdf)
