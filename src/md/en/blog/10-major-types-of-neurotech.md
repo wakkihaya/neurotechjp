@@ -6,7 +6,7 @@ subtitle: "In this article, we will introduce the first five of the ten categori
 description: "In this article, we will introduce the first five of the ten categories of modern Neurotech technologies."
 
 datePublished: "2021/7/2"
-category: "コラム"
+category: "Column"
 bannerPhoto: "/img/10-major-types-of-neurotech/ogp.jpg"
 ---
 
