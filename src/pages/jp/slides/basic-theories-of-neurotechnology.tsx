@@ -8,7 +8,7 @@ const BasicTheoriesOfNeurotechnology: React.FC = () => {
     <>
       <Meta
         meta={{
-          title: "Basic Theories of Neurotechnology | NeurotechJP",
+          title: "Neurotech(ニューロテック)の基礎 | NeurotechJP",
           desc:
             "Neurotechnologyの基礎知識をまとめたスライド資料です。" +
             "1. このエリアの全体像(市場規模など)" +
@@ -24,11 +24,11 @@ const BasicTheoriesOfNeurotechnology: React.FC = () => {
         <div className="slides-item--main">
           <iframe
             allowFullScreen
-            src="https://www.slideshare.net/slideshow/embed_code/key/ohvZ4HKmUH5cGa"
+            src="https://www.slideshare.net/slideshow/embed_code/key/CVlcUA8ZfaC1G5"
           />
         </div>
         <div className="slides-item--title">
-          Basic Theories of Neurotechnology
+          Neurotech(ニューロテック)の基礎
         </div>
         <div className="slides-item--subtitle">
           Neurotechnologyの基礎知識をまとめたスライド資料です。 <br />

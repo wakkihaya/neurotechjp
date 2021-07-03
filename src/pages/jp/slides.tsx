@@ -33,7 +33,7 @@ const SlidesPage: React.FC = () => {
             </div>
             <div className="slides-container--content-text content-text">
               <div className="content-text--title">
-                Basic Theories of Neurotechnology
+                Neurotech(ニューロテック)の基礎
               </div>
               <div className="content-text--subtitle">
                 Neurotechnologyの基礎知識をまとめたスライド資料です。 <br />
