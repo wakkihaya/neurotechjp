@@ -16,7 +16,7 @@ const BasicTheoriesOfNeurotechnology: React.FC = () => {
             "3. ニューロテクノロジーを用いたユースケース",
           link: "https://neurotechjp.com/jp/slides/basic-theories-of-neurotechnology/",
           image:
-            "https://neurotechjp.com/img/slides/slide-basic-theory-neurotech.jpg",
+            "https://neurotechjp.com/img/slides/slide-basic-theory-neurotech-jp.jpg",
         }}
       />
       <Header isBgTransparent={false} />
