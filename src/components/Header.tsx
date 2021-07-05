@@ -5,7 +5,7 @@ import { slide as Menu } from "react-burger-menu";
 
 import useResponsive from "~/hooks/use-responsive";
 
-type Lang = "EN" | "JP";
+type Lang = "EN" | "JP" | "NotSpecified";
 
 type HamburgerMenuProps = {
   lang: Lang;
@@ -68,7 +68,7 @@ const Header: React.FC<{ isBgTransparent: boolean }> = props => {
   const { isDesktop, isMobile } = useResponsive();
 
   ///Default lang is EN.
-  const [lang, setLang] = useState<Lang>("EN");
+  const [lang, setLang] = useState<Lang>("NotSpecified");
 
   const changeLang = (targetLang: Lang) => {
     setLang(targetLang);
@@ -83,19 +83,25 @@ const Header: React.FC<{ isBgTransparent: boolean }> = props => {
         /// .com/jp/hoge -> .com/hoge
         const redirectToPath = currentPathName.replace("jp/", "");
         router.push(redirectToPath);
+      } else if (targetLang === "NotSpecified") {
+        changeLang("JP");
       }
     } else {
       if (targetLang === "JP") {
         /// .com/hoge -> .com/jp/hoge
         const redirectToPath = "/jp" + currentPathName;
         router.push(redirectToPath);
+      } else if (targetLang === "NotSpecified") {
+        changeLang("EN");
       }
     }
   };
 
   useEffect(() => {
     const currentLang = localStorage.getItem("currentLang");
-    const modCurrentLang = currentLang ? JSON.parse(currentLang) : "EN";
+    const modCurrentLang = currentLang
+      ? JSON.parse(currentLang)
+      : "NotSpecified";
     setLang(modCurrentLang);
 
     /// Redirect to the page in selected language.
