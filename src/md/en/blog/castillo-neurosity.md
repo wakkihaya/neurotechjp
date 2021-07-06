@@ -1,5 +1,5 @@
 ---
-title: "Unlocking consumers' potential with BCI with excellent design and processing capacity  Neurosity | Alex Castillo"
+title: "Unlock our potential with well designed & powerful BCI | Alex Castillo at Neurosity"
 
 subtitle: "For this interview, we had the opportunity to talk to Alex Castillo, the founder of Neurosity, who has been gaining momentum since the launch of CROWN, an EEG device with a CPU as powerful as a MacBook Air, in March."
 
@@ -45,10 +45,10 @@ The team has excellent teamwork across a wide range of hardware and software. AJ
 
 Although Castillo has been working in the software industry for a long time, **he got the inspiration for Neurotech about five years ago, when a family member or friend had a mental illness.**
 
-> I've been really studying and being interested in how people interact with these applications or just with computers in general.
+> "I've been really studying and being interested in how people interact with these applications or just with computers in general.
 > At the same time, I did grow with family, and friends suffering from mental illnesses like epilepsy,
 > and it made me very curious to learn about the brain because of the impact of cost in my life and my family's life.
-> So when I had the chance to try out available technology for when computer interfaces and eg, I knew I just had to get involved in once I did.
+> So when I had the chance to try out available technology for when computer interfaces and eg, I knew I just had to get involved in once I did."
 
 &nbsp;
 
@@ -66,14 +66,14 @@ Also, by linking the app to your Spotify account, you can discover songs that in
 
 Castillo explained to me that the strengths of CROWN are **the accuracy of its sensor locations, which are calculated backward from the intended use, and its design, which maintains simplicity**.
 
-> EEG has been researched for many decades, and you have to wonder why people are not wearing it.
+> "EEG has been researched for many decades, and you have to wonder why people are not wearing it.
 > So what we've done that has never been done before is that we have made the device smart.
 > ...
 > We just didn't build a device and then figure out the applications, we started thinking,
 > "How do we want to offer value to people's lives?"
 > "How do we want people to use a device?"
 > So we have basically our product or the ideas that we want to implement, and we started designing from the ground up based on the sensors of the head.
-> We took a mannequin pretty much for the different sensor locations that we wanted to tackle. And then we design around all that.
+> We took a mannequin pretty much for the different sensor locations that we wanted to tackle. And then we design around all that."
 
 &nbsp;
 
@@ -83,9 +83,9 @@ Like CROWN, there are many BCIs in the world that cover the four brain regions o
 
 Castillo also said that another advantage is that it has **the processing power as powerful as a MacBookAir.**
 
-> When the first iPhone came out, it opened all possibilities.
+> "When the first iPhone came out, it opened all possibilities.
 > And certainly, you were not just having a phone, but you were using an operating system that had many different applications.
-> We have done that with the CROWN. So the CROWN also has CPUs, Ram, and enough computing power to run machine learning and very complex processing algorithms. So we are able to also run applications on the device.
+> We have done that with the CROWN. So the CROWN also has CPUs, Ram, and enough computing power to run machine learning and very complex processing algorithms. So we are able to also run applications on the device."
 
 &nbsp;
 
@@ -103,8 +103,8 @@ Many developers have already developed their own apps using the SDK and CROWN. C
 
 So how do we find a killer application?
 
-> It's really by thinking outside the box on not the obvious of why of what a mind-reading device could give you.
-> But it's by also starting to think of **what's going on in the world right now.** For example,there's a lot of people with burnout, there's a lot of people that are not able to be productive at work.
+> "It's really by thinking outside the box on not the obvious of why of what a mind-reading device could give you.
+> But it's by also starting to think of **what's going on in the world right now.** For example,there's a lot of people with burnout, there's a lot of people that are not able to be productive at work."
 
 Castillo, who is also an app developer, answered.
 
@@ -126,12 +126,12 @@ How will the BCI that connects the brain and computer develop in the future?
 
 Castillo replied that it is extremely important **not only to have good research but also to put that research into our lives.**
 
-> I'm super excited about some of the new research like the research that has shown how you're able to predict epilepsy seizures up to one hour before they happen.
+> "I'm super excited about some of the new research like the research that has shown how you're able to predict epilepsy seizures up to one hour before they happen.
 > But how can we put that to the real world?
 
 > Because we trid to do that with all the devices that were in the market before we started working on hardware.
 > And they were not consumer-friendly. They were not paid unless they were in life, they didn't even look friendly enough for someone to want to put down their hat.
-> So I think creating the brain-computer interface that is not meant or designed to work in a lab was the first step and we accomplished that.
+> So I think creating the brain-computer interface that is not meant or designed to work in a lab was the first step and we accomplished that."
 
 &nbsp;
 
