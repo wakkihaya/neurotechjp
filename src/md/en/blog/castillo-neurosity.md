@@ -39,7 +39,9 @@ For this interview, we had the opportunity to talk with [Alex Castillo](https://
 
 Neurosity was co-founded in 2018 by [AJ Keller](https://www.linkedin.com/in/andrewjaykeller/), the CEO, and Alex Castillo, the CTO, and is currently in its Seed phase.
 
-The team has excellent teamwork across a wide range of hardware and software. AJ has a professional background in hardware, while Castillo, who I interviewed this time, has worked as a software engineer for 15 years at Netflix and other companies. Also, they have two neuroscientists from UC Berkeley, as well as people with many skills in design and marketing.
+The team has excellent teamwork across a wide range of hardware and software. AJ, who is responsible for all hardware, studied computer engineering in college and then worked at Boeing for automating the construction of planes and robots. AJ has a professional background in hardware, while Castillo, who I interviewed this time, has worked as a software engineer for 15 years at Netflix, [GrubHub](http://grubhub.com/), and other companies. Based on his vast knowledge and experience, he is responsible for all software at Neurosity.
+
+Also, they have neuroscientists from UC Berkeley, as well as people with many skills in marketing and so on.
 
 &nbsp;
 
@@ -60,7 +62,7 @@ Although Castillo has been working in the software industry for a long time, **h
 
 CROWN, a non-invasive device announced in March, uses eight sensors to detect brain waves, and through the dedicated "Neurosity Shift app," it can measure your level of concentration and relaxation.
 
-Also, by linking the app to your Spotify account, you can discover songs that increase your productivity based on your brain activity, and mute your notifications based on your level of concentration. These features will lead you to a "**[flow state](<https://en.wikipedia.org/wiki/Flow_(psychology)>)**" where you are completely immersed in something.
+Also, by linking the app to your Spotify account, you can **discover songs that increase your productivity based on your brain activity, and mute your notifications based on your level of concentration**. These features will lead you to a "**[flow state](<https://en.wikipedia.org/wiki/Flow_(psychology)>)**" where you are completely immersed in the moment.
 
 &nbsp;
 
@@ -70,8 +72,8 @@ Castillo explained to me that the strengths of CROWN are **the accuracy of its s
 > So what we've done that has never been done before is that we have made the device smart.
 > ...
 > We just didn't build a device and then figure out the applications, we started thinking,
-> "How do we want to offer value to people's lives?"
-> "How do we want people to use a device?"
+> 'How do we want to offer value to people's lives?'
+> 'How do we want people to use a device?'
 > So we have basically our product or the ideas that we want to implement, and we started designing from the ground up based on the sensors of the head.
 > We took a mannequin pretty much for the different sensor locations that we wanted to tackle. And then we design around all that."
 
@@ -89,7 +91,35 @@ Castillo also said that another advantage is that it has **the processing power 
 
 &nbsp;
 
-In contrast to the conventional solution of acquiring data from a device with embedded Bluetooth and performing machine learning and other processing on a dedicated smartphone application, CROWN enables the realization of a future where all operations and processing can be performed within the device without the need for a dedicated smartphone application.
+In contrast to the conventional solution of acquiring data from a device with embedded Bluetooth and performing machine learning and other processing on a dedicated smartphone application, CROWN has the potential to operate and process everything which can be performed within the device without the need for a dedicated smartphone application.
+
+&nbsp;
+
+## Journey to device interface design
+
+![CROWN](https://neurotechjp.com/img/castillo-neurosity/neurosity-device-2.jpg)
+
+&nbsp;
+
+CROWN has great functionality and is simple enough to be used by anyone in daily life, but a lot of thought and effort went into designing its interface.
+
+> "In the journey for interfaces, initially, I always thought the reform form factor could be a dealbreaker for most people.
+> But if we start seeing looking back at how we came with headphones which were invented many decades ago, your headphones were very heavy and bigger. However, they allow the game humans to have the ability that no other object gives them. What happened was to the time you can see the headphones getting smaller, lighter.
+> ...
+> So does it really matter much about the size and look and feel?
+> I think to an extent, but I think if we give them something that they can basically put on, and it gives them basically some kind of ability or advantage of our superpower, people will definitely be focused on what you can do for them.
+> ...
+> So we're **packaging technology that is as powerful as a MacBook Air all in a slim form factor.**
+> And that's just like our start design."
+
+Castillo told me.
+
+&nbsp;
+
+When it comes to designing future interfaces, Castillo explained to me that **the priority will be to focus on the needs of the user and then explore ways to make the device smaller.**
+
+> "Not too far from now, we're going to have devices that you can barely see that are going to be super tiny.
+> So we're more focused on how well we 　 can give people today that they cannot get otherwise. And then we are going to continue progressing want to know your design and manufacturing processes to get that technology as small as possible."
 
 &nbsp;
 
@@ -141,6 +171,7 @@ This time, I had the opportunity to interview Castillo from Neurosity, a company
 
 &nbsp;
 
-The day may soon come when EEG devices like CROWN, which combine portability and functionality as a stand-alone device, will be incorporated into our daily lives as "mobile devices" that we can easily use every day.
+The day may soon come when EEG devices like CROWN, which combine wearability
+and functionality as a stand-alone device, will be incorporated into our daily lives as "mobile devices" that we can easily use every day.
 
 &nbsp;
