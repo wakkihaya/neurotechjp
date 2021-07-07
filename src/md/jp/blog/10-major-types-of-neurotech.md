@@ -20,7 +20,7 @@ bannerPhoto: "/img/10-major-types-of-neurotech/ogp.jpg"
 
 今回はその中でも 5 つの技術についてみていこう。
 
-![Neurotech 10 の技術](http://localhost:3000/img/10-major-types-of-neurotech/neurotech-10-tech.jpg)
+![Neurotech 10 の技術](https://neurotechjp.com/img/10-major-types-of-neurotech/neurotech-10-tech.jpg)
 
 &nbsp;
 
@@ -42,8 +42,8 @@ bannerPhoto: "/img/10-major-types-of-neurotech/ogp.jpg"
 
 代表的な企業としては、[Virtuleap](https://virtuleap.com/), [Neurotrack](https://neurotrack.com/jp/products), [Mindstrong Health](https://mindstrong.com/), などがある。
 
-[![Viruleap Youtube](http://localhost:3000/img/10-major-types-of-neurotech/virtuleap.jpg)](https://youtu.be/6Efs-DiU8hY)
-_Youtube: Virtuleap 　サービス紹介動画_
+[![Viruleap Youtube](https://neurotechjp.com/img/10-major-types-of-neurotech/virtuleap.jpg)](https://youtu.be/6Efs-DiU8hY)
+_Youtube: Virtuleap サービス紹介動画_
 
 &nbsp;
 
@@ -79,7 +79,7 @@ _Youtube: Virtuleap 　サービス紹介動画_
 
 &nbsp;
 
-![ニューロモデュレーチョン](http://localhost:3000/img/10-major-types-of-neurotech/neuromodulation-jp.jpg)
+![ニューロモデュレーチョン](https://neurotechjp.com/img/10-major-types-of-neurotech/neuromodulation-jp.jpg)
 _ニューロモデュレーチョン　刺激の種類_
 
 &nbsp;
@@ -109,7 +109,7 @@ _画像: Thync デバイス_
 
 &nbsp;
 
-![ニューロモニタリング](http://localhost:3000/img/10-major-types-of-neurotech/neuromonitoring.jpg)
+![ニューロモニタリング](https://neurotechjp.com/img/10-major-types-of-neurotech/neuromonitoring.jpg)
 _ニューロモニタリング/イメージング　種類_
 
 &nbsp;
@@ -154,8 +154,8 @@ _ニューロモニタリング/イメージング　種類_
 
 代表的な企業としては、[InSightec](https://www.insightec.com/), [NeuroMetrix](https://www.neurometrix.com/)　などがある。
 
-[![Insightec Youtube](http://localhost:3000/img/10-major-types-of-neurotech/insightec.jpg)](https://youtu.be/O_PL8_bDHOY)
-_Youtube: Insightec 　紹介動画_
+[![Insightec Youtube](https://neurotechjp.com/img/10-major-types-of-neurotech/insightec.jpg)](https://youtu.be/O_PL8_bDHOY)
+_Youtube: Insightec 紹介動画_
 
 &nbsp;
 

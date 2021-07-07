@@ -22,7 +22,7 @@ In this series, however, we will explain the technical characteristics of the 10
 
 In this article, we would like to introduce the first five technologies.
 
-![Neurotech 10 technologies](http://localhost:3000/img/10-major-types-of-neurotech/neurotech-10-tech.jpg)
+![Neurotech 10 technologies](https://neurotechjp.com/img/10-major-types-of-neurotech/neurotech-10-tech.jpg)
 
 &nbsp;
 
@@ -44,7 +44,7 @@ When the cognitive function is enhanced, the brain becomes more efficient, allow
 
 Some of the leading companies are [Virtuleap](https://virtuleap.com/), [Neurotrack](https://neurotrack.com/), [Mindstrong Health](https://mindstrong.com/),and others.
 
-[![Viruleap Youtube](http://localhost:3000/img/10-major-types-of-neurotech/virtuleap.jpg)](https://youtu.be/6Efs-DiU8hY)
+[![Viruleap Youtube](https://neurotechjp.com/img/10-major-types-of-neurotech/virtuleap.jpg)](https://youtu.be/6Efs-DiU8hY)
 _Youtube: Virtuleap |　 Service introduction video_
 
 &nbsp;
@@ -81,7 +81,7 @@ Each of those types of stimulation has different characteristics.
 
 &nbsp;
 
-![Neuromodulation](http://localhost:3000/img/10-major-types-of-neurotech/neuromodulation-en.jpg)
+![Neuromodulation](https://neurotechjp.com/img/10-major-types-of-neurotech/neuromodulation-en.jpg)
 _Neuromodulation stimulation types_
 
 &nbsp;
@@ -111,7 +111,7 @@ Neuromonitoring/imaging is **a way to scan the brain and spinal cord**.
 
 &nbsp;
 
-![Neuromonitoring](http://localhost:3000/img/10-major-types-of-neurotech/neuromonitoring.jpg)
+![Neuromonitoring](https://neurotechjp.com/img/10-major-types-of-neurotech/neuromonitoring.jpg)
 _Neuromonitoring/imaging types_
 
 &nbsp;
@@ -155,7 +155,7 @@ _Neuromonitoring/imaging types_
 
 Some of the leading companies are [InSightec](https://www.insightec.com/), [NeuroMetrix](https://www.neurometrix.com/), and others.
 
-[![Insightec Youtube](http://localhost:3000/img/10-major-types-of-neurotech/insightec.jpg)](https://youtu.be/O_PL8_bDHOY)
+[![Insightec Youtube](https://neurotechjp.com/img/10-major-types-of-neurotech/insightec.jpg)](https://youtu.be/O_PL8_bDHOY)
 _Youtube: Insightec 　| introduction video_
 
 ## 5. NeuroFeedback
