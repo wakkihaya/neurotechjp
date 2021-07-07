@@ -40,9 +40,10 @@ bannerPhoto: "/img/10-major-types-of-neurotech/ogp.jpg"
 
 認知機能を強化すると、脳の効率が上がり、複雑な問題を解決したり、新しい視点を理解したりすることができる。
 
-&nbsp;
+代表的な企業としては、[Virtuleap](https://virtuleap.com/), [Neurotrack](https://neurotrack.com/jp/products), [Mindstrong Health](https://mindstrong.com/), などがある。
 
-この技術を使う企業は、[Virtuleap](https://virtuleap.com/)などが代表される。
+[![Viruleap Youtube](http://localhost:3000/img/10-major-types-of-neurotech/virtuleap.jpg)](https://youtu.be/6Efs-DiU8hY)
+_Youtube: Virtuleap 　サービス紹介動画_
 
 &nbsp;
 
@@ -64,7 +65,7 @@ bannerPhoto: "/img/10-major-types-of-neurotech/ogp.jpg"
 
 製薬会社、大学、研究病院の研究者は、**新しい神経治療薬の発見に年間 1,370 億円以上**を費やしており、パイプラインは極めて非効率的で、現在のところ **薬を市場に出すまでに 12 年以上の年月と 15 億円の費**用がかかっている。臨床試験を開始する前の研究開発の初期段階は、通常 3.5 年かかる。
 
-この技術を使う企業は、[Sage Therapeutics](https://www.sagerx.com/)などが代表される。
+代表的な企業としては、[Sage Therapeutics](https://www.sagerx.com/), [AZTherapies](https://aztherapies.com/), [BlackThornx](https://www.blackthornrx.com/)などがある。
 
 &nbsp;
 
@@ -95,7 +96,10 @@ _ニューロモデュレーチョン　刺激の種類_
 
 NeuroTech Reports 社の市場調査によると、世界のニューロモデュレーション市場は、2018 年の 84 億ドルから**2022 年には 133 億ドル**に成長すると予想されている。
 
-この技術を使う企業は、[Thync](https://thync.com/)などが代表される。
+代表的な企業としては、[Thync](https://thync.com/), [Axonic](https://www.axonics.com/), [ElectroCore](https://www.electrocore.com/) などがある。
+
+![Thync image](https://images.techhive.com/images/article/2016/05/thync-main-100662444-primary.idge.jpg)
+_画像: Thync デバイス_
 
 &nbsp;
 
@@ -148,6 +152,13 @@ _ニューロモニタリング/イメージング　種類_
 
 &nbsp;
 
+代表的な企業としては、[InSightec](https://www.insightec.com/), [NeuroMetrix](https://www.neurometrix.com/)　などがある。
+
+[![Insightec Youtube](http://localhost:3000/img/10-major-types-of-neurotech/insightec.jpg)](https://youtu.be/O_PL8_bDHOY)
+_Youtube: Insightec 　紹介動画_
+
+&nbsp;
+
 ## 5. NeuroFeedback・ニューロフィードバック
 
 ![ニューロフィードバック](https://www.frontiersin.org/files/Articles/527026/fnhum-14-00192-HTML/image_m/fnhum-14-00192-g001.jpg)
@@ -163,7 +174,10 @@ _ニューロフィードバック　流れ_
 
 Market watch 社によると、ニューロフィードバック市場は、2019 年で 4300 万ドル、**2026 年には 6600 万ドル**の規模になると予測される。
 
-この技術を使う企業は、[Muse by InteraXon](https://choosemuse.com/)などが代表される。
+代表的な企業としては、[Muse by InteraXon](https://choosemuse.com/), [Myndlift](https://www.myndlift.com/), [BrainCo](https://www.brainco.tech/) などがある。
+
+![Muse デバイス](https://choosemuse.com/app/uploads/2018/10/muse-2-facebook-3.jpg)
+_画像: Muse デバイス_
 
 &nbsp;
 

@@ -42,9 +42,10 @@ New research has shown that cognitive function can be assessed and enhanced thro
 
 When the cognitive function is enhanced, the brain becomes more efficient, allowing us to solve complex problems and understand new perspectives.
 
-&nbsp;
+Some of the leading companies are [Virtuleap](https://virtuleap.com/), [Neurotrack](https://neurotrack.com/), [Mindstrong Health](https://mindstrong.com/),and others.
 
-Companies that use this technology are represented by [Virtuleap](https://virtuleap.com/) and others.
+[![Viruleap Youtube](http://localhost:3000/img/10-major-types-of-neurotech/virtuleap.jpg)](https://youtu.be/6Efs-DiU8hY)
+_Youtube: Virtuleap |　 Service introduction video_
 
 &nbsp;
 
@@ -66,7 +67,7 @@ Molecular neuropharmacology is the study of how drugs affect cellular functions 
 
 Researchers at pharmaceutical companies, universities, and research hospitals **spend more than $137 billion per year to discover new neurotherapeutics**, and the pipeline is extremely inefficient, currently taking **more than 12 years and $1.5 billion to bring a drug to market**. The initial phase of R&D, before clinical trials begin, typically takes 3.5 years.
 
-Companies that use this technology are represented by [Sage Therapeutics](https://www.sagerx.com/) and others.
+Some of the leading companies are [Sage Therapeutics](https://www.sagerx.com/), [AZTherapies](https://aztherapies.com/), [BlackThornx](https://www.blackthornrx.com/), and others.
 
 &nbsp;
 
@@ -97,7 +98,10 @@ _Neuromodulation stimulation types_
 
 According to a market study by NeuroTech Reports, the global neuromodulation market is expected to grow from $8.4 billion in 2018 to **$13.3 billion by 2022**.
 
-Companies that use this technology are represented by [Thync](https://thync.com/) and others.
+Some of the leading companies are [Thync](https://thync.com/), [Axonic](https://www.axonics.com/), [ElectroCore](https://www.electrocore.com/), and others.
+
+![Thync image](https://images.techhive.com/images/article/2016/05/thync-main-100662444-primary.idge.jpg)
+_Image: Thync device_
 
 &nbsp;
 
@@ -149,6 +153,11 @@ _Neuromonitoring/imaging types_
 \*Spatial resolution: How well we can distinguish even the smallest objects.
 &nbsp;
 
+Some of the leading companies are [InSightec](https://www.insightec.com/), [NeuroMetrix](https://www.neurometrix.com/), and others.
+
+[![Insightec Youtube](http://localhost:3000/img/10-major-types-of-neurotech/insightec.jpg)](https://youtu.be/O_PL8_bDHOY)
+_Youtube: Insightec 　| introduction video_
+
 ## 5. NeuroFeedback
 
 ![Neurofeedback](https://www.frontiersin.org/files/Articles/527026/fnhum-14-00192-HTML/image_m/fnhum-14-00192-g001.jpg)
@@ -164,7 +173,10 @@ By showing information about the patient's brain wave activity, the patient can 
 
 According to Market Watch reports, the neurofeedback market is projected to be worth $43 million in 2019 and **$66 million by 2026**.
 
-Companies that use this technology are represented by [Muse by InteraXon](https://choosemuse.com/) and others.
+Some of the leading companies are [Muse by InteraXon](https://choosemuse.com/), [Myndlift](https://www.myndlift.com/), [BrainCo](https://www.brainco.tech/), and others.
+
+![Muse device](https://choosemuse.com/app/uploads/2018/10/muse-2-facebook-3.jpg)
+_Image: Muse device_
 
 &nbsp;
 
