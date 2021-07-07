@@ -27,13 +27,13 @@ const SlidesPage: React.FC = () => {
           <div className="slides-container--content">
             <div className="slides-container--content-image">
               <img
-                src="/img/slides/slide-basic-theory-neurotech.jpg"
-                alt="Basic throry of Neurotech スライド"
+                src="/img/slides/slide-basic-theory-neurotech-jp.jpg"
+                alt="Neurotech(ニューロテック)の基礎 スライド"
               />
             </div>
             <div className="slides-container--content-text content-text">
               <div className="content-text--title">
-                Basic Theories of Neurotechnology
+                Neurotech(ニューロテック)の基礎
               </div>
               <div className="content-text--subtitle">
                 Neurotechnologyの基礎知識をまとめたスライド資料です。 <br />

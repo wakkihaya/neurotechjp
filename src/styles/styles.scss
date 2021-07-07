@@ -463,11 +463,12 @@
     }
     blockquote {
       position: relative;
-      padding: 1em 2em;
+      padding: 0 2em;
       box-sizing: border-box;
       font-style: italic;
       background: #efefef;
       color: #555;
+      white-space: pre-wrap;
     }
 
     blockquote p {
@@ -520,7 +521,7 @@
       }
       blockquote {
         margin: 1em 0.5em;
-        padding: 1em;
+        padding: 0 1em;
       }
     }
   }

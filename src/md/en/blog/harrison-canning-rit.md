@@ -37,7 +37,9 @@ Canning said that in both cases, **his motivation is to remove the barrier to en
 
 Canning works with neurotechnology and business, and he told me that **his work was inspired by an unfortunate accident he suffered when was 13 years old.**
 
-> "I got a bad concussion in an accident when I was 13, and lost abilities to speak, reading, and writing well for a couple of years after that. Someday, I was thinking of a robotic exosuit that I had wanted to design. And I was thinking like, how can you control it? Because I wanted this for people with ALS, people that can't move their bodies normally. So if you can't move your bodies, then how can you control it? And so I was thinking about the brain a lot, probably because of the concussion stuff. And so I was wondering if maybe you can control the exosuit with your mind. And so I got really excited about that. And my mind just started to wander and think about where this could go in the future."
+> "I got a bad concussion in an accident when I was 13, and lost abilities to speak, reading, and writing well for a couple of years after that.
+> Someday, I was thinking of a robotic exosuit that I had wanted to design. And I was thinking like, how can you control it? Because I wanted this for people with ALS, people that can't move their bodies normally. So if you can't move your bodies, then how can you control it? And so I was thinking about the brain a lot, probably because of the concussion stuff.
+> And so I was wondering if maybe you can control the exosuit with your mind. And so I got really excited about that. And my mind just started to wander and think about where this could go in the future."
 
 &nbsp;
 
@@ -73,7 +75,8 @@ Canning explained that this case can be used not only in invasive devices that a
 
 Also, Canning replied that **the killer use case of the future is manipulating a computer as intuitively as possible.**
 
-> "For example, when you first start using Adobe Photoshop, you click on one button and you get 10 buttons, and it takes you a while to make a choice. However, if a brain-computer interface could know enough about what you want to do, it can cut back the unnecessary 90% of options and you see just 10% of options. I think it would be a killer app. And that type of application is possible in non-invasive BCIs. "
+> "For example, when you first start using Adobe Photoshop, you click on one button and you get 10 buttons, and it takes you a while to make a choice. However, if a brain-computer interface could know enough about what you want to do, it can cut back the unnecessary 90% of options and you see just 10% of options.
+> I think it would be a killer app. And that type of application is possible in non-invasive BCIs. "
 
 &nbsp;
 
@@ -107,13 +110,15 @@ He also said that
 
 When I asked Canning about his future plans, he said,
 
-> "**I want to be a business leader** who can at least talk to people of different disciplines... I believe that **the brain is the last frontier of user experience,** so I'm interested in doing the business stuff around user experience, customer relations."
+> "**I want to be a business leader** who can at least talk to people of different disciplines...
+> I believe that **the brain is the last frontier of user experience,** so I'm interested in doing the business stuff around user experience, customer relations."
 
 &nbsp;
 
 Also, as for the future of BCI Guys, which provides a lot of online technical material, he told me as the following.
 
-> "At first, we're going to be offering online classes of some **technical walkthrough**, such as demos using the [Arduino](https://www.arduino.cc/). We will teach you how to code a little bit. Secondly, what we're looking at is **sponsored content** such as project videos using a different device from a different company each time."
+> "At first, we're going to be offering online classes of some **technical walkthrough**, such as demos using the [Arduino](https://www.arduino.cc/). We will teach you how to code a little bit.
+> Secondly, what we're looking at is **sponsored content** such as project videos using a different device from a different company each time."
 
 &nbsp;
 
