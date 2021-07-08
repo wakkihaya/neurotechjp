@@ -436,7 +436,7 @@
     font-size: $small-font-size;
     line-height: 2.5em;
     img {
-      width: 60%;
+      width: 80%;
       display: block;
       margin: auto;
     }
@@ -522,6 +522,9 @@
       blockquote {
         margin: 1em 0.5em;
         padding: 0 1em;
+      }
+      img {
+        width: 100%;
       }
     }
   }
