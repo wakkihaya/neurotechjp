@@ -2,7 +2,7 @@
 title: "デザイン性・処理能力に優れたBCIで体験の可能性を広げる | Alex Castillo at Neurosity "
 subtitle: "今回は、MacBook Air並みのハイスペックなCPUを搭載する脳波デバイス「CROWN」を3月にローンチし勢いにのる、Neurosityの創業者Alex Castillo に、CROWNの魅力やBCIで我々の生活を変えていくビジョンについて、インタビューをさせていただいた。"
 description: "今回は、MacBook Air並みのハイスペックなCPUを搭載する脳波デバイス「CROWN」を3月にローンチし勢いにのる、Neurosityの創業者Alex Castillo に、CROWNの魅力やBCIで我々の生活を変えていくビジョンについて、インタビューをさせていただいた。"
-datePublished: "2021/7/7"
+datePublished: "2021/7/9"
 bannerPhoto: "/img/castillo-neurosity/neurosity-ogp.jpg"
 category: "インタビュー"
 ---

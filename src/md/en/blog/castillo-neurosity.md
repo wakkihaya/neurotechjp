@@ -2,7 +2,7 @@
 title: "Unlock our potential with well designed & powerful BCI | Alex Castillo at Neurosity"
 subtitle: "For this interview, we had the opportunity to talk to Alex Castillo, the founder of Neurosity, who has been gaining momentum since the launch of CROWN, an EEG device with a CPU as powerful as a MacBook Air, in March."
 description: "For this interview, we had the opportunity to talk to Alex Castillo, the founder of Neurosity, who has been gaining momentum since the launch of CROWN, an EEG device with a CPU as powerful as a MacBook Air, in March."
-datePublished: "2021/7/7"
+datePublished: "2021/7/9"
 bannerPhoto: "/img/castillo-neurosity/neurosity-ogp.jpg"
 category: "Interview"
 ---
@@ -35,7 +35,7 @@ For this interview, we had the opportunity to talk with [Alex Castillo](https://
 
 Neurosity was co-founded in 2018 by [AJ Keller](https://www.linkedin.com/in/andrewjaykeller/), the CEO, and Alex Castillo, the CTO, and is currently in its seed startup phase.
 
-The team has excellent teamwork across a wide range of hardware and software. AJ, who is responsible for all of the hardware side, studied computer engineering in college and then worked at Boeing for the automation of the construction of planes and robots. AJ has a professional background in hardware, while Castillo, who I interviewed this time, has worked as a software engineer for 15 years at Netflix, [GrubHub](http://grubhub.com/), and other companies. Based on his vast knowledge and experience, he is responsible for all of the software developed at Neurosity.
+The team has excellent teamwork across a wide range of hardware and software. AJ, who is responsible for all of the hardware side, studied computer engineering in college and then worked at Boeing for the automation of the construction of planes and robots. AJ has a professional background in hardware, while Castillo, who I interviewed this time, has worked as a software engineer for 15 years at Netflix, [GrubHub](http://grubhub.com/), and other companies. Based on his vast knowledge and experience, he is responsible for all of the software development at Neurosity.
 
 Also, they have neuroscientists from UC Berkeley, as well as people with many skills in marketing and so on.
 
@@ -56,7 +56,7 @@ Although Castillo has been working in the software industry for a long time, **h
 
 &nbsp;
 
-CROWN, a non-invasive device announced in March, uses eight sensors to detect brain waves, and through the dedicated "Neurosity Shift app," it can measure your level of concentration and relaxation on your smartphone.
+CROWN, a non-invasive device announced in March, uses eight sensors to detect brain waves, and through the dedicated "Neurosity Shift app," it can measure your level of concentration and relaxation.
 
 Also, by linking the app to your Spotify account, you can **discover songs that increase your productivity based on your brain activity, and mute your notifications based on your level of concentration**. These features will lead you to a "**[flow state](<https://en.wikipedia.org/wiki/Flow_(psychology)>)**" where you are completely immersed in the moment.
 
@@ -97,7 +97,7 @@ In contrast to the conventional solution of acquiring data from a device with em
 
 &nbsp;
 
-CROWN has great functionality and is simple enough to be used by anyone in their daily .lives, but a lot of thought and effort went into designing its interface.
+CROWN has great functionality and is simple enough to be used by anyone in their daily lives, but a lot of thought and effort went into designing its interface.
 
 > "In the journey for interfaces, initially, I always thought the reform form factor could be a dealbreaker for most people.
 > But if we start seeing looking back at how we came with headphones which were invented many decades ago, your headphones were very heavy and bigger. However, they allow the game humans to have the ability that no other object gives them. What happened was to the time you can see the headphones getting smaller, lighter.
