@@ -5,7 +5,7 @@ subtitle: "この記事では、10種類に分類された現代のNeurotechの�
 
 description: "この記事では、10種類に分類された現代のNeurotechの技術のうち、前半５つを紹介していく。\n"
 
-datePublished: "2021/7/3"
+datePublished: "2021/7/8"
 category: "コラム"
 bannerPhoto: "/img/10-major-types-of-neurotech/ogp.jpg"
 ---

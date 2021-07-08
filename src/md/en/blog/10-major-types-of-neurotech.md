@@ -5,7 +5,7 @@ subtitle: "In this article, we will introduce the first five of the ten categori
 
 description: "In this article, we will introduce the first five of the ten categories of modern Neurotech technologies."
 
-datePublished: "2021/7/2"
+datePublished: "2021/7/8"
 category: "Column"
 bannerPhoto: "/img/10-major-types-of-neurotech/ogp.jpg"
 ---
@@ -36,7 +36,7 @@ Cognitive assessment and enhancing is **a practice designed to help people impro
 
 &nbsp;
 
-Over the past 30 years, amazing discoveries in neuroscience have opened up the future of our cognitive function. While cognitive function typically declines with age, **new neurotechnologies can improve brain health and performance.**
+Over the past 30 years, amazing discoveries in neuroscience have opened up the future of our cognitive function. While cognitive function typically declines with age, **new nervous echnologies can improve brain health and performance.**
 
 New research has shown that cognitive function can be assessed and enhanced through a variety of activities, including meditation, video games, smart drugs, nutritional supplements, nutrition, brain stimulation, exercise, music, and cognitive training.
 
@@ -140,7 +140,7 @@ _Neuromonitoring/imaging types_
 
 2. **MEG (MagnetoEncephaloGraphy)**
 
-   MEG is a functional neurotechnology that maps brain activity by recording the magnetic field produced by naturally occurring electrical currents in the brain using a highly sensitive magnetometer.
+   MEG is a functional nervous technology that maps brain activity by recording the magnetic field produced by naturally occurring electrical currents in the brain using a highly sensitive magnetometer.
 
    While EEG detects the electrical activity produced by neural excitation, MEG captures the magnetic field produced by neural activity; MEG measurements are usually performed in a shielded chamber so that external magnetic fields do not interfere with the data recording.
 
