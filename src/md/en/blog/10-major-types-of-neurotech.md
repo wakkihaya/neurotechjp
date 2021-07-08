@@ -14,7 +14,7 @@ bannerPhoto: "/img/10-major-types-of-neurotech/ogp.jpg"
 
 The technology of Neurotech is the result of many layers of research woven together by the history of various studies by our great predecessors.
 
-When you first came into contact with Neurotech, you may have been fascinated by the BCI that connects the brain to the computer and imagined a future of science fiction.
+When you first came into contact with Neurotech, you may have been fascinated by the Brain-Computer Interface(BCI) that connects the brain to the computer and imagined a future of science fiction.
 
 In this series, however, we will explain the technical characteristics of the 10 major types of Neurotech technologies from a bird's eye view, not only BCI.
 
@@ -184,7 +184,7 @@ _Image: Muse device_
 
 In this article, we introduced the first five of the ten technologies that represent Neurotech.
 
-Although the technologies are based on research in pharmacology as well as brain science, there may be a market emerging like Neuromodulation where the scale is so large that it is becoming easier for startups to enter.
+As we have seen, Neurotech is a huge market where technologies from various disciplines such as pharmacy and engineering are applied in addition to BCI. There will be more and more startups applying this technology in the future, such as Neuromodulation, which NeurotechJP is especially interested in.
 
 &nbsp;
 
