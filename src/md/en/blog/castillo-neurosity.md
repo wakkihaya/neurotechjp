@@ -44,9 +44,8 @@ Also, they have neuroscientists from UC Berkeley, as well as people with many sk
 Although Castillo has been working in the software industry for a long time, **he got the inspiration for Neurotech about five years ago, when a family member or friend had a mental illness.**
 
 > "I've been really studying and being interested in how people interact with these applications or just with computers in general.
-> At the same time, I did grow with family, and friends suffering from mental illnesses like epilepsy,
-> and it made me very curious to learn about the brain because of the impact of cost in my life and my family's life.
-> So when I had the chance to try out available technology for when computer interfaces and eg, I knew I just had to get involved in once I did."
+> At the same time, I did grow with family, and friends suffering from mental illnesses like epilepsy, and it made me very curious to learn about the brain because of the impact of cost in my life and my family's life.
+> So when I had the chance to try out available technology for brain-computer interfaces(BCI), I knew I just had to get involved in once I did."
 
 &nbsp;
 
@@ -70,8 +69,8 @@ Castillo explained to me that the strengths of CROWN are **the accuracy of its s
 > We just didn't build a device and then figure out the applications, we started thinking,
 > 'How do we want to offer value to people's lives?'
 > 'How do we want people to use a device?'
-> So we have basically our product or the ideas that we want to implement, and we started designing from the ground up based on the sensors of the head.
-> We took a mannequin pretty much for the different sensor locations that we wanted to tackle. And then we design around all that."
+> So we had basically our product or the ideas that we wanted to implement, and we started designing from the ground up based on the sensors of the head.
+> We took a mannequin pretty much for the different sensor locations that we wanted to tackle. And then we designed all around that."
 
 &nbsp;
 
@@ -100,9 +99,9 @@ In contrast to the conventional solution of acquiring data from a device with em
 CROWN has great functionality and is simple enough to be used by anyone in their daily lives, but a lot of thought and effort went into designing its interface.
 
 > "In the journey for interfaces, initially, I always thought the reform form factor could be a dealbreaker for most people.
-> But if we start seeing looking back at how we came with headphones which were invented many decades ago, your headphones were very heavy and bigger. However, they allow the game humans to have the ability that no other object gives them. What happened was to the time you can see the headphones getting smaller, lighter.
+> But if we start seeing looking back at how we came with headphones which were invented many decades ago, your headphones were very heavy and bigger. However, they allowed the game humans to have the ability that no other object gave them. What happened was to the time you can see the headphones getting smaller, lighter.
 > ...
-> So does it really matter much about the size and look and feel?
+> So does it really matter much about the size, look and feel?
 > I think to an extent, but I think if we give them something that they can basically put on, and it gives them basically some kind of ability or advantage of our superpower, people will definitely be focused on what you can do for them.
 > ...
 > So we're **packaging technology that is as powerful as a MacBook Air all in a slim form factor.**
@@ -123,14 +122,14 @@ When it comes to designing future interfaces, Castillo explained to me that **th
 
 In addition to the EEG device CROWN and its dedicated application, Neurosity also provides an **SDK for developers** to create their own applications integrated with CROWN.
 
-Many developers have already developed their own apps using the SDK and CROWN. Castillo told me, "As more people develop and try out their own apps using the SDK, we will find use cases that people will want to use every day.
+Many developers have already developed their own apps using the SDK and CROWN. Castillo told me, "**As more people develop and try out their own apps using the SDK, we will find use cases that people will want to use every day.**"
 
 &nbsp;
 
 So how do we find a killer application?
 
-> "It's really by thinking outside the box on not the obvious of why of what a mind-reading device could give you.
-> But it's by also starting to think of **what's going on in the world right now.** For example,there's a lot of people with burnout, there's a lot of people that are not able to be productive at work."
+> "It's really by thinking outside the box, not the obvious of what a mind-reading device could give you.
+> But it's by also starting to think of **what's going on in the world right now.** For example, there's a lot of people with burnout, there's a lot of people that are not able to be productive at work."
 
 Castillo, who is also an app developer, answered.
 
