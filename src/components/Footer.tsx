@@ -11,7 +11,12 @@ const Footer: React.FC = () => {
         buttonText="I understand"
         cookieName="cookie-name"
         style={{ background: "#2B373B" }}
-        buttonStyle={{ color: "#4e503b", fontSize: "13px" }}
+        buttonStyle={{
+          color: "#4e503b",
+          fontSize: "13px",
+          fontWeight: "bold",
+          borderRadius: "5px",
+        }}
         expires={150}
       >
         This website uses cookies to enhance the user experience.
