@@ -1,5 +1,5 @@
 import Link from "next/link";
-import React from "react";
+import React, { useState } from "react";
 import { GetStaticPropsResult } from "next";
 
 import Footer from "~/components/Footer";
@@ -13,7 +13,15 @@ type BlogPageProps = {
   posts: PostData[];
 };
 
+type Category = "インタビュー" | "コラム" | "すべて";
+
 const BlogPage: React.FC<BlogPageProps> = props => {
+  const [currentCategory, setCurrentCategory] = useState<Category>("すべて");
+
+  const changeCategory = (newCategory: Category) => {
+    setCurrentCategory(newCategory);
+  };
+
   return (
     <>
       <Meta
@@ -34,9 +42,43 @@ const BlogPage: React.FC<BlogPageProps> = props => {
         </div>
       </div>
       <div className="blog-container">
-        {props.posts.map((post, j) => {
-          return <BlogItem key={j} post={post} />;
-        })}
+        <div className="blog-container--filter">
+          <div
+            className={[
+              "blog-container--filter-item",
+              currentCategory === "すべて" ? "active" : null,
+            ].join(" ")}
+            onClick={() => changeCategory("すべて")}
+          >
+            すべて
+          </div>
+          <div
+            className={[
+              "blog-container--filter-item",
+              currentCategory === "インタビュー" ? "active" : null,
+            ].join(" ")}
+            onClick={() => changeCategory("インタビュー")}
+          >
+            インタビュー
+          </div>
+          <div
+            className={[
+              "blog-container--filter-item",
+              currentCategory === "コラム" ? "active" : null,
+            ].join(" ")}
+            onClick={() => changeCategory("コラム")}
+          >
+            コラム
+          </div>
+        </div>
+        <div className="blog-container--posts">
+          {props.posts.map((post, j) => {
+            if (currentCategory !== "すべて") {
+              if (post.category !== currentCategory) return;
+            }
+            return <BlogItem key={j} post={post} />;
+          })}
+        </div>
       </div>
       <Footer />
     </>

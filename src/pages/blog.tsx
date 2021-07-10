@@ -1,5 +1,5 @@
 import Link from "next/link";
-import React from "react";
+import React, { useState } from "react";
 import { GetStaticPropsResult } from "next";
 
 import Footer from "~/components/Footer";
@@ -13,7 +13,15 @@ type BlogPageProps = {
   posts: PostData[];
 };
 
+type Category = "Interview" | "Column" | "All";
+
 const BlogPage: React.FC<BlogPageProps> = props => {
+  const [currentCategory, setCurrentCategory] = useState<Category>("All");
+
+  const changeCategory = (newCategory: Category) => {
+    setCurrentCategory(newCategory);
+  };
+
   return (
     <>
       <Meta
@@ -35,9 +43,43 @@ const BlogPage: React.FC<BlogPageProps> = props => {
         </div>
       </div>
       <div className="blog-container">
-        {props.posts.map((post, j) => {
-          return <BlogItem key={j} post={post} />;
-        })}
+        <div className="blog-container--filter">
+          <div
+            className={[
+              "blog-container--filter-item",
+              currentCategory === "All" ? "active" : null,
+            ].join(" ")}
+            onClick={() => changeCategory("All")}
+          >
+            All
+          </div>
+          <div
+            className={[
+              "blog-container--filter-item",
+              currentCategory === "Interview" ? "active" : null,
+            ].join(" ")}
+            onClick={() => changeCategory("Interview")}
+          >
+            Interview
+          </div>
+          <div
+            className={[
+              "blog-container--filter-item",
+              currentCategory === "Column" ? "active" : null,
+            ].join(" ")}
+            onClick={() => changeCategory("Column")}
+          >
+            Column
+          </div>
+        </div>
+        <div className="blog-container--posts">
+          {props.posts.map((post, j) => {
+            if (currentCategory !== "All") {
+              if (post.category !== currentCategory) return;
+            }
+            return <BlogItem key={j} post={post} />;
+          })}
+        </div>
       </div>
       <Footer />
     </>
