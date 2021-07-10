@@ -48,7 +48,7 @@ const Home: React.FC<HomeProps> = props => {
         </div>
       </div>
       <div className="top-blog">
-        <div className="blog-container">
+        <div className="blog-container--posts">
           <BlogItem key={0} post={props.posts[0]} />
           <BlogItem key={1} post={props.posts[1]} />
         </div>
