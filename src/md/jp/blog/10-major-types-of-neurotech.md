@@ -45,7 +45,7 @@ _Youtube: Virtuleap サービス紹介動画_
 
 &nbsp;
 
-## 2. 2. Neuropharmacology・神経薬理学
+## 2. Neuropharmacology・神経薬理学
 
 ![神経薬理学](https://d2jx2rerrg6sh3.cloudfront.net/image-handler/ts/20180521085503/ri/200/picture/2018/5/shutterstock_643085443.jpg)
 
