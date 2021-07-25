@@ -58,6 +58,31 @@ const HamburgerMenu: React.FC<HamburgerMenuProps> = ({ lang }) => {
           {lang === "EN" && <Link href="/about">About us</Link>}
           {lang === "JP" && <Link href="/jp/about">About us</Link>}
         </div>
+        <div
+          className="header--index-social"
+          onClick={() => setIsMenuOpen(!isMenuOpen)}
+        >
+          {lang === "EN" && (
+            <a
+              href="https://twitter.com/NeurotechJPeng"
+              target="_blank"
+              className="header--social-item"
+              rel="noreferrer"
+            >
+              <FontAwesomeIcon icon={faTwitter} size="2x" border />
+            </a>
+          )}
+          {lang === "JP" && (
+            <a
+              href="https://twitter.com/NeurotechJP"
+              target="_blank"
+              className="header--social-item"
+              rel="noreferrer"
+            >
+              <FontAwesomeIcon icon={faTwitter} size="2x" border />
+            </a>
+          )}
+        </div>
       </div>
     </Menu>
   );
@@ -143,28 +168,30 @@ const Header: React.FC<{ isBgTransparent: boolean }> = props => {
             </div>
           </div>
         )}
-        <div className="header--social">
-          {lang === "EN" && (
-            <a
-              href="https://twitter.com/NeurotechJPeng"
-              target="_blank"
-              className="header--social-item"
-              rel="noreferrer"
-            >
-              <FontAwesomeIcon icon={faTwitter} size="4x" border />
-            </a>
-          )}
-          {lang === "JP" && (
-            <a
-              href="https://twitter.com/NeurotechJP"
-              target="_blank"
-              className="header--social-item"
-              rel="noreferrer"
-            >
-              <FontAwesomeIcon icon={faTwitter} size="4x" border />
-            </a>
-          )}
-        </div>
+        {isDesktop && (
+          <div className="header--social">
+            {lang === "EN" && (
+              <a
+                href="https://twitter.com/NeurotechJPeng"
+                target="_blank"
+                className="header--social-item"
+                rel="noreferrer"
+              >
+                <FontAwesomeIcon icon={faTwitter} size="4x" border />
+              </a>
+            )}
+            {lang === "JP" && (
+              <a
+                href="https://twitter.com/NeurotechJP"
+                target="_blank"
+                className="header--social-item"
+                rel="noreferrer"
+              >
+                <FontAwesomeIcon icon={faTwitter} size="4x" border />
+              </a>
+            )}
+          </div>
+        )}
         <div className="header--lang">
           <div
             className={[
