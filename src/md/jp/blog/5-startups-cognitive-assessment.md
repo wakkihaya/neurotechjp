@@ -7,6 +7,8 @@ bannerPhoto: "/img/5-startups-cognitive-assessment/cover.jpg"
 category: "Column"
 ---
 
+&nbsp;
+
 ## はじめに
 
 Cognitive assessment & enhancing は認知機能の評価と向上のことを指し、その技術は神経科学を応用することによって、何らかの方法で**認知機能を評価し、さらにその評価した機能を向上させるような技術**のことだ。
