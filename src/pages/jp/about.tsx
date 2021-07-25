@@ -80,15 +80,15 @@ const AboutPage: React.FC = () => {
                 )}
               </a>
               <a
-                href="https://github.com/wakkihaya"
+                href="https://twitter.com/wakkihaya"
                 target="_blank"
                 className="about-container--index-sns-item"
                 rel="noreferrer"
               >
                 {isDesktop ? (
-                  <FontAwesomeIcon icon={faGithubSquare} size="5x" />
+                  <FontAwesomeIcon icon={faTwitterSquare} size="5x" />
                 ) : (
-                  <FontAwesomeIcon icon={faGithubSquare} size="3x" />
+                  <FontAwesomeIcon icon={faTwitterSquare} size="3x" />
                 )}
               </a>
             </div>
