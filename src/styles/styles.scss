@@ -220,7 +220,7 @@
   }
 
   &--date {
-    border-top: solid 1px $gray-color;
+    border-top: solid 3px $gray-color;
     font-size: $small-font-size;
     padding: 1rem 2rem;
     color: $gray-color;
@@ -433,6 +433,7 @@
     img {
       width: 100%;
       border-radius: 10px;
+      border: solid 3px $light-gray-color;
     }
   }
 
