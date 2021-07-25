@@ -1,10 +1,7 @@
 import { useState, useLayoutEffect } from "react";
 import { useMediaQuery } from "react-responsive";
 
-type useResponsiveReturnType = {
-  isDesktop: boolean;
-  isMobile: boolean;
-};
+type useResponsiveReturnType = "Desktop" | "Mobile";
 
 const useResponsive = (): useResponsiveReturnType => {
   const [isClient, setIsClient] = useState(false);
@@ -21,10 +18,16 @@ const useResponsive = (): useResponsiveReturnType => {
     if (typeof window !== "undefined") setIsClient(true);
   }, []);
 
-  return {
-    isDesktop: isClient ? isDesktop : true,
-    isMobile: isClient ? isMobile : false,
-  };
+  if (!isClient) {
+    return "Desktop";
+  } else {
+    if (isMobile) {
+      return "Mobile";
+    }
+    if (isDesktop) {
+      return "Desktop";
+    }
+  }
 };
 
 export default useResponsive;

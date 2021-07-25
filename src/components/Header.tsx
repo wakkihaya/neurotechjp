@@ -2,17 +2,114 @@ import Link from "next/link";
 import { useRouter } from "next/router";
 import React, { useState, useEffect } from "react";
 import { slide as Menu } from "react-burger-menu";
+import { faTwitter } from "@fortawesome/free-brands-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 import useResponsive from "~/hooks/use-responsive";
 
 type Lang = "EN" | "JP" | "NotSpecified";
 
-type HamburgerMenuProps = {
+type Device = "Mobile" | "Desktop";
+
+type HeaderProps = {
   lang: Lang;
 };
 
+type HeaderDeviceProps = {
+  lang: Lang;
+  device: Device;
+};
+
+const HeaderIndexHome: React.FC<HeaderProps> = ({ lang }) => {
+  return (
+    <>
+      {lang === "EN" && <Link href="/">Home</Link>}
+      {lang === "JP" && <Link href="/jp">Home</Link>}
+    </>
+  );
+};
+
+const HeaderIndexBlog: React.FC<HeaderProps> = ({ lang }) => {
+  return (
+    <>
+      {lang === "EN" && <Link href="/blog">Blog</Link>}
+      {lang === "JP" && <Link href="/jp/blog">Blog</Link>}
+    </>
+  );
+};
+
+const HeaderIndexSlides: React.FC<HeaderProps> = ({ lang }) => {
+  return (
+    <>
+      {lang === "EN" && <Link href="/slides">Slides</Link>}
+      {lang === "JP" && <Link href="/jp/slides">Slides</Link>}
+    </>
+  );
+};
+
+const HeaderIndexAbout: React.FC<HeaderProps> = ({ lang }) => {
+  return (
+    <>
+      {lang === "EN" && <Link href="/about">About us</Link>}
+      {lang === "JP" && <Link href="/jp/about">About us</Link>}
+    </>
+  );
+};
+
+const HeaderSocial: React.FC<HeaderDeviceProps> = ({ lang, device }) => {
+  if (lang === "EN") {
+    if (device === "Desktop") {
+      return (
+        <a
+          href="https://twitter.com/NeurotechJPeng"
+          target="_blank"
+          className="header--social-item"
+          rel="noreferrer"
+        >
+          <FontAwesomeIcon icon={faTwitter} size="4x" border />
+        </a>
+      );
+    } else {
+      return (
+        <a
+          href="https://twitter.com/NeurotechJPeng"
+          target="_blank"
+          className="header--social-item"
+          rel="noreferrer"
+        >
+          <FontAwesomeIcon icon={faTwitter} size="2x" border />
+        </a>
+      );
+    }
+  } else {
+    if (device === "Desktop") {
+      return (
+        <a
+          href="https://twitter.com/NeurotechJP"
+          target="_blank"
+          className="header--social-item"
+          rel="noreferrer"
+        >
+          <FontAwesomeIcon icon={faTwitter} size="4x" border />
+        </a>
+      );
+    } else {
+      return (
+        <a
+          href="https://twitter.com/NeurotechJP"
+          target="_blank"
+          className="header--social-item"
+          rel="noreferrer"
+        >
+          <FontAwesomeIcon icon={faTwitter} size="2x" border />
+        </a>
+      );
+    }
+  }
+};
+
 //Only for Smartphone
-const HamburgerMenu: React.FC<HamburgerMenuProps> = ({ lang }) => {
+const HamburgerMenu: React.FC<HeaderDeviceProps> = ({ lang, device }) => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   // This keeps your state in sync with the opening/closing of the menu
@@ -32,29 +129,31 @@ const HamburgerMenu: React.FC<HamburgerMenuProps> = ({ lang }) => {
           className="header--index-home"
           onClick={() => setIsMenuOpen(!isMenuOpen)}
         >
-          {lang === "EN" && <Link href="/">Home</Link>}
-          {lang === "JP" && <Link href="/jp">Home</Link>}
+          <HeaderIndexHome lang={lang} />
         </div>
         <div
           className="header--index-blog"
           onClick={() => setIsMenuOpen(!isMenuOpen)}
         >
-          {lang === "EN" && <Link href="/blog">Blog</Link>}
-          {lang === "JP" && <Link href="/jp/blog">Blog</Link>}
+          <HeaderIndexBlog lang={lang} />
         </div>
         <div
           className="header--index-slides"
           onClick={() => setIsMenuOpen(!isMenuOpen)}
         >
-          {lang === "EN" && <Link href="/slides">Slides</Link>}
-          {lang === "JP" && <Link href="/jp/slides">Slides</Link>}
+          <HeaderIndexSlides lang={lang} />
         </div>
         <div
           className="header--index-about"
           onClick={() => setIsMenuOpen(!isMenuOpen)}
         >
-          {lang === "EN" && <Link href="/about">About us</Link>}
-          {lang === "JP" && <Link href="/jp/about">About us</Link>}
+          <HeaderIndexAbout lang={lang} />
+        </div>
+        <div
+          className="header--index-social"
+          onClick={() => setIsMenuOpen(!isMenuOpen)}
+        >
+          <HeaderSocial lang={lang} device={device} />
         </div>
       </div>
     </Menu>
@@ -65,7 +164,7 @@ const Header: React.FC<{ isBgTransparent: boolean }> = props => {
   const isBgTransparent = props.isBgTransparent ?? false;
   const router = useRouter();
 
-  const { isDesktop, isMobile } = useResponsive();
+  const device: Device = useResponsive();
 
   ///Default lang is EN.
   const [lang, setLang] = useState<Lang>("NotSpecified");
@@ -114,32 +213,34 @@ const Header: React.FC<{ isBgTransparent: boolean }> = props => {
         " ",
       )}
     >
-      {isMobile && <HamburgerMenu lang={lang} />}
+      {device === "Mobile" && <HamburgerMenu lang={lang} device={device} />}
       <header className="header">
         <div className="header--logo">
           {lang === "EN" && <Link href="/">NeurotechJP </Link>}
           {lang === "JP" && <Link href="/jp">NeurotechJP </Link>}
         </div>
-        {isDesktop && (
-          <div className="header--index">
-            <div className="header--index-home">
-              {lang === "EN" && <Link href="/">Home</Link>}
-              {lang === "JP" && <Link href="/jp">Home</Link>}
+        {device === "Desktop" && (
+          <>
+            <div className="header--index">
+              <div className="header--index-home">
+                <HeaderIndexHome lang={lang} />
+              </div>
+              <div className="header--index-blog">
+                <HeaderIndexBlog lang={lang} />
+              </div>
+              <div className="header--index-slides">
+                <HeaderIndexSlides lang={lang} />
+              </div>
+              <div className="header--index-about">
+                <HeaderIndexAbout lang={lang} />
+              </div>
             </div>
-            <div className="header--index-blog">
-              {lang === "EN" && <Link href="/blog">Blog</Link>}
-              {lang === "JP" && <Link href="/jp/blog">Blog</Link>}
+            <div className="header--social">
+              <HeaderSocial lang={lang} device={device} />
             </div>
-            <div className="header--index-slides">
-              {lang === "EN" && <Link href="/slides">Slides</Link>}
-              {lang === "JP" && <Link href="/jp/slides">Slides</Link>}
-            </div>
-            <div className="header--index-about">
-              {lang === "EN" && <Link href="/about">About us</Link>}
-              {lang === "JP" && <Link href="/jp/about">About us</Link>}
-            </div>
-          </div>
+          </>
         )}
+
         <div className="header--lang">
           <div
             className={[
@@ -166,7 +267,7 @@ const Header: React.FC<{ isBgTransparent: boolean }> = props => {
             JP
           </div>
         </div>
-        {isMobile && !isDesktop && <div className="header--index_menu-space" />}
+        {device === "Mobile" && <div className="header--index_menu-space" />}
       </header>
       <div
         className={[

@@ -1,7 +1,6 @@
 import React from "react";
 import {
   faLinkedin,
-  faGithubSquare,
   faFacebookSquare,
   faTwitterSquare,
 } from "@fortawesome/free-brands-svg-icons";
@@ -14,8 +13,10 @@ import { Meta } from "~/components/Meta";
 
 import useResponsive from "~/hooks/use-responsive";
 
+type Device = "Mobile" | "Desktop";
+
 const AboutPage: React.FC = () => {
-  const { isDesktop } = useResponsive();
+  const device: Device = useResponsive();
 
   return (
     <>
@@ -64,7 +65,7 @@ const AboutPage: React.FC = () => {
                 className="about-container--index-sns-item"
                 rel="noreferrer"
               >
-                {isDesktop ? (
+                {device === "Desktop" ? (
                   <FontAwesomeIcon icon={faLinkedin} size="5x" />
                 ) : (
                   <FontAwesomeIcon icon={faLinkedin} size="3x" />
@@ -76,7 +77,7 @@ const AboutPage: React.FC = () => {
                 className="about-container--index-sns-item"
                 rel="noreferrer"
               >
-                {isDesktop ? (
+                {device === "Desktop" ? (
                   <FontAwesomeIcon icon={faFacebookSquare} size="5x" />
                 ) : (
                   <FontAwesomeIcon icon={faFacebookSquare} size="3x" />
@@ -88,7 +89,7 @@ const AboutPage: React.FC = () => {
                 className="about-container--index-sns-item"
                 rel="noreferrer"
               >
-                {isDesktop ? (
+                {device === "Desktop" ? (
                   <FontAwesomeIcon icon={faTwitterSquare} size="5x" />
                 ) : (
                   <FontAwesomeIcon icon={faTwitterSquare} size="3x" />
@@ -114,7 +115,7 @@ const AboutPage: React.FC = () => {
                   className="about-container--index-sns-item"
                   rel="noreferrer"
                 >
-                  {isDesktop ? (
+                  {device === "Desktop" ? (
                     <FontAwesomeIcon icon={faFacebookSquare} size="5x" />
                   ) : (
                     <FontAwesomeIcon icon={faFacebookSquare} size="3x" />
@@ -126,7 +127,7 @@ const AboutPage: React.FC = () => {
                   className="about-container--index-sns-item"
                   rel="noreferrer"
                 >
-                  {isDesktop ? (
+                  {device === "Desktop" ? (
                     <FontAwesomeIcon icon={faTwitterSquare} size="5x" />
                   ) : (
                     <FontAwesomeIcon icon={faTwitterSquare} size="3x" />
