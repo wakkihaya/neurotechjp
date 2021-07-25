@@ -27,7 +27,7 @@ Cognitive assessment & enhancing は認知機能の評価と向上のことを�
 
 [MindStrong](https://mindstrong.com/)社は、**スマートフォンのスワイプやタップといったアクションからユーザーのメンタルヘルスの状況を評価することができる**バーチャルセラピーと精神医学的なサービスを提供している。現在はアメリカ国内のみの利用だが、健康保険プランを通して Mindstrong を利用する資格がある場合、すべて追加費用なしで自宅で快適にサービスを利用することがきる。
 
-[![Thomas Mindstrong](http://localhost:3000/img/5-startups-cognitive-assessment/mindstrong-ted-video.jpg)](https://www.youtube.com/watch?v=PeZ-U0pj9LI)
+[![Thomas Mindstrong](https://neurotechjp.com/img/5-startups-cognitive-assessment/mindstrong-ted-video.jpg)](https://www.youtube.com/watch?v=PeZ-U0pj9LI)
 _動画: Thomas, 共同創業者 Mindstrong, TED Talk_
 
 共同創業者の Thomas Insel は NIMH の所長を 13 年間勤めた神経科学者だ。彼らの創業期のエピソードの一部は[MIT Technology Review](https://www.technologyreview.jp/s/108723/the-smartphone-app-that-can-tell-youre-depressed-before-you-know-it-yourself/)でも紹介されている。
@@ -36,7 +36,9 @@ _動画: Thomas, 共同創業者 Mindstrong, TED Talk_
 
 > だが、打ち合わせを重ねるうちにインセル博士は、メンタル・ヘルス分野で今まで誰もなしえなかったことを、デイガム CEO が実現できるかもしれないと考えるようになった。デイガム CEO がスマホで集めた兆候が、人間の認知能力と強く相関することが判明したのだ。通常は、研究室で長期にわたる試験をしないとわからないような結果だ。さらにデイガム CEO は、何日にも、何週間にも、ついには何カ月にもわたって継続的にこういった兆候を収集し、人間の脳機能の連続的かつ客観的な監視を可能にした。
 
-[![Mindstrong](http://localhost:3000/img/5-startups-cognitive-assessment/mindstrong-video.jpg)](https://www.youtube.com/watch?v=KHd6xh7HcDM)
+&nbsp;
+
+[![Mindstrong](https://neurotechjp.com/img/5-startups-cognitive-assessment/mindstrong-video.jpg)](https://www.youtube.com/watch?v=KHd6xh7HcDM)
 _動画: Mindstrong 紹介_
 
 Mindstrong はデータ測定、データサイエンス、バーチャルケアモデルの改善を通じて、メンタルヘルスの再構築に取り組んでいる。
@@ -60,7 +62,7 @@ Mindstrong はデータ測定、データサイエンス、バーチャルケア
 
 CEO の Elli Kaplan 氏の[インタビュー](https://techblitz.com/neurotrack/) によると、共同創業者のスチュアート・ゾラ博士は、エモリー大学医学部に所属しており、そこでの彼の研究がこれらの技術のベースとなっている。既に[シリーズ C で 2100 万ドルを調達](https://thebridge.jp/2019/06/cognitive-health-assessment-startup-neurotrack-raises-21m-series-c-pickupnews)しており、高齢化が予測されている日本において損保ホールディングスや第一生命から出資を受け業務提携を行いサービスを提供している。
 
-[![Neurotrack](http://localhost:3000/img/5-startups-cognitive-assessment/neurotrack-video.jpg)](https://www.youtube.com/watch?v=-7obt3JE-ZM)
+[![Neurotrack](https://neurotechjp.com/img/5-startups-cognitive-assessment/neurotrack-video.jpg)](https://www.youtube.com/watch?v=-7obt3JE-ZM)
 _動画: Neurotrack 紹介_
 
 |              |                                          |
@@ -80,7 +82,7 @@ _動画: Neurotrack 紹介_
 
 [Virtuleap](https://virtuleap.com/about)はポルトガルのリスボンに拠点を置く、健康と教育に関する VR スタートアップだ。彼らが提供する Enhance VR は、**VR ヘッドセットを装着しミニゲームをすることでユーザーが楽しみながら記憶力や認知能力を強化することができる**。その他にも、注意、問題解決、運動方向、運動技能、情報処理といったさまざまなテストを行うことができ、自分自身のパーソナライズされたレポートで自分の成長を確認することもできる。
 
-[![Viruleap](http://localhost:3000/img/5-startups-cognitive-assessment/virtuleap-video.jpg)](https://www.youtube.com/watch?v=6Efs-DiU8hY)
+[![Viruleap](https://neurotechjp.com/img/5-startups-cognitive-assessment/virtuleap-video.jpg)](https://www.youtube.com/watch?v=6Efs-DiU8hY)
 _動画: Virtuleap 紹介_
 
 Virtuleap は VR や人工知能などの新技術の助けを借りて、認知機能の評価とトレーニングの業界を高めることを目指している注目すべきスタートアップだ。
@@ -107,7 +109,9 @@ Neurogeneces は**睡眠の質を高めることで記憶力、そして認知�
 
 ![NeuroGeneces](https://images.squarespace-cdn.com/content/v1/594a9b39d482e93f89a9764e/1515107751233-YAD9YTVHI0J5C594HJR0/headband+photo+sensors.png)
 
-![NeuroGeneces from webpage](http://localhost:3000/img/5-startups-cognitive-assessment/neurogeneces-exp-jp.jpg)
+![NeuroGeneces from webpage](https://neurotechjp.com/img/5-startups-cognitive-assessment/neurogeneces-exp-jp.jpg)
+
+&nbsp;
 
 |              |                                        |
 | :----------: | :------------------------------------: |
@@ -125,6 +129,8 @@ Neurogeneces は**睡眠の質を高めることで記憶力、そして認知�
 カリフォルニア大学バークレー校のアクセラレーションプログラムを卒業した[humm](https://thinkhumm.com/humm-patch)は、記憶力を向上するウェアラブルパッチを開発しているスタートアップだ。最先端の神経科学の手法である経頭蓋交流刺激法(tACS)を利用し、**15 分着用すると脳内の電気信号の強度が一時的に高まりワーキングメモリと呼ばれる一時的に記憶できる情報の量を強化することができる**。既に[シードラウンドで$3.1M 調達](https://jp.techcrunch.com/2019/12/20/2019-12-18-can-a-wearable-improve-memory-humm-raises-2-6-million-so-consumers-can-find-out/?guccounter=1&guce_referrer=aHR0cHM6Ly93d3cuZ29vZ2xlLmNvbS8&guce_referrer_sig=AQAAABE59BAb_tcpfDCWnvQuSIGUv12S55TZJPb65WimOWrp3FNdSQJG0AHQTQ3_fJNEJnMhfRLQ9EEX5iQ8yvpnqckreO2NaTWDp2Tf4S-BzfxSHEesS54YQgiTQjYBAVbbltWHiEmbIAEHOMvHi34xyyrevnlUO240Wd9NcQcfAK0M)しており現在は β テスト版をホームページで募集している。パッチは１つ 5 ドルで、高めのコーヒーと同じくらいの価格で量産を目指している。
 
 ![humm](https://cdn.the-scientist.com/assets/articleNo/67474/hImg/37495/banners-brainboost-x.webp)
+
+&nbsp;
 
 |              |                                      |
 | :----------: | :----------------------------------: |
