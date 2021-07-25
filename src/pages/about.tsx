@@ -1,7 +1,6 @@
 import React from "react";
 import {
   faLinkedin,
-  faGithubSquare,
   faFacebookSquare,
   faTwitterSquare,
 } from "@fortawesome/free-brands-svg-icons";

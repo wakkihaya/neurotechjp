@@ -2,6 +2,8 @@ import Link from "next/link";
 import { useRouter } from "next/router";
 import React, { useState, useEffect } from "react";
 import { slide as Menu } from "react-burger-menu";
+import { faTwitter } from "@fortawesome/free-brands-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 import useResponsive from "~/hooks/use-responsive";
 
@@ -108,6 +110,7 @@ const Header: React.FC<{ isBgTransparent: boolean }> = props => {
     moveToPageInSpecifiedLang(modCurrentLang);
   }, []);
 
+  //TODO: Divide component
   return (
     <div
       className={["header-container", isBgTransparent ? "bg-none" : null].join(
@@ -140,6 +143,28 @@ const Header: React.FC<{ isBgTransparent: boolean }> = props => {
             </div>
           </div>
         )}
+        <div className="header--social">
+          {lang === "EN" && (
+            <a
+              href="https://twitter.com/NeurotechJPeng"
+              target="_blank"
+              className="header--social-item"
+              rel="noreferrer"
+            >
+              <FontAwesomeIcon icon={faTwitter} size="4x" border />
+            </a>
+          )}
+          {lang === "JP" && (
+            <a
+              href="https://twitter.com/NeurotechJP"
+              target="_blank"
+              className="header--social-item"
+              rel="noreferrer"
+            >
+              <FontAwesomeIcon icon={faTwitter} size="4x" border />
+            </a>
+          )}
+        </div>
         <div className="header--lang">
           <div
             className={[

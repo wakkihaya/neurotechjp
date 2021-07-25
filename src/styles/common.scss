@@ -62,7 +62,7 @@
 
   &--lang {
     display: flex;
-    flex: 0.5;
+    flex: 0.3;
     font-size: $medium-font-size;
     justify-content: center;
   }
@@ -72,6 +72,14 @@
   }
   &--lang-char.active {
     color: $red-color;
+  }
+  &--social {
+    flex: 0.1;
+    .fa-border {
+      height: 1em !important;
+      border: solid 1px white !important;
+      border-radius: 50px !important;
+    }
   }
   @media (max-width: $mobile-width) {
     &--logo {
