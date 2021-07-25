@@ -4,7 +4,7 @@ subtitle: "今回の記事では、Cognitive assessmentの技術の具体的な�
 description: "今回の記事では、Cognitive assessmentの技術の具体的な事例や市場規模を代表的なスタートアップを5つ紹介しながら明らかにしていく。"
 datePublished: "2021/7/25"
 bannerPhoto: "/img/5-startups-cognitive-assessment/cover.jpg"
-category: "Column"
+category: "コラム"
 ---
 
 &nbsp;
