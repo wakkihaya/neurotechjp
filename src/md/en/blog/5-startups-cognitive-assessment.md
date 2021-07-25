@@ -104,10 +104,10 @@ Virtuleap is a notable startup that aims to boost the industry of cognitive asse
 
 &nbsp;
 
-## [4. Neurogeneces](https://neurogeneces.com/)
+## [4. NeuroGeneces](https://neurogeneces.com/)
 
-[Neurogeneces](https://neurogeneces.com/) is a company that is dedicated to applying the latest sleep science to reveal how sleep affects health and performance.
-Neurogeneces offers **smartphone apps and IoT devices that improve memory and cognition by enhancing sleep quality.**
+[NeuroGeneces](https://neurogeneces.com/) is a company that is dedicated to applying the latest sleep science to reveal how sleep affects health and performance.
+NeuroGeneces offers **smartphone apps and IoT devices that improve memory and cognition by enhancing sleep quality.**
 
 [CEO Karen Crowe](http://stemsw.com/053-the-science-of-sleep-with-karen-crow/) started her career in management consulting, ran sales operations for Fortune 1000 clients at Google, and has over 500 employees. At Google, she was responsible for sales operations for Fortune 1000 clients and managed more than 500 workers and $1.3 billion in annual sales. She has received the Google Founders Award for her contributions and entrepreneurial achievements.
 
