@@ -23,9 +23,9 @@ This time, we had the opportunity to interview the founder of Blueberry, [John D
 
 ## What is Blueberry?
 
-Blueberry is a pre-seed stage startup founded in 2019 in Toronto, Canada, and led by CEO John David Chibuk and CTO [Dr. Steve Mann](https://www.linkedin.com/in/eyetap/)
+Blueberry is a pre-seed stage startup founded in 2019 in Toronto, Canada, and led by CEO John David Chibuk and CTO [Dr. Steve Mann](https://www.linkedin.com/in/eyetap/).
 
-The team has **exceptional technical skills** and **entrepreneurial spirits**. Chibuk, who we interviewed this time, founded and sold an AI startup [kiwi.ai](https://www.crunchbase.com/organization/kiwi-wearable-technologies) as CTO, focusing on emotion and movement. He has also worked at several companies as a hardware engineer as well as a software engineer.
+The team has **exceptional technical skills** and **entrepreneurial spirits**. Chibuk, who we interviewed this time, founded and sold an AI startup [kiwi.ai](https://www.crunchbase.com/organization/kiwi-wearable-technologies) as CTO, focusing on emotion and movement. He had also worked at several companies as a hardware engineer as well as a software engineer.
 
 Dr. Steve received his Ph.D. in Electrical Engineering from MIT and founded [Meta View, Inc](https://www.metavision.com/), a startup that provides wearable devices and other hardware. He also advises [Muse](https://choosemuse.com/), a mindfulness company [with $30.4M in funding](https://www.crunchbase.com/organization/interaxon), and is a professor of electrical engineering at Stanford University and other institutions.
 
@@ -50,15 +50,13 @@ When near-infrared light is shone on the head, near-infrared light is absorbed b
 Blueberry is one example of a company that has successfully transformed itself from a research-oriented company to an everyday-use company. fNIRS devices have **traditionally been expensive, helmet-shaped devices for researchers**.
 
 > The majority of fNIRS technology to date has been done more on the research side.
-> So there's a variety of research devices that are in the high $1,000 category, that provides a very well attenuated signal for a researcher.
-> But, they're kind of like a full head setup.
+> So there's a variety of research devices that are in the high $1,000 category, that provides a very well attenuated signal for a researcher. But, they're kind of like a full head setup.
 
 &nbsp;
 
 Chibuk explained to me that the fNIRS technology is **smaller and more portable than EEG and allows for longer monitoring times**.
 
-> Blueberry started with trying to understand how a person's mind changes throughout the day.
-> And to be able to capture some sort of signal that represents a person's mind or perceived kind of mental activity, the sensing kind of format needed to be small enough and work in many environments.
+> Blueberry started with trying to understand how a person's mind changes throughout the day. And to be able to capture some sort of signal that represents a person's mind or perceived kind of mental activity, the sensing kind of format needed to be small enough and work in many environments.
 > So fNIRS is perfectly suited for that kind of use case of a sensor that **can be worn throughout the entirety of the day**, and measure longer form change in brain activity.
 > EEG is more suited for kind of immediate reaction-based measurements, whereas fNIRS will give a better indication of **a longer trend line or changes over**.
 
@@ -82,12 +80,11 @@ Using fNIRS technology, it can measure not only **heart rate** but also **mental
 
 &nbsp;
 
-The [temporal lobe](https://en.wikipedia.org/wiki/Temporal_lobe), which is the area that Blueberry measures, is responsible for processing related to language. In addition to reading and writing, the temporal lobe is also activated by the sound of a fire truck.
+The [temporal lobe](https://en.wikipedia.org/wiki/Temporal_lobe), which is the area that Blueberry measures, is responsible for processing related to language. In addition to reading and writing, the temporal lobe is also activated by even the sound of a fire truck.
 
 However, research has shown that the amount of activity is reduced for more proficient actions such as speaking about ordinary things, and **mental activity can be accurately measured based on the amount of activity**.
 
-> Less activity can be an indication of more proficient effort.
-> So you don't actually need as much activation to speak or say the things.
+> Less activity can be an indication of more proficient effort. You don't actually need as much activation to speak or say the things.
 > So low amount of activation can be a very positive indicator for an individual.
 
 &nbsp;
@@ -103,7 +100,7 @@ Blueberry also provides mobile and web apps that allow users to view their measu
 
 ![Blueberry journey](https://neurotechjp.com/img/chibuk-blueberry/journey.jpg)
 
-\*Image: Blueberry journey extracted from [the website](https://docsend.com/view/42tndxnakg3frn3k).
+_Image: Blueberry journey extracted from [the website](https://docsend.com/view/42tndxnakg3frn3k)._
 
 Blueberry was founded about two years ago but has been gaining momentum, with the launch of several apps and developer kits in addition to devices.
 
@@ -118,8 +115,7 @@ He said there were three factors that he struggled with: **appearance, accuracy,
 > **Style** is really important for me, enabling people to want it outside of their home. And that was a really hard thing to accomplish.
 > **Comfort** is also really important. If you're not used to wearing glasses or having something on your head throughout the entirety of the day, it had to feel good.
 
-> Having a real-time feedback mechanism is very beneficial to people, if it works 100% of the time.
-> If it's not true, then they have questions and they get more confused, and it doesn't become as helpful.
+> Having a real-time feedback mechanism is very beneficial to people, if it works 100% of the time. If it's not true, then they have questions and they get more confused, and it doesn't become as helpful.
 > So **getting that feedback is perfectly fine-tuned** was super important.
 
 > The last category was **the measurement needs to be relative to the individual**.
@@ -130,31 +126,29 @@ He said there were three factors that he struggled with: **appearance, accuracy,
 
 ## The user is the owner of the data. Privacy protection technology required.
 
-Chibuk said Blueberry allows various apps and tools to access your data, but **the data is managed by the individual user**, and the user can delete or not store the data themselves.
+Chibuk told me Blueberry allows various apps and tools to access your data, but **the data is managed by the individual user**, and the user can delete or not store the data themselves.
 
 > The base principle is that **person who is wearing the device is the owner of the data.**
 > Ensuring that a person has full control of their information, to be able to export, delete, permanently delete their account, or just not send data to a backup server is really important.
 
 &nbsp;
 
-Also, in the future, Chibuk said, we should incorporate **encryption technology**, such as that used in chat apps, to make it even more secure.
+Also, in the future, he said, we should incorporate **encryption technology**, such as that used in chat apps, to make it even more secure.
 
 > Because this stuff becomes more and more accurate over time, the sensitivity of the information becomes more impactful and needs to be guarded carefully based on the individual.
-> I think we need to be more fidelity in our data management, using **end-to-end encryption**, as is done in chat apps like Signal.
-> \*Signal: https://signal.org/en/
+> I think we need to be more fidelity in our data management, using **end-to-end encryption**, as is done in chat apps like [Signal](https://signal.org/en/).
 
 &nbsp;
 
 ## For more seamless and faster communication.
 
-The Blueberry is a BCI that can be worn on a daily basis, but how should a BCI be used in general?
+The Blueberry is a BCI that can be worn on a daily basis, then how should a BCI be used in general?
 
 &nbsp;
 
 Chibuk replied that **understanding neurological symptoms** could be the best use case.
 
-> Right now, the most poll that I've seen in the market has been on understanding neurological conditions.
-> Being able to measure a person's brain to more properly assess and help people
+> Right now, the most poll that I've seen in the market has been on understanding neurological conditions. Being able to measure a person's brain to more properly assess and help people
 > that are on a trajectory path of needing support, then there's a lot of value to this type of data that is collected, if certain indicators or measurements can be utilized to better understand the person.
 > So that kind of medical, self-assessment data capture is probably the most pertinent immediate area.
 
@@ -167,7 +161,7 @@ Faster and newer user experiences that connect the brain to the computer are bei
 
 &nbsp;
 
-**In the future, when those use cases are realized, we will be able to communicate more seamlessly and faster** by transmitting our senses to others, in other words, we will be able to do things like **brain-to-brain telepathy**.
+Chibuk answered, **in the future, when those use cases are realized, we will be able to communicate more seamlessly and faster** by transmitting our senses to others, in other words, we will be able to do things like **brain-to-brain telepathy**.
 
 > BCI is able to more quickly respond to our perceptive state.
 > And we can transfer that information to other people, it will create **new modalities of communication** that we didn't have before. So whether that is visual, auditory, or some other form that has not yet come to fruition,if we can transfer information between one another in a more cohesive, **seamless** way.
