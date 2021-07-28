@@ -169,6 +169,8 @@
     input {
       padding: 1rem;
       border: none;
+      outline: none;
+      border-radius: 10px;
     }
     button {
       padding: 1rem 1.5rem;
@@ -213,11 +215,33 @@
     font-family: $armata-font-family;
   }
   @media (max-width: $mobile-width) {
+    &--newsletter {
+      flex-direction: column;
+    }
+    &--newsletter-text {
+      font-size: $very-small-font-size;
+    }
+    &--newsletter-form {
+      width: auto;
+      margin-left: 0;
+      margin-top: 1rem;
+      padding: 0.2em;
+    }
+    &--sns-twitter-text {
+      font-size: $very-small-font-size;
+    }
+    input,
+    button {
+      font-size: $sp-desc-small-font-size;
+    }
     .CookieConsent {
       padding: 0;
     }
     &--content {
       font-size: $very-small-font-size;
+    }
+    &--org {
+      font-size: $sp-desc-small-font-size;
     }
   }
 }
