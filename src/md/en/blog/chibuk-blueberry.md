@@ -25,7 +25,7 @@ This time, we had the opportunity to interview the founder of Blueberry, [John D
 
 Blueberry is a pre-seed stage startup founded in 2019 in Toronto, Canada, and led by CEO John David Chibuk and CTO [Dr. Steve Mann](https://www.linkedin.com/in/eyetap/).
 
-The team has **exceptional technical skills** and **entrepreneurial spirits**. Chibuk, who we interviewed this time, founded and sold an AI startup [kiwi.ai](https://www.crunchbase.com/organization/kiwi-wearable-technologies) as CTO, focusing on emotion and movement. He had also worked at several companies as a hardware engineer as well as a software engineer.
+The team has **exceptional technical skills** a great **entrepreneurial spirit**. Chibuk, who we interviewed this time, founded and sold an AI startup [kiwi.ai](https://www.crunchbase.com/organization/kiwi-wearable-technologies) as CTO, focusing on emotion and movement. He had also worked at several companies as a hardware engineer as well as a software engineer.
 
 Dr. Steve received his Ph.D. in Electrical Engineering from MIT and founded [Meta View, Inc](https://www.metavision.com/), a startup that provides wearable devices and other hardware. He also advises [Muse](https://choosemuse.com/), a mindfulness company [with $30.4M in funding](https://www.crunchbase.com/organization/interaxon), and is a professor of electrical engineering at Stanford University and other institutions.
 
@@ -47,21 +47,21 @@ When near-infrared light is shone on the head, near-infrared light is absorbed b
 
 &nbsp;
 
-Blueberry is one example of a company that has successfully transformed itself from a research-oriented company to an everyday-use company. fNIRS devices have **traditionally been expensive, helmet-shaped devices for researchers**.
+Blueberry is one example of a company that has successfully transformed itself from a research-oriented company to an everyday-use consumer oriented company. fNIRS devices have **traditionally been expensive, helmet-shaped devices for researchers**.
 
 > The majority of fNIRS technology to date has been done more on the research side.
 > So there's a variety of research devices that are in the high $1,000 category, that provides a very well attenuated signal for a researcher. But, they're kind of like a full head setup.
 
 &nbsp;
 
-Chibuk explained to me that the fNIRS technology is **smaller and more portable than EEG and allows for longer monitoring times**.
+Chibuk explained to me that the fNIRS technology is **smaller and more portable than EEG and allows for a longer monitoring time**.
 
 > Blueberry started with trying to understand how a person's mind changes throughout the day. And to be able to capture some sort of signal that represents a person's mind or perceived kind of mental activity, the sensing kind of format needed to be small enough and work in many environments.
 > So fNIRS is perfectly suited for that kind of use case of a sensor that **can be worn throughout the entirety of the day**, and measure longer form change in brain activity.
 > EEG is more suited for kind of immediate reaction-based measurements, whereas fNIRS will give a better indication of **a longer trend line or changes over**.
 
 > Also, the main differentiators between Bluberry and other kinds of EEG devices are the ability to wear it in a format that can be **modular and small**, and are not specific or need to be in a large headband or over the ear headphones.
-> Because it is this little pod, it can be attached to glasses, or you could attach it to headphones, or you could wear it in a headband, but you're not constrained to wearing a massive device.
+> Because it is a little pod of this size, it can be attached to glasses, or you could attach it to headphones, or you could wear it in a headband, but you're not constrained to wearing a massive device.
 > You can take the thing off and put it in your pocket, which you can't really do with any EEG devices. So **the size** and the kind of **portability** of it is the main benefit.
 
 In addition, fNIRS-based devices are relatively **cheaper** to make than EEG-based devices, and Blueberry's device can be purchased for only $195. fNIRS-based devices will become cheaper in the future, Chibuk said.
@@ -120,11 +120,11 @@ He said there were three factors that he struggled with: **appearance, accuracy,
 
 > The last category was **the measurement needs to be relative to the individual**.
 > So if I feel that the numeric representation is roughly representative of myself, that is much more important to the individual than some mass measurement.
-> So I care more that it is measuring or giving me metrics or analysis that I can relatively compare for myself.
+> So I care more that it is measuring or giving me metrics or analysis that I can relatively compare myself to.
 
 &nbsp;
 
-## The user is the owner of the data. Privacy protection technology required.
+## The user is the exclusive owner of the data. Privacy protection technology required.
 
 Chibuk told me Blueberry allows various apps and tools to access your data, but **the data is managed by the individual user**, and the user can delete or not store the data themselves.
 
@@ -133,7 +133,7 @@ Chibuk told me Blueberry allows various apps and tools to access your data, but 
 
 &nbsp;
 
-Also, in the future, he said, we should incorporate **encryption technology**, such as that used in chat apps, to make it even more secure.
+Also, in the future, he said, we should incorporate the cutting edge **encryption technology**, such as that used in chat apps, to make it even more secure.
 
 > Because this stuff becomes more and more accurate over time, the sensitivity of the information becomes more impactful and needs to be guarded carefully based on the individual.
 > I think we need to be more fidelity in our data management, using **end-to-end encryption**, as is done in chat apps like [Signal](https://signal.org/en/).
