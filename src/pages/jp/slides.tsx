@@ -11,7 +11,7 @@ const SlidesPage: React.FC = () => {
       <Meta
         meta={{
           title: "NeurotechJP",
-          desc: "NeurotechJPはブレインテックのキラーユースケースを明らかにする目的で運営しています。ニューロテクノロジー分野の最先端で活躍する先人へのインタビューやトレンド、コラムなどを発信していきます。",
+          desc: "NeurotechJPはニューロテックのキラーユースケースを明らかにする目的で運営しています。ニューロテクノロジー分野の最先端で活躍する先人へのインタビューやトレンド、コラムなどを発信していきます。",
           link: "https://neurotechjp.com/jp",
           image: "https://neurotechjp.com/ogp.png",
         }}
