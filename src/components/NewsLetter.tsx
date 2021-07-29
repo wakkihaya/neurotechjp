@@ -3,12 +3,25 @@ import React from "react";
 
 const CustomForm = ({ status, message, onValidated }) => {
   let email;
-  const submit = () =>
-    email &&
-    email.value.indexOf("@") > -1 &&
-    onValidated({
-      EMAIL: email.value,
-    });
+  const submit = async () => {
+    let targetLang;
+    const currentLang = await localStorage.getItem("currentLang");
+    if (currentLang) {
+      targetLang = currentLang.replace(/[\"]/g, "");
+    } else {
+      targetLang = "EN";
+    }
+
+    return (
+      email &&
+      targetLang &&
+      email.value.indexOf("@") > -1 &&
+      onValidated({
+        EMAIL: email.value,
+        TAG: targetLang,
+      })
+    );
+  };
 
   return (
     <>
@@ -32,7 +45,7 @@ const CustomForm = ({ status, message, onValidated }) => {
           )}
         </>
       ) : (
-        <div className="footer--newsletter-error">Error!</div>
+        <div className="footer--newsletter-error">Error! {message}</div>
       )}
     </>
   );
