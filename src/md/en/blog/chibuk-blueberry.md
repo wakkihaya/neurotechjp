@@ -25,7 +25,7 @@ This time, we had the opportunity to interview the founder of Blueberry, [John D
 
 Blueberry is a pre-seed stage startup founded in 2019 in Toronto, Canada, and led by CEO John David Chibuk and CTO [Dr. Steve Mann](https://www.linkedin.com/in/eyetap/).
 
-The team has **exceptional technical skills** and **entrepreneurial spirits**. Chibuk, who we interviewed this time, founded and sold an AI startup [kiwi.ai](https://www.crunchbase.com/organization/kiwi-wearable-technologies) as CTO, focusing on emotion and movement. He had also worked at several companies as a hardware engineer as well as a software engineer.
+The team has **exceptional technical skills** and **entrepreneurial spirits**. Chibuk, who we interviewed this time, founded an AI startup [kiwi.ai](https://www.crunchbase.com/organization/kiwi-wearable-technologies) as CTO, focusing on emotion and movement, and the company finally got acquihired. He had also worked at several companies as a hardware engineer as well as a software engineer.
 
 Dr. Steve received his Ph.D. in Electrical Engineering from MIT and founded [Meta View, Inc](https://www.metavision.com/), a startup that provides wearable devices and other hardware. He also advises [Muse](https://choosemuse.com/), a mindfulness company [with $30.4M in funding](https://www.crunchbase.com/organization/interaxon), and is a professor of electrical engineering at Stanford University and other institutions.
 
