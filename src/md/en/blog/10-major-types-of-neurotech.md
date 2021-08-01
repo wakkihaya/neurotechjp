@@ -1,10 +1,6 @@
 ---
 title: "10 major types of Neurotech ~ First half ~"
-
-subtitle: "In this article, we will introduce the first five of the ten categories of modern Neurotech technologies."
-
 description: "In this article, we will introduce the first five of the ten categories of modern Neurotech technologies."
-
 datePublished: "2021/7/8"
 category: "Column"
 bannerPhoto: "/img/10-major-types-of-neurotech/ogp.jpg"

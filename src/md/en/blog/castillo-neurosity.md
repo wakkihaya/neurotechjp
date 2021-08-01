@@ -1,6 +1,5 @@
 ---
 title: "Unlock our potential with well designed & powerful BCI | Alex Castillo at Neurosity"
-subtitle: "For this interview, we had the opportunity to talk to Alex Castillo, the founder of Neurosity, who has been gaining momentum since the launch of CROWN, an EEG device with a CPU as powerful as a MacBook Air, in March."
 description: "For this interview, we had the opportunity to talk to Alex Castillo, the founder of Neurosity, who has been gaining momentum since the launch of CROWN, an EEG device with a CPU as powerful as a MacBook Air, in March."
 datePublished: "2021/7/9"
 bannerPhoto: "/img/castillo-neurosity/neurosity-ogp.jpg"

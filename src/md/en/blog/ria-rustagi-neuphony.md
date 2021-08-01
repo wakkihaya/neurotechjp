@@ -1,6 +1,5 @@
 ---
 title: 'High accurate and versatile. Meditation headband "Neuphony" | Ria Rustagi'
-subtitle: "For this interview, I had the opportunity to talk with Ria Rustagi, founder of Neuphony, a non-invasive EEG device which uses neurofeedback to improve concentration, sleep quality, and so on."
 description: "For this interview, I had the opportunity to talk with Ria Rustagi, founder of Neuphony, a non-invasive EEG device which uses neurofeedback to improve concentration, sleep quality, and so on."
 datePublished: "2021/6/26"
 bannerPhoto: "/img/ria-rustagi-neuphony/neuphony-top.jpg"
