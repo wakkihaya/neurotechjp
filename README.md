@@ -17,7 +17,9 @@ All posts are accomendated under `src/md` directory.
 - JP -> `src/md/jp/blog`
 
 - EN -> `src/md/en/blog`
+
 ### 1. Set meta data with contents
+
 If you want to add a post, just add it along md type document. At the same time, make sure that you have meta data
 
 - `title`
@@ -27,6 +29,7 @@ If you want to add a post, just add it along md type document. At the same time,
 - `category` (`Interview` or `Column`)
 
 ### 2. See the target url of the post
+
 After finishing it and deploying it, the page will be auto generated.
 
 `md/en/blog/test-1.md` -> `https://neurotechjp.com/blog/test-1`

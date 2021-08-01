@@ -211,6 +211,9 @@
     display: -webkit-box;
     -webkit-box-orient: vertical;
     -webkit-line-clamp: 3;
+    p {
+      margin: 0;
+    }
   }
   &--container-readmore {
     font-size: $small-font-size;

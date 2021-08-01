@@ -100,7 +100,7 @@ const BlogItem: React.FC<{ post: PostData }> = props => {
           <div className="blog-item--container-title">{post.title}</div>
           <div className="blog-item--container-category">{post.category}</div>
           <div className="blog-item--container-subtitle">
-            {post.description}
+            <p>{post.description}</p>
           </div>
           <div className="blog-item--container-readmore">READ MORE..</div>
         </div>
