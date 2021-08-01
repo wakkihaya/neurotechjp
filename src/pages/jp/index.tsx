@@ -44,6 +44,7 @@ const Home: React.FC<HomeProps> = props => {
               "Get \n a front line \n in Neurotech.",
               500,
             ]}
+            wrapper="span"
           />
         </div>
       </div>
