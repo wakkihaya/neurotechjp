@@ -20,5 +20,6 @@ module.exports = {
     GA_TRACKING_ID: process.env.GA_TRACKING_ID,
     FB_APP_ID: process.env.FB_APP_ID,
     SLACK_WEBHOOK: process.env.SLACK_WEBHOOK,
+    MAILCHIMP_URL: process.env.MAILCHIMP_URL,
   },
 };

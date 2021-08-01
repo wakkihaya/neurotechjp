@@ -119,25 +119,129 @@
 }
 
 .footer {
+  background-image: linear-gradient(
+    to bottom right,
+    $blue-color,
+    $deep-blue-color
+  );
+  padding: 1em 0;
+
+  &--newsletter {
+    display: flex;
+    justify-content: center;
+    margin: 1rem 0;
+    align-items: center;
+  }
+  &--newsletter-sucess {
+    font-size: $small-font-size;
+    font-family: $armata-font-family;
+  }
+  &--newsletter-text {
+    font-size: $small-font-size;
+    font-family: $armata-font-family;
+    color: white;
+  }
+
+  &--newsletter-sending,
+  &--newsletter-success,
+  &--newsletter-error {
+    font-size: $very-small-font-size;
+    color: $blue-color;
+    text-align: center;
+    padding: 1rem;
+  }
+  &--newsletter-error {
+    color: $red-color;
+  }
+
+  &--newsletter-form {
+    border-radius: 10px;
+    width: 270px;
+    background: white;
+    display: flex;
+    padding: 0.5em 1em;
+    margin-left: 5rem;
+    align-items: center;
+    input,
+    button {
+      font-size: $very-small-font-size;
+    }
+    input {
+      padding: 1rem;
+      border: none;
+      outline: none;
+      border-radius: 10px;
+    }
+    button {
+      padding: 1rem 1.5rem;
+      color: white;
+      background: $blue-color;
+      border-radius: 10px;
+      border: none;
+    }
+    button:hover {
+      cursor: pointer;
+    }
+  }
+
+  &--sns {
+    display: flex;
+    color: white;
+    justify-content: center;
+    margin: 1.5rem;
+  }
+  &--sns-twitter {
+    display: flex;
+    align-items: center;
+    border: solid 0.5px white;
+    border-radius: 10px;
+    padding: 0.5em 1em;
+    margin: 0 1rem;
+  }
+  &--sns-twitter-text {
+    font-size: $small-font-size;
+    font-family: $armata-font-family;
+    margin-right: 0.5em;
+  }
   .CookieConsent {
     font-size: $very-small-font-size;
     padding: 0 3rem;
   }
-  &--content {
+  &--org {
     width: 100%;
-    height: 50px;
-    background-color: white;
+    color: $light-gray-color;
     text-align: center;
-    font-size: $small-font-size;
+    font-size: $very-small-font-size;
     font-family: $armata-font-family;
-    line-height: 50px;
   }
   @media (max-width: $mobile-width) {
+    &--newsletter {
+      flex-direction: column;
+    }
+    &--newsletter-text {
+      font-size: $very-small-font-size;
+    }
+    &--newsletter-form {
+      width: auto;
+      margin-left: 0;
+      margin-top: 1rem;
+      padding: 0.2em;
+    }
+    &--sns-twitter-text {
+      font-size: $very-small-font-size;
+    }
+    input,
+    button {
+      font-size: $sp-desc-small-font-size;
+    }
     .CookieConsent {
       padding: 0;
     }
     &--content {
       font-size: $very-small-font-size;
+    }
+    &--org {
+      font-size: $sp-desc-small-font-size;
     }
   }
 }
