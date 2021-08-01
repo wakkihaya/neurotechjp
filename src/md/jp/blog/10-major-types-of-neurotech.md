@@ -1,10 +1,6 @@
 ---
 title: "Neurotechを代表する10の技術 ~ 前半 ~"
-
-subtitle: "この記事では、10種類に分類された現代のNeurotechの技術のうち、前半５つを紹介していく。\n"
-
 description: "この記事では、10種類に分類された現代のNeurotechの技術のうち、前半５つを紹介していく。\n"
-
 datePublished: "2021/7/8"
 category: "コラム"
 bannerPhoto: "/img/10-major-types-of-neurotech/ogp.jpg"

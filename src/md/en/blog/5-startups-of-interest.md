@@ -1,6 +1,5 @@
 ---
 title: "5 featured startups in Neurotechnology"
-subtitle: "In this article, I will introduce five carefully selected startups with a momentum that will revolutionize our lives with Neurotechnology."
 description: "In this article, I will introduce five carefully selected startups with a momentum that will revolutionize our lives with Neurotechnology."
 datePublished: "2021/5/24"
 bannerPhoto: "/img/5-startups-of-interest/cover.jpg"

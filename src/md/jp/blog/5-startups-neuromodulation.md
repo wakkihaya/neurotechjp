@@ -1,6 +1,5 @@
 ---
 title: "Neuromodulation スタートアップ5選"
-subtitle: "今回は、ニューロモデュレーションという技術を使って、我々の生活に大きく変化をもたらしているスタートアップを5つに絞って紹介していく。"
 description: "今回は、ニューロモデュレーションという技術を使って、我々の生活に大きく変化をもたらしているスタートアップを5つに絞って紹介していく。"
 datePublished: "2021/7/17"
 bannerPhoto: "/img/5-startups-neuromodulation/cover.jpg"

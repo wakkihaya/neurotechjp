@@ -34,7 +34,7 @@
     -webkit-transform: translate(0%, -50%);
     transform: translate(0%, -50%);
     font-weight: bold;
-    p {
+    span {
       white-space: pre-line;
     }
   }
@@ -58,8 +58,11 @@
 @media (max-width: $mobile-width) {
   .top {
     &--center-text {
-      color: black;
+      color: white;
       font-size: $large-font-size;
+      span {
+        background: rgba(43, 74, 103, 0.6);
+      }
     }
   }
   .top-blog {
@@ -206,11 +209,12 @@
     font-size: $small-font-size;
     margin: 1rem 0;
     overflow: hidden;
-    min-height: 4.5em;
-
     display: -webkit-box;
     -webkit-box-orient: vertical;
     -webkit-line-clamp: 3;
+    p {
+      margin: 0;
+    }
   }
   &--container-readmore {
     font-size: $small-font-size;

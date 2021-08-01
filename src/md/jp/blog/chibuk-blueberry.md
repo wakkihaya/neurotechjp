@@ -1,6 +1,5 @@
 ---
 title: "1日中装着可能。眼鏡に取り付ける超小型サイズのBCI Blueberry | John D. Chibuk"
-subtitle: "今回は、優れた着用性と持ち運び性を兼ね備えるBlueberryの創業者John D. Chibukに、その小型化と着用性を支える技術や軌跡に加え、彼らが目指すビジョンをインタビューさせて頂いた。"
 description: "今回は、優れた着用性と持ち運び性を兼ね備えるBlueberryの創業者John D. Chibukに、その小型化と着用性を支える技術や軌跡に加え、彼らが目指すビジョンをインタビューさせて頂いた。"
 datePublished: "2021/8/1"
 bannerPhoto: "/img/chibuk-blueberry/cover.jpg"

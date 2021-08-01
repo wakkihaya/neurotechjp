@@ -1,10 +1,6 @@
 ---
 title: "ニューロテクノロジストとして活躍する学生起業家 | Harrison Canning"
-
-subtitle: "今回は、RITでNeurotechnologyを専攻する学生をする傍ら、ニューロテクノロジー領域において、90人規模の学生研究チームを創立・牽引するに加え、独自コンテンツを提供するメディア会社を創立するなど、ニューロテクノロジーとビジネスを掛け合わせて活躍するHarrison Canningにインタビューをさせていただいた。"
-
 description: "今回は、RITでNeurotechnologyを専攻する学生をする傍ら、ニューロテクノロジー領域において、90人規模の学生研究チームを創立・牽引するに加え、独自コンテンツを提供するメディア会社を創立するなど、ニューロテクノロジーとビジネスを掛け合わせて活躍するHarrison Canningにインタビューをさせていただいた。"
-
 datePublished: "2021/6/6"
 bannerPhoto: "/img/harrison-canning-rit/harrison-top.jpg"
 category: "インタビュー"

@@ -1,6 +1,5 @@
 ---
 title: 'All-day wearable. Small-sized bio-sensing BCI "Blueberry" | John D. Chibuk'
-subtitle: "This time, we interviewed John D. Chibuk, the founder of Blueberry, about the technology behind its miniaturization and wearability, as well as his vision for the company."
 description: "This time, we interviewed John D. Chibuk, the founder of Blueberry, about the technology behind its miniaturization and wearability, as well as his vision for the company."
 datePublished: "2021/8/1"
 bannerPhoto: "/img/chibuk-blueberry/cover.jpg"
