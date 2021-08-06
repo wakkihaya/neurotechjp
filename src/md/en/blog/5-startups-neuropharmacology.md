@@ -6,11 +6,11 @@ bannerPhoto: "/img/5-startups-neuropharmacology/cover.jpg"
 category: "Column"
 ---
 
-&nbsp;
-
 ## Introduction
 
 Neuropharmacology is **the study of both the treatment of curing sick people and improving their moods for the better.** Hence, it applies to everything from drugs prescribed to help the sick to the latest **"smart drugs"**.
+
+&nbsp;
 
 As introduced in [10 Technologies Representing Neurotech ~ First Half ~](https://neurotechjp.com/blog/10-major-types-of-neurotech/), the field of neuropharmacology is broadly divided into two categories: molecular neuropharmacology and behavioral neuropharmacology. The development of new drugs takes a great deal of time and money, but nevertheless, the investment is made because the benefits are just as great.
 
