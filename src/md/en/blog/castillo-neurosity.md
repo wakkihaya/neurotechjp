@@ -50,7 +50,7 @@ Although Castillo has been working in the software industry for a long time, **h
 
 ## Strengths of design and processing power "CROWN"
 
-![CROWN](https://neurotechjp.com/img/castillo-neurosity/neurosity-device.png)
+![CROWN](https://neurotechjp.com/img/castillo-neurosity/neurosity-device.jpg)
 
 &nbsp;
 
