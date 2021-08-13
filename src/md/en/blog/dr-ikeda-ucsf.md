@@ -34,7 +34,7 @@ Dr. Ikeda has been doing neurological research for less than 10 years now, and h
 > There was a time in high school and college when I was troubled by things I didn't need, and I wanted to learn more about my own mind.
 > I took classes in psychology and philosophy, and as I learned more, I decided to study the brain because there is a fact that the mind is created by the brain.
 > I guess there was a way to learn about the mind through work and listening to people in various fields.
-> However, as I started my research, I found that the approach of science, such as theories and how to organize facts, was more comfortable for me, and I decided to go into research.
+> However, as I started my research, I found that **the approach of science**, such as theories and how to organize facts, was more comfortable for me, and I decided to go into research.
 
 &nbsp;
 
@@ -55,7 +55,7 @@ Later, he went on to pursue a Ph.D. at Nagoya University, and after participatin
 Dr. Ikeda said that **the best way to understand the mechanism of consciousness is by creating it.**
 
 > For example, in general, artificial intelligence is an intelligence that is artificially created to solve a problem that exists in the outside world.
-> What I think about AI is that it is an artifact to understand the intelligence that exists now, or one's own intelligence or mind, by creating it.
+> What I think about AI is that it is an artifact to understand the intelligence that exists now, or one's own intelligence or mind, **by creating it.**
 > Creating it specifically means creating a model of neural circuitry that is as close as possible to the real brain, and by doing so, we can understand it.
 > Also, by tweaking the model corresponding to reality, or conducting virtual experiments on a large scale, I hope to understand the mind gradually.
 
@@ -77,9 +77,9 @@ So, what kind of processing takes place within the identified neuron population 
 In his [recent research](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1007916), he **modeled the neural circuits of the C. elegans**, and succeeded in explaining the processing within a population of neurons by **exploring the parameters of the strength of the connections between neurons, associated with the behavior of C. elegans, using machine learning.**
 
 > We have data on what kind of temperature input we have, and what kind of output we get.
-> We also have data on how neurons are structurally connected to each other, but the missing data right now is the weight between neurons, or the strength of the connections.
+> We also have data on how neurons are structurally connected to each other, but the missing data right now is **the weight between neurons, or the strength of the connections.**
 > I wanted to know what combination of weights would better reproduce the actual behavior of C. elegans.
-> In my recent research, I used a genetic algorithm to create a model of the circuit by parameter search, and then conducted various virtual experiments on it, and proposed a relationship between the circuit and the direction of C. elegans.
+> In my recent research, I used a genetic algorithm to create a model of the circuit by parameter search, and then conducted various virtual experiments on it, and proposed **a relationship between the neural circuit and the direction of C. elegans.**
 
 ![Dr.Ikeda research 2](https://neurotechjp.com/img/dr-ikeda-ucsf/dr-ikeda-research-2.jpg)
 _Image_
@@ -89,8 +89,8 @@ _Image_
 Dr. Ikeda told me that **by understanding the movement of neural activity in C. elegans, we will be able to apply the framework revealed by its neural activity to understanding human neural activity when technology catches up in the future.**
 
 > Now we can measure the neural activity of about 200 neurons out of the 302 neurons in C. elegans when it is moving freely.
-> In addition, we are now able to measure the activity of almost all neurons in real time.
-> If we know an approach to understand how C. elegans' brain functions by using the time series of the activity of all the neurons in its neural network, the behavior of C. elegans at that time, and the input from the outside world, then in the future, when we have a time series of the activities of all 100 billion neurons in the human body, that approach will probably be useful in some way.
+> If we know an approach to understand how C. elegans' brain functions by using these data following: the time series of the activity of all the neurons in its neural network; the behavior of C. elegans at that time; the input from the outside world;
+> then **in the future, when we have a time series of the activities of all 100 billion neurons in the human brain, that approach will probably be useful in some way.**
 
 &nbsp;
 
@@ -107,8 +107,7 @@ However, the question that still arises is **how to put consciousness research o
 
 In addition, Dr.Ikeda told me that another issue is **how to confirm that C. elegans has consciousness.**
 
-> There are various proposals based on the evolutionary approach of C. elegans.
-> So, I'm still working on solving the question of whether I can say that C. elegans has consciousness.
+> There are various proposals for evolutionary approaches to C. elegans, which can explain the complex behavior of C. elegans, but solving the question of whether it can be said to have consciousness is still an issue that we are working on.
 
 &nbsp;
 
@@ -128,8 +127,8 @@ So when will this technology reach a breakthrough for us humans?
 He answered, currently, we can read a few thousand neurons when we implant electrodes in the surface layer of a human brain, but **when the technology catches up to the point where we can read hundreds of millions of neurons, we will be able to successfully apply the methodology obtained from C. elegans.**
 
 > In the invasive method, electrodes are implanted, and the spike trains at the single neuron level are being obtained.
-> At the moment we are only discussing a few thousand spikes on the surface, but in the future, I think that number will probably increase to more and more up to hundreds of millions.
-> That's probably a breakthrough for me, and I think we can apply the methodology I used with C. elegans directly to people.
+> At the moment we are only discussing a few thousand spikes on the surface, but in the future, I think that number will probably increase up to hundreds of millions.
+> That's probably a breakthrough for me, and then I think we can apply the methodology I used with C. elegans directly to human brains.
 
 &nbsp;
 
