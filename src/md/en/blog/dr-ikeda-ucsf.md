@@ -31,7 +31,7 @@ In this interview, we had the opportunity to talk with [Dr. Muneki Ikeda](https:
 
 Dr. Ikeda has been doing neurological research for less than 10 years now, and his interest in the brain and consciousness started when he was in high school and **he wanted to know how his own mind worked.**
 
-> There was a time in high school and college when I was troubled by things I didn't need, and I wanted to learn more about my own mind.
+> There was a time in high school and college when I was distressed about things, and I wanted to learn more about my own mind.
 > I took classes in psychology and philosophy, and as I learned more, I decided to study the brain because there is a fact that the mind is created by the brain.
 > I guess there was a way to learn about the mind through work and listening to people in various fields.
 > However, as I started my research, I found that **the approach of science**, such as theories and how to organize facts, was more comfortable for me, and I decided to go into research.
@@ -46,7 +46,7 @@ After graduating from the University of Tokyo with an undergraduate degree, Dr. 
 
 &nbsp;
 
-Later, he went on to pursue a Ph.D. at Nagoya University, and after participating in a month-long overseas research internship during the second year of his doctoral degree, he visited the PI (Principal Investigator) of the [FOCOLab](http://focolab.org/) at UCSF, to which he currently belongs, at an international conference on C. elegans held in the same year, and was accepted to join the lab.
+Later, he went on to pursue a Ph.D. at Nagoya University in Japan, and after participating in a month-long overseas research internship during the second year of his doctoral degree, he visited the PI (Principal Investigator) of the [FOCOLab](http://focolab.org/) at UCSF, to which he currently belongs, at an international conference on C. elegans held in the same year, and was accepted to join the lab.
 
 &nbsp;
 
@@ -55,9 +55,9 @@ Later, he went on to pursue a Ph.D. at Nagoya University, and after participatin
 Dr. Ikeda said that **the best way to understand the mechanism of consciousness is by creating it.**
 
 > For example, in general, artificial intelligence is an intelligence that is artificially created to solve a problem that exists in the outside world.
-> What I think about AI is that it is an artifact to understand the intelligence that exists now, or one's own intelligence or mind, **by creating it.**
-> Creating it specifically means creating a model of neural circuitry that is as close as possible to the real brain, and by doing so, we can understand it.
-> Also, by tweaking the model corresponding to reality, or conducting virtual experiments on a large scale, I hope to understand the mind gradually.
+> What I think about AI is that it's **an artificial thing that we create in order to understand the intelligence that exists today, or our own intelligence, or our minds.**
+> Creating it specifically means creating a model of neural circuit that is as close as possible to the real brain, and by doing so, we can understand it.
+> Also, by tweaking the model corresponding to reality, or conducting virtual experiments on a large scale, I want to understand the mind gradually.
 
 &nbsp;
 
@@ -74,7 +74,7 @@ So, what kind of processing takes place within the identified neuron population 
 
 &nbsp;
 
-In his [recent research](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1007916), he **modeled the neural circuits of the C. elegans**, and succeeded in explaining the processing within a population of neurons by **exploring the parameters of the strength of the connections between neurons, associated with the behavior of C. elegans, using machine learning.**
+In his [recent research](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1007916), he **modeled the neural circuits of the C. elegans**, and succeeded in explaining the processing within a population of neurons by **exploring the parameters of the strength of the connections between neurons, associated with the behavior, using machine learning.**
 
 > We have data on what kind of temperature input we have, and what kind of output we get.
 > We also have data on how neurons are structurally connected to each other, but the missing data right now is **the weight between neurons, or the strength of the connections.**
@@ -113,9 +113,9 @@ In addition, Dr.Ikeda told me that another issue is **how to confirm that C. ele
 
 ## In order to uncover human consciousness.
 
-He has been researching on a limited number of neurons for a limited number of behaviors in C. elegans, but his near-term goal is to **build a model for all neurons and all behaviors**, Dr.Ikeda said.
+He has been researching on a limited number of neurons for a limited number of behaviors in C. elegans, and his near-term goal is to **build a model for all neurons and all behaviors**, Dr.Ikeda said.
 
-> What I have published in my paper is about a limited group of neurons for a very limited behavior of going to a certain temperature, which is a little less than 20 neurons out of 303 neurons.
+> What I have published in my paper is about a limited group of neurons for a very limited behavior of going to a certain temperature, which is a little less than 20 neurons out of 302 neurons.
 > I'd like to make it closer to 302 neurons, and eventually I'd like to reproduce every observable behavior of C. elegans.
 
 &nbsp;
@@ -128,7 +128,7 @@ He answered, currently, we can read a few thousand neurons when we implant elect
 
 > In the invasive method, electrodes are implanted, and the spike trains at the single neuron level are being obtained.
 > At the moment we are only discussing a few thousand spikes on the surface, but in the future, I think that number will probably increase up to hundreds of millions.
-> That's probably a breakthrough for me, and then I think we can apply the methodology I used with C. elegans directly to human brains.
+> That's probably a breakthrough for me, and then I think we can apply the methodology I used with C. elegans directly to a human brain.
 
 &nbsp;
 
@@ -138,6 +138,6 @@ This time, we had the pleasure of interviewing Dr. Muneki Ikeda, a researcher at
 
 &nbsp;
 
-Although C. elegans is an organism far different from humans in both shape and size, the mechanism of its nervous system is becoming apparent every day through research.
+Although C. elegans is an organism far different from humans in terms of both shape and size, the mechanism of its nervous system is becoming apparent every day through research.
 
 The day when we can scientifically prove the mechanism of thought in our brains may be coming soon.
