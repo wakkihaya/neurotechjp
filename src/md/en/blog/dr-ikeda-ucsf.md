@@ -107,7 +107,7 @@ However, the question that still arises is **how to put consciousness research o
 
 In addition, Dr.Ikeda told me that another issue is **how to confirm that C. elegans has consciousness.**
 
-> There are various proposals for evolutionary approaches to C. elegans, which can explain the complex behavior of C. elegans, but solving the question of whether it can be said to have consciousness is still an issue that we are working on.
+> There are various proposals for evolutionary approaches to C. elegans, which can explain the complex behavior of C. elegans, but solving the question of whether it can be said to have consciousness is still an issue that I'm working on.
 
 &nbsp;
 
@@ -116,7 +116,7 @@ In addition, Dr.Ikeda told me that another issue is **how to confirm that C. ele
 He has been researching on a limited number of neurons for a limited number of behaviors in C. elegans, and his near-term goal is to **build a model for all neurons and all behaviors**, Dr.Ikeda said.
 
 > What I have published in my paper is about a limited group of neurons for a very limited behavior of going to a certain temperature, which is a little less than 20 neurons out of 302 neurons.
-> I'd like to make it closer to 302 neurons, and eventually I'd like to reproduce every observable behavior of C. elegans.
+> I want to make it closer to 302 neurons, and eventually I want to reproduce every observable behavior of C. elegans.
 
 &nbsp;
 
