@@ -19,6 +19,8 @@
     "@shunkakinoki/prettier": "^1.0.0",
     "axios": "^0.21.1",
     "dotenv": "^8.2.0",
+    "firebase": "^8.9.1",
+    "firebase-tools": "^9.16.5",
     "glob": "^7.1.6",
     "gray-matter": "^4.0.3",
     "next": "10.2.0",
