@@ -46,7 +46,7 @@ Neurosity は、CEO の[AJ Keller](https://www.linkedin.com/in/andrewjaykeller/)
 
 ## デザイン性と処理能力に強み 「CROWN」
 
-![CROWN](https://neurotechjp.com/img/castillo-neurosity/neurosity-device.png)
+![CROWN](https://neurotechjp.com/img/castillo-neurosity/neurosity-device.jpg)
 
 &nbsp;
 

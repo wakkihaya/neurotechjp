@@ -26,6 +26,10 @@ export const Meta: React.FC<{
           content={meta.desc}
         />
       )}
+      <meta
+        name="keywords"
+        content="neurotech,neurotechjp,braintech,neurotechnology,ブレインテック,ニューロテック"
+      />
       <meta property="og:site_name" content="neurotechjp" />
       <meta property="fb:app_id" content={FB_APP_ID} />
       {meta.link && <meta property="og:url" content={`${meta.link}`} />}
