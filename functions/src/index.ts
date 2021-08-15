@@ -1,9 +1,7 @@
 import * as functions from "firebase-functions";
+import AnalyticsScript from "./analytics";
 
-// // Start writing Firebase Functions
-// // https://firebase.google.com/docs/functions/typescript
-//
-// export const helloWorld = functions.https.onRequest((request, response) => {
-//   functions.logger.info("Hello logs!", {structuredData: true});
-//   response.send("Hello from Firebase!");
-// });
+export const dailyAnalytics = functions.pubsub
+  .schedule("59 23 * * *")
+  .timeZone("Asia/Tokyo")
+  .onRun(AnalyticsScript);
