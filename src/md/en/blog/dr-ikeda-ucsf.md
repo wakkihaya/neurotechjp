@@ -46,7 +46,7 @@ After graduating from the University of Tokyo with an undergraduate degree, Dr. 
 
 &nbsp;
 
-Later, he went on to pursue a Ph.D. at Nagoya University in Japan, and after participating in a month-long overseas research internship during the second year of his doctoral degree, he visited the PI (Principal Investigator) of the [FOCOLab](http://focolab.org/) at UCSF, to which he currently belongs, at an international conference on C. elegans held in the same year, and was accepted to join the lab.
+Later, he went on to pursue a Ph.D. at Nagoya University in Japan, and after participating in a month-long overseas research internship during the third year of his doctoral degree, he visited the PI (Principal Investigator) of the [FOCOLab](http://focolab.org/) at UCSF, to which he currently belongs, at an international conference on C. elegans held in the same year, and was accepted to join the lab.
 
 &nbsp;
 
