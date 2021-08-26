@@ -18,6 +18,6 @@
     "isolatedModules": true,
     "jsx": "preserve"
   },
-  "exclude": ["node_modules"],
+  "exclude": ["node_modules", "functions"],
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "src/lib/server.js"]
 }
