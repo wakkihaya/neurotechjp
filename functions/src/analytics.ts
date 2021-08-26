@@ -1,11 +1,11 @@
 import { google } from "googleapis";
-import { GA_VIEW_ID, SLACK_WEB_HOOK } from "../config/env-config";
-import { WebClient } from "@slack/web-api";
+import { SLACK_WEB_HOOK, GA_VIEW_ID } from "../config/env-config";
+import { IncomingWebhook } from "@slack/webhook";
 import * as functions from "firebase-functions";
 
 const getAnalyticsData = async (request: any) => {
   const client = await google.auth.getClient({
-    keyFile: "./ga-key.json",
+    keyFile: "../ga-key.json",
     scopes: "https://www.googleapis.com/auth/analytics.readonly",
   });
 
@@ -32,19 +32,18 @@ const extractFeaturesFromJson = (targetJson: any) => {
 };
 
 const sendDataToSlack = async (text: any) => {
-  const slackWebHook = functions.config().gcp.slack_web_hook ?? SLACK_WEB_HOOK;
-  const web = new WebClient(slackWebHook);
-  const channelID = "C0293LMAE4T";
+  const slackWebHook = functions.config().gcp?.slack_web_hook || SLACK_WEB_HOOK;
+  const webhook = new IncomingWebhook(slackWebHook);
 
   try {
-    await web.chat.postMessage({ channel: channelID, text: text });
+    await webhook.send({ text: text });
   } catch (e) {
     console.log(e);
   }
 };
 
 const AnalyticsScript = async () => {
-  const gaViewId = functions.config().gcp.ga_view_id ?? GA_VIEW_ID;
+  const gaViewId = functions.config().gcp?.ga_view_id || GA_VIEW_ID;
 
   //PV Daily
   const pageViewReq = {
@@ -65,7 +64,7 @@ const AnalyticsScript = async () => {
 
   //DAU
   const userNumReq = {
-    viewId: GA_VIEW_ID,
+    viewId: gaViewId,
     dateRanges: [
       {
         startDate: "yesterday",
@@ -93,5 +92,6 @@ const AnalyticsScript = async () => {
 
   await sendDataToSlack(slackText);
 };
+AnalyticsScript();
 
 export default AnalyticsScript;
