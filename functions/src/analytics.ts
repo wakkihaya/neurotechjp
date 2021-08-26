@@ -5,7 +5,7 @@ import * as functions from "firebase-functions";
 
 const getAnalyticsData = async (request: any) => {
   const client = await google.auth.getClient({
-    keyFile: "../ga-key.json",
+    // keyFile: "../ga-key.json",
     scopes: "https://www.googleapis.com/auth/analytics.readonly",
   });
 
@@ -92,6 +92,5 @@ const AnalyticsScript = async () => {
 
   await sendDataToSlack(slackText);
 };
-AnalyticsScript();
 
 export default AnalyticsScript;
