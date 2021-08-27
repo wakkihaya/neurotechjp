@@ -43,7 +43,7 @@ const AboutPage: React.FC = () => {
           </div>
         </div>
         <div className="about-container--index">
-          <div className="about-container--index-title">About organaizer</div>
+          <div className="about-container--index-title">About organizers</div>
           <div className="about-container--index_box">
             <div className="about-container--index-subtitle">
               Hayato Waki (Writer, Interviewer) <br />
