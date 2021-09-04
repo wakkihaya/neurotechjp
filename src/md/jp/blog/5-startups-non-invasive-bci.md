@@ -53,6 +53,10 @@ Cognixion One 以外にも、目や顔の表情を使って会話をサポート
 
 &nbsp;
 
+参考: https://www.crunchbase.com/organization/cognixion
+
+&nbsp;
+
 ## [2. Kernel](https://www.kernel.com/)
 
 [Kernel](https://www.kernel.com/)は、Elon Musk 率いる[Neuralink](https://neuralink.com)に引けを取らないほど、**大型の資金と優秀な人材・技術を兼ね備える**スタートアップである。創業者の[Bryan Johnson](<https://en.wikipedia.org/wiki/Bryan_Johnson_(entrepreneur)>)は連続起業家として知られており、[Braintree](https://www.braintreepayments.com/)を創業し PayPal に 800 億円で売却、その後[OS Fund](https://osfund.co/)というファンドを立ち上げ、2016 年に自己資本と共に同社を創業した。
@@ -75,6 +79,10 @@ _画像: Kernel デバイス_
 | 資金調達状況 |               シリーズ C                |
 |  合計調達額  |                  $107M                  |
 |   投資家数   |                    6                    |
+
+&nbsp;
+
+参考: https://www.crunchbase.com/organization/kernel-co
 
 &nbsp;
 
@@ -107,6 +115,10 @@ _動画: Muse 紹介_
 
 &nbsp;
 
+参考: https://www.crunchbase.com/organization/interaxon
+
+&nbsp;
+
 ## [4. Emotiv](https://www.emotiv.com/)
 
 [Emotiv](https://www.emotiv.com/)は、**研究や開発用に数多くの脳波デバイスやアプリケーション**を提供するスタートアップだ。
@@ -132,6 +144,10 @@ _画像: Emotiv デバイス_
 
 &nbsp;
 
+参考: https://www.crunchbase.com/organization/emotiv
+
+&nbsp;
+
 ## [5. Bitbrain](https://www.bitbrain.com/)
 
 [Bitbrain](https://www.bitbrain.com/)は、**BCI の共同開発で活躍**するスペイン発のスタートアップだ。同社は、脳波デバイスやアイトラッキングなどのデバイスやソフトウェアを多く提供する傍ら、企業との共同開発やコンサルティングでも活躍する。
@@ -151,6 +167,10 @@ _画像: Bitbrain デバイス_
 |   従業員数   |             11-50              |
 | 資金調達状況 |          プライベート          |
 |  合計調達額  |             $1.9M              |
+
+&nbsp;
+
+参考: https://www.crunchbase.com/organization/bitbrain-technologies
 
 &nbsp;
 

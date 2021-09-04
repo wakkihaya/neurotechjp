@@ -51,6 +51,10 @@ In addition to Cognixion One, the company also offers "[Sparkprose](https://www.
 
 &nbsp;
 
+Reference: https://www.crunchbase.com/organization/cognixion
+
+&nbsp;
+
 ## [2. Kernel](https://www.kernel.com/)
 
 [Kernel](https://www.bitbrain.com/) is a startup with **a large amount of money, talented people, and technology** that is second to none to [Neuralink](https://neuralink.com/) led by Elon Musk.
@@ -75,6 +79,10 @@ Although devices using MEG and fNIRS have appeared on the market, they have many
 | Funding Status |                    Series C                     |
 | Total Funding  |                      $107M                      |
 |   Investors    |                        6                        |
+
+&nbsp;
+
+Reference: https://www.crunchbase.com/organization/kernel-co
 
 &nbsp;
 
@@ -107,6 +115,10 @@ Its use is not limited to mindfulness. The company also provides a system for de
 
 &nbsp;
 
+Reference: https://www.crunchbase.com/organization/interaxon
+
+&nbsp;
+
 ## [4. Emotiv](https://www.emotiv.com/)
 
 [Emotiv](https://emotiv.com) is a startup that offers **a number of EEG devices and applications for research and development.**
@@ -135,6 +147,10 @@ Even a beginner can create a BCI application once they buy the device. Aside fro
 
 &nbsp;
 
+Reference: https://www.crunchbase.com/organization/emotiv
+
+&nbsp;
+
 ## [5. Bitbrain](https://www.bitbrain.com/)
 
 [Bitbrain](https://en.wikipedia.org/wiki/Magnetoencephalography) is a startup from Spain that is active in the **collaborative development of BCI**. The company provides a number of devices and software such as EEG devices and eye-tracking, and is also active in collaborative development and consulting with companies.
@@ -155,6 +171,10 @@ Announced at [CES](https://www.ces.tech/About-CES.aspx) in 2018, [the company's 
 | Funding Status |              Private              |
 | Total Funding  |               $1.9M               |
 |   Investors    |                 1                 |
+
+&nbsp;
+
+Reference: https://www.crunchbase.com/organization/bitbrain-technologies
 
 &nbsp;
 
