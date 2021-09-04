@@ -241,6 +241,7 @@
     }
     &--container-subtitle {
       font-size: $very-small-font-size;
+      min-height: auto;
     }
     &--container-category {
       font-size: $very-small-font-size;
