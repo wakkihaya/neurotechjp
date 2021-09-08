@@ -55,7 +55,7 @@
     font-family: $armata-font-family;
   }
 }
-@media (max-width: $mobile-width) {
+@media screen and (max-width: $mobile-width) {
   .top {
     &--center-text {
       color: white;
@@ -101,7 +101,7 @@
     );
     padding-bottom: 2rem;
   }
-  @media (max-width: $mobile-width) {
+  @media screen and (max-width: $mobile-width) {
     width: 80%;
     &--title {
       font-size: $medium-font-size;
@@ -145,7 +145,7 @@
     margin: auto;
     grid-template-columns: 540px 540px;
   }
-  @media (max-width: $mobile-width) {
+  @media screen and (max-width: $mobile-width) {
     &--posts {
       width: 90%;
       display: flex;
@@ -231,7 +231,7 @@
     color: $gray-color;
     margin-top: auto;
   }
-  @media (max-width: $mobile-width) {
+  @media screen and (max-width: $mobile-width) {
     max-width: 100%;
     height: auto;
     margin: 2rem 0;
@@ -281,7 +281,7 @@
     font-family: $armata-font-family;
     color: white;
   }
-  @media (max-width: $mobile-width) {
+  @media screen and (max-width: $mobile-width) {
     &--title {
       width: 80%;
       margin: 1.5em auto;
@@ -328,7 +328,7 @@
     width: 40px;
     margin: 2em 2em 2em 0;
   }
-  @media (max-width: $mobile-width) {
+  @media screen and (max-width: $mobile-width) {
     width: 80%;
     padding: 3em 0;
     &--index {
@@ -393,7 +393,7 @@
     text-align: center;
     margin: 10rem auto;
   }
-  @media (max-width: $mobile-width) {
+  @media screen and (max-width: $mobile-width) {
     &--title {
       font-size: $medium-font-size;
     }
@@ -533,7 +533,7 @@
   a {
     text-decoration: underline;
   }
-  @media (max-width: $mobile-width) {
+  @media screen and (max-width: $mobile-width) {
     width: 90%;
     &--top-pic {
       max-height: 200px;
@@ -591,7 +591,7 @@
     font-family: $armata-font-family;
     color: white;
   }
-  @media (max-width: $mobile-width) {
+  @media screen and (max-width: $mobile-width) {
     &--title {
       width: 80%;
       margin: 1.5em auto;
@@ -634,7 +634,7 @@
     cursor: pointer;
     background-color: $light-gray-color;
   }
-  @media (max-width: $mobile-width) {
+  @media screen and (max-width: $mobile-width) {
     width: 90%;
     padding: 0;
     &--content {
@@ -662,7 +662,7 @@
     color: $heavy-gray-color;
     padding: 1rem 0 0 3rem;
   }
-  @media (max-width: $mobile-width) {
+  @media screen and (max-width: $mobile-width) {
     &--title {
       font-size: $small-font-size;
       padding: 1rem 1.5rem;
@@ -704,7 +704,7 @@
     line-height: 1.5em;
     color: $heavy-gray-color;
   }
-  @media (max-width: $mobile-width) {
+  @media screen and (max-width: $mobile-width) {
     width: 90%;
     &--title {
       font-size: $small-font-size;
