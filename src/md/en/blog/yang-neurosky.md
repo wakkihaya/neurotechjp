@@ -12,13 +12,13 @@ Consumer Brain-Computer Interface has been attracting attention in recent years,
 
 &nbsp;
 
-Although BCIs have been studied for more than 30 years, the turning point in this field dates back more than 20 years. Then, invasive BCI research accelerated in the mid-1990s. [Cyberkinetics](https://www.braingate.org/), founded in 2001 by a team of researchers from [Brown University](https://www.brown.edu/), provided the world's first consumer BCI "NeuroPort" two years after its inception, enabling monitoring of the movement of the nervous system.
+Although BCIs have been studied for more than 30 years, the turning point in this field dates back more than 20 years. Then, invasive BCI research accelerated in the mid-1990s. [Cyberkinetics](https://www.braingate.org/), founded in 2001 by a team of researchers from [Brown University](https://www.brown.edu/), provided the world's first consumer BCI "NeuroPort" two years after its establishment, enabling monitoring of the movement of the nervous system.
 
 In the 2000s, when the first BCI was introduced to the market and they didn't see the light of day, **there was a pioneer company that developed the market by providing non-invasive BCI for consumers and combining it with entertainment.** That company is [NeuroSky](http://neurosky.com/), led by [Stanley Yang](https://www.linkedin.com/in/stanley-yang-8173602/), whom we interviewed this time.
 
 &nbsp;
 
-For this interview, we had the opportunity to talk with Stanley Yang, the founder of NeuroSky, a company that has been pioneering the Neurotech market for more than 10 years, about the history and future of the company: how they developed the market, and what their strategy is as a pioneer company in recent years under intense competition.
+For this interview, we had the opportunity to talk with Stanley Yang, the founder of NeuroSky that is a company that has been pioneering the Neurotech market for more than 10 years, about the history and future of the company: how they developed the market, and what their strategy is as a pioneer company in recent years under intense competition.
 
 &nbsp;
 
@@ -30,7 +30,7 @@ Yang, who studied electrical engineering at UC Berkeley, has a talent for buildi
 
 &nbsp;
 
-In 2009, NeuroSky collaborated with [Mattel](https://en.wikipedia.org/wiki/Mattel) to launch [Mindflex](https://en.wikipedia.org/wiki/Mindflex), a toy that uses brain waves to control a ball. In the same year, NeuroSky collaborated with [Uncle Milton](https://www.unclemilton.com/) to launch [Force Trainer](https://en.wikipedia.org/wiki/Force_Trainer), a game that allows users to experience the Star Wars Force. So, in the early days of the company, they were active as an [OEM](https://en.wikipedia.org/wiki/Original_equipment_manufacturer). Based on those findings and experiences, the company then started offering a BCI called Mindset and a game "Neuroboy" that allows users to move objects with brain waves.
+In 2009, NeuroSky collaborated with [Mattel](https://en.wikipedia.org/wiki/Mattel) to launch [Mindflex](https://en.wikipedia.org/wiki/Mindflex), a toy that uses brain waves to control a ball. In the same year, NeuroSky collaborated with [Uncle Milton](https://www.unclemilton.com/) to launch [Force Trainer](https://en.wikipedia.org/wiki/Force_Trainer), a game that allows users to experience the Star Wars Force. So, in the early days of the company, they were active as an [OEM](https://en.wikipedia.org/wiki/Original_equipment_manufacturer). Based on those findings and experiences, the company then started offering a BCI called Mindset and a game ["Neuroboy"](https://store.neurosky.com/products/the-adventures-of-neuroboy-bci-technology-demo) that allows users to move objects with brain waves.
 
 Currently, the company not only offers **[EEG devices](https://store.neurosky.com/)** that **can be purchased from $100 for consumers** but also provides **SDK kits** for developers free of charge. The company is also in the business of selling the **chips**, which is thier core technology, to a number of BCI companies.
 
@@ -50,24 +50,23 @@ It is no exaggeration to say that it was the applications and devices provided b
 Yang told me that **it took a lot of hard work to install the concept of BCI in people** as most people didn't know the word "brain waves"
 
 > At that time, if I asked people to use a brainwave technology, or product, nobody knew.
-> And, although the medical hospitals used brainwaves, nobody knew and people said,"why do I use it"?
+> Although the medical hospitals used brainwaves, nobody knew and people said,"why do I use it"?
 
 &nbsp;
 
-How did he introduce the concept of "brain waves" to more people and develop the market?
+How did they introduce the concept of "brain waves" to more people and develop the market?
 
 &nbsp;
 
 ![Neurosky Starwars trainer](https://blogofwishes.com/wp-content/uploads/2010/04/star-wars-force-trainer-brain-controlled-toy.jpg)
 _Image: Neurosky Star Wars Force Trainer_
 
-As a breakthrough, **he trained the market by offering a toy that people were familiar with, the "Force" from Star Wars**.
+As a breakthrough, **they trained the market by offering a toy that people were familiar with, the "Force" from Star Wars**.
 
 > At that time, it was very difficult to convince customers.
 > That's why we went with the kind of games first "Star Wars" because they have the force that many people understand.
 
-> So I used the Force to replace brainwaves.
-> Then they became curious because everybody knew force is not real. They did an internet search, and they found out that they can use brain waves to do so.
+> So I used the Force to replace brainwaves. Then they became curious because everybody knew force is not real. They did an internet search, and they found out that they can use brain waves to do so.
 > That's called market training.
 > ...
 > We spent a lot of effort in training the market because we had to train the market to accept or understand our product. But many companies fail to train the market and to make the market understand what they're doing.  
@@ -98,17 +97,17 @@ Yang answered that **providing good applications with a purpose is important.**
 NeuroSky's focus now is on **educational** and **industrial** areas, providing devices not only for end-users but also for **organizations and businesses**.
 
 > We are now very popular in some kind of practical application such as schools and gyms around the world that using a headset for education.
-> Also, many construction companies around the world are now using our brainwave technology in the helmet workers to monitor if they are in poor condition. It helps them prevent accidents and save their lives and save the company costs.
+> Also, many construction companies around the world are now using our brainwave technology in the workers' helmets to monitor if they are in poor condition. It helps them prevent accidents and save their lives and save the company costs.
 
 &nbsp;
 
 The BCI offered by NeuroSky has only one electrode, and its accuracy and range of use cases are limited compared to other BCIs such as those introduced in [5 featured startups in non-invasive BCI](https://neurotechjp.com/blog/5-startups-non-invasive-bci/).
 
-However, NeuroSky is not limited to providing their own devices, but also provides many companies with their own EEG chips developed based on their experience and technology.
+However, NeuroSky is not limited to providing their own devices, but also provides many companies with their own chips developed based on their experience and technology.
 
 **By providing the chip itself to companies working on BCI development, they are collaborating** rather than competing, Yang explained.
 
-> We just don't sell devices to consumers. We build our own chip and we have many collaborations with companies.
+> We just don't sell devices to consumers. We build our own chips and we have many collaborations with companies.
 > They sell devices with multi-channels, but we're not competing against them. So we actually have many applications in partners.There are so many of these technologies that already use our chips, platforms to build out.  
 > So some of these products you mentioned are not our competitors. They're actually our customers.
 
