@@ -33,7 +33,7 @@ export const Meta: React.FC<{
       <meta property="og:site_name" content="neurotechjp" />
       <meta property="fb:app_id" content={FB_APP_ID} />
       {meta.link && <meta property="og:url" content={`${meta.link}`} />}
-      <meta name="twitter:card" content="summary" />
+      <meta name="twitter:card" content="summary_large_image" />
       <meta name="twitter:title" content={meta.title} />
       {meta.desc && <meta name="twitter:description" content={meta.desc} />}
       {meta.image && <meta name="twitter:image" content={meta.image} />}
