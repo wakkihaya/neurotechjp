@@ -1,7 +1,7 @@
 ---
 title: 'A pioneering BCI company in the market for 10+ years "NeuroSky" | Stanley Yang'
-description: "For this interview, we had the opportunity to talk with Stanley Yang, the founder of NeuroSky, a company that has been pioneering the Neurotech market for more than 10 years, about the history and future of the company: how they developed the market, and what their strategy is as a pioneer company in recent years under intense competition."
-datePublished: "2021/9/12"
+description: "For this interview, we had the opportunity to talk with Stanley Yang, the CEO of NeuroSky, a company that has been pioneering the Neurotech market for more than 10 years, about the history and future of the company: how they developed the market, and what their strategy is as a pioneer company in recent years under intense competition."
+datePublished: "2021/9/26"
 bannerPhoto: "/img/yang-neurosky/cover.jpg"
 category: "Interview"
 ---
@@ -18,7 +18,7 @@ In the 2000s, when the first BCI was introduced to the market and they didn't se
 
 &nbsp;
 
-For this interview, we had the opportunity to talk with Stanley Yang, the founder of NeuroSky that is a company that has been pioneering the Neurotech market for more than 10 years, about the history and future of the company: how they developed the market, and what their strategy is as a pioneer company in recent years under intense competition.
+For this interview, we had the opportunity to talk with Stanley Yang, the CEO of NeuroSky that is a company that has been pioneering the Neurotech market for more than 10 years, about the history and future of the company: how they developed the market, and what their strategy is as a pioneer company in recent years under intense competition.
 
 &nbsp;
 
@@ -26,11 +26,11 @@ For this interview, we had the opportunity to talk with Stanley Yang, the founde
 
 ![Neurosky logo](https://www.neurosky.jp/wp-content/uploads/2019/05/ns_logo_480.png)
 
-Yang, who studied electrical engineering at UC Berkeley, has a talent for building gadgets, and in 1997 he founded [Triscend](https://www.crunchbase.com/organization/triscend), a provider of chips including microprocessors, and the company was acquired by [Xilinx](https://www.crunchbase.com/organization/xilinx) in 2004. Later, he founded NeuroSky with [JongJin Lim](https://www.linkedin.com/in/jongjin-lim-b740a11a/) and [KooHyoung Lee](https://www.linkedin.com/in/koohyoung-lee-5742176/) in Silicon Valley in the same year.
+Yang, who studied electrical engineering at UC Berkeley, has a talent for building gadgets, and in 1997 he founded [Triscend](https://www.crunchbase.com/organization/triscend), a provider of chips including microprocessors, and the company was acquired by [Xilinx](https://www.crunchbase.com/organization/xilinx) in 2004. Later, he joined NeuroSky with [JongJin Lim](https://www.linkedin.com/in/jongjin-lim-b740a11a/) and [KooHyoung Lee](https://www.linkedin.com/in/koohyoung-lee-5742176/), who founded the company, in Silicon Valley in the same year.
 
 &nbsp;
 
-In 2009, NeuroSky collaborated with [Mattel](https://en.wikipedia.org/wiki/Mattel) to launch [Mindflex](https://en.wikipedia.org/wiki/Mindflex), a toy that uses brain waves to control a ball. In the same year, NeuroSky collaborated with [Uncle Milton](https://www.unclemilton.com/) to launch [Force Trainer](https://en.wikipedia.org/wiki/Force_Trainer), a game that allows users to experience the Star Wars Force. So, in the early days of the company, they were active as an [OEM](https://en.wikipedia.org/wiki/Original_equipment_manufacturer). Based on those findings and experiences, the company then started offering a BCI called Mindset and a game ["Neuroboy"](https://store.neurosky.com/products/the-adventures-of-neuroboy-bci-technology-demo) that allows users to move objects with brain waves.
+In 2009, NeuroSky collaborated with [Mattel](https://en.wikipedia.org/wiki/Mattel) to launch [Mindflex](https://en.wikipedia.org/wiki/Mindflex), a toy that uses brain waves to control a ball. In the same year, NeuroSky collaborated with [Uncle Milton](https://www.unclemilton.com/) to launch [Star Wars Science Force Trainer](https://en.wikipedia.org/wiki/Force_Trainer), a game that allows users to experience the Star Wars Force. So, in the early days of the company, they were active as an [OEM](https://en.wikipedia.org/wiki/Original_equipment_manufacturer). Based on those findings and experiences, the company then started offering a BCI called Mindset and a game ["Neuroboy"](https://store.neurosky.com/products/the-adventures-of-neuroboy-bci-technology-demo) that allows users to move objects with brain waves.
 
 Currently, the company not only offers **[EEG devices](https://store.neurosky.com/)** that **can be purchased from $100 for consumers** but also provides **SDK kits** for developers free of charge. The company is also in the business of selling the **chips**, which is thier core technology, to a number of BCI companies.
 
@@ -49,8 +49,8 @@ It is no exaggeration to say that it was the applications and devices provided b
 
 Yang told me that **it took a lot of hard work to install the concept of BCI in people** as most people didn't know the word "brain waves"
 
-> At that time, if I asked people to use a brainwave technology, or product, nobody knew.
-> Although the medical hospitals used brainwaves, nobody knew and people said,"why do I use it"?
+> At that time, if I asked people to use a brainwave technology, or product, nobody knew what it was.
+> Although the medical industry measured brainwaves, the general consumers had no idea how or why they should use a product measuring brainwaves.
 
 &nbsp;
 
@@ -63,15 +63,15 @@ _Image: Neurosky Star Wars Force Trainer_
 
 As a breakthrough, **they trained the market by offering a toy that people were familiar with, the "Force" from Star Wars**.
 
-> At that time, it was very difficult to convince customers.
-> That's why we went with the kind of games first "Star Wars" because they have the force that many people understand.
+> At that time, it was very difficult to convince customers to use a brainwave measuring product without obvious applications.
+> That's why we went with "Star Wars" because they have the force that many people are familiar with.
 
-> So I used the Force to replace brainwaves. Then they became curious because everybody knew force is not real. They did an internet search, and they found out that they can use brain waves to do so.
-> That's called market training.
+> “The Force” replaced “brainwaves”. Then they became curious because everybody knew the force is not real. People investigated the technology behind the Force Trainer and found NeuroSky Brainwave EEG technology.
+> That's called “training the market”
 > ...
-> We spent a lot of effort in training the market because we had to train the market to accept or understand our product. But many companies fail to train the market and to make the market understand what they're doing.  
+> We spent a lot of effort in training the market because we had to make people accept and understand our product. Many companies with great products failed to train the market and to make people understand their products
 > ...
-> It took a lot of effort to build products. But, thanks to this, we have been successful over the last 10 ~ 15 years in introducing this kind of technology to the general public consumers.
+> It took a lot of effort to build products. Thanks to “triaing the market” strategy, we have been successful over the last 10 ~ 15 years in introducing our technology to the general public.
 
 &nbsp;
 

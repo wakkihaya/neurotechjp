@@ -1,7 +1,7 @@
 ---
 title: '10年以上前から市場を開拓。BCIのパイオニア企業 "NeuroSky" | Stanley Yang'
-description: "今回は、10年以上も前からNeurotech市場を開拓してきたNeuroSkyの創業者Stanley Yangに、どのようにマーケットを開拓してきたのか、そして競争が激しくなってくる近年パイオニア企業としてどのような戦略をとっていくのか、その歴史と今後について、インタビューをさせて頂いた。"
-datePublished: "2021/9/12"
+description: "今回は、10年以上も前からNeurotech市場を開拓してきたNeuroSkyのCEOStanley Yangに、どのようにマーケットを開拓してきたのか、そして競争が激しくなってくる近年パイオニア企業としてどのような戦略をとっていくのか、その歴史と今後について、インタビューをさせて頂いた。"
+datePublished: "2021/9/26"
 bannerPhoto: "/img/yang-neurosky/cover.jpg"
 category: "インタビュー"
 ---
@@ -18,7 +18,7 @@ category: "インタビュー"
 
 &nbsp;
 
-今回は、10 年以上も前から Neurotech 市場を開拓してきた NeuroSky の創業者 Stanley Yang に、どのようにマーケットを開拓してきたのか、そして競争が激しくなってくる近年パイオニア企業としてどのような戦略をとっていくのか、その歴史と今後について、インタビューをさせて頂いた。
+今回は、10 年以上も前から Neurotech 市場を開拓してきた NeuroSky の CEO Stanley Yang に、どのようにマーケットを開拓してきたのか、そして競争が激しくなってくる近年パイオニア企業としてどのような戦略をとっていくのか、その歴史と今後について、インタビューをさせて頂いた。
 
 &nbsp;
 
@@ -26,11 +26,11 @@ category: "インタビュー"
 
 ![Neurosky logo](https://www.neurosky.jp/wp-content/uploads/2019/05/ns_logo_480.png)
 
-UC Berkeley で電気工学を学んだ Stanley は、ガジェットを作ることが得意であり、1997 年にはマイクロプロセッサなどを含むチップを提供する[Triscend](https://www.crunchbase.com/organization/triscend)を創業、2004 年に同社は[Xilinx](https://www.crunchbase.com/organization/xilinx)によって買収された。その後、同年シリコンバレーにて、[JongJin Lim](https://www.linkedin.com/in/jongjin-lim-b740a11a/)、[KooHyoung Lee](https://www.linkedin.com/in/koohyoung-lee-5742176/)と共に創業したのが、NeuroSky だ。
+UC Berkeley で電気工学を学んだ Stanley は、ガジェットを作ることが得意であり、1997 年にはマイクロプロセッサなどを含むチップを提供する[Triscend](https://www.crunchbase.com/organization/triscend)を創業、2004 年に同社は[Xilinx](https://www.crunchbase.com/organization/xilinx)によって買収された。その後、同年シリコンバレーにて、[JongJin Lim](https://www.linkedin.com/in/jongjin-lim-b740a11a/)、[KooHyoung Lee](https://www.linkedin.com/in/koohyoung-lee-5742176/)らが創業した NeuroSky にジョインする。
 
 &nbsp;
 
-NeuroSky は、2009 年に [Mattel](https://en.wikipedia.org/wiki/Mattel)社と共同して脳波でボールをコントロールする[Mindflex](https://en.wikipedia.org/wiki/Mindflex)という玩具をリリース、同年に[Uncle Milton](https://www.unclemilton.com/)社と共同してスターウォーズのフォースを体験できる[ゲーム](https://en.wikipedia.org/wiki/Force_Trainer) を提供するなど、創業初期は[OEM](https://en.wikipedia.org/wiki/Original_equipment_manufacturer)として活躍した。それらの知見や経験をもとに、その後同社は、Mindset という BCI を提供開始し、脳波でオブジェクトを動かせるゲーム[Neuroboy](https://store.neurosky.com/products/the-adventures-of-neuroboy-bci-technology-demo)をリリースした。
+NeuroSky は、2009 年に [Mattel](https://en.wikipedia.org/wiki/Mattel)社と共同して脳波でボールをコントロールする[Mindflex](https://en.wikipedia.org/wiki/Mindflex)という玩具をリリース、同年に[Uncle Milton](https://www.unclemilton.com/)社と共同してスターウォーズのフォースを体験できる[Star Wars Science Force Trainer](https://en.wikipedia.org/wiki/Force_Trainer) を提供するなど、創業初期は[OEM](https://en.wikipedia.org/wiki/Original_equipment_manufacturer)として活躍した。それらの知見や経験をもとに、その後同社は、Mindset という BCI を提供開始し、脳波でオブジェクトを動かせるゲーム[Neuroboy](https://store.neurosky.com/products/the-adventures-of-neuroboy-bci-technology-demo)をリリースした。
 
 現在、同社は、**コンシューマー向けに$100 から購入できる[脳波デバイス](https://store.neurosky.com/)**を提供するだけでなく、開発者向けの**SDK キット**も無料提供する。また、そのコアテクノロジーとなっている**チップ基盤**を、BCI を提供する多くの企業に販売する事業も行う。
 
@@ -49,8 +49,8 @@ _画像: Neurosky デバイス "MindWave"_
 
 "脳波"という言葉をほとんどの人が知らない中、**BCI の概念を人々に植え付けるのは多くの苦労を必要**としたと、Stanley は語る。
 
-> 当時、開発した脳波デバイスを使ってくれと人々に訪ねると、誰もその存在自体を知りませんでした。
-> 既に精神科の病院は脳波を使っているのにもかかわらずみんな「なぜそれを使う必要があるのか」と疑問ばかりでした。
+> 当時、開発した脳波デバイスを使ってくれと人々に訪ねると、誰もその中身を知りませんでした。
+> 既に医療業界では脳波が測定されているのにも関わらず、一般消費者は脳波を測定するプロダクトをどのように使うべきか、そしてなぜ使うべきなのかを、全く分かっていませんでした。
 
 &nbsp;
 
@@ -63,14 +63,14 @@ _Neurosky Star Wars Force Trainer_
 
 その突破口として、 **スターウォーズの「フォース」という人々にとって馴染みのあるおもちゃを提供することによって"市場をトレーニング"** していったという。
 
-> 当時、人々に私たちの脳波を使ったプロダクトを理解してもらうのは難しかったです。
-> そこで、私たちは、誰もが既に知っている、スターウォーズのフォースを題材に、一種のゲームのようなものを提供することにしました。
+> 当時、明確なアプリケーションなしで、脳波測定プロダクトを使ってもらえるよう人々を納得するのは難しかったです。
+> そこで、私たちは、誰もが既に知っている、"スターウォーズ"の"フォース"を題材にアプリケーションを提供することにしました。
 
 > 私は脳波という表現の代わりに、フォースという表現を多く使うようにしました。
-> そうすると、フォースは空想のものだと人々は知っているので、私たちのプロダクトに興味を持ち始めました。人々はインターネットで検索をし始め、私たちの脳波技術を使えば、それが可能になると理解し始めました。
+> そうすると、フォースは空想のものだと人々は知っているので、私たちのプロダクトに興味を持ち始めました。人々はフォースを実現する技術を調べ始め、私たちの脳波技術を見つけました。
 > これを、私は市場のトレーニングと呼んでいます。
 > ...
-> このように、市場をトレーニングするのに多くの時間と努力を費やしました。しかし、これは人々に私たちの技術を理解してもらうために必要不可欠であり、多くの企業がこのトレーニングに失敗しています。
+> このように、市場をトレーニングするのに多くの時間と努力を費やしました。しかし、これは人々に私たちのプロダクトを理解し受けいれてもらうために必要不可欠であり、多くの企業がこのトレーニングに失敗しています。
 > ...
 > 市場のトレーニングをしながらプロダクトを作っていくのに私たちは多くの努力を必要としましたが、そのおかげで、私たちの技術をこの 10~15 年間一般消費者に提供することに成功しています。
 
