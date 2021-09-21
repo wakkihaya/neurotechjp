@@ -51,7 +51,7 @@ In addition to Cognixion One, the company also offers "[Sparkprose](https://www.
 
 &nbsp;
 
-Reference: https://www.crunchbase.com/organization/cognixion
+Reference: [Crunchbase Cognixion](https://www.crunchbase.com/organization/cognixion)
 
 &nbsp;
 
@@ -82,7 +82,7 @@ Although devices using MEG and fNIRS have appeared on the market, they have many
 
 &nbsp;
 
-Reference: https://www.crunchbase.com/organization/kernel-co
+Reference: [Crunchbase Kernel](https://www.crunchbase.com/organization/kernel-co)
 
 &nbsp;
 
@@ -115,7 +115,7 @@ Its use is not limited to mindfulness. The company also provides a system for de
 
 &nbsp;
 
-Reference: https://www.crunchbase.com/organization/interaxon
+Reference: [Crunchbase Interaxon](https://www.crunchbase.com/organization/interaxon)
 
 &nbsp;
 
@@ -147,7 +147,7 @@ Even a beginner can create a BCI application once they buy the device. Aside fro
 
 &nbsp;
 
-Reference: https://www.crunchbase.com/organization/emotiv
+Reference: [Crunchbase Emotiv](https://www.crunchbase.com/organization/emotiv)
 
 &nbsp;
 
@@ -174,7 +174,7 @@ Announced at [CES](https://www.ces.tech/About-CES.aspx) in 2018, [the company's 
 
 &nbsp;
 
-Reference: https://www.crunchbase.com/organization/bitbrain-technologies
+Reference: [Crunchbase Bitbrain](https://www.crunchbase.com/organization/bitbrain-technologies)
 
 &nbsp;
 

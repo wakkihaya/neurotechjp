@@ -58,7 +58,7 @@ By implanting Link, a device about the size of a coin, into the brain, it is pos
 
 &nbsp;
 
-Reference: https://www.crunchbase.com/organization/neuralink
+Reference: [Crunchbase Neuralink](https://www.crunchbase.com/organization/neuralink)
 
 &nbsp;
 
@@ -97,7 +97,7 @@ The company plans to **partner with major healthcare companies to develop new tr
 
 &nbsp;
 
-Reference: https://www.crunchbase.com/organization/paradromics
+Reference: [Crunchbase Paradromics](https://www.crunchbase.com/organization/paradromics)
 
 &nbsp;
 
@@ -132,7 +132,7 @@ The company has already begun clinical trials with four patients in Australia, w
 
 &nbsp;
 
-Reference: https://www.crunchbase.com/organization/synchron-inc
+Reference: [Crunchbase Synchron](https://www.crunchbase.com/organization/synchron-inc)
 
 &nbsp;
 
@@ -167,7 +167,7 @@ The company was [acquired by Astellas Pharma in 2020 for $127.5 million](https:/
 
 &nbsp;
 
-Reference: https://www.crunchbase.com/organization/iota-biosciences
+Reference: [Crunchbase Iota biosciences](https://www.crunchbase.com/organization/iota-biosciences)
 
 &nbsp;
 
@@ -195,7 +195,7 @@ The device can be implanted in the brain for approximately eight years, and expe
 
 &nbsp;
 
-Reference: https://www.crunchbase.com/organization/neuropace
+Reference: [Crunchbase Neuropace](https://www.crunchbase.com/organization/neuropace)
 
 &nbsp;
 

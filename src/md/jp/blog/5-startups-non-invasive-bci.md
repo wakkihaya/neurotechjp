@@ -53,7 +53,7 @@ Cognixion One 以外にも、目や顔の表情を使って会話をサポート
 
 &nbsp;
 
-参考: https://www.crunchbase.com/organization/cognixion
+参考: [Crunchbase Cognixion](https://www.crunchbase.com/organization/cognixion)
 
 &nbsp;
 
@@ -82,7 +82,7 @@ _画像: Kernel デバイス_
 
 &nbsp;
 
-参考: https://www.crunchbase.com/organization/kernel-co
+参考:[Crunchbase Kernel](https://www.crunchbase.com/organization/kernel-co)
 
 &nbsp;
 
@@ -115,7 +115,7 @@ _動画: Muse 紹介_
 
 &nbsp;
 
-参考: https://www.crunchbase.com/organization/interaxon
+参考: [Crunchbase Interaxon](https://www.crunchbase.com/organization/interaxon)
 
 &nbsp;
 
@@ -144,7 +144,7 @@ _画像: Emotiv デバイス_
 
 &nbsp;
 
-参考: https://www.crunchbase.com/organization/emotiv
+参考: [Crunchbase Emotiv](https://www.crunchbase.com/organization/emotiv)
 
 &nbsp;
 
@@ -170,7 +170,7 @@ _画像: Bitbrain デバイス_
 
 &nbsp;
 
-参考: https://www.crunchbase.com/organization/bitbrain-technologies
+参考: [Crunchbase Bitbrain](https://www.crunchbase.com/organization/bitbrain-technologies)
 
 &nbsp;
 
