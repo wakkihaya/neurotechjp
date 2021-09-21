@@ -59,7 +59,7 @@ Neuralink は、知名度に限らず**技術的な部分**においてもトッ
 
 &nbsp;
 
-参考: https://www.crunchbase.com/organization/neuralink
+参考: [Crunchbase Neuralink](https://www.crunchbase.com/organization/neuralink)
 
 &nbsp;
 
@@ -98,7 +98,7 @@ _画像: Connexus_
 
 &nbsp;
 
-参考: https://www.crunchbase.com/organization/paradromics
+参考: [Crunchbase Paradromics](https://www.crunchbase.com/organization/paradromics)
 
 &nbsp;
 
@@ -133,7 +133,7 @@ BCI のような人体に作用する器具を米国で販売するには、FDA 
 
 &nbsp;
 
-参考: https://www.crunchbase.com/organization/synchron-inc
+参考: [Crunchbase Synchron](https://www.crunchbase.com/organization/synchron-inc)
 
 &nbsp;
 
@@ -168,7 +168,7 @@ _画像: iota biosciences デバイス_
 
 &nbsp;
 
-参考: https://www.crunchbase.com/organization/iota-biosciences
+参考: [Crunchbase Iota biosciences](https://www.crunchbase.com/organization/iota-biosciences)
 
 &nbsp;
 
@@ -197,7 +197,7 @@ _動画: RNS System 紹介_
 
 &nbsp;
 
-参考: https://www.crunchbase.com/organization/neuropace
+参考: [Crunchbase Neuropace](https://www.crunchbase.com/organization/neuropace)
 
 &nbsp;
 
