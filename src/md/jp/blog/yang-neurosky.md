@@ -1,7 +1,7 @@
 ---
 title: '10年以上前から市場を開拓。BCIのパイオニア企業 "NeuroSky" | Stanley Yang'
 description: "今回は、10年以上も前からNeurotech市場を開拓してきたNeuroSkyのCEOStanley Yangに、どのようにマーケットを開拓してきたのか、そして競争が激しくなってくる近年パイオニア企業としてどのような戦略をとっていくのか、その歴史と今後について、インタビューをさせて頂いた。"
-datePublished: "2021/9/26"
+datePublished: "2021/9/22"
 bannerPhoto: "/img/yang-neurosky/cover.jpg"
 category: "インタビュー"
 ---
@@ -130,7 +130,7 @@ _画像: NeuroSky 脳波チップ_
 
 &nbsp;
 
-![Neurosky watch](http://neurosky.com/wp-content/uploads/2014/11/ECGImages_001.jpg)
+![Neurosky watch](https://neurotechjp.com/img/yang-neurosky/watch.jpeg)
 _画像: Neurosky スマートウォッチ_
 
 さらに、長年培った AI やハードウェアの技術を、**脳波限らずバイオセンサーチップにも適応**していくと、Stanley は語る。その一例として、COVID-19 の症状を検知するスマートウォッチを政府と協力して開発したという。

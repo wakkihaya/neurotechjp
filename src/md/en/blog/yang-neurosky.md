@@ -1,7 +1,7 @@
 ---
 title: 'A pioneering BCI company in the market for 10+ years "NeuroSky" | Stanley Yang'
 description: "For this interview, we had the opportunity to talk with Stanley Yang, the CEO of NeuroSky, a company that has been pioneering the Neurotech market for more than 10 years, about the history and future of the company: how they developed the market, and what their strategy is as a pioneer company in recent years under intense competition."
-datePublished: "2021/9/26"
+datePublished: "2021/9/22"
 bannerPhoto: "/img/yang-neurosky/cover.jpg"
 category: "Interview"
 ---
@@ -129,7 +129,7 @@ Yang told me that they will continue to be **a platform company** first.
 
 &nbsp;
 
-![Neurosky watch](http://neurosky.com/wp-content/uploads/2014/11/ECGImages_001.jpg)
+![Neurosky watch](https://neurotechjp.com/img/yang-neurosky/watch.jpeg)
 _Image: Neurosky smartwatch_
 
 In addition, he said that they will adapt the AI and hardware technologies they have developed over the years **not only to EEG but also to biosensor chips**. As an example, they have worked with the government to develop a smartwatch that detects COVID-19 symptoms.
