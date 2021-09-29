@@ -98,7 +98,7 @@ const AboutPage: React.FC = () => {
             </div>
             <div className="about-container--index_box">
               <div className="about-container--index-subtitle">
-                Shouka Kadoi (Writer, Interviewer) <br />
+                Shouka Kadoi (Writer) <br />
               </div>
               <div className="about-container--index-subtitle-text">
                 Graduated from Doshisha University, Faculty of Sociology,
@@ -109,6 +109,18 @@ const AboutPage: React.FC = () => {
                 M&A.
               </div>
               <div className="about-container--index-sns">
+                <a
+                  href="https://www.linkedin.com/in/shoka-kadoi-7b95271ba/"
+                  target="_blank"
+                  className="about-container--index-sns-item"
+                  rel="noreferrer"
+                >
+                  {device === "Desktop" ? (
+                    <FontAwesomeIcon icon={faLinkedin} size="5x" />
+                  ) : (
+                    <FontAwesomeIcon icon={faLinkedin} size="3x" />
+                  )}
+                </a>
                 <a
                   href="https://www.facebook.com/shouka.kadoi"
                   target="_blank"
@@ -123,6 +135,46 @@ const AboutPage: React.FC = () => {
                 </a>
                 <a
                   href="https://twitter.com/kadyboy1216"
+                  target="_blank"
+                  className="about-container--index-sns-item"
+                  rel="noreferrer"
+                >
+                  {device === "Desktop" ? (
+                    <FontAwesomeIcon icon={faTwitterSquare} size="5x" />
+                  ) : (
+                    <FontAwesomeIcon icon={faTwitterSquare} size="3x" />
+                  )}
+                </a>
+              </div>
+            </div>
+            <div className="about-container--index_box">
+              <div className="about-container--index-subtitle">
+                Nao Yukawa (Interviewer) <br />
+              </div>
+              <div className="about-container--index-subtitle-text">
+                A senior majoring in Engineering at the University of Tokyo.
+                While he is doing research on deep learning at an AI research
+                lab in the same university, he is also studying International
+                Business at San Francisco State University. <br /> His goal is
+                to contribute to the development of Neuroscience by bridging the
+                gap between academia and industry like Neuralink, a company
+                founded by Elon Musk, is trying to do.
+              </div>
+              <div className="about-container--index-sns">
+                <a
+                  href="https://www.linkedin.com/in/nao-yukawa-331615207/"
+                  target="_blank"
+                  className="about-container--index-sns-item"
+                  rel="noreferrer"
+                >
+                  {device === "Desktop" ? (
+                    <FontAwesomeIcon icon={faLinkedin} size="5x" />
+                  ) : (
+                    <FontAwesomeIcon icon={faLinkedin} size="3x" />
+                  )}
+                </a>
+                <a
+                  href="https://twitter.com/NaoYukawa"
                   target="_blank"
                   className="about-container--index-sns-item"
                   rel="noreferrer"

@@ -96,7 +96,7 @@ const AboutPage: React.FC = () => {
           </div>
           <div className="about-container--index_box">
             <div className="about-container--index-subtitle">
-              門井 翔佳 Shouka Kadoi (ライター/インタビュアー) <br />
+              門井 翔佳 Shouka Kadoi (ライター) <br />
             </div>
             <div className="about-container--index-subtitle-text">
               2018年、同志社大学社会学部メディア学科卒業。社会心理学専攻。{" "}
@@ -105,6 +105,18 @@ const AboutPage: React.FC = () => {
               Technologiesの主宰するカンファレンスに参加を機に、2019年6月よりマインドフルネス瞑想アプリ『Relook』にジョイン。CS、Webマーケ、プロダクトマネージャーとして働きM&Aを経験。
             </div>
             <div className="about-container--index-sns">
+              <a
+                href="https://www.linkedin.com/in/shoka-kadoi-7b95271ba/"
+                target="_blank"
+                className="about-container--index-sns-item"
+                rel="noreferrer"
+              >
+                {device === "Desktop" ? (
+                  <FontAwesomeIcon icon={faLinkedin} size="5x" />
+                ) : (
+                  <FontAwesomeIcon icon={faLinkedin} size="3x" />
+                )}
+              </a>
               <a
                 href="https://www.facebook.com/shouka.kadoi"
                 target="_blank"
@@ -119,6 +131,43 @@ const AboutPage: React.FC = () => {
               </a>
               <a
                 href="https://twitter.com/kadyboy1216"
+                target="_blank"
+                className="about-container--index-sns-item"
+                rel="noreferrer"
+              >
+                {device === "Desktop" ? (
+                  <FontAwesomeIcon icon={faTwitterSquare} size="5x" />
+                ) : (
+                  <FontAwesomeIcon icon={faTwitterSquare} size="3x" />
+                )}
+              </a>
+            </div>
+          </div>
+          <div className="about-container--index_box">
+            <div className="about-container--index-subtitle">
+              湯川 直旺 Nao Yukawa (インタビュアー) <br />
+            </div>
+            <div className="about-container--index-subtitle-text">
+              東京大学工学部4年生。現在は同大学の松尾研究室で深層学習関連の研究を行う傍ら、米国San
+              FranciscoにてInternational Businessを学んでいる。 <br />
+              Elon
+              Musk率いるNeuralinkのように、ビジネスとNeurotechnologyを組み合わせることで、神経科学の発展に寄与することが目標。
+            </div>
+            <div className="about-container--index-sns">
+              <a
+                href="https://www.linkedin.com/in/nao-yukawa-331615207/"
+                target="_blank"
+                className="about-container--index-sns-item"
+                rel="noreferrer"
+              >
+                {device === "Desktop" ? (
+                  <FontAwesomeIcon icon={faLinkedin} size="5x" />
+                ) : (
+                  <FontAwesomeIcon icon={faLinkedin} size="3x" />
+                )}
+              </a>
+              <a
+                href="https://twitter.com/NaoYukawa"
                 target="_blank"
                 className="about-container--index-sns-item"
                 rel="noreferrer"
