@@ -174,6 +174,18 @@ const AboutPage: React.FC = () => {
                   )}
                 </a>
                 <a
+                  href="https://www.facebook.com/nao.yukawa.56"
+                  target="_blank"
+                  className="about-container--index-sns-item"
+                  rel="noreferrer"
+                >
+                  {device === "Desktop" ? (
+                    <FontAwesomeIcon icon={faFacebookSquare} size="5x" />
+                  ) : (
+                    <FontAwesomeIcon icon={faFacebookSquare} size="3x" />
+                  )}
+                </a>
+                <a
                   href="https://twitter.com/NaoYukawa"
                   target="_blank"
                   className="about-container--index-sns-item"
