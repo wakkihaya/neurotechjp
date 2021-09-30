@@ -94,11 +94,7 @@
     font-family: $armata-font-family;
   }
   &__bg {
-    background-image: linear-gradient(
-      to bottom right,
-      $blue-color,
-      $deep-blue-color
-    );
+    background-image: linear-gradient(to bottom right, $blue-color, $deep-blue-color);
     padding-bottom: 2rem;
   }
   @media screen and (max-width: $mobile-width) {
@@ -266,11 +262,7 @@
 /// About page.
 .about {
   &__bg {
-    background-image: linear-gradient(
-      to bottom right,
-      $blue-color,
-      $deep-blue-color
-    );
+    background-image: linear-gradient(to bottom right, $blue-color, $deep-blue-color);
     padding-bottom: 0.1rem;
   }
   &--title {
@@ -299,35 +291,28 @@
   &--index {
     margin: 10em 0;
   }
+  &--index-image {
+    width: 80%;
+    margin: auto;
+    display: block;
+  }
   &--index-title {
     font-size: $large-font-size;
     font-weight: 500;
+    text-align: center;
+    margin-top: 5em;
+  }
+  &--index-subtitle {
+    font-size: $medium-font-size;
+    margin-top: 1em;
+    color: $heavy-gray-color;
+    line-height: 1.5em;
+    text-align: center;
+  }
+  &--index-box {
+    margin: 5rem auto;
   }
 
-  &--index-subtitle,
-  &--index-subtitle-name {
-    margin-top: 1em;
-    font-size: $medium-font-size;
-    line-height: 1.5em;
-    color: $heavy-gray-color;
-  }
-  &--index-subtitle-name {
-    font-weight: 500;
-  }
-  &--index-subtitle-text {
-    margin-top: 1em;
-    font-size: $small-font-size;
-    color: $heavy-gray-color;
-    line-height: 1.5em;
-  }
-  &--index-sns {
-    display: flex;
-    flex-direction: row;
-  }
-  &--index-sns-item {
-    width: 40px;
-    margin: 2em 2em 2em 0;
-  }
   @media screen and (max-width: $mobile-width) {
     width: 80%;
     padding: 3em 0;
@@ -337,15 +322,78 @@
     &--index-title {
       font-size: $medium-font-size;
     }
-    &--index-subtitle,
-    &--index-subtitle-name {
+    &--index-subtitle {
       font-size: $very-small-font-size;
     }
     &--index-subtitle-text {
       font-size: $sp-desc-small-font-size;
     }
-    &--index-sns-item {
-      width: 25px;
+  }
+}
+
+.person-card {
+  display: flex;
+  flex-direction: row;
+  margin: 7em 0;
+  &--img-container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  &--img-container-image {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 5px;
+  }
+  &--img-container-sns {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  &--img-container-sns-item {
+    margin: 1em;
+  }
+  &--text {
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+    padding-left: 5em;
+  }
+  &--text-name {
+    font-size: $medium-font-size;
+    font-weight: 500;
+  }
+  &--text-role {
+    font-size: $small-font-size;
+    color: $heavy-gray-color;
+  }
+  &--text-description {
+    margin-top: 1em;
+    font-size: $small-font-size;
+    color: $heavy-gray-color;
+    line-height: 1.5em;
+  }
+  @media screen and (max-width: $mobile-width) {
+    flex-direction: column;
+    margin: 4em 0;
+
+    &--img-container-image {
+      width: 100px;
+      height: 100px;
+    }
+    &--text {
+      padding-left: 0;
+
+      text-align: center;
+    }
+    &--text-name {
+      font-size: $small-font-size;
+    }
+    &--text-role,
+    &--text-description {
+      font-size: $sp-desc-small-font-size;
     }
   }
 }
@@ -354,6 +402,7 @@
   &--title {
     font-size: $large-font-size;
     font-weight: 500;
+    text-align: center;
   }
   &--detail {
     width: 60%;
@@ -576,11 +625,7 @@
 /// About page.
 .slides {
   &__bg {
-    background-image: linear-gradient(
-      to bottom right,
-      $blue-color,
-      $deep-blue-color
-    );
+    background-image: linear-gradient(to bottom right, $blue-color, $deep-blue-color);
     padding-bottom: 0.1rem;
   }
   &--title {
