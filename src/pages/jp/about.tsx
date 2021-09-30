@@ -1,23 +1,12 @@
 import React from "react";
-import {
-  faLinkedin,
-  faFacebookSquare,
-  faTwitterSquare,
-} from "@fortawesome/free-brands-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 import ContactForm from "~/components/ContactForm";
 import Footer from "~/components/Footer";
 import Header from "~/components/Header";
 import { Meta } from "~/components/Meta";
-
-import useResponsive from "~/hooks/use-responsive";
-
-type Device = "Mobile" | "Desktop";
+import PersonCard from "~/components/PersonCard";
 
 const AboutPage: React.FC = () => {
-  const device: Device = useResponsive();
-
   return (
     <>
       <Meta
@@ -45,152 +34,38 @@ const AboutPage: React.FC = () => {
         </div>
         <div className="about-container--index">
           <div className="about-container--index-title">運営者について</div>
-          <div className="about-container--index_box">
-            <div className="about-container--index-subtitle-name">
-              和木勇人 Hayato Waki (ライター/インタビュアー) <br />
-            </div>
-            <div className="about-container--index-subtitle-text">
-              筑波大学にて、BCIに関する研究プロジェクトに従事。
+          <div className="about-container--index-box">
+            <PersonCard
+              twitterLink="https://twitter.com/wakkihaya"
+              linkedInLink="https://www.linkedin.com/in/wakkihaya/"
+              fbLink="https://www.facebook.com/waki.hayato.1"
+              name="和木勇人 Hayato Waki"
+              role="ライター/インタビュアー"
+              description=" 筑波大学にて、BCIに関する研究プロジェクトに従事。
               日本と米国のソフトウェアスタートアップにて、ファウンダーやエンジニアとして経験をした後、Neurotechnologyが我々の生活に多くのイノベーションをもたらすと思い、弊サイトを立ち上げる。
-              <br />
-              彼のパッションは、「創造性と技術力を持って、Science-Fictionを実現する1人になること」である。
-            </div>
-            <div className="about-container--index-sns">
-              <a
-                href="https://www.linkedin.com/in/wakkihaya/"
-                target="_blank"
-                className="about-container--index-sns-item"
-                rel="noreferrer"
-              >
-                {device === "Desktop" ? (
-                  <FontAwesomeIcon icon={faLinkedin} size="5x" />
-                ) : (
-                  <FontAwesomeIcon icon={faLinkedin} size="3x" />
-                )}
-              </a>
-              <a
-                href="https://www.facebook.com/waki.hayato.1"
-                target="_blank"
-                className="about-container--index-sns-item"
-                rel="noreferrer"
-              >
-                {device === "Desktop" ? (
-                  <FontAwesomeIcon icon={faFacebookSquare} size="5x" />
-                ) : (
-                  <FontAwesomeIcon icon={faFacebookSquare} size="3x" />
-                )}
-              </a>
-              <a
-                href="https://twitter.com/wakkihaya"
-                target="_blank"
-                className="about-container--index-sns-item"
-                rel="noreferrer"
-              >
-                {device === "Desktop" ? (
-                  <FontAwesomeIcon icon={faTwitterSquare} size="5x" />
-                ) : (
-                  <FontAwesomeIcon icon={faTwitterSquare} size="3x" />
-                )}
-              </a>
-            </div>
-          </div>
-          <div className="about-container--index_box">
-            <div className="about-container--index-subtitle">
-              門井 翔佳 Shouka Kadoi (ライター) <br />
-            </div>
-            <div className="about-container--index-subtitle-text">
-              2018年、同志社大学社会学部メディア学科卒業。社会心理学専攻。{" "}
-              <br />
-              Israel Brain
-              Technologiesの主宰するカンファレンスに参加を機に、2019年6月よりマインドフルネス瞑想アプリ『Relook』にジョイン。CS、Webマーケ、プロダクトマネージャーとして働きM&Aを経験。
-            </div>
-            <div className="about-container--index-sns">
-              <a
-                href="https://www.linkedin.com/in/shoka-kadoi-7b95271ba/"
-                target="_blank"
-                className="about-container--index-sns-item"
-                rel="noreferrer"
-              >
-                {device === "Desktop" ? (
-                  <FontAwesomeIcon icon={faLinkedin} size="5x" />
-                ) : (
-                  <FontAwesomeIcon icon={faLinkedin} size="3x" />
-                )}
-              </a>
-              <a
-                href="https://www.facebook.com/shouka.kadoi"
-                target="_blank"
-                className="about-container--index-sns-item"
-                rel="noreferrer"
-              >
-                {device === "Desktop" ? (
-                  <FontAwesomeIcon icon={faFacebookSquare} size="5x" />
-                ) : (
-                  <FontAwesomeIcon icon={faFacebookSquare} size="3x" />
-                )}
-              </a>
-              <a
-                href="https://twitter.com/kadyboy1216"
-                target="_blank"
-                className="about-container--index-sns-item"
-                rel="noreferrer"
-              >
-                {device === "Desktop" ? (
-                  <FontAwesomeIcon icon={faTwitterSquare} size="5x" />
-                ) : (
-                  <FontAwesomeIcon icon={faTwitterSquare} size="3x" />
-                )}
-              </a>
-            </div>
-          </div>
-          <div className="about-container--index_box">
-            <div className="about-container--index-subtitle">
-              湯川 直旺 Nao Yukawa (インタビュアー) <br />
-            </div>
-            <div className="about-container--index-subtitle-text">
-              東京大学工学部4年生。現在は同大学の松尾研究室で深層学習関連の研究を行う傍ら、米国San
-              FranciscoにてInternational Businessを学んでいる。 <br />
-              Elon
-              Musk率いるNeuralinkのように、ビジネスとNeurotechnologyを組み合わせることで、神経科学の発展に寄与することが目標。
-            </div>
-            <div className="about-container--index-sns">
-              <a
-                href="https://www.linkedin.com/in/nao-yukawa-331615207/"
-                target="_blank"
-                className="about-container--index-sns-item"
-                rel="noreferrer"
-              >
-                {device === "Desktop" ? (
-                  <FontAwesomeIcon icon={faLinkedin} size="5x" />
-                ) : (
-                  <FontAwesomeIcon icon={faLinkedin} size="3x" />
-                )}
-              </a>
-              <a
-                href="https://www.facebook.com/nao.yukawa.56"
-                target="_blank"
-                className="about-container--index-sns-item"
-                rel="noreferrer"
-              >
-                {device === "Desktop" ? (
-                  <FontAwesomeIcon icon={faFacebookSquare} size="5x" />
-                ) : (
-                  <FontAwesomeIcon icon={faFacebookSquare} size="3x" />
-                )}
-              </a>
-              <a
-                href="https://twitter.com/NaoYukawa"
-                target="_blank"
-                className="about-container--index-sns-item"
-                rel="noreferrer"
-              >
-                {device === "Desktop" ? (
-                  <FontAwesomeIcon icon={faTwitterSquare} size="5x" />
-                ) : (
-                  <FontAwesomeIcon icon={faTwitterSquare} size="3x" />
-                )}
-              </a>
-            </div>
+              彼のパッションは、「創造性と技術力を持って、Science-Fictionを実現する1人になること」である。"
+              image="/img/about/Hayato_Waki.jpg"
+            />
+            <PersonCard
+              twitterLink="https://twitter.com/kadyboy1216"
+              linkedInLink="https://www.linkedin.com/in/shoka-kadoi-7b95271ba/"
+              fbLink="https://www.facebook.com/shouka.kadoi"
+              name="門井 翔佳 Shouka Kadoi"
+              role="ライター"
+              description="2018年、同志社大学社会学部メディア学科卒業。社会心理学専攻。
+              Israel Brain Technologiesの主宰するカンファレンスに参加を機に、2019年6月よりマインドフルネス瞑想アプリ『Relook』にジョイン。CS、Webマーケ、プロダクトマネージャーとして働きM&Aを経験。"
+              image="/img/about/Shouka_Kadoi.jpeg"
+            />
+            <PersonCard
+              twitterLink="https://twitter.com/NaoYukawa"
+              linkedInLink="https://www.linkedin.com/in/nao-yukawa-331615207/"
+              fbLink="https://www.facebook.com/nao.yukawa.56"
+              name="湯川 直旺 Nao Yukawa"
+              role="インタビュアー"
+              description=" 東京大学工学部4年生。現在は同大学の松尾研究室で深層学習関連の研究を行う傍ら、米国SanFranciscoにてInternational Businessを学んでいる。
+              Elon Musk率いるNeuralinkのように、ビジネスとNeurotechnologyを組み合わせることで、神経科学の発展に寄与することが目標。"
+              image="/img/about/Nao_Yukawa.jpg"
+            />
           </div>
         </div>
         <ContactForm lang="JP" />

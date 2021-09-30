@@ -1,23 +1,12 @@
 import React from "react";
-import {
-  faLinkedin,
-  faFacebookSquare,
-  faTwitterSquare,
-} from "@fortawesome/free-brands-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 import ContactForm from "~/components/ContactForm";
 import Footer from "~/components/Footer";
 import Header from "~/components/Header";
 import { Meta } from "~/components/Meta";
-
-import useResponsive from "~/hooks/use-responsive";
-
-type Device = "Mobile" | "Desktop";
+import PersonCard from "~/components/PersonCard";
 
 const AboutPage: React.FC = () => {
-  const device: Device = useResponsive();
-
   return (
     <>
       <Meta
@@ -44,161 +33,47 @@ const AboutPage: React.FC = () => {
         </div>
         <div className="about-container--index">
           <div className="about-container--index-title">About organizers</div>
-          <div className="about-container--index_box">
-            <div className="about-container--index-subtitle">
-              Hayato Waki (Writer, Interviewer) <br />
-            </div>
-            <div className="about-container--index-subtitle-text">
-              At University of Tsukuba in Japan, he worked on the research
-              project about BCI. <br /> After experiencing multiple software
+          <div className="about-container--index-box">
+            <PersonCard
+              twitterLink="https://twitter.com/wakkihaya"
+              linkedInLink="https://www.linkedin.com/in/wakkihaya/"
+              fbLink="https://www.facebook.com/waki.hayato.1"
+              name="Hayato Waki"
+              role="Writer/Interviewer"
+              description="At University of Tsukuba in Japan, he worked on the research project about BCI. After experiencing multiple software
               startups as a founder and an engineer in U.S. and Japan, he
               believes that neurotechnology is the most likely to be able to
-              bring our lives destructive innovation.
-              <br />
-              His passion is to become a person who achieves Science-Fiction
-              with creativity and technology.
-            </div>
-            <div className="about-container--index-sns">
-              <a
-                href="https://www.linkedin.com/in/wakkihaya/"
-                target="_blank"
-                className="about-container--index-sns-item"
-                rel="noreferrer"
-              >
-                {device === "Desktop" ? (
-                  <FontAwesomeIcon icon={faLinkedin} size="5x" />
-                ) : (
-                  <FontAwesomeIcon icon={faLinkedin} size="3x" />
-                )}
-              </a>
-              <a
-                href="https://www.facebook.com/waki.hayato.1"
-                target="_blank"
-                className="about-container--index-sns-item"
-                rel="noreferrer"
-              >
-                {device === "Desktop" ? (
-                  <FontAwesomeIcon icon={faFacebookSquare} size="5x" />
-                ) : (
-                  <FontAwesomeIcon icon={faFacebookSquare} size="3x" />
-                )}
-              </a>
-              <a
-                href="https://twitter.com/wakkihaya"
-                target="_blank"
-                className="about-container--index-sns-item"
-                rel="noreferrer"
-              >
-                {device === "Desktop" ? (
-                  <FontAwesomeIcon icon={faTwitterSquare} size="5x" />
-                ) : (
-                  <FontAwesomeIcon icon={faTwitterSquare} size="3x" />
-                )}
-              </a>
-            </div>
-            <div className="about-container--index_box">
-              <div className="about-container--index-subtitle">
-                Shouka Kadoi (Writer) <br />
-              </div>
-              <div className="about-container--index-subtitle-text">
-                Graduated from Doshisha University, Faculty of Sociology,
-                Department of Communication Studies. <br />
+              bring our lives destructive innovation. His passion is to become a person who achieves Science-Fiction with creativity and technology."
+              image="/img/about/Hayato_Waki.jpg"
+            />
+            <PersonCard
+              twitterLink="https://twitter.com/kadyboy1216"
+              linkedInLink="https://www.linkedin.com/in/shoka-kadoi-7b95271ba/"
+              fbLink="https://www.facebook.com/shouka.kadoi"
+              name="Shouka Kadoi"
+              role="Writer"
+              description="Graduated from Doshisha University, Faculty of Sociology, Department of Communication Studies.
                 After attending a conference organized by Israel Brain
                 Technologies, he joined Relook, a mindfulness meditation app,
                 where he worked as a CS, web marketer, and PdM, and experienced
-                M&A.
-              </div>
-              <div className="about-container--index-sns">
-                <a
-                  href="https://www.linkedin.com/in/shoka-kadoi-7b95271ba/"
-                  target="_blank"
-                  className="about-container--index-sns-item"
-                  rel="noreferrer"
-                >
-                  {device === "Desktop" ? (
-                    <FontAwesomeIcon icon={faLinkedin} size="5x" />
-                  ) : (
-                    <FontAwesomeIcon icon={faLinkedin} size="3x" />
-                  )}
-                </a>
-                <a
-                  href="https://www.facebook.com/shouka.kadoi"
-                  target="_blank"
-                  className="about-container--index-sns-item"
-                  rel="noreferrer"
-                >
-                  {device === "Desktop" ? (
-                    <FontAwesomeIcon icon={faFacebookSquare} size="5x" />
-                  ) : (
-                    <FontAwesomeIcon icon={faFacebookSquare} size="3x" />
-                  )}
-                </a>
-                <a
-                  href="https://twitter.com/kadyboy1216"
-                  target="_blank"
-                  className="about-container--index-sns-item"
-                  rel="noreferrer"
-                >
-                  {device === "Desktop" ? (
-                    <FontAwesomeIcon icon={faTwitterSquare} size="5x" />
-                  ) : (
-                    <FontAwesomeIcon icon={faTwitterSquare} size="3x" />
-                  )}
-                </a>
-              </div>
-            </div>
-            <div className="about-container--index_box">
-              <div className="about-container--index-subtitle">
-                Nao Yukawa (Interviewer) <br />
-              </div>
-              <div className="about-container--index-subtitle-text">
-                A senior majoring in Engineering at the University of Tokyo.
+                M&A."
+              image="/img/about/Shouka_Kadoi.jpeg"
+            />
+            <PersonCard
+              twitterLink="https://twitter.com/NaoYukawa"
+              linkedInLink="https://www.linkedin.com/in/nao-yukawa-331615207/"
+              fbLink="https://www.facebook.com/nao.yukawa.56"
+              name="Nao Yukawa"
+              role="Interviewer"
+              description="A senior majoring in Engineering at the University of Tokyo.
                 While he is doing research on deep learning at an AI research
                 lab in the same university, he is also studying International
-                Business at San Francisco State University. <br /> His goal is
+                Business at San Francisco State University. His goal is
                 to contribute to the development of Neuroscience by bridging the
                 gap between academia and industry like Neuralink, a company
-                founded by Elon Musk, is trying to do.
-              </div>
-              <div className="about-container--index-sns">
-                <a
-                  href="https://www.linkedin.com/in/nao-yukawa-331615207/"
-                  target="_blank"
-                  className="about-container--index-sns-item"
-                  rel="noreferrer"
-                >
-                  {device === "Desktop" ? (
-                    <FontAwesomeIcon icon={faLinkedin} size="5x" />
-                  ) : (
-                    <FontAwesomeIcon icon={faLinkedin} size="3x" />
-                  )}
-                </a>
-                <a
-                  href="https://www.facebook.com/nao.yukawa.56"
-                  target="_blank"
-                  className="about-container--index-sns-item"
-                  rel="noreferrer"
-                >
-                  {device === "Desktop" ? (
-                    <FontAwesomeIcon icon={faFacebookSquare} size="5x" />
-                  ) : (
-                    <FontAwesomeIcon icon={faFacebookSquare} size="3x" />
-                  )}
-                </a>
-                <a
-                  href="https://twitter.com/NaoYukawa"
-                  target="_blank"
-                  className="about-container--index-sns-item"
-                  rel="noreferrer"
-                >
-                  {device === "Desktop" ? (
-                    <FontAwesomeIcon icon={faTwitterSquare} size="5x" />
-                  ) : (
-                    <FontAwesomeIcon icon={faTwitterSquare} size="3x" />
-                  )}
-                </a>
-              </div>
-            </div>
+                founded by Elon Musk, is trying to do."
+              image="/img/about/Nao_Yukawa.jpg"
+            />
           </div>
         </div>
         <ContactForm lang="EN" />
