@@ -23,7 +23,7 @@ const AboutPage: React.FC = () => {
       </div>
       <div className="about-container">
         <div className="about-container--index">
-          <div className="about-container--index-title">About NeurotechJP</div>
+          <img src="/ogp.png" className="about-container--index-image" />
           <div className="about-container--index-subtitle">
             NeurotechJP is running to reveal “The killer use cases of
             Neurotech”. <br />
@@ -32,7 +32,7 @@ const AboutPage: React.FC = () => {
           </div>
         </div>
         <div className="about-container--index">
-          <div className="about-container--index-title">About organizers</div>
+          <div className="about-container--index-title">Meet the team</div>
           <div className="about-container--index-box">
             <PersonCard
               twitterLink="https://twitter.com/wakkihaya"

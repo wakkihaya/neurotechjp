@@ -23,9 +23,7 @@ const AboutPage: React.FC = () => {
       </div>
       <div className="about-container">
         <div className="about-container--index">
-          <div className="about-container--index-title">
-            NeurotechJPについて
-          </div>
+          <img src="/ogp.png" className="about-container--index-image" />
           <div className="about-container--index-subtitle">
             NeurotechJPはニューロテックのキラーユースケースを明らかにする目的で運営しています。
             <br />
@@ -33,7 +31,7 @@ const AboutPage: React.FC = () => {
           </div>
         </div>
         <div className="about-container--index">
-          <div className="about-container--index-title">運営者について</div>
+          <div className="about-container--index-title">NeurotechJP チーム</div>
           <div className="about-container--index-box">
             <PersonCard
               twitterLink="https://twitter.com/wakkihaya"
