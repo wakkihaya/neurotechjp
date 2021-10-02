@@ -26,8 +26,13 @@ export const BlogPost: React.FunctionComponent<{ post: PostData }> = ({
             )}
           </div>
           <div className="blog-content--top-info">
-            <div className="blog-content--top-info-category">{category}</div>
-            <div className="blog-content--top-info-date">{datePublished} </div>
+            <div className="blog-content--top-info_container">
+              <div className="blog-content--top-info-category">{category}</div>
+              <div className="blog-content--top-info-date">{datePublished}</div>
+            </div>
+            <div className="blog-content--top-info-share">
+              <SocialMediaShare url={canonicalUrl} />
+            </div>
           </div>
         </div>
         <div className="blog-content--draft">
@@ -37,7 +42,6 @@ export const BlogPost: React.FunctionComponent<{ post: PostData }> = ({
           </div>
         </div>
       </div>
-      <SocialMediaShare url={canonicalUrl} />
       <Footer />
     </>
   );

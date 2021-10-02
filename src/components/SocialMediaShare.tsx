@@ -20,28 +20,76 @@ type SocialMediaShareProps = {
 export const SocialMediaShare: React.FC<SocialMediaShareProps> = props => {
   const { url } = props;
   const device: Device = useResponsive();
-  let iconSize: number;
-  if (device === "Desktop") iconSize = 50;
-  else iconSize = 40;
 
-  return (
-    <div className="socialMedia">
+  if (device == "Desktop") {
+    return (
+      <div className="socialMedia">
+        <img
+          src="/img/share.png"
+          width={25}
+          height={25}
+          className="socialMedia--share"
+        />
+        <SocialMediaList url={url} iconSize={45} />
+      </div>
+    );
+  } else {
+    return <MDSocialMediaShare url={url} />;
+  }
+};
+
+const MDSocialMediaShare: React.FC<SocialMediaShareProps> = props => {
+  const { url } = props;
+  const [isShareOpen, setIsShareOpen] = React.useState<boolean>(false);
+  const onClickShareButton = () => {
+    setIsShareOpen(!isShareOpen);
+  };
+
+  if (!isShareOpen) {
+    return (
       <img
         src="/img/share.png"
-        width={iconSize - 20}
-        height={iconSize - 20}
+        width={15}
+        height={15}
         className="socialMedia--share"
+        onClick={onClickShareButton}
       />
-      <FacebookShareButton url={url} className="socialMedia--icons">
+    );
+  } else {
+    return (
+      <div className="socialMedia">
+        <img
+          src="/img/close.png"
+          width={15}
+          height={15}
+          className="socialMedia--close"
+          onClick={onClickShareButton}
+        />
+        <SocialMediaList url={url} iconSize={30} />
+      </div>
+    );
+  }
+};
+
+type SocialMediaListProps = {
+  url: string;
+  iconSize: number;
+};
+
+const SocialMediaList: React.FC<SocialMediaListProps> = props => {
+  const { url, iconSize } = props;
+  return (
+    <div className="socialMedia--icons">
+      <FacebookShareButton url={url} className="socialMedia--icons-item">
         <FacebookIcon size={iconSize} />
       </FacebookShareButton>
-      <TwitterShareButton url={url} className="socialMedia--icons">
+      <TwitterShareButton url={url} className="socialMedia--icons-item">
         <TwitterIcon size={iconSize} />
       </TwitterShareButton>
-      <LinkedinShareButton url={url} className="socialMedia--icons">
+      <LinkedinShareButton url={url} className="socialMedia--icons-item">
         <LinkedinIcon size={iconSize} />
       </LinkedinShareButton>
-      <HatenaShareButton url={url} className="socialMedia--icons">
+      <HatenaShareButton url={url} className="socialMedia--icons-item">
         <HatenaIcon size={iconSize} />
       </HatenaShareButton>
     </div>
