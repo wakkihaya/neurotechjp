@@ -104,7 +104,11 @@
     font-family: $armata-font-family;
   }
   &__bg {
-    background-image: linear-gradient(to bottom right, $blue-color, $deep-blue-color);
+    background-image: linear-gradient(
+      to bottom right,
+      $blue-color,
+      $deep-blue-color
+    );
     padding-bottom: 2rem;
   }
   @media screen and (max-width: $mobile-width) {
@@ -269,10 +273,25 @@
   }
 }
 
+.socialMedia {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 10rem 0 1rem 0;
+  align-items: center;
+  &--share {
+    margin-right: 1em;
+  }
+}
+
 /// About page.
 .about {
   &__bg {
-    background-image: linear-gradient(to bottom right, $blue-color, $deep-blue-color);
+    background-image: linear-gradient(
+      to bottom right,
+      $blue-color,
+      $deep-blue-color
+    );
     padding-bottom: 0.1rem;
   }
   &--title {
@@ -637,7 +656,11 @@
 /// About page.
 .slides {
   &__bg {
-    background-image: linear-gradient(to bottom right, $blue-color, $deep-blue-color);
+    background-image: linear-gradient(
+      to bottom right,
+      $blue-color,
+      $deep-blue-color
+    );
     padding-bottom: 0.1rem;
   }
   &--title {
