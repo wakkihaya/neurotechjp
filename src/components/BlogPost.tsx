@@ -6,13 +6,14 @@ import { PostMeta } from "./PostMeta";
 
 import Footer from "~/components/Footer";
 import Header from "~/components/Header";
+import { SocialMediaShare } from "./SocialMediaShare";
 
 import type { PostData } from "~/hooks/loader";
 
 export const BlogPost: React.FunctionComponent<{ post: PostData }> = ({
   post,
 }) => {
-  const { title, datePublished, bannerPhoto, category } = post;
+  const { title, datePublished, bannerPhoto, category, canonicalUrl } = post;
   return (
     <>
       <PostMeta post={post} />
@@ -25,8 +26,13 @@ export const BlogPost: React.FunctionComponent<{ post: PostData }> = ({
             )}
           </div>
           <div className="blog-content--top-info">
-            <div className="blog-content--top-info-category">{category}</div>
-            <div className="blog-content--top-info-date">{datePublished} </div>
+            <div className="blog-content--top-info_container">
+              <div className="blog-content--top-info-category">{category}</div>
+              <div className="blog-content--top-info-date">{datePublished}</div>
+            </div>
+            <div className="blog-content--top-info-share">
+              <SocialMediaShare url={canonicalUrl} />
+            </div>
           </div>
         </div>
         <div className="blog-content--draft">
