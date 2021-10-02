@@ -74,6 +74,16 @@
     }
   }
 }
+@media screen and (max-width: $ipad-width) {
+  .top {
+    &--center-text {
+      color: white;
+      span {
+        background: rgba(43, 74, 103, 0.6);
+      }
+    }
+  }
+}
 
 ///About Blog page
 .blog {
@@ -520,6 +530,7 @@
   &--draft-title {
     font-size: $large-font-size;
     font-weight: 500;
+    margin: 0 2rem;
   }
   &--draft-text {
     margin: 1rem 8rem 0 8rem;
@@ -597,6 +608,7 @@
     }
     &--draft-title {
       font-size: $small-font-size;
+      margin: 0;
     }
     &--draft-text {
       font-size: $very-small-font-size;
