@@ -1,4 +1,4 @@
-import SlideContainer from "~components/SlideContainer";
+import SlideContent from "~components/SlideContent";
 import Footer from "~components/Footer";
 import Header from "~components/Header";
 import { Meta } from "~components/Meta";
@@ -22,7 +22,7 @@ const SlidesPage: React.FC = () => {
         </div>
       </div>
       <div className="slides-container">
-        <SlideContainer
+        <SlideContent
           linkRef="/slides/basic-theories-of-neurotechnology"
           imgSrc="/img/slides/slide-basic-theory-neurotech-jp.jpg"
           title="Basic Theories of Neurotechnology"
@@ -33,7 +33,7 @@ const SlidesPage: React.FC = () => {
           2. Basic knowledge including types of neurotechnologies, basics of
           neuroscience, and software engineering. <br />
           3. Use cases with neurotechnologies.
-        </SlideContainer>
+        </SlideContent>
       </div>
       <Footer />
     </>

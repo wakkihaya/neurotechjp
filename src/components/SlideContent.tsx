@@ -1,14 +1,14 @@
 import React from "react";
 import Link from "next/link";
 
-type SlideContainerProps = {
+type SlideContentProps = {
   linkRef?: string;
   imgSrc?: string;
   title?: string;
   children?: React.ReactNode;
 };
 
-export const SlideContainer: React.FC<SlideContainerProps> = props => {
+export const SlideContent: React.FC<SlideContentProps> = props => {
   const { linkRef, imgSrc, title, children } = props;
   return (
     <Link href={linkRef}>
@@ -24,4 +24,4 @@ export const SlideContainer: React.FC<SlideContainerProps> = props => {
     </Link>
   );
 };
-export default SlideContainer;
+export default SlideContent;

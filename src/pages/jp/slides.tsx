@@ -1,7 +1,7 @@
 import Footer from "~components/Footer";
 import Header from "~components/Header";
 import { Meta } from "~components/Meta";
-import SlideContainer from "~components/SlideContainer";
+import SlideContent from "~components/SlideContent";
 import React from "react";
 
 const SlidesPage: React.FC = () => {
@@ -22,7 +22,7 @@ const SlidesPage: React.FC = () => {
         </div>
       </div>
       <div className="slides-container">
-        <SlideContainer
+        <SlideContent
           linkRef="/jp/slides/basic-theories-of-neurotechnology"
           imgSrc="/img/slides/slide-basic-theory-neurotech-jp.jpg"
           title="Neurotech(ニューロテック)の基礎"
@@ -33,7 +33,7 @@ const SlidesPage: React.FC = () => {
           基礎知識(Neurotechnologyの種類、脳科学基礎、ソフトウェアエンジニアリング)
           <br />
           3. ニューロテクノロジーを用いたユースケース
-        </SlideContainer>
+        </SlideContent>
       </div>
       <Footer />
     </>
