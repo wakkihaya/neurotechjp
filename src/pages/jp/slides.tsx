@@ -34,6 +34,13 @@ const SlidesPage: React.FC = () => {
           <br />
           3. ニューロテクノロジーを用いたユースケース
         </SlideContent>
+        <SlideContent
+          linkRef="http://eepurl.com/hJSQEf"
+          imgSrc="/img/slides/neurotech-startups-analytics.jpg"
+          title="Neurotech アナリティクスレポート(2020)  ~vol 1~"
+        >
+          Neurotech市場で活躍する、世界各国およそ200社の企業情報をまとめたPDFです。
+        </SlideContent>
       </div>
       <Footer />
     </>
