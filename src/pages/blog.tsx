@@ -1,4 +1,3 @@
-import Link from "next/link";
 import React, { useState } from "react";
 import { GetStaticPropsResult } from "next";
 
@@ -89,7 +88,7 @@ const BlogPage: React.FC<BlogPageProps> = props => {
 const BlogItem: React.FC<{ post: PostData }> = props => {
   const post = props.post;
   return (
-    <Link href={`/${post.path}`}>
+    <a href={`/${post.path}`} target="blank">
       <div className="blog-item">
         <div className="blog-item--pic">
           <img
@@ -107,7 +106,7 @@ const BlogItem: React.FC<{ post: PostData }> = props => {
         </div>
         <div className="blog-item--date">{post.datePublished}</div>
       </div>
-    </Link>
+    </a>
   );
 };
 
