@@ -1,5 +1,4 @@
 import React from "react";
-import Link from "next/link";
 
 type SlideContentProps = {
   linkRef?: string;
@@ -11,7 +10,7 @@ type SlideContentProps = {
 export const SlideContent: React.FC<SlideContentProps> = props => {
   const { linkRef, imgSrc, title, children } = props;
   return (
-    <Link href={linkRef}>
+    <a href={linkRef} target="blank">
       <div className="slides-container--content">
         <div className="slides-container--content-image">
           <img src={imgSrc} alt={title} />
@@ -21,7 +20,7 @@ export const SlideContent: React.FC<SlideContentProps> = props => {
           <div className="content-text--subtitle">{children}</div>
         </div>
       </div>
-    </Link>
+    </a>
   );
 };
 export default SlideContent;
