@@ -66,7 +66,7 @@ const Home: React.FC<HomeProps> = props => {
 const BlogItem: React.FC<{ post: PostData }> = props => {
   const post = props.post;
   return (
-    <a href={`/${post.path}`} target="blank">
+    <a href={`/${post.path}`} target="_blank" rel="noreferrer">
       <div className="blog-item">
         <div className="blog-item--pic">
           <img src={post.bannerPhoto} alt="NeurotechJP ブログ　バナー画像" />
