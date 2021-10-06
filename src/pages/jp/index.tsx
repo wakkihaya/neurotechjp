@@ -66,7 +66,7 @@ const Home: React.FC<HomeProps> = props => {
 const BlogItem: React.FC<{ post: PostData }> = props => {
   const post = props.post;
   return (
-    <Link href={`/${post.path}`}>
+    <a href={`/${post.path}`} target="blank">
       <div className="blog-item">
         <div className="blog-item--pic">
           <img src={post.bannerPhoto} alt="NeurotechJP ブログ　バナー画像" />
@@ -81,7 +81,7 @@ const BlogItem: React.FC<{ post: PostData }> = props => {
         </div>
         <div className="blog-item--date">{post.datePublished}</div>
       </div>
-    </Link>
+    </a>
   );
 };
 

@@ -1,5 +1,4 @@
-import Link from "next/link";
-
+import SlideContent from "~components/SlideContent";
 import Footer from "~components/Footer";
 import Header from "~components/Header";
 import { Meta } from "~components/Meta";
@@ -23,29 +22,18 @@ const SlidesPage: React.FC = () => {
         </div>
       </div>
       <div className="slides-container">
-        <Link href="/slides/basic-theories-of-neurotechnology">
-          <div className="slides-container--content">
-            <div className="slides-container--content-image">
-              <img
-                src="/img/slides/slide-basic-theory-neurotech.jpg"
-                alt="Basic throry of Neurotech slide"
-              />
-            </div>
-            <div className="slides-container--content-text content-text">
-              <div className="content-text--title">
-                Basic Theories of Neurotechnology
-              </div>
-              <div className="content-text--subtitle">
-                This slide is about the basic theories of Neurotechnology. It
-                shows <br />
-                1. An overview of this area with a market value. <br />
-                2. Basic knowledge including types of neurotechnologies, basics
-                of neuroscience, and software engineering. <br />
-                3. Use cases with neurotechnologies.
-              </div>
-            </div>
-          </div>
-        </Link>
+        <SlideContent
+          linkRef="/slides/basic-theories-of-neurotechnology"
+          imgSrc="/img/slides/slide-basic-theory-neurotech-jp.jpg"
+          title="Basic Theories of Neurotechnology"
+        >
+          This slide is about the basic theories of Neurotechnology. It shows{" "}
+          <br />
+          1. An overview of this area with a market value. <br />
+          2. Basic knowledge including types of neurotechnologies, basics of
+          neuroscience, and software engineering. <br />
+          3. Use cases with neurotechnologies.
+        </SlideContent>
       </div>
       <Footer />
     </>
