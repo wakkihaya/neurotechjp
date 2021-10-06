@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faTimes } from "@fortawesome/free-solid-svg-icons";
 
@@ -20,13 +20,10 @@ const getBannerStateFromLocalStorage = () => {
 
 export const Banner: React.FC<BannerProps> = props => {
   const { children } = props;
-  const [bannerState, setBannerState] = React.useState<BannerState>("Close");
+  const [bannerState, setBannerState] = useState<BannerState>("Close");
 
-  React.useEffect(() => {
-    const test = getBannerStateFromLocalStorage();
-    console.log(test);
-    const currentBannerState = test ?? "Open";
-    console.log(currentBannerState);
+  useEffect(() => {
+    const currentBannerState = getBannerStateFromLocalStorage() ?? "Open";
     setBannerState(currentBannerState);
   }, []);
 
