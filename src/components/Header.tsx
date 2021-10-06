@@ -161,6 +161,26 @@ const HamburgerMenu: React.FC<HeaderDeviceProps> = ({ lang, device }) => {
   );
 };
 
+//2021/10/6: Display Banner to install the report analytics only in Japanese.
+const RenderBanner: React.FC<HeaderProps> = props => {
+  const { lang } = props;
+  if (lang === "JP") {
+    return (
+      <Banner>
+        <p>
+          Neurotech企業およそ200社の分析レポートを無料公開！詳細は
+          <a href="slides" target="blank">
+            こちら
+          </a>
+          から
+        </p>
+      </Banner>
+    );
+  } else {
+    return <></>;
+  }
+};
+
 const Header: React.FC<{ isBgTransparent: boolean }> = props => {
   const isBgTransparent = props.isBgTransparent ?? false;
   const router = useRouter();
@@ -210,7 +230,7 @@ const Header: React.FC<{ isBgTransparent: boolean }> = props => {
 
   return (
     <>
-      <Banner>Test</Banner>
+      <RenderBanner lang={lang} />
       <div
         className={[
           "header-container",
