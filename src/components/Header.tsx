@@ -6,7 +6,6 @@ import { faTwitter } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 import useResponsive from "~/hooks/use-responsive";
-import Banner from "~/components/Banner";
 
 type Lang = "EN" | "JP" | "NotSpecified";
 
@@ -161,26 +160,6 @@ const HamburgerMenu: React.FC<HeaderDeviceProps> = ({ lang, device }) => {
   );
 };
 
-//2021/10/6: Display Banner to install the report analytics only in Japanese.
-const RenderBanner: React.FC<HeaderProps> = props => {
-  const { lang } = props;
-  if (lang === "JP") {
-    return (
-      <Banner>
-        <p>
-          Neurotech企業およそ200社の分析レポートを無料公開！詳細は
-          <a href="slides" target="blank">
-            こちら
-          </a>
-          から
-        </p>
-      </Banner>
-    );
-  } else {
-    return <></>;
-  }
-};
-
 const Header: React.FC<{ isBgTransparent: boolean }> = props => {
   const isBgTransparent = props.isBgTransparent ?? false;
   const router = useRouter();
@@ -229,84 +208,80 @@ const Header: React.FC<{ isBgTransparent: boolean }> = props => {
   }, []);
 
   return (
-    <>
-      <RenderBanner lang={lang} />
+    <div
+      className={["header-container", isBgTransparent ? "bg-none" : null].join(
+        " ",
+      )}
+    >
+      {device === "Mobile" && <HamburgerMenu lang={lang} device={device} />}
+      <header className="header">
+        <div className="header--logo">
+          {lang === "EN" && <Link href="/">NeurotechJP </Link>}
+          {lang === "JP" && <Link href="/jp">NeurotechJP </Link>}
+        </div>
+        {device === "Desktop" && (
+          <>
+            <div className="header--index">
+              <div className="header--index-home">
+                <HeaderIndexHome lang={lang} />
+              </div>
+              <div className="header--index-blog">
+                <HeaderIndexBlog lang={lang} />
+              </div>
+              <div className="header--index-slides">
+                <HeaderIndexSlides lang={lang} />
+              </div>
+              <div className="header--index-about">
+                <HeaderIndexAbout lang={lang} />
+              </div>
+            </div>
+            <div className="header--social">
+              <HeaderSocial lang={lang} device={device} />
+            </div>
+          </>
+        )}
+
+        <div className="header--lang">
+          <div
+            className={[
+              "header--lang-char",
+              lang === "EN" ? "active" : null,
+            ].join(" ")}
+            onClick={() => {
+              changeLang("EN");
+              moveToPageInSpecifiedLang("EN");
+            }}
+          >
+            EN/
+          </div>
+          <div
+            className={[
+              "header--lang-char",
+              lang === "JP" ? "active" : null,
+            ].join(" ")}
+            onClick={() => {
+              changeLang("JP");
+              moveToPageInSpecifiedLang("JP");
+            }}
+          >
+            JP
+          </div>
+        </div>
+        {device === "Mobile" && <div className="header--index_menu-space" />}
+      </header>
       <div
         className={[
-          "header-container",
+          "header-container--brain-wave",
           isBgTransparent ? "bg-none" : null,
         ].join(" ")}
       >
-        {device === "Mobile" && <HamburgerMenu lang={lang} device={device} />}
-        <header className="header">
-          <div className="header--logo">
-            {lang === "EN" && <Link href="/">NeurotechJP </Link>}
-            {lang === "JP" && <Link href="/jp">NeurotechJP </Link>}
-          </div>
-          {device === "Desktop" && (
-            <>
-              <div className="header--index">
-                <div className="header--index-home">
-                  <HeaderIndexHome lang={lang} />
-                </div>
-                <div className="header--index-blog">
-                  <HeaderIndexBlog lang={lang} />
-                </div>
-                <div className="header--index-slides">
-                  <HeaderIndexSlides lang={lang} />
-                </div>
-                <div className="header--index-about">
-                  <HeaderIndexAbout lang={lang} />
-                </div>
-              </div>
-              <div className="header--social">
-                <HeaderSocial lang={lang} device={device} />
-              </div>
-            </>
-          )}
-
-          <div className="header--lang">
-            <div
-              className={[
-                "header--lang-char",
-                lang === "EN" ? "active" : null,
-              ].join(" ")}
-              onClick={() => {
-                changeLang("EN");
-                moveToPageInSpecifiedLang("EN");
-              }}
-            >
-              EN/
-            </div>
-            <div
-              className={[
-                "header--lang-char",
-                lang === "JP" ? "active" : null,
-              ].join(" ")}
-              onClick={() => {
-                changeLang("JP");
-                moveToPageInSpecifiedLang("JP");
-              }}
-            >
-              JP
-            </div>
-          </div>
-          {device === "Mobile" && <div className="header--index_menu-space" />}
-        </header>
-        <div
-          className={[
-            "header-container--brain-wave",
-            isBgTransparent ? "bg-none" : null,
-          ].join(" ")}
-        >
-          <img
-            src="/brainwave.svg"
-            alt="NeurotechJP Header brain wave"
-            width="100%"
-          />
-        </div>
+        <img
+          src="/brainwave.svg"
+          alt="NeurotechJP Header brain wave"
+          width="100%"
+        />
       </div>
-    </>
+    </div>
   );
 };
 
