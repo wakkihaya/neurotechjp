@@ -23,7 +23,10 @@ export const Banner: React.FC<BannerProps> = props => {
   const [bannerState, setBannerState] = React.useState<BannerState>("Close");
 
   React.useEffect(() => {
-    const currentBannerState = getBannerStateFromLocalStorage() ?? "Open";
+    const test = getBannerStateFromLocalStorage();
+    console.log(test);
+    const currentBannerState = test ?? "Open";
+    console.log(currentBannerState);
     setBannerState(currentBannerState);
   }, []);
 
