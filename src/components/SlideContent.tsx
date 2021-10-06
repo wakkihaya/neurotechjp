@@ -10,7 +10,7 @@ type SlideContentProps = {
 export const SlideContent: React.FC<SlideContentProps> = props => {
   const { linkRef, imgSrc, title, children } = props;
   return (
-    <a href={linkRef} target="blank">
+    <a href={linkRef} target="_blank" rel="noreferrer">
       <div className="slides-container--content">
         <div className="slides-container--content-image">
           <img src={imgSrc} alt={title} />

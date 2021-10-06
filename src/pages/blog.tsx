@@ -88,7 +88,7 @@ const BlogPage: React.FC<BlogPageProps> = props => {
 const BlogItem: React.FC<{ post: PostData }> = props => {
   const post = props.post;
   return (
-    <a href={`/${post.path}`} target="blank">
+    <a href={`/${post.path}`} target="_blank" rel="noreferrer">
       <div className="blog-item">
         <div className="blog-item--pic">
           <img
