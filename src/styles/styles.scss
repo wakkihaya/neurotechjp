@@ -104,7 +104,11 @@
     font-family: $armata-font-family;
   }
   &__bg {
-    background-image: linear-gradient(to bottom right, $blue-color, $deep-blue-color);
+    background-image: linear-gradient(
+      to bottom right,
+      $blue-color,
+      $deep-blue-color
+    );
     padding-bottom: 2rem;
   }
   @media screen and (max-width: $mobile-width) {
@@ -302,7 +306,11 @@
 /// About page.
 .about {
   &__bg {
-    background-image: linear-gradient(to bottom right, $blue-color, $deep-blue-color);
+    background-image: linear-gradient(
+      to bottom right,
+      $blue-color,
+      $deep-blue-color
+    );
     padding-bottom: 0.1rem;
   }
   &--title {
@@ -688,7 +696,11 @@
 /// About page.
 .slides {
   &__bg {
-    background-image: linear-gradient(to bottom right, $blue-color, $deep-blue-color);
+    background-image: linear-gradient(
+      to bottom right,
+      $blue-color,
+      $deep-blue-color
+    );
     padding-bottom: 0.1rem;
   }
   &--title {
