@@ -306,4 +306,10 @@
   a {
     text-decoration: underline;
   }
+  @media (max-width: $mobile-width) {
+    &--text {
+      font-size: $sp-desc-small-font-size;
+      padding: 0 1.5em;
+    }
+  }
 }
