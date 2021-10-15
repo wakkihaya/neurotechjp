@@ -27,7 +27,7 @@ In this article, we will introduce selected five startups that are developing un
 
 &nbsp;
 
-## [Myndlift](https://www.myndlift.com/)
+## [1. Myndlift](https://www.myndlift.com/)
 
 [Myndlift](https://www.myndlift.com/) is a startup that provides **kits and applications for neurofeedback that can be used with the brainwave device [Muse](https://choosemuse.com/).**
 
@@ -62,7 +62,7 @@ Reference: [Crunchbase Myndlift](https://www.crunchbase.com/organization/myndlif
 
 &nbsp;
 
-## [BrainCo](https://www.brainco.tech/)
+## [2. BrainCo](https://www.brainco.tech/)
 
 [BrainCo](https://www.brainco.tech/) is a startup that offers **[FocusCalm](https://focuscalm.com/), a device that combines neurofeedback technology and an EEG headband to reduce stress with just a few minutes of daily use.**
 
@@ -95,7 +95,7 @@ Reference: [Crunchbase BrainCo](https://www.crunchbase.com/organization/brainco)
 
 &nbsp;
 
-## [Sana Health](https://www.sana.io/)
+## [3. Sana Health](https://www.sana.io/)
 
 [Sana Health](https://www.sana.io/) is a startup that offers **a device that uses innovative audio-visual technology to accelerate improvement in terms of physical recovery as well as mental health**.
 
@@ -126,7 +126,7 @@ Reference: [Crunchbase Sana Health](https://www.crunchbase.com/organization/slee
 
 &nbsp;
 
-## [Healium](https://www.tryhealium.com/)
+## [4. Healium](https://www.tryhealium.com/)
 
 [Healium](https://www.tryhealium.com/) is a startup that offers **the world's first virtual reality (VR) and augmented reality (AR) platform that uses brain waves and heart rate to create wearable products for consumers.**
 
@@ -162,7 +162,7 @@ Reference: [Crunchbase Healium](https://www.crunchbase.com/organization/storyup-
 
 &nbsp;
 
-## [Neuromore](https://www.neuromore.com/)
+## [5. Neuromore](https://www.neuromore.com/)
 
 [Neuromore](https://www.neuromore.com/) is a startup that provides **software tools that enable the use of neurofeedback independent of devices and platforms.**
 

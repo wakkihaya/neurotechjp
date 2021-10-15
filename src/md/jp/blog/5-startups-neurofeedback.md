@@ -27,7 +27,7 @@ _イメージ: 神経可塑性_
 
 &nbsp;
 
-## [Myndlift](https://www.myndlift.com/)
+## [1. Myndlift](https://www.myndlift.com/)
 
 [Myndlift](https://www.myndlift.com/) は、脳波デバイス[Muse](https://choosemuse.com/)と一緒に使える**ニューロフィードバック用のキットやアプリケーションを提供するスタートアップ**だ。
 
@@ -62,7 +62,7 @@ _動画: Myndlift 紹介_
 
 &nbsp;
 
-## [BrainCo](https://www.brainco.tech/)
+## [2. BrainCo](https://www.brainco.tech/)
 
 [BrainCo](https://www.brainco.tech/)は、 **ニューロフィードバックの技術と脳波ヘッドバンドを組み合わせたデバイスで、毎日数分使うだけでストレスを減らすことができる[FocusCalm](http://www.focuscalm.com/)を**提供するスタートアップだ。
 
@@ -95,7 +95,7 @@ FocusCalm では、独自のアプリケーションにて、脳を使うシン�
 
 &nbsp;
 
-## [Sana Health](https://www.sana.io/)
+## [3. Sana Health](https://www.sana.io/)
 
 [Sana Health](https://www.sana.io/)は、**革新的なオーディオビジュアル技術を使って、精神面に加え身体的な回復の面でも改善を加速させるデバイス**を提供するスタートアップだ。
 
@@ -126,7 +126,7 @@ _動画: Sana Health 紹介_
 
 &nbsp;
 
-## [Healium](https://www.tryhealium.com/)
+## [4. Healium](https://www.tryhealium.com/)
 
 [Healium](https://www.tryhealium.com/)は、**脳波と心拍数を利用した世界初の仮想現実(VR)と拡張現実(AR)のプラットフォームで、消費者向けのウェアラブル製品**を提供するスタートアップだ。
 
@@ -162,7 +162,7 @@ _画像: Healium AR での画面_
 
 &nbsp;
 
-## [Neuromore](https://www.neuromore.com/)
+## [5. Neuromore](https://www.neuromore.com/)
 
 [Neuromore](https://www.neuromore.com/)は、**デバイスやプラットフォームに依存せずにニューロフィードバックを利用できるソフトウェアツール**を提供するスタートアップだ。
 
