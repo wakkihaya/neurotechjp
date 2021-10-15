@@ -210,6 +210,6 @@ Healium のようにニューロフィードバックを VR 上で応用した�
 
 —-
 
-NeurotechJP では、インタビュー記事やコラム記事に加え、業界や企業の分析レポートをも公開している。**[Neurotech 企業分析レポート](https://neurotechjp.com/jp/slides/)では**、今回紹介した 5 つの企業以外にもおよそ 200 社の企業を紹介している\*\*。興味のある方は是非下記リンクからチェックして頂きたい。
+NeurotechJP では、インタビュー記事やコラム記事に加え、業界や企業の分析レポートをも公開している。**[Neurotech 企業分析レポート](https://neurotechjp.com/jp/slides/)では**、今回紹介した 5 つの企業以外にもおよそ 200 社の企業を紹介している。興味のある方は是非下記リンクからチェックして頂きたい。
 
 [http://eepurl.com/hJSQEf](http://eepurl.com/hJSQEf)
