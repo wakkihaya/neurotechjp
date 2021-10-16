@@ -169,7 +169,7 @@ const RenderBanner: React.FC<HeaderProps> = props => {
       <Banner>
         <p>
           Neurotech企業およそ200社の分析レポートを無料公開！詳細は
-          <a href="slides">こちら</a>
+          <Link href="/jp/slides">こちら</Link>
           から
         </p>
       </Banner>
