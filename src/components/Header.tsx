@@ -190,7 +190,6 @@ const Header: React.FC<{ isBgTransparent: boolean }> = props => {
 
   const changeLang = (targetLang: Lang) => {
     setLang(targetLang);
-    localStorage.setItem("currentLang", JSON.stringify(targetLang));
   };
 
   const moveToPageInSpecifiedLang = (targetLang: Lang) => {
@@ -216,14 +215,7 @@ const Header: React.FC<{ isBgTransparent: boolean }> = props => {
   };
 
   useEffect(() => {
-    const currentLang = localStorage.getItem("currentLang");
-    const modCurrentLang = currentLang
-      ? JSON.parse(currentLang)
-      : "NotSpecified";
-    setLang(modCurrentLang);
-
-    /// Redirect to the page in selected language.
-    moveToPageInSpecifiedLang(modCurrentLang);
+    moveToPageInSpecifiedLang(lang);
   }, []);
 
   return (
