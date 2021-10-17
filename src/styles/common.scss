@@ -313,3 +313,31 @@
     }
   }
 }
+
+//Error page 404
+.error-container {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  background-image: url("/img/top-page.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.error-content {
+  position: absolute;
+  top: 50%;
+  text-align: center;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  &--title {
+    font-size: $large-font-size;
+    font-weight: bold;
+  }
+  &--subtitle {
+    font-size: $medium-font-size;
+    font-weight: bold;
+  }
+}
