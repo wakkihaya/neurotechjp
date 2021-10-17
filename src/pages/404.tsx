@@ -8,11 +8,13 @@ export default function Custom404() {
   useEffect(() => {
     const currentLang = useCurrentLang();
 
-    if (currentLang === "jp") {
-      router.replace("/jp");
-    } else {
-      router.replace("/");
-    }
+    setTimeout(function () {
+      if (currentLang === "jp") {
+        router.replace("/jp");
+      } else {
+        router.replace("/");
+      }
+    }, 3000);
   });
 
   return (
