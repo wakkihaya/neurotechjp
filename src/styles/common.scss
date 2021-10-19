@@ -119,11 +119,7 @@
 }
 
 .footer {
-  background-image: linear-gradient(
-    to bottom right,
-    $blue-color,
-    $deep-blue-color
-  );
+  background-image: linear-gradient(to bottom right, $blue-color, $deep-blue-color);
   padding: 1em 0;
 
   &--newsletter {
@@ -308,8 +304,9 @@
   }
   @media (max-width: $mobile-width) {
     &--text {
-      font-size: $sp-desc-small-font-size;
-      padding: 0 1.5em;
+      font-size: $very-small-font-size;
+      padding: 0 1em;
+      line-height: 1.5em;
     }
   }
 }
