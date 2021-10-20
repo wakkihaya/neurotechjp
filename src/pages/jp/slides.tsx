@@ -39,7 +39,8 @@ const SlidesPage: React.FC = () => {
           imgSrc="/img/slides/neurotech-startups-analytics.jpg"
           title="Neurotech アナリティクスレポート(2020)  ~vol 1~"
         >
-          Neurotech市場で活躍する、世界各国およそ200社の企業情報をまとめたPDFです。
+          Neurotech市場で活躍する、世界各国およそ200社の企業情報をまとめたPDFです。※Neurotech
+          Analytics社が提供する資料を著者の許可の元、一部抜粋し日本語翻訳したものです。
         </SlideContent>
       </div>
       <Footer />
