@@ -56,6 +56,8 @@ During his first and second year as an undergraduate, Nakamura conducted compute
 ![EEG CV](https://neurotechjp.com/img/dr-nakamura-stanford/eeg-cv.jpg)
 _Image: Human detection using omnidirectional camera_
 
+&nbsp;
+
 The main goal of this project is to **improve Heat Ventilation Air Condition (HVAC) systems,** which are installed in buildings. Incorporating this human detection algorithm by Nakamura and his colleagues, the system is expected to reduce power consumption by adjusting ventilation and heating/cooling according to the number of people and their activities.
 
 This [research paper](https://arxiv.org/abs/2005.11623v1), of which Nakamura is a co-author, was accepted by [CVPR](https://cvpr2020.thecvf.com/) (Computer Vision and Pattern Recognition), the top computer vision conference. However, as he continued his research on object detection, **he realized more how amazing the human visual system is**.
@@ -65,6 +67,8 @@ This [research paper](https://arxiv.org/abs/2005.11623v1), of which Nakamura is 
 > First, **the architecture itself is data-hungry and extremely vulnerable to anomalies**; I felt that it was far from human performance.
 > I decided to move forward with research on the human visual system.
 
+&nbsp;
+
 With this in mind, during his third year as an undergraduate, he also conducted **research on human vision using EEG (Electroencephalography)** at [Reinhart Lab](https://sites.bu.edu/reinhartlab/) at Boston University.
 
 > Using EEG, we recorded electrical signals from the human occipitotemporal lobe and decoded them.
@@ -72,6 +76,8 @@ With this in mind, during his third year as an undergraduate, he also conducted 
 > At this time, each circle is rotated slightly, and **the the subject's task is to
 > answer how much and which way the second circle was rotated relative to the first circle**.
 > It was a study to decode the object rotation information stored in the subject's visual working memory from the data of the subject's brain during the task.
+
+&nbsp;
 
 In fact, this research has some similarities to the object detection research that Nakamura did when he was a first and second year undergraduate student.
 
@@ -107,6 +113,8 @@ One way to solve this problem is to increase the number of electrodes, but this 
 
 Simply stimulating them with electrodes in two dimensions will stimulate all the other neurons on the axis, making it impossible to send the desired signals.
 
+&nbsp;
+
 ![RGC](https://neurotechjp.com/img/dr-nakamura-stanford/retina.jpg)
 _Image: RGC_
 
@@ -119,6 +127,8 @@ However, after all this work, we can only send black and white images. Further r
 > This is also very difficult because we don't know **how the color information is encoded in the spike sequence, and what each RGC corresponds to.**
 > If we don't figure that out first, we won't be able to deliver proper colors. We already have an algorithm for reconstructing grayscale images from spike trains, but we haven't yet reconstructed the color information.
 > If the next paper comes out from our lab, I think it will be an algorithm for reconstructing images with color information.
+
+&nbsp;
 
 To help solve these problems, Nakamura is also considering research on a topic called **smart artificial retina**, which combines computer vision and artificial retina.
 
@@ -140,6 +150,8 @@ Nakamura, who is currently conducting BMI research in academia, says that **comp
 > **However, if companies were to enter the field in the future, they would be interested in applications other than clinical ones, and such applications would flourish the field.**
 > In that sense, I think that BMI will continue to develop from industry rather than academia.
 
+&nbsp;
+
 As for the direction of development of BMI, he says that **there are only a limited number of things that can be done non-invasively, and he thinks that research will move in the direction of making invasive closer to non-invasive**.
 
 > If we are discussing invasive or non-invasive, I personally think that **it needs to be invasive.**
@@ -152,6 +164,8 @@ As for the direction of development of BMI, he says that **there are only a limi
 > If not EEG, ultrasound modulation and imaging are probably more practical than EEG, and then there is optogenetics. If they are non-invasive, I think they have potential.
 
 > Invasion, too, has some difficulties in its way, but when I think of the many patients participating in trials such as artificial retina, I think **they will do it without hesitation if it will change the quality of their lives considerably.**
+
+&nbsp;
 
 Lastly, Nakamura answered about his own career as follows.
 
