@@ -25,8 +25,8 @@ Nakamura first encountered the term "BMI" when he was in junior high school.
 
 > When I was in junior high school, **there was a special feature on artificial retina in MIT Review or something**.
 > The research was rudimentary compared to today, but it was about restoring vision to people who had lost their sight because the photoreceptors at the back of their retinas had died.
-> In the study, they tried to send visual signals to the brain by directly stimulating the RGCs (Retinal Ganglion Cells),which is located in front of the photoreceptors.
-> In that study, the patient could only recognize the input image with a resolution of approximately 4×4,but I thought **it was interesting, just like Japanese anime called Ghost in the Shell**.
+> In the study, they tried to send visual signals to the brain by directly stimulating the [RGCs](https://shorturl.at/cfrNP) （Retinal Ganglion Cells),which is located in front of the photoreceptors.
+> In that study, the patient could only recognize the input image with a resolution of approximately 4×4,but I thought **it was interesting, just like Japanese anime called [Ghost in the Shell](https://en.wikipedia.org/wiki/Ghost_in_the_Shell)**.
 > This was my initial motivation.
 
 The idea of an artificial retina being able to provide a visual experience by directly stimulating the brain is very appealing.
@@ -161,7 +161,7 @@ As for the direction of development of BMI, he says that **there are only a limi
 > It is difficult to say the boudary between invasive and non-invasive. Is it invasive if the skull is opened, or is it invasive if nanorobots are placed inside a blood vessel to measure the activity inside the body?
 > I'm not sure if it's really invasive or non-invasive, but at the very least
 > **it would be difficult to manage with EEG.**
-> If not EEG, ultrasound modulation and imaging are probably more practical than EEG, and then there is optogenetics. If they are non-invasive, I think they have potential.
+> If not EEG, ultrasound modulation and imaging are probably more practical than EEG, and then there is [optogenetics](<https://en.wikipedia.org/wiki/Optogenetics#:~:text=Optogenetics%20is%20a%20biological%20technique,express%20light%2Dsensitive%20ion%20channels.&text=Control%20(or%20recording)%20of%20activity,spatiotemporal%2Dspecific%20manner%20by%20light.>). If they are non-invasive, I think they have potential.
 
 > Invasion, too, has some difficulties in its way, but when I think of the many patients participating in trials such as artificial retina, I think **they will do it without hesitation if it will change the quality of their lives considerably.**
 
