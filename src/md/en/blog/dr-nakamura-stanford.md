@@ -2,7 +2,7 @@
 title: "Toward the Practical Use of Artificial Retinas. A Japanese Researcher at Stanford University｜Hayato Nakamura"
 description: "We interviewed Hayato Nakamura, who studied at Boston University from his first year as an undergraduate and is now a doctoral student at Stanford University. We discussed his career to date, the challenges of artificial retinas, and the future direction of BMI research."
 datePublished: "2021/10/24"
-bannerPhoto: "/img/dr-nakamura-stanford/cover.jpg"
+bannerPhoto: "/img/dr-nakamura-stanford/cover.jpeg"
 category: "Interview"
 ---
 

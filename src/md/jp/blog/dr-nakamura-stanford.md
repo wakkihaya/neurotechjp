@@ -2,7 +2,7 @@
 title: "人工網膜の実用化に向けて。スタンフォード大学で活躍する日本人研究者｜Hayato Nakamura"
 description: "今回は、学部1年生からボストン大学に留学した後、現在はスタンフォード大学の博士課程に進学し、今後は人工網膜の研究をされていく中村勇人さんに、自身のこれまでの経歴と、人工網膜の持つ課題、さらにはBMI研究の今後の方向性などについて伺った。"
 datePublished: "2021/10/24"
-bannerPhoto: "/img/dr-nakamura-stanford/cover.jpg"
+bannerPhoto: "/img/dr-nakamura-stanford/cover.jpeg"
 category: "インタビュー"
 ---
 
