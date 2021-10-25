@@ -59,7 +59,7 @@ const AboutPage: React.FC = () => {
               linkedInLink="https://www.linkedin.com/in/nao-yukawa-331615207/"
               fbLink="https://www.facebook.com/nao.yukawa.56"
               name="湯川 直旺 Nao Yukawa"
-              role="インタビュアー"
+              role="インタビュアー/ライター"
               description=" 東京大学工学部4年生。現在は同大学の松尾研究室で深層学習関連の研究を行う傍ら、米国SanFranciscoにてInternational Businessを学んでいる。
               Elon Musk率いるNeuralinkのように、ビジネスとNeurotechnologyを組み合わせることで、神経科学の発展に寄与することが目標。"
               image="/img/about/Nao_Yukawa.jpg"

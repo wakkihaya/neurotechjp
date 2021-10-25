@@ -64,7 +64,7 @@ const AboutPage: React.FC = () => {
               linkedInLink="https://www.linkedin.com/in/nao-yukawa-331615207/"
               fbLink="https://www.facebook.com/nao.yukawa.56"
               name="Nao Yukawa"
-              role="Interviewer"
+              role="Interviewer/Writer"
               description="A senior majoring in Engineering at the University of Tokyo.
                 While he is doing research on deep learning at an AI research
                 lab in the same university, he is also studying International
