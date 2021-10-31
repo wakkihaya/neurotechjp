@@ -161,14 +161,14 @@ const HamburgerMenu: React.FC<HeaderDeviceProps> = ({ lang, device }) => {
   );
 };
 
-//2021/10/6: Display Banner to install the report analytics only in Japanese.
+//2021/10/31: Display Banner to install the report analytics only in Japanese.
 const RenderBanner: React.FC<HeaderProps> = props => {
   const { lang } = props;
   if (lang === "JP") {
     return (
       <Banner>
         <p>
-          Neurotech企業およそ200社の分析レポートを無料公開！詳細は
+          Neurotech市場の投資状況まとめレポートを無料公開！詳細は
           <Link href="/jp/slides">こちら</Link>
           から
         </p>
