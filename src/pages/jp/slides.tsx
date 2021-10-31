@@ -42,6 +42,14 @@ const SlidesPage: React.FC = () => {
           Neurotech市場で活躍する、世界各国およそ200社の企業情報をまとめたPDFです。※Neurotech
           Analytics社が提供する資料を著者の許可の元、一部抜粋し日本語翻訳したものです。
         </SlideContent>
+        <SlideContent
+          linkRef="http://eepurl.com/hJSQEf"
+          imgSrc="/img/slides/neurotech-invest-digest.jpg"
+          title="Neurotech アナリティクスレポート  ~vol 2~"
+        >
+          世界のNeurotech市場の投資状況をまとめたPDFです。※Neurotech
+          Analytics社が提供する資料を著者の許可の元、日本語翻訳したものです。
+        </SlideContent>
       </div>
       <Footer />
     </>
