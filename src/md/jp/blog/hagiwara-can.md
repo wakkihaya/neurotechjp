@@ -1,7 +1,7 @@
 ---
 title: "日本のニューロテック黎明期を支える。CANの理事兼事務局長 | 萩原 一平"
 description: "応用脳科学コンソーシアム創設初期から理事・事務局長を勤められている萩原 一平さんにインタビューさせていただき、CAN設立当時からの思いと、現在のニューロテックをどのようにみているのかお聞きした。"
-datePublished: '2021/11/07'
+datePublished: '2021/11/08'
 bannerPhoto: '/img/hagiwara-can/ogp.png'
 category: "インタビュー"
 ---
