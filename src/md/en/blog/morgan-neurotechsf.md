@@ -2,7 +2,7 @@
 title: "Support Scientists with Open Source Software. Chapter Lead at NeurotechX SF｜Morgan Hough"
 description: "For this interview, we had an opportunity to interview Morgan Hough, the chapter lead at NeurotechX San Francisco. We discussed his background in open source software development and the operatino of the neurotech community."
 datePublished: "2021/11/21"
-bannerPhoto: "/img/bci-award-2021/cover.jpg"
+bannerPhoto: "/img/morgan-neurotechsf/cover.jpg"
 category: "Interview"
 ---
 
@@ -12,13 +12,13 @@ As neurotech is receiving more attention, several neurotech-related communities 
 
 Currently, NeurotechX has 30 city chapters worldwide, and more than 6,000 people are participating in its Slack.
 
-For this, we had the opportunity to interview [Morgan Hough](https://www.linkedin.com/in/morgan-g-hough/), the chapter lead at NeurotechX San Francisco. We discussed his background in open source software development and the operation of the neurotech community.
+This time, we had the opportunity to interview [Morgan Hough](https://www.linkedin.com/in/morgan-g-hough/), the chapter lead at NeurotechX San Francisco. We discussed his background in open source software development and the operation of the neurotech community.
 
 &nbsp;
 
-## Software development to support scientific research
+## With a passion for software development from an early age, he contributes to the advancement of science
 
-Morgan entered St.John's College in 1989, and studied liberal arts there. However, his original interest in science, plus a visit to Oxford University, led him to want to become a psychiatrist. At the time, it was difficult for students from countries with medical schools, such as the United States, to gain admission, so he decided to pursue a post baccalaureate.
+Morgan entered St.John's College in 1989, and studied liberal arts there. However, his original interest in science, plus a visit to Oxford University, led him to want to become a psychiatrist. At the time, it was difficult for students from countries with medical schools, such as the United States, to gain admission to enter medical school at Oxford, so he decided to pursue a post baccalaureate.
 
 In order to take the MCAT test, which was required for psychiatrists, Morgan searched for a university where he could study biology, chemistry, and other subjects necessary for the MCAT, and enrolled at Reed College. At Reed College, he enjoyed his introduction to science doing research on crustacean neurobiology.
 
@@ -32,7 +32,7 @@ In order to take the MCAT test, which was required for psychiatrists, Morgan sea
 
 &nbsp;
 
-After graduating from Reed College, he took the MCAT exam. Although he scored well, he was not accepted by Oxford University. He then decided to look for an internship in his home state of Virginia, and started working at CBRAINS (Center for Brain Research and INformation Sciences) at Radford University under [Karl Pribrum](https://en.wikipedia.org/wiki/Karl_H._Pribram), who was then a professor emeritus at Stanford University. At CBRAINS, he was mainly involved in **prototype testing of a high-density EEG system made by a company called [Electrical Geodesics](https://www.egi.com/)**. It was a perfect project for Morgan.
+After graduating from Reed College, he took the MCAT exam. Although he scored well, he was not accepted by Oxford University. He then decided to look for an internship in his home state of Virginia, and started working at CBRAINS (Center for Brain Research and INformation Sciences) at Radford University under [Karl Pribrum](https://en.wikipedia.org/wiki/Karl_H._Pribram), who was then a professor emeritus at Stanford University. At CBRAINS, he was mainly involved in **prototype testing of a high-density EEG system made by a company called [EGI (Electrical Geodesics, Inc)](https://www.egi.com/)**. It was a perfect project for Morgan.
 
 > Karl gave me the EGI (Electro Geodesics, Inc) system, which ran on a Mac.
 > That was pretty rare for especially a high-end scientific equipment.
@@ -58,7 +58,7 @@ Morgan says that his experience at EGI was invaluable, not only because he got t
 
 &nbsp;
 
-## Open source is the future
+## Convinced that open source was the future. An encounter at NeurIPS led to Oxford
 
 After more than two years at EGI, Morgan left it because he thought that MRI would be the future. Since he had always been interested in software, he knew most of the competing software packages for MRI. **The strongest of them were [CURRY](https://compumedicsneuroscan.com/curry-epilepsy-evaluation/) and [FreeSurfer](https://surfer.nmr.mgh.harvard.edu/)**.
 
@@ -80,7 +80,7 @@ The more he learned about these software packages and the engineers behind them,
 > It gets to this point about being kind of like obsessed about how the software was working and what exactly were you using to do these things, because you wouldn't want to rewrite all this stuff, right?
 > So this is also where I became pretty convinced that open source was the future.
 
-In fact, in 2001, the year he retired from EGI, the United States was hit by a series of terrorist attacks, and in anticipation of the growing need for effective treatments for trauma, PTSD, and depression caused by the global war on terror, Morgan started [Center17](https://center17.ghost.io/), an open source experimental physics/biology code/hardware development for biophysics-based neuropsychiatric artificial intelligence applications.
+In fact, in 2001, the year he retired from EGI, he started an open source project called [Center17](https://center17.ghost.io/). At that time, the United States was hit by a series of terrorist attacks. It was an experimental physics/biology code/hardware development for biophysics-based neuropsychiatric artificial intelligence applications, in anticipation of the growing need for effective treatments for trauma, PTSD, and depression caused by the global war on terror.
 
 &nbsp;
 
@@ -101,7 +101,7 @@ _Image: NeuroFedora website_
 
 &nbsp;
 
-## Encounter with NeurotechX
+## Encounter with NeurotechX, a community with San Franciscan spirit
 
 Morgan is now the chapter lead of NeruotechX SF, but NeurotechX itself was originally started by Yanic Roy and others. Morgan first met them when he saw their first showcase at Indiegogo. Interested in NeurotechX, Morgan offered to provide the system he had originally used when he was at EGI. In exchange, they let Morgan use their garage.
 
@@ -132,7 +132,7 @@ _Image:Hack Night 11/08/2021 led by NeurotechX SF. The recording is available on
 
 &nbsp;
 
-## Community building and open source
+## As with open source, truly valuable content will form a community through network effects
 
 Morgan describes the philosophy of open source as follows.
 
