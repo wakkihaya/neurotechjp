@@ -50,7 +50,7 @@ _Video: Introduction to Synchron's award-winning research_
 
 &nbsp;
 
-## 2nd place: A direct-speech BCI for decoding words and sentences in a person with severe paralysis andanarthria
+## 2nd place: A direct-speech BCI for decoding words and sentences in a person with severe paralysis Anarthria
 
 The [Chang Lab](http://changlab.ucsf.edu/) led by [Edward Chang](https://profiles.ucsf.edu/edward.chang), a professor of neurosurgery at UCSF, won second place.
 
