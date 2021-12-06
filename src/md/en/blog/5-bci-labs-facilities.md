@@ -14,9 +14,9 @@ In this article, we will focus on five of the most notable university laboratori
 
 &nbsp;
 
-## 1. Change Lab at UCSF
+## 1. Chang Lab at UCSF
 
-[Change Lab](http://changlab.ucsf.edu/) is a lab led by Edward Chang at the University of California San Francisco (UCSF). The lab is dedicated to **unraveling the basic mechanisms that underlie our ability to perceive and produce speech**. [Edward Chang](https://profiles.ucsf.edu/edward.chang), a director of the lab, holds degrees in neurosurgery and cognitive neuroscience from UCSF and UC Berkeley, and is currently Professor of Neurosurgery and Chairman of the Department of Neurosurgery at UCSF.
+[Chang Lab](http://changlab.ucsf.edu/) is a lab led by Edward Chang at the University of California San Francisco (UCSF). The lab is dedicated to **unraveling the basic mechanisms that underlie our ability to perceive and produce speech**. [Edward Chang](https://profiles.ucsf.edu/edward.chang), a director of the lab, holds degrees in neurosurgery and cognitive neuroscience from UCSF and UC Berkeley, and is currently Professor of Neurosurgery and Chairman of the Department of Neurosurgery at UCSF.
 
 &nbsp;
 

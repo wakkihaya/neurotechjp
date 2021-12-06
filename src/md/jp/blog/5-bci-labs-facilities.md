@@ -14,9 +14,9 @@ NeurotechJP の記事では[分野ごとに活躍するスタートアップを 
 
 &nbsp;
 
-## 1. Change Lab at UCSF
+## 1. Chang Lab at UCSF
 
-[Change Lab](http://changlab.ucsf.edu/)は、University of California San Francisco(UCSF)にある、Edward Chang 率いる研究室だ。同研究室は**人間が音声を生成したり知覚する能力を支える基本的なメカニズムの解明**に取り組む。室長の[Edward Chang](https://profiles.ucsf.edu/edward.chang)は、UCSF や UC Berkeley にて神経外科学や認知神経科学の学位を取得後、現在は UCSF の神経外科学の教授ならびに神経外科学部門の議長を務める。
+[Chang Lab](http://changlab.ucsf.edu/)は、University of California San Francisco(UCSF)にある、Edward Chang 率いる研究室だ。同研究室は**人間が音声を生成したり知覚する能力を支える基本的なメカニズムの解明**に取り組む。室長の[Edward Chang](https://profiles.ucsf.edu/edward.chang)は、UCSF や UC Berkeley にて神経外科学や認知神経科学の学位を取得後、現在は UCSF の神経外科学の教授ならびに神経外科学部門の議長を務める。
 
 &nbsp;
 
