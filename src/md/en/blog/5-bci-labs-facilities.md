@@ -76,7 +76,7 @@ The Center for Neurotechnology, a facility of the university mentioned above, ha
 
 ## 3. Neural Prosthetics Systems Lab at Stanford
 
-The [Neural Prosthetics Systems Lab (NPSL)](https://shenoy.people.stanford.edu/) is a lab led by Krishna Shenoy at Stanford University. The lab conducts **research in neuroscience and neuroengineering to understand how the brain controls movement and to design medical systems to help people with paralysis**. Director [Krishna Shenoy](https://shenoy.people.stanford.edu/krishna-shenoy) received degrees in philosophy, electrical engineering, computer science, and neuroscience from MIT and CalTech before moving to Stanford University in 2001. He moved to Stanford University in 2001, where he is currently a Professor of Electrical Engineering and of Bioengineering and Neurobiology. Additionally, he advises Neuralink and CTRL-Labs(acquired by Facebook in 2019).
+The [Neural Prosthetics Systems Lab (NPSL)](https://shenoy.people.stanford.edu/) is a lab led by Krishna Shenoy at Stanford University. The lab conducts **research in neuroscience and neuroengineering to understand how the brain controls movement and to design medical systems to help people with paralysis**. Director [Krishna Shenoy](https://shenoy.people.stanford.edu/krishna-shenoy) received degrees in electrical engineering, computer science from MIT and was a postdoctoral fellow in Neurobiology at Caltech. He moved to Stanford University in 2001, where he is currently a Professor of Electrical Engineering and of Bioengineering and Neurobiology. Additionally, he advises Neuralink and CTRL-Labs(acquired by Facebook in 2019).
 
 &nbsp;
 

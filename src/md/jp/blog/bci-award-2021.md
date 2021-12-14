@@ -74,7 +74,7 @@ _動画: Synchron の受賞研究紹介_
 
 彼らのアルゴリズムは 50 個の単語を区別するよう学習され、**1000 個以上の文**を作成することができる。
 
-また、**1 分間に 15 個**の単語を平均**74%の**制度で解読することができたという。
+また、**1 分間に 15 個**の単語を平均**74%の**精度で解読することができたという。
 
 [![Chang-lab youtube](https://neurotechjp.com/img/bci-award-2021/ucsf-chang-lab-1.jpg)](https://youtu.be/sJj6bKLr_lQ)
 _動画: Chang Lab の受賞研究紹介_

@@ -30,7 +30,7 @@ NeurotechJP の記事では[分野ごとに活躍するスタートアップを 
 
 _動画: 言語障害者が意図した思考をリアルタイムで解読できた研究_
 
-このアルゴリズムは、**50 個の単語**を区別し、**1000 個以上の文**を作成することができ、**1 分間に 15 個**の単語を平均**74%の**制度で解読することができたという。
+このアルゴリズムは、**50 個の単語**を区別し、**1000 個以上の文**を作成することができ、**1 分間に 15 個**の単語を平均**74%の**精度で解読することができたという。
 
 この研究は、[BCI Award 2021](https://www.bci-award.com/2021)にて 2 位を受賞しており、NeurotechJP でも「**[世界トップレベルの祭典「BCI Award 2021」：Top2 の研究を解説](https://neurotechjp.com/jp/blog/bci-award-2021/)**」にて詳しく解説している。
 
@@ -75,7 +75,7 @@ BCI の研究は以下の 4 つのプロジェクトに分類される。
 
 ## 3. Neural Prosthetics Systems Lab at Stanford
 
-[Neural Prosthetics Systems Lab(NPSL)](https://shenoy.people.stanford.edu/)は、スタンフォード大学にある、Krishna Shenoy 率いる研究室だ。同研究室は**神経科学、神経工学などの研究を行うことで、脳がどのように動きをコントロールしているのかを理解し、麻痺障害のある人を支援する医療システム**を設計する。ディレクターの[Krishna Shenoy](https://shenoy.people.stanford.edu/krishna-shenoy)は MIT や CalTech で哲学・電気工学・コンピュータサイエンス・神経科学の学位を取得後、2001 年から Stanford 大学に移り、現在は、電気工学と生物工学・神経生物学の教授を務める。加えて、Neuralink や(2019 年 Facebook に買収された)CTRL-Labs のアドバイザリーも務める。
+[Neural Prosthetics Systems Lab(NPSL)](https://shenoy.people.stanford.edu/)は、スタンフォード大学にある、Krishna Shenoy 率いる研究室だ。同研究室は**神経科学、神経工学などの研究を行うことで、脳がどのように動きをコントロールしているのかを理解し、麻痺障害のある人を支援する医療システム**を設計する。ディレクターの[Krishna Shenoy](https://shenoy.people.stanford.edu/krishna-shenoy)は MIT で電気工学・コンピュータサイエンスの学位を取得、Caltech で Neurobiology のポスドクをした後、2001 年から Stanford 大学に移り、現在は、電気工学と生物工学・神経生物学の教授を務める。加えて、Neuralink や(2019 年 Facebook に買収された)CTRL-Labs のアドバイザリーも務める。
 
 &nbsp;
 
