@@ -25,7 +25,7 @@ NeurotechJP では、BCI Guys の代表である[Harrison Canning にインタ�
 
 ## [2. NeurotechX](https://neurotechx.com/)
 
-[NeurotechX](https://neurotechx.com/)は、ニューロテック愛好家のための国際コミュニティだ。① コミュニティ、② エデュケーション、③ プロフェッショナルデベロップメントの 3 つを柱として活動している。 **NeurotechX のコンテンツの中でも特筆すべきは、実装に特化している[NeurotechEDU](http://learn.neurotechedu.com/lessons/)だ。**EEG に関連する実装に特化した教育コンテンツと神経科学の導入のコンテンツが提供されている。
+[NeurotechX](https://neurotechx.com/)は、ニューロテック愛好家のための国際コミュニティだ。① コミュニティ、② エデュケーション、③ プロフェッショナルデベロップメントの 3 つを柱として活動している。 **NeurotechX のコンテンツの中でも特筆すべきは、実装に特化している[NeurotechEDU](http://learn.neurotechedu.com/lessons/)だ**。EEG に関連する実装に特化した教育コンテンツと神経科学の導入のコンテンツが提供されている。
 
 ![NeurotechEDU](https://neurotechjp.com/img/5-learning-contents-bci/neurotechx.jpg)
 _NeurotechEDU コンテンツ一覧_
@@ -40,13 +40,13 @@ _NeurotechEDU コンテンツ一覧_
 
 ![Neurotech Berkeley](https://neurotechjp.com/img/5-learning-contents-bci/neurotech-berkeley.jpg)
 
-Neurotech Berkeley のコンテンツは基本的に Github 上にまとめられており、中でも[Neurotech-Course](https://github.com/neurotech-berkeley/neurotech-course)には、スライドとビデオのリンクだけでなく、**信号分析などのチュートリアル Jupyter notebook の他にも Python のデータ分析や[fMRI の Colaboratory](https://colab.research.google.com/drive/1CsEhFTNMTvhTL0x-2CUqFLFgxE6e0XXJ#forceEdit=true&sandboxMode=true)までも公開されており、世界トップレベルの知のノウハウにアクセスできるようになっている。**TMS や fMRI を使って研究を進めようとしている人へのコンテンツが揃っているのが特徴だ。
+Neurotech Berkeley のコンテンツは基本的に Github 上にまとめられており、中でも[Neurotech-Course](https://github.com/neurotech-berkeley/neurotech-course)には、スライドとビデオのリンクだけでなく、**信号分析などのチュートリアル Jupyter notebook の他にも Python のデータ分析や[fMRI の Colaboratory](https://colab.research.google.com/drive/1CsEhFTNMTvhTL0x-2CUqFLFgxE6e0XXJ#forceEdit=true&sandboxMode=true)までも公開されており、世界トップレベルの知のノウハウにアクセスできるようになっている**。TMS や fMRI を使って研究を進めようとしている人へのコンテンツが揃っているのが特徴だ。
 
 &nbsp;
 
 ## [4. Spring school by G.tec](https://www.gtec.at/)
 
-[g.tec medical engineering](https://www.gtec.at/)は 1999 年より研究や臨床向けの侵襲、非侵襲両方の記録のための高性能な BCI や、ニューロテクノロジーを開発・製造している企業である。そんな g.tec によって提供されているのが[SPRING SCHOOL](https://www.gtec.at/spring-school-2022/)だ。10 日間のオンライン教育プログラムとなっており、毎日 5-6 時間にわたって g.tec の製品を使った解説をしてくれる。**実のところ本来は 980 EURO（日本円だと約 12 万円強）するセミナーだが、コロナ禍の 2021 年は無料で提供された。**既に Youtube でも公開されている。
+[g.tec medical engineering](https://www.gtec.at/)は 1999 年より研究や臨床向けの侵襲、非侵襲両方の記録のための高性能な BCI や、ニューロテクノロジーを開発・製造している企業である。そんな g.tec によって提供されているのが[SPRING SCHOOL](https://www.gtec.at/spring-school-2022/)だ。10 日間のオンライン教育プログラムとなっており、毎日 5-6 時間にわたって g.tec の製品を使った解説をしてくれる。**実のところ本来は 980 EURO（日本円だと約 12 万円強）するセミナーだが、コロナ禍の 2021 年は無料で提供された**。既に Youtube でも公開されている。
 
 [![G tec youtube](https://neurotechjp.com/img/5-learning-contents-bci/g-tec.jpg)](https://youtu.be/KbMlfMAPIak)
 _Youtube: Spring School Day 1 by G.tec_
