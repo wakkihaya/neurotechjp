@@ -14,7 +14,7 @@ category: "コラム"
 
 ## [1. BCI Guys](https://www.bciguys.com/home)
 
-BCI の入門書と呼べるようなコンテンツを提供しているのが、[BCI Guys](https://www.bciguys.com/home)だ。ニューロサイエンスの基礎とニューロテックの概念を Youtube の動画でわかりやすく説明している。[BCI Guys のコース一覧](https://www.bciguys.com/course)を見ていただけるとわかるように、Lesson1 から Lesson10 までにわたって、Neurotechnology の導入から歴史、神経解剖学の基礎、脳機能と神経科学、ニューロテクノロジーのタイプ、ニューロモデュレーションと脳機能強化、BCI とメソッド、神経倫理と文化への配慮、業界関係者、と幅広く概観できるようになっている。
+BCI の入門書と呼べるようなコンテンツを提供しているのが、[BCI Guys](https://www.bciguys.com/home)だ。ニューロサイエンスの基礎とニューロテックの概念を Youtube の動画でわかりやすく説明している。[BCI Guys のコース一覧](https://www.bciguys.com/course)を見ていただけるとわかるように、Lesson1 から Lesson10 までにわたって、**Neurotechnology の導入から歴史、神経解剖学の基礎、脳機能と神経科学、ニューロテクノロジーのタイプ、ニューロモデュレーションと脳機能強化、BCI とメソッド、神経倫理と文化への配慮、業界関係者、と幅広く概観できるようになっている。**
 
 [![BCI Guys youtube](https://neurotechjp.com/img/5-learning-contents-bci/bci-guys.jpg)](https://youtu.be/_V0-UzR0wuo)
 _Youtube: BCI Guys_
@@ -25,7 +25,7 @@ NeurotechJP では、BCI Guys の代表である[Harrison Canning にインタ�
 
 ## [2. NeurotechX](https://neurotechx.com/)
 
-[NeurotechX](https://neurotechx.com/)は、ニューロテック愛好家のための国際コミュニティだ。① コミュニティ、② エデュケーション、③ プロフェッショナルデベロップメントの 3 つを柱として活動している。NeurotechX のコンテンツの中でも特筆すべきは、実装に特化している[NeurotechEDU](http://learn.neurotechedu.com/lessons/)だ。EEG に関連する実装に特化した教育コンテンツと神経科学の導入のコンテンツが提供されている。
+[NeurotechX](https://neurotechx.com/)は、ニューロテック愛好家のための国際コミュニティだ。① コミュニティ、② エデュケーション、③ プロフェッショナルデベロップメントの 3 つを柱として活動している。 **NeurotechX のコンテンツの中でも特筆すべきは、実装に特化している[NeurotechEDU](http://learn.neurotechedu.com/lessons/)だ。**EEG に関連する実装に特化した教育コンテンツと神経科学の導入のコンテンツが提供されている。
 
 ![NeurotechEDU](https://neurotechjp.com/img/5-learning-contents-bci/neurotechx.jpg)
 _NeurotechEDU コンテンツ一覧_
@@ -40,13 +40,13 @@ _NeurotechEDU コンテンツ一覧_
 
 ![Neurotech Berkeley](https://neurotechjp.com/img/5-learning-contents-bci/neurotech-berkeley.jpg)
 
-Neurotech Berkeley のコンテンツは基本的に Github 上にまとめられており、中でも[Neurotech-Course](https://github.com/neurotech-berkeley/neurotech-course)には、スライドとビデオのリンクだけでなく、信号分析などのチュートリアル Jupyter notebook の他にも Python のデータ分析や[fMRI の Colaboratory](https://colab.research.google.com/drive/1CsEhFTNMTvhTL0x-2CUqFLFgxE6e0XXJ#forceEdit=true&sandboxMode=true)までも公開されており、世界トップレベルの知のノウハウにアクセスできるようになっている。TMS や fMRI を使って研究を進めようとしている人へのコンテンツが揃っているのが特徴だ。
+Neurotech Berkeley のコンテンツは基本的に Github 上にまとめられており、中でも[Neurotech-Course](https://github.com/neurotech-berkeley/neurotech-course)には、スライドとビデオのリンクだけでなく、**信号分析などのチュートリアル Jupyter notebook の他にも Python のデータ分析や[fMRI の Colaboratory](https://colab.research.google.com/drive/1CsEhFTNMTvhTL0x-2CUqFLFgxE6e0XXJ#forceEdit=true&sandboxMode=true)までも公開されており、世界トップレベルの知のノウハウにアクセスできるようになっている。**TMS や fMRI を使って研究を進めようとしている人へのコンテンツが揃っているのが特徴だ。
 
 &nbsp;
 
 ## [4. Spring school by G.tec](https://www.gtec.at/)
 
-[g.tec medical engineering](https://www.gtec.at/)は 1999 年より研究や臨床向けの侵襲、非侵襲両方の記録のための高性能な BCI や、ニューロテクノロジーを開発・製造している企業である。そんな g.tec によって提供されているのが[SPRING SCHOOL](https://www.gtec.at/spring-school-2022/)だ。10 日間のオンライン教育プログラムとなっており、毎日 5-6 時間にわたって g.tec の製品を使った解説をしてくれる。実のところ本来は 980 EURO（日本円だと約 12 万円強）するセミナーだが、コロナ禍の 2021 年は無料で提供された。既に Youtube でも公開されている。
+[g.tec medical engineering](https://www.gtec.at/)は 1999 年より研究や臨床向けの侵襲、非侵襲両方の記録のための高性能な BCI や、ニューロテクノロジーを開発・製造している企業である。そんな g.tec によって提供されているのが[SPRING SCHOOL](https://www.gtec.at/spring-school-2022/)だ。10 日間のオンライン教育プログラムとなっており、毎日 5-6 時間にわたって g.tec の製品を使った解説をしてくれる。**実のところ本来は 980 EURO（日本円だと約 12 万円強）するセミナーだが、コロナ禍の 2021 年は無料で提供された。**既に Youtube でも公開されている。
 
 [![G tec youtube](https://neurotechjp.com/img/5-learning-contents-bci/g-tec.jpg)](https://youtu.be/KbMlfMAPIak)
 _Youtube: Spring School Day 1 by G.tec_
@@ -62,7 +62,7 @@ _Youtube: Spring School Day 1 by G.tec_
 ![Neuromatch](https://neurotechjp.com/img/5-learning-contents-bci/neuromatch.jpg)
 _画像: Neuromatch ウェブサイト_
 
-[Neuromatch Academy](http://academy.neuromatch.io)は計算論的神経科学を学べる[NMA-CN](https://github.com/NeuromatchAcademy/course-content):(Neuromatch Computational Neuroscience)とディープラーニングを学べる[NMA-DL](https://github.com/NeuromatchAcademy/course-content-dl):(Neuromatch Deep Learning)とに分けられており、それぞれシラバスが Github 上に用意されている。これらのコンテンツは 15 日間の Summer School で[カリキュラム化](https://academy.neuromatch.io/nma2020/course-materials)されており、世界中の人々と一緒に学ぶことができる。
+[Neuromatch Academy](http://academy.neuromatch.io)は計算論的神経科学を学べる[NMA-CN](https://github.com/NeuromatchAcademy/course-content):(Neuromatch Computational Neuroscience)とディープラーニングを学べる[NMA-DL](https://github.com/NeuromatchAcademy/course-content-dl):(Neuromatch Deep Learning)とに分けられており、それぞれシラバスが Github 上に用意されている。**これらのコンテンツは 15 日間の Summer School で[カリキュラム化](https://academy.neuromatch.io/nma2020/course-materials)されており、世界中の人々と一緒に学ぶことができる。**
 
 [Neuromatch Conference](http://conference.neuromatch.io)は計算論的神経科学コミュニティのためのカンファレンスであり、[アジェンダ](https://conference.neuromatch.io/agenda)を確認するとキーノート、パネルセッション、ショートトーク、フラッシュトークに分かれており[クラウドキャスト](https://www.crowdcast.io/e/nmc4)のサービスから見ることができる。また、[Discord サーバー](https://conference.neuromatch.io/instructions/how-to-discord/)も用意されておりトークごとに質問や議論をすることが可能になっている。
 

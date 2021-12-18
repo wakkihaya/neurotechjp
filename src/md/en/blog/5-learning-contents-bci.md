@@ -14,7 +14,7 @@ NeurotechJP has been introducing various products and content through interviews
 
 ## [1. BCI Guys](https://www.bciguys.com/home)
 
-The [BCI Guys](https://www.bciguys.com/home) provides content that could be called an introduction to BCI. They explain the basics of neuroscience and the concept of neurotech in an easy-to-understand manner through Youtube videos. As you can see in the [BCI Guys course list](https://www.bciguys.com/course), from Lesson 1 to Lesson 10, the course covers the following topics: introduction and history of neurotechnology, basic neuroanatomy, brain function and neuroscience, types of neurotechnology, and neuroscience. Neurotechnology types, neuromodulation and brain function enhancement, BCI and methods, neuroethics and cultural considerations, and industry players.
+The [BCI Guys](https://www.bciguys.com/home) provides content that could be called an introduction to BCI. They explain the basics of neuroscience and the concept of neurotech in an easy-to-understand manner through Youtube videos. As you can see in the [BCI Guys course list](https://www.bciguys.com/course), from Lesson 1 to Lesson 10, **the course covers the following topics: introduction and history of neurotechnology, basic neuroanatomy, brain function and neuroscience, types of neurotechnology, and neuroscience. Neurotechnology types, neuromodulation and brain function enhancement, BCI and methods, neuroethics and cultural considerations, and industry players.**
 
 [![BCI Guys youtube](https://neurotechjp.com/img/5-learning-contents-bci/bci-guys.jpg)](https://youtu.be/_V0-UzR0wuo)
 _Youtube: BCI Guys_
@@ -26,7 +26,7 @@ _Youtube: BCI Guys_
 ## [2. NeurotechX](https://neurotechx.com/)
 
 [NeurotechX](https://neurotechx.com/) is an international community for neurotech enthusiasts. The three pillars of NeurotechX are (1) community, (2) education, and (3) professional development.
-The most notable of NeurotechX's contents is the implementation-focused [NeurotechEDU](http://learn.neurotechedu.com/lessons/), which provides implementation-focused educational content related to EEG and an introduction to neuroscience.
+**The most notable of NeurotechX's contents is the implementation-focused [NeurotechEDU](http://learn.neurotechedu.com/lessons/),** which provides implementation-focused educational content related to EEG and an introduction to neuroscience.
 
 ![NeurotechEDU](https://neurotechjp.com/img/5-learning-contents-bci/neurotechx.jpg)
 _NeurotechEDU Table of Contents_
@@ -42,13 +42,13 @@ It is divided into [six divisions](https://neurotech.berkeley.edu/divisions.html
 
 ![Neurotech Berkeley](https://neurotechjp.com/img/5-learning-contents-bci/neurotech-berkeley.jpg)
 
-Neurotech Berkeley's content is basically organized on Github, with [Neurotech-Course](https://github.com/neurotech-berkeley/neurotech-course) containing links to slides and videos as well as tutorials on signal analysis and other topics in Jupyter notebook, Python data analysis, and the [fMRI Collaboratory](https://colab.research.google.com/drive/1). This is a great resource for those who are interested in using TMS and fMRI in their research.
+Neurotech Berkeley's content is basically organized on Github, with [Neurotech-Course](https://github.com/neurotech-berkeley/neurotech-course) containing links to slides and videos as well as **tutorials on signal analysis and other topics in Jupyter notebook, Python data analysis, and the [fMRI Collaboratory](https://colab.research.google.com/drive/1).** This is a great resource for those who are interested in using TMS and fMRI in their research.
 
 &nbsp;
 
 ## [4. Spring school by G.tec](https://www.gtec.at/)
 
-[g.tec medical engineering](https://www.gtec.at/) has been developing and manufacturing high-performance BCI and neurotechnology for both invasive and non-invasive recording for research and clinical use since 1999. g.tec offers [SPRING SCHOOL](https://www.gtec.at/spring-school-2022/), a 10-day online educational program that provides 5-6 hours of daily instruction using g.tec products. In fact, the seminar originally cost 980 EURO (about 120,000 yen), but it was offered for free by Corona Peripherals 2021. It is already available on Youtube.
+[g.tec medical engineering](https://www.gtec.at/) has been developing and manufacturing high-performance BCI and neurotechnology for both invasive and non-invasive recording for research and clinical use since 1999. g.tec offers [SPRING SCHOOL](https://www.gtec.at/spring-school-2022/), a 10-day online educational program that provides 5-6 hours of daily instruction using g.tec products. **In fact, the seminar originally cost 980 EURO (about 120,000 yen), but it was offered for free by Corona Peripherals 2021.** It is already available on Youtube.
 
 [![G tec youtube](https://neurotechjp.com/img/5-learning-contents-bci/g-tec.jpg)](https://youtu.be/KbMlfMAPIak)
 _Youtube: Spring School Day 1 by G.tec_
@@ -64,7 +64,7 @@ In addition, [BR41N.IO](https://www.br41n.io/)(stands for THE BRAIN-COMPUTER INT
 ![Neuromatch](https://neurotechjp.com/img/5-learning-contents-bci/neuromatch.jpg)
 _Image: Neuromatch Website_
 
-[Neuromatch Academy](https://academy.neuromatch.io/) is divided into [NMA-CN(Neuromatch Computational Neuroscience)](https://github.com/NeuromatchAcademy/course-content) for computational neuroscience and [NMA-DL(Neuromatch Deep Learning)](https://github.com/NeuromatchAcademy/course-content-dl) for deep learning. The syllabus for each is available on Github. These contents are organized into [a 15-day Summer School curriculum](https://academy.neuromatch.io/nma2020/course-materials), where you can learn together with people from all over the world.
+[Neuromatch Academy](https://academy.neuromatch.io/) is divided into [NMA-CN(Neuromatch Computational Neuroscience)](https://github.com/NeuromatchAcademy/course-content) for computational neuroscience and [NMA-DL(Neuromatch Deep Learning)](https://github.com/NeuromatchAcademy/course-content-dl) for deep learning. The syllabus for each is available on Github. **These contents are organized into [a 15-day Summer School curriculum](https://academy.neuromatch.io/nma2020/course-materials), where you can learn together with people from all over the world.**
 
 The [Neuromatch Conference](http://conference.neuromatch.io/) is a conference for the computational neuroscience community, and If you check the [agenda](https://www.crowdcast.io/e/nmc4), you will find that it is divided into keynotes, panel sessions, short talks, and flash talks, which can be viewed through the [Cloudcast](https://www.crowdcast.io/e/nmc4) service. There is also a [Discord server](https://conference.neuromatch.io/instructions/how-to-discord/) where you can ask questions and discuss each talk.
 
