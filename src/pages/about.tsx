@@ -74,6 +74,19 @@ const AboutPage: React.FC = () => {
                 founded by Elon Musk, is trying to do."
               image="/img/about/Nao_Yukawa.jpg"
             />
+            <PersonCard
+              twitterLink="https://twitter.com/tomaitagaki"
+              linkedInLink="https://www.linkedin.com/in/tomaitagaki/"
+              fbLink="https://www.neurotechjp.com/"
+              name="Toma Itagaki"
+              role="Interviewer"
+              description="Third-year Neuroscience and Electrical Engineering student at the 
+                           University of Washington researching ubiquitous non-invasive neural 
+                           interfaces and human computer interfaces. Toma’s ultimate goal is 
+                           to quantify the body and mind and develop bio/neuro-inspired 
+                           personalized assistants to improve the Human Experience."
+              image="/img/about/Toma_Itagaki.jpg"
+            />
           </div>
         </div>
         <ContactForm lang="EN" />
