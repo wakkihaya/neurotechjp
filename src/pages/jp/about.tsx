@@ -64,6 +64,15 @@ const AboutPage: React.FC = () => {
               Elon Musk率いるNeuralinkのように、ビジネスとNeurotechnologyを組み合わせることで、神経科学の発展に寄与することが目標。"
               image="/img/about/Nao_Yukawa.jpg"
             />
+            <PersonCard
+              twitterLink="https://twitter.com/tomaitagaki"
+              linkedInLink="https://www.linkedin.com/in/tomaitagaki/"
+              fbLink="https://www.neurotechjp.com/jp/"
+              name="板垣 透馬 Toma Itagaki"
+              role="インタビュアー"
+              description="ワシントン大学神経科学部＋電気工学部３年生。現在はユビキタスなニューロテックやヒューマンコンピュータインタフェースの研究を行っている。脳や体のデータを使って Human Experience を数値化し、バイオ＋ニューロインスパイアされたパーソナルアシスタントを開発することを目標にさまざまな分野の勉強をしている。"
+              image="/img/about/Toma_Itagaki.jpg"
+            />
           </div>
         </div>
         <ContactForm lang="JP" />
