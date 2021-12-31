@@ -51,7 +51,7 @@ Neurotech Berkeley のコンテンツは基本的に Github 上にまとめら�
 [![G tec youtube](https://neurotechjp.com/img/5-learning-contents-bci/g-tec.jpg)](https://youtu.be/KbMlfMAPIak)
 _Youtube: Spring School Day 1 by G.tec_
 
-その他にも、[BR41N.IO](https://www.br41n.io/)(THE BRAIN-COMPUTER INTERFACE DESIGNERS HACKATHON の略)というハッカソンを 2017 年より開催している他、[毎週月曜日にウェビナー](https://www.gtec.at/product/webinars/￥)も開催している。[SPRING SCHOOL 2022](https://www.gtec.at/spring-school-2022/)も 4 月 30 日よりウィーン時間で開催する予定だ。
+その他にも、[BR41N.IO](https://www.br41n.io/)(THE BRAIN-COMPUTER INTERFACE DESIGNERS HACKATHON の略)というハッカソンを 2017 年より開催している他、[毎週月曜日にウェビナー](https://www.gtec.at/product/webinars/)も開催している。[SPRING SCHOOL 2022](https://www.gtec.at/spring-school-2022/)も 4 月 30 日よりウィーン時間で開催する予定だ。
 
 &nbsp;
 
