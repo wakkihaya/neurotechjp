@@ -3,7 +3,7 @@ title: "5 featured startups in Cognitive assessment & enhancing"
 description: "This article will clarify the specific cases and market scale of the technology by introducing five representative startups."
 datePublished: "2021/7/25"
 bannerPhoto: "/img/5-startups-cognitive-assessment/cover.jpg"
-category: "Column"
+category: "Article"
 ---
 
 &nbsp;

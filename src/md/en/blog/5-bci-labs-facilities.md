@@ -3,7 +3,7 @@ title: "5 Featured University Labs/Facilities in BCI"
 description: "In this article, we will focus on five of the most notable university laboratories and research institutions working on BCI."
 datePublished: "2021/12/5"
 bannerPhoto: "/img/5-bci-labs-facilities/cover.jpg"
-category: "Column"
+category: "Article"
 ---
 
 &nbsp;

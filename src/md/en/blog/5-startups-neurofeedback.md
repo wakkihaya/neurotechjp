@@ -3,7 +3,7 @@ title: "5 featured startups in Neurofeedback"
 description: "In this article, we will introduce selected five startups that are developing unique solutions based on neurofeedback technology."
 datePublished: "2021/10/17"
 bannerPhoto: "/img/5-startups-neurofeedback/cover.jpg"
-category: "Column"
+category: "Article"
 ---
 
 &nbsp;

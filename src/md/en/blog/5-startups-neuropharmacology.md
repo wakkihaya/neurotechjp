@@ -3,7 +3,7 @@ title: "5 featured startups in Neuropharmacology"
 description: " In this article, we will highlight five of the companies that are growing in size and taking unique approaches with neuropharmacology technology."
 datePublished: "2021/8/8"
 bannerPhoto: "/img/5-startups-neuropharmacology/cover.jpg"
-category: "Column"
+category: "Article"
 ---
 
 ## Introduction

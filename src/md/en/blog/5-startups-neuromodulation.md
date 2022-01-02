@@ -3,7 +3,7 @@ title: "5 featured startups in Neuromodulation"
 description: "In this article, we will introduce five featured startups that are using the technology of neuromodulation to bring about significant changes in our lives."
 datePublished: "2021/7/17"
 bannerPhoto: "/img/5-startups-neuromodulation/cover.jpg"
-category: "Column"
+category: "Article"
 ---
 
 &nbsp;

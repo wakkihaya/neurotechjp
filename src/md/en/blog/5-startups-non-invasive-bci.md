@@ -3,7 +3,7 @@ title: "5 featured startups in non-invasive BCI"
 description: "In this article, we will carefully select five non-invasive BCI startups that are gaining momentum."
 datePublished: "2021/9/5"
 bannerPhoto: "/img/5-startups-non-invasive-bci/cover.jpg"
-category: "Column"
+category: "Article"
 ---
 
 &nbsp;

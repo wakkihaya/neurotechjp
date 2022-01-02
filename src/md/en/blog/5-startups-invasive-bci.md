@@ -3,7 +3,7 @@ title: "5 featured startups in invasive BCI"
 description: "We introduce some of the startups that have made significant progress in their technology and vision to compete with Neuralink, along with their remarkable features and visions"
 datePublished: "2021/9/19"
 bannerPhoto: "/img/5-startups-invasive-bci/cover.jpg"
-category: "Column"
+category: "Article"
 ---
 
 &nbsp;

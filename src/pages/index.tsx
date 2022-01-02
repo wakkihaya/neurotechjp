@@ -35,13 +35,13 @@ const Home: React.FC<HomeProps> = props => {
         <div className="top--center-text">
           <Typical
             steps={[
-              "Get",
+              "Stay",
               1000,
-              "Get \n a front line",
+              "Stay \n up-to-date",
               500,
-              "Get \n a front line \n in ",
+              "Stay \n up-to-date with",
               200,
-              "Get \n a front line \n in Neurotech.",
+              "Stay \n up-to-date with \n the latest Neurotech",
               500,
             ]}
             wrapper="span"

@@ -12,7 +12,7 @@ type BlogPageProps = {
   posts: PostData[];
 };
 
-type Category = "Interview" | "Column" | "All";
+type Category = "Interview" | "Article" | "All";
 
 const BlogPage: React.FC<BlogPageProps> = props => {
   const [currentCategory, setCurrentCategory] = useState<Category>("All");
@@ -36,8 +36,8 @@ const BlogPage: React.FC<BlogPageProps> = props => {
         <div className="blog">
           <div className="blog--title">Blog</div>
           <div className="blog--subtitle">
-            Interviews with those who are active in the front lines all over the
-            world in Neurotech.
+            Interviews with top researchers and founders at the frontier of
+            Neurotech.
           </div>
         </div>
       </div>
@@ -59,16 +59,16 @@ const BlogPage: React.FC<BlogPageProps> = props => {
             ].join(" ")}
             onClick={() => changeCategory("Interview")}
           >
-            Interview
+            Interviews
           </div>
           <div
             className={[
               "blog-container--filter-item",
-              currentCategory === "Column" ? "active" : null,
+              currentCategory === "Article" ? "active" : null,
             ].join(" ")}
-            onClick={() => changeCategory("Column")}
+            onClick={() => changeCategory("Article")}
           >
-            Column
+            Articles
           </div>
         </div>
         <div className="blog-container--posts">

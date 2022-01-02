@@ -36,6 +36,7 @@
     font-weight: bold;
     span {
       white-space: pre-line;
+      background: rgba(43, 74, 103, 0.6);
     }
   }
 }
@@ -60,9 +61,6 @@
     &--center-text {
       color: white;
       font-size: $large-font-size;
-      span {
-        background: rgba(43, 74, 103, 0.6);
-      }
     }
   }
   .top-blog {
