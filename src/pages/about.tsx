@@ -12,7 +12,7 @@ const AboutPage: React.FC = () => {
       <Meta
         meta={{
           title: "NeurotechJP",
-          desc: 'NeurotechJP is running to reveal “The killer use cases of Neurotech.We will publish trends", columns, and interviews with pioneers who are working at the cutting edge of the neurotech field.',
+          desc: 'NeurotechJP is running to reveal “The killer applications of Neurotech.We will publish trends", columns, and interviews with pioneers who are working at the cutting edge of the neurotech field.',
           link: "https://neurotechjp.com",
           image: "https://neurotechjp.com/ogp.png",
         }}
@@ -25,10 +25,10 @@ const AboutPage: React.FC = () => {
         <div className="about-container--index">
           <img src="/ogp.png" className="about-container--index-image" />
           <div className="about-container--index-subtitle">
-            NeurotechJP is running to reveal “The killer use cases of
+            NeurotechJP is running to reveal “The killer applications of
             Neurotech”. <br />
-            We will publish trends, columns, and interviews with pioneers who
-            are working at the cutting edge of the neurotech field.
+            We publish interviews and articles with pioneers working on
+            cutting-edge research and development in Neurotech.
           </div>
         </div>
         <div className="about-container--index">
@@ -80,10 +80,10 @@ const AboutPage: React.FC = () => {
               fbLink="https://www.neurotechjp.com/"
               name="Toma Itagaki"
               role="Interviewer"
-              description="Third-year Neuroscience and Electrical Engineering student at the 
-                           University of Washington researching ubiquitous non-invasive neural 
-                           interfaces and human computer interfaces. Toma’s ultimate goal is 
-                           to quantify the body and mind and develop bio/neuro-inspired 
+              description="Third-year Neuroscience and Electrical Engineering student at the
+                           University of Washington researching ubiquitous non-invasive neural
+                           interfaces and human computer interfaces. Toma’s ultimate goal is
+                           to quantify the body and mind and develop bio/neuro-inspired
                            personalized assistants to improve the Human Experience."
               image="/img/about/Toma_Itagaki.jpg"
             />
