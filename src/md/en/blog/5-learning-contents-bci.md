@@ -3,7 +3,7 @@ title: "5 best resources for Neurotech and BCI"
 description: "This article covers five resources available to begin learning about the world of Neurotech and BCIs."
 datePublished: "2021/12/18"
 bannerPhoto: "/img/5-learning-contents-bci/cover.jpg"
-category: "Column"
+category: "Article"
 ---
 
 &nbsp;
