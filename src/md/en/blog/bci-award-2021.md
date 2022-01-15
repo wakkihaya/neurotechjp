@@ -4,6 +4,7 @@ description: "Winners of BCI Award 2021 were announced in mid-October to recogni
 datePublished: "2021/11/14"
 bannerPhoto: "/img/bci-award-2021/cover.jpg"
 category: "Article"
+writer: "Hayato Waki"
 ---
 
 &nbsp;

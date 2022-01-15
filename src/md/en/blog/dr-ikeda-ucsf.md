@@ -4,6 +4,7 @@ description: "This time, we interviewed with Dr.Muneki Ikeda, who is researching
 datePublished: "2021/8/15"
 bannerPhoto: "/img/dr-ikeda-ucsf/cover.jpg"
 category: "Interview"
+writer: "Hayato Waki"
 ---
 
 &nbsp;

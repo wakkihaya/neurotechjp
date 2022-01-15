@@ -13,6 +13,7 @@ export type PostData = {
   bannerPhoto?: string;
   thumbnailPhoto?: string;
   category?: string;
+  writer?: string;
 };
 
 type RawFile = { path: string; contents: string };
@@ -33,6 +34,7 @@ export const mdToPost = (file: RawFile): PostData => {
     thumbnailPhoto: metadata.data.thumbnailPhoto || null,
     content: metadata.content,
     category: metadata.data.category || null,
+    writer: metadata.data.writer,
   };
 
   if (!post.title) throw new Error(`Missing required field: title.`);

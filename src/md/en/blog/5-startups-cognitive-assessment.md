@@ -4,6 +4,7 @@ description: "This article will clarify the specific cases and market scale of t
 datePublished: "2021/7/25"
 bannerPhoto: "/img/5-startups-cognitive-assessment/cover.jpg"
 category: "Article"
+writer: "Shoka Kadoi"
 ---
 
 &nbsp;

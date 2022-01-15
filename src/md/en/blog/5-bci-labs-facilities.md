@@ -4,6 +4,7 @@ description: "In this article, we will focus on five of the most notable univers
 datePublished: "2021/12/5"
 bannerPhoto: "/img/5-bci-labs-facilities/cover.jpg"
 category: "Article"
+writer: "Hayato Waki"
 ---
 
 &nbsp;

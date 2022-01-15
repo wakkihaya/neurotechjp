@@ -4,6 +4,7 @@ description: "For this interview, we had the opportunity to talk with Stanley Ya
 datePublished: "2021/9/22"
 bannerPhoto: "/img/yang-neurosky/cover.jpg"
 category: "Interview"
+writer: "Hayato Waki"
 ---
 
 &nbsp;

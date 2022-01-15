@@ -4,6 +4,7 @@ description: "今回は、MacBook Air並みのハイスペックなCPUを搭載�
 datePublished: "2021/7/9"
 bannerPhoto: "/img/castillo-neurosity/neurosity-ogp.jpg"
 category: "インタビュー"
+writer: "Hayato Waki"
 ---
 
 &nbsp;

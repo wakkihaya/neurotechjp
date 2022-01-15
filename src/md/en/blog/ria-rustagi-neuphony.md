@@ -4,6 +4,7 @@ description: "For this interview, I had the opportunity to talk with Ria Rustagi
 datePublished: "2021/6/26"
 bannerPhoto: "/img/ria-rustagi-neuphony/neuphony-top.jpg"
 category: "Interview"
+writer: "Hayato Waki"
 ---
 
 &nbsp;

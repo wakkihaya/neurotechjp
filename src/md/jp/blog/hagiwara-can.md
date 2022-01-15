@@ -4,6 +4,7 @@ description: "応用脳科学コンソーシアム創設初期から理事・事
 datePublished: '2021/11/08'
 bannerPhoto: '/img/hagiwara-can/ogp.jpg'
 category: "インタビュー"
+writer: "Shoka Kadoi"
 ---
 
 &nbsp;

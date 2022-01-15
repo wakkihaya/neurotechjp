@@ -4,6 +4,7 @@ description: "今回は、今勢いに乗る非侵襲型BCIのスタートアッ
 datePublished: "2021/9/5"
 bannerPhoto: "/img/5-startups-non-invasive-bci/cover.jpg"
 category: "コラム"
+writer: "Hayato Waki"
 ---
 
 &nbsp;

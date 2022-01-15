@@ -4,6 +4,7 @@ description: "今回はNeurotechXのサンフランシスコ支部である、Ne
 datePublished: "2021/11/21"
 bannerPhoto: "/img/morgan-neurotechsf/cover.jpg"
 category: "インタビュー"
+writer: "Nao Yukawa"
 ---
 
 &nbsp;

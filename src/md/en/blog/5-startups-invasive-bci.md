@@ -4,6 +4,7 @@ description: "We introduce some of the startups that have made significant progr
 datePublished: "2021/9/19"
 bannerPhoto: "/img/5-startups-invasive-bci/cover.jpg"
 category: "Article"
+writer: "Hayato Waki"
 ---
 
 &nbsp;

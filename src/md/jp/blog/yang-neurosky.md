@@ -4,6 +4,7 @@ description: "今回は、10年以上も前からNeurotech市場を開拓して�
 datePublished: "2021/9/22"
 bannerPhoto: "/img/yang-neurosky/cover.jpg"
 category: "インタビュー"
+writer: "Hayato Waki"
 ---
 
 &nbsp;
