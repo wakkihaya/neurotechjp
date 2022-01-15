@@ -4,6 +4,7 @@ description: "This article covers five resources available to begin learning abo
 datePublished: "2021/12/18"
 bannerPhoto: "/img/5-learning-contents-bci/cover.jpg"
 category: "Article"
+writer: "Shoka Kadoi"
 ---
 
 &nbsp;

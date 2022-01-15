@@ -4,6 +4,7 @@ description: "In this article, we will introduce five featured startups that are
 datePublished: "2021/7/17"
 bannerPhoto: "/img/5-startups-neuromodulation/cover.jpg"
 category: "Article"
+writer: "Shoka Kadoi"
 ---
 
 &nbsp;

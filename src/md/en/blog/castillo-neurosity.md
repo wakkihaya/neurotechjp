@@ -4,6 +4,7 @@ description: "For this interview, we had the opportunity to talk to Alex Castill
 datePublished: "2021/7/9"
 bannerPhoto: "/img/castillo-neurosity/neurosity-ogp.jpg"
 category: "Interview"
+writer: "Hayato Waki"
 ---
 
 &nbsp;

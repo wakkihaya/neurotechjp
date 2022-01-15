@@ -4,6 +4,7 @@ description: "In this article, I will introduce five carefully selected startups
 datePublished: "2021/5/24"
 bannerPhoto: "/img/5-startups-of-interest/cover.jpg"
 category: "Article"
+writer: "Hayato Waki"
 ---
 
 &nbsp;

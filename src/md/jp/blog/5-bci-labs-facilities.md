@@ -4,6 +4,7 @@ description: "今回は、BCIを研究する大学研究室や研究機関の中
 datePublished: "2021/12/15"
 bannerPhoto: "/img/5-bci-labs-facilities/cover.jpg"
 category: "コラム"
+writer: "Hayato Waki"
 ---
 
 &nbsp;

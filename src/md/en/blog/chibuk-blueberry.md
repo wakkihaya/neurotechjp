@@ -4,6 +4,7 @@ description: "This time, we interviewed John D. Chibuk, the founder of Blueberry
 datePublished: "2021/8/1"
 bannerPhoto: "/img/chibuk-blueberry/cover.jpg"
 category: "Interview"
+writer: "Hayato Waki"
 ---
 
 &nbsp;
