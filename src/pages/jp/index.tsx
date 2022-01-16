@@ -54,7 +54,7 @@ const Home: React.FC<HomeProps> = props => {
           <BlogItem key={1} post={props.posts[1]} />
         </div>
         <div className="top-blog--readmore">
-          <Link href="/blog">More posts</Link>
+          <Link href="/jp/blog">More posts</Link>
         </div>
       </div>
 
