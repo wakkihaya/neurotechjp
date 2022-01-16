@@ -41,8 +41,8 @@ const AboutPage: React.FC = () => {
               fbLink="https://www.facebook.com/waki.hayato.1"
               name="和木勇人 Hayato Waki"
               role="ライター/インタビュアー"
-              description=" 筑波大学にて、BCIに関する研究プロジェクトに従事。
-              日本と米国のソフトウェアスタートアップにて、ファウンダーやエンジニアとして経験をした後、Neurotechnologyが我々の生活に多くのイノベーションをもたらすと思い、弊サイトを立ち上げる。
+              description=" 筑波大学にてBCIに関する研究に従事。
+              日本と米国でソフトウェアスタートアップを起業、エンジニアとしての経験を詰んだ後、ニューロテックの魅力に惹かれ当サイトを立ち上げる。現在はデンマークのニューロテック会社'Neurons'にてエンジニアとしても働く。
               彼のパッションは、「創造性と技術力を持って、Science-Fictionを実現する1人になること」である。"
               image="/img/about/Hayato_Waki.jpg"
             />

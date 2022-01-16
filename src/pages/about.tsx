@@ -42,10 +42,7 @@ const AboutPage: React.FC = () => {
               fbLink="https://www.facebook.com/waki.hayato.1"
               name="Hayato Waki"
               role="Writer/Interviewer"
-              description="At University of Tsukuba in Japan, he worked on the research project about BCI. After experiencing multiple software
-              startups as a founder and an engineer in U.S. and Japan, he
-              believes that neurotechnology is the most likely to be able to
-              bring our lives destructive innovation. His passion is to become a person who achieves Science-Fiction with creativity and technology."
+              description="He worked on the research project about emotional BCI at Univ of Tsukuba in Japan. After experiencing multiple software startups as a founder/engineer in U.S. and Japan, he was attracted to neurotech and started building this media. Now, he also works for Neurons, the Denish neurotech company, as an engineer. His passion is to become a person who achieves Science-Fiction with creativity and technology."
               image="/img/about/Hayato_Waki.jpg"
             />
             <PersonCard
