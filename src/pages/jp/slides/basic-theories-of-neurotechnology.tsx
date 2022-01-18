@@ -21,7 +21,7 @@ const BasicTheoriesOfNeurotechnology: React.FC = () => {
       />
       <Header isBgTransparent={false} />
       <div className="slides-item">
-        <div className="slides-item--main">
+        <div className="slides-item--frame">
           <iframe
             allowFullScreen
             src="https://www.slideshare.net/slideshow/embed_code/key/CVlcUA8ZfaC1G5"

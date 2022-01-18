@@ -802,7 +802,7 @@
   width: $content-width;
   padding: 5em 0;
   margin: auto;
-  &--main {
+  &--frame {
     position: relative;
     overflow: hidden;
     padding-top: 80%;
@@ -815,6 +815,11 @@
       border: 0;
     }
   }
+  &--main {
+    img {
+      width: 100%;
+    }
+  }
   &--title {
     margin-top: 2rem;
     font-size: $medium-font-size;
@@ -825,6 +830,16 @@
     margin-top: 1rem;
     line-height: 1.5em;
     color: $heavy-gray-color;
+  }
+  &--button {
+    color: $red-color;
+    border-radius: 15px;
+    border: solid 2px $red-color;
+    font-size: $medium-font-size;
+    width: 230px;
+    text-align: center;
+    padding: 0.3em 0;
+    margin: 5rem auto;
   }
   @media screen and (max-width: $mobile-width) {
     width: 90%;

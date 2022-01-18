@@ -27,7 +27,7 @@ const SlidesPage: React.FC = () => {
           imgSrc="/img/slides/slide-basic-theory-neurotech-jp.jpg"
           title="Neurotech(ニューロテック)の基礎"
         >
-          Neurotechnologyの基礎知識をまとめたスライド資料です。 <br />
+          【無料】Neurotechnologyの基礎知識をまとめたスライド資料です。 <br />
           1. このエリアの全体像(市場規模など) <br />
           2.
           基礎知識(Neurotechnologyの種類、脳科学基礎、ソフトウェアエンジニアリング)
@@ -39,7 +39,7 @@ const SlidesPage: React.FC = () => {
           imgSrc="/img/slides/neurotech-startups-analytics.jpg"
           title="Neurotech アナリティクスレポート(2020)  ~vol 1~"
         >
-          Neurotech市場で活躍する、世界各国およそ200社の企業情報をまとめたPDFです。※Neurotech
+          【無料】Neurotech市場で活躍する、世界各国およそ200社の企業情報をまとめたPDFです。※Neurotech
           Analytics社が提供する資料を著者の許可の元、一部抜粋し日本語翻訳したものです。
         </SlideContent>
         <SlideContent
@@ -47,8 +47,15 @@ const SlidesPage: React.FC = () => {
           imgSrc="/img/slides/neurotech-invest-digest.jpg"
           title="Neurotech アナリティクスレポート  ~vol 2~"
         >
-          世界のNeurotech市場の投資状況をまとめたPDFです。※Neurotech
+          【無料】世界のNeurotech市場の投資状況をまとめたPDFです。※Neurotech
           Analytics社が提供する資料を著者の許可の元、日本語翻訳したものです。
+        </SlideContent>
+        <SlideContent
+          linkRef="/jp/slides/ces-2022"
+          imgSrc="/img/slides/ces2022.jpg"
+          title="CES2022 ニューロテックレポート"
+        >
+          CES2022に出向き、世界中から集まるニューロテック企業に現地インタビューを行いました。その最先端をまとめたレポート資料です。
         </SlideContent>
       </div>
       <Footer />
