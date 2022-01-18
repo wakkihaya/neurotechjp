@@ -161,14 +161,14 @@ const HamburgerMenu: React.FC<HeaderDeviceProps> = ({ lang, device }) => {
   );
 };
 
-//2021/10/31: Display Banner to install the report analytics only in Japanese.
+//2022/1/17: CES 2022 Banner
 const RenderBanner: React.FC<HeaderProps> = props => {
   const { lang } = props;
   if (lang === "JP") {
     return (
       <Banner>
         <p>
-          Neurotech市場の投資状況まとめレポートを無料公開！詳細は
+          CES2022 ニューロテックレポートを販売中！詳細は
           <Link href="/jp/slides">こちら</Link>
           から
         </p>

@@ -849,6 +849,10 @@
     &--subtitle {
       font-size: $very-small-font-size;
     }
+    &--button {
+      font-size: $small-font-size;
+      margin: 2rem auto;
+    }
   }
 }
 
