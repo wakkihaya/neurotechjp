@@ -42,8 +42,7 @@ export const BlogPost: React.FunctionComponent<{ post: PostData }> = ({
             <Markdown source={post.content} />
           </div>
         </div>
-        <EditorFrame />
-        <div className="blog-content--writer">Written by {post.writer}</div>
+        <EditorFrame  />
       </div>
       <Footer />
     </>

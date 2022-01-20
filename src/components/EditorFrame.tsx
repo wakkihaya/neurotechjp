@@ -7,13 +7,21 @@ import {
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 import useResponsive from "~hooks/use-responsive";
-import { test } from "gray-matter";
+
+//TODO: deal with en/jp.
+//TODO: Responsive
+//TODO: Fetch data for editors
+//TODO: deal with when only two editors.
 
 interface EditorInfoProps {
   image?: string;
   name?: string;
   linkedInLink?: string;
   twitterLink?: string;
+}
+
+interface EditorFrameProps {
+  
 }
 
 type Device = "Mobile" | "Desktop";
