@@ -169,7 +169,7 @@ const RenderBanner: React.FC<HeaderProps> = props => {
       <Banner>
         <p>
           CES2022 ニューロテックレポートを販売中！詳細は
-          <Link href="/jp/slides">こちら</Link>
+          <Link href="/jp/slides/ces-2022/">こちら</Link>
           から
         </p>
       </Banner>
