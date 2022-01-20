@@ -14,7 +14,20 @@ import { EditorFrame } from "./EditorFrame";
 export const BlogPost: React.FunctionComponent<{ post: PostData }> = ({
   post,
 }) => {
-  const { title, datePublished, bannerPhoto, category, canonicalUrl } = post;
+  const {
+    title,
+    datePublished,
+    bannerPhoto,
+    category,
+    canonicalUrl,
+    writer1,
+    writer2,
+    interviewer1,
+    interviewer2,
+    translator1,
+    translator2,
+  } = post;
+
   return (
     <>
       <PostMeta post={post} />
@@ -42,7 +55,13 @@ export const BlogPost: React.FunctionComponent<{ post: PostData }> = ({
             <Markdown source={post.content} />
           </div>
         </div>
-        <EditorFrame  />
+        <EditorFrame
+          writers={[writer1, writer2].filter(item => item !== null)}
+          interviewers={[interviewer1, interviewer2].filter(
+            item => item !== null,
+          )}
+          translators={[translator1, translator2].filter(item => item !== null)}
+        />
       </div>
       <Footer />
     </>

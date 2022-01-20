@@ -7,11 +7,10 @@ import {
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 import useResponsive from "~hooks/use-responsive";
+import { useProfiles } from "~hooks/use-profiles";
 
 //TODO: deal with en/jp.
 //TODO: Responsive
-//TODO: Fetch data for editors
-//TODO: deal with when only two editors.
 
 interface EditorInfoProps {
   image?: string;
@@ -21,7 +20,9 @@ interface EditorInfoProps {
 }
 
 interface EditorFrameProps {
-  
+  writers?: string[];
+  interviewers?: string[];
+  translators?: string[];
 }
 
 type Device = "Mobile" | "Desktop";
@@ -68,42 +69,63 @@ const EditorInfo: FC<EditorInfoProps> = props => {
   );
 };
 
-export const EditorFrame: FC = () => {
+export const EditorFrame: FC<EditorFrameProps> = props => {
+  const { writers, interviewers, translators } = props;
+  const { getTargetProfile } = useProfiles();
+
   return (
     <div className="editor-frame">
-      <div className="editor-frame--box">
-        <div className="editor-frame--box-title">Writer</div>
-        <EditorInfo
-          image={"/img/about/Hayato_Waki.jpg"}
-          linkedInLink={"test.com"}
-          twitterLink={"test.com"}
-          name={"Hayato Waki"}
-        />
-      </div>
-      <div className="editor-frame--box">
-        <div className="editor-frame--box-title">Interviewer</div>
-        <EditorInfo
-          image={"/img/about/Hayato_Waki.jpg"}
-          linkedInLink={"test.com"}
-          twitterLink={"test.com"}
-          name={"Hayato Waki"}
-        />
-        <EditorInfo
-          image={"/img/about/Hayato_Waki.jpg"}
-          linkedInLink={"test.com"}
-          twitterLink={"test.com"}
-          name={"Hayato Waki"}
-        />
-      </div>
-      <div className="editor-frame--box">
-        <div className="editor-frame--box-title">Translator</div>
-        <EditorInfo
-          image={"/img/about/Hayato_Waki.jpg"}
-          linkedInLink={"test.com"}
-          twitterLink={"test.com"}
-          name={"Hayato Waki"}
-        />
-      </div>
+      {writers && writers.length !== 0 && (
+        <div className="editor-frame--box">
+          <div className="editor-frame--box-title">Writer</div>
+          {writers.map((writer, j) => {
+            const writerPrfoile = getTargetProfile(writer, "en");
+            return (
+              <EditorInfo
+                key={j}
+                image={writerPrfoile.image}
+                linkedInLink={writerPrfoile.linkedInLink}
+                twitterLink={writerPrfoile.twitterLink}
+                name={writerPrfoile.name}
+              />
+            );
+          })}
+        </div>
+      )}
+      {interviewers && interviewers.length !== 0 && (
+        <div className="editor-frame--box">
+          <div className="editor-frame--box-title">Interviewer</div>
+          {interviewers.map((interviewer, j) => {
+            const interviewerPrfoile = getTargetProfile(interviewer, "en");
+            return (
+              <EditorInfo
+                key={j}
+                image={interviewerPrfoile.image}
+                linkedInLink={interviewerPrfoile.linkedInLink}
+                twitterLink={interviewerPrfoile.twitterLink}
+                name={interviewerPrfoile.name}
+              />
+            );
+          })}
+        </div>
+      )}
+      {translators && translators.length !== 0 && (
+        <div className="editor-frame--box">
+          <div className="editor-frame--box-title">Translator</div>
+          {translators.map((translator, j) => {
+            const translatorPrfoile = getTargetProfile(translator, "en");
+            return (
+              <EditorInfo
+                key={j}
+                image={translatorPrfoile.image}
+                linkedInLink={translatorPrfoile.linkedInLink}
+                twitterLink={translatorPrfoile.twitterLink}
+                name={translatorPrfoile.name}
+              />
+            );
+          })}
+        </div>
+      )}
     </div>
   );
 };

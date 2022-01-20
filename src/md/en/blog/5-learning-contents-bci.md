@@ -4,7 +4,7 @@ description: "This article covers five resources available to begin learning abo
 datePublished: "2021/12/18"
 bannerPhoto: "/img/5-learning-contents-bci/cover.jpg"
 category: "Article"
-writer: "Shoka Kadoi"
+writer1: "Shoka Kadoi"
 ---
 
 &nbsp;
@@ -31,7 +31,7 @@ _Youtube: BCI Guys_
 ![NeurotechEDU](https://neurotechjp.com/img/5-learning-contents-bci/neurotechx.jpg)
 _NeurotechEDU Table of Contents_
 
-In addition, the [EEG notebook](https://github.com/NeuroTechX/eeg-notebooks) in the [NeurotechX Github repo](https://github.com/NeuroTechX) is a very good resource. It is a very comprehensive resource and contains sample code for almost all EEG-related experiments, such as P300, SSVEP, and so on. 
+In addition, the [EEG notebook](https://github.com/NeuroTechX/eeg-notebooks) in the [NeurotechX Github repo](https://github.com/NeuroTechX) is a very good resource. It is a very comprehensive resource and contains sample code for almost all EEG-related experiments, such as P300, SSVEP, and so on.
 
 &nbsp;
 
@@ -66,7 +66,7 @@ _Image: Neuromatch Website_
 
 [Neuromatch Academy](https://academy.neuromatch.io/) is divided into [NMA-CN(Neuromatch Computational Neuroscience)](https://github.com/NeuromatchAcademy/course-content) for computational neuroscience and [NMA-DL(Neuromatch Deep Learning)](https://github.com/NeuromatchAcademy/course-content-dl) for deep learning. The syllabus for each is available on Github. **Both courses are organized into [a 15-day Summer School curriculum](https://academy.neuromatch.io/nma2020/course-materials), where you are encouraged to learn and collaborate with people from all over the world.**
 
-The [Neuromatch Conference](http://conference.neuromatch.io/) is a conference for the computational neuroscience community. Looking at the [agenda](https://www.crowdcast.io/e/nmc4), the conference is divided into keynotes, panel sessions, short talks, and flash talks, which can be viewed through  [Cloudcast](https://www.crowdcast.io/e/nmc4). There is also a [Discord server](https://conference.neuromatch.io/instructions/how-to-discord/) where you can ask questions and discuss.
+The [Neuromatch Conference](http://conference.neuromatch.io/) is a conference for the computational neuroscience community. Looking at the [agenda](https://www.crowdcast.io/e/nmc4), the conference is divided into keynotes, panel sessions, short talks, and flash talks, which can be viewed through [Cloudcast](https://www.crowdcast.io/e/nmc4). There is also a [Discord server](https://conference.neuromatch.io/instructions/how-to-discord/) where you can ask questions and discuss.
 
 &nbsp;
 

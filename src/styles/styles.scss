@@ -624,6 +624,7 @@
   &--draft-text {
     font-size: $small-font-size;
     line-height: 2.5em;
+    margin-bottom: 10em;
     img {
       width: 80%;
       display: block;
@@ -677,11 +678,6 @@
       border-bottom: solid 0.5px $gray-color;
       margin: 1em 0;
     }
-  }
-  &--writer {
-    color: $gray-color;
-    font-size: $small-font-size;
-    text-align: right;
   }
   a {
     text-decoration: underline;

@@ -13,7 +13,12 @@ export type PostData = {
   bannerPhoto?: string;
   thumbnailPhoto?: string;
   category?: string;
-  writer?: string;
+  writer1?: string;
+  writer2?: string;
+  interviewer1?: string;
+  interviewer2?: string;
+  translator1?: string;
+  translator2?: string;
 };
 
 type RawFile = { path: string; contents: string };
@@ -34,7 +39,12 @@ export const mdToPost = (file: RawFile): PostData => {
     thumbnailPhoto: metadata.data.thumbnailPhoto || null,
     content: metadata.content,
     category: metadata.data.category || null,
-    writer: metadata.data.writer,
+    writer1: metadata.data.writer1 || null,
+    writer2: metadata.data.writer2 || null,
+    interviewer1: metadata.data.interviewer1 || null,
+    interviewer2: metadata.data.interviewer2 || null,
+    translator1: metadata.data.translator1 || null,
+    translator2: metadata.data.translator1 || null,
   };
 
   if (!post.title) throw new Error(`Missing required field: title.`);
