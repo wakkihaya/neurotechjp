@@ -5,7 +5,7 @@ import Footer from "~/components/Footer";
 import Header from "~/components/Header";
 import { Meta } from "~/components/Meta";
 import PersonCard from "~/components/PersonCard";
-import { useProfiles } from "~hooks/use-profiles";
+import { useProfiles, ProfileType } from "~hooks/use-profiles";
 
 const AboutPage: React.FC = () => {
   const { getTargetProfile } = useProfiles();
@@ -14,6 +14,7 @@ const AboutPage: React.FC = () => {
   const shoka = getTargetProfile("Shoka Kadoi", "jp");
   const nao = getTargetProfile("Nao Yukawa", "jp");
   const toma = getTargetProfile("Toma Itagaki", "jp");
+  const profiles: ProfileType[] = [wakki, shoka, nao, toma];
 
   return (
     <>
@@ -43,41 +44,20 @@ const AboutPage: React.FC = () => {
         <div className="about-container--index">
           <div className="about-container--index-title">NeurotechJP チーム</div>
           <div className="about-container--index-box">
-            <PersonCard
-              twitterLink={wakki.twitterLink}
-              linkedInLink={wakki.linkedInLink}
-              fbLink={wakki.fbLink}
-              name={wakki.name}
-              role={wakki.role}
-              description={wakki.description}
-              image={wakki.image}
-            />
-            <PersonCard
-              twitterLink={shoka.twitterLink}
-              linkedInLink={shoka.linkedInLink}
-              fbLink={shoka.fbLink}
-              name={shoka.name}
-              role={shoka.role}
-              description={shoka.description}
-              image={shoka.image}
-            />
-            <PersonCard
-              twitterLink={nao.twitterLink}
-              linkedInLink={nao.linkedInLink}
-              fbLink={nao.fbLink}
-              name={nao.name}
-              role={nao.role}
-              description={nao.description}
-              image={nao.image}
-            />
-            <PersonCard
-              twitterLink={toma.twitterLink}
-              linkedInLink={toma.linkedInLink}
-              name={toma.name}
-              role={toma.role}
-              description={toma.description}
-              image={toma.image}
-            />
+            {profiles.map((profile, j) => {
+              return (
+                <PersonCard
+                  key={j}
+                  twitterLink={profile.twitterLink}
+                  linkedInLink={profile.linkedInLink}
+                  fbLink={profile.fbLink}
+                  name={profile.name}
+                  role={profile.role}
+                  description={profile.description}
+                  image={profile.image}
+                />
+              );
+            })}
           </div>
         </div>
         <ContactForm lang="JP" />
