@@ -27,7 +27,7 @@ const CES2022: React.FC = () => {
         </div>
         <div className="slides-item--button">
           <a
-            href="https://vbgbotc0of5.typeform.com/to/vmdaOyPq"
+            href="https://survey.typeform.com/to/CAPXSgNR"
             target="_blank"
             rel="noreferrer"
           >
