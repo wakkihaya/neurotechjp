@@ -73,6 +73,9 @@ export const EditorFrame: FC<EditorFrameProps> = props => {
   const { writers, interviewers, translators } = props;
   const { getTargetProfile } = useProfiles();
 
+  console.log(writers);
+  console.log(translators);
+
   return (
     <div className="editor-frame">
       {writers && writers.length !== 0 && (
@@ -80,6 +83,7 @@ export const EditorFrame: FC<EditorFrameProps> = props => {
           <div className="editor-frame--box-title">Writer</div>
           {writers.map((writer, j) => {
             const writerPrfoile = getTargetProfile(writer, "en");
+            if (!writerPrfoile) return;
             return (
               <EditorInfo
                 key={j}
@@ -97,6 +101,7 @@ export const EditorFrame: FC<EditorFrameProps> = props => {
           <div className="editor-frame--box-title">Interviewer</div>
           {interviewers.map((interviewer, j) => {
             const interviewerPrfoile = getTargetProfile(interviewer, "en");
+            if (!interviewerPrfoile) return;
             return (
               <EditorInfo
                 key={j}
@@ -113,14 +118,15 @@ export const EditorFrame: FC<EditorFrameProps> = props => {
         <div className="editor-frame--box">
           <div className="editor-frame--box-title">Translator</div>
           {translators.map((translator, j) => {
-            const translatorPrfoile = getTargetProfile(translator, "en");
+            const translatorProfoile = getTargetProfile(translator, "en");
+            if (!translatorProfoile) return;
             return (
               <EditorInfo
                 key={j}
-                image={translatorPrfoile.image}
-                linkedInLink={translatorPrfoile.linkedInLink}
-                twitterLink={translatorPrfoile.twitterLink}
-                name={translatorPrfoile.name}
+                image={translatorProfoile.image}
+                linkedInLink={translatorProfoile.linkedInLink}
+                twitterLink={translatorProfoile.twitterLink}
+                name={translatorProfoile.name}
               />
             );
           })}

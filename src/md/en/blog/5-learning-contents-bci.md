@@ -5,6 +5,11 @@ datePublished: "2021/12/18"
 bannerPhoto: "/img/5-learning-contents-bci/cover.jpg"
 category: "Article"
 writer1: "Shoka Kadoi"
+writer2: ""
+interviewer1: ""
+interviewer2: ""
+translator1: "Hayato Waki"
+translator2: ""
 ---
 
 &nbsp;

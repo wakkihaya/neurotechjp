@@ -39,12 +39,12 @@ export const mdToPost = (file: RawFile): PostData => {
     thumbnailPhoto: metadata.data.thumbnailPhoto || null,
     content: metadata.content,
     category: metadata.data.category || null,
-    writer1: metadata.data.writer1 || null,
-    writer2: metadata.data.writer2 || null,
-    interviewer1: metadata.data.interviewer1 || null,
-    interviewer2: metadata.data.interviewer2 || null,
-    translator1: metadata.data.translator1 || null,
-    translator2: metadata.data.translator1 || null,
+    writer1: metadata.data.writer1.replace(/\"/g, "") || null,
+    writer2: metadata.data.writer2.replace(/\"/g, "") || null,
+    interviewer1: metadata.data.interviewer1.replace(/\"/g, "") || null,
+    interviewer2: metadata.data.interviewer2.replace(/\"/g, "") || null,
+    translator1: metadata.data.translator1.replace(/\"/g, "") || null,
+    translator2: metadata.data.translator2.replace(/\"/g, "") || null,
   };
 
   if (!post.title) throw new Error(`Missing required field: title.`);

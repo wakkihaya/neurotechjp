@@ -56,11 +56,15 @@ export const BlogPost: React.FunctionComponent<{ post: PostData }> = ({
           </div>
         </div>
         <EditorFrame
-          writers={[writer1, writer2].filter(item => item !== null)}
-          interviewers={[interviewer1, interviewer2].filter(
-            item => item !== null,
+          writers={[writer1, writer2].filter(
+            item => item !== null && item !== "",
           )}
-          translators={[translator1, translator2].filter(item => item !== null)}
+          interviewers={[interviewer1, interviewer2].filter(
+            item => item !== null && item !== "",
+          )}
+          translators={[translator1, translator2].filter(
+            item => item !== null && item !== "",
+          )}
         />
       </div>
       <Footer />
