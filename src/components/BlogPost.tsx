@@ -9,6 +9,7 @@ import Header from "~/components/Header";
 import { SocialMediaShare } from "./SocialMediaShare";
 
 import type { PostData } from "~/hooks/loader";
+import { EditorFrame } from "./EditorFrame";
 
 export const BlogPost: React.FunctionComponent<{ post: PostData }> = ({
   post,
@@ -41,6 +42,7 @@ export const BlogPost: React.FunctionComponent<{ post: PostData }> = ({
             <Markdown source={post.content} />
           </div>
         </div>
+        <EditorFrame />
         <div className="blog-content--writer">Written by {post.writer}</div>
       </div>
       <Footer />

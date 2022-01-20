@@ -444,6 +444,50 @@
   }
 }
 
+.editor-frame {
+  background-color: $light-blue-color;
+  width: 100%;
+  min-height: 200px;
+  display: flex;
+  gap: 4rem;
+  padding: 3rem;
+
+  &--box {
+    background: white;
+    flex: 1;
+    padding: 0 1em;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+  }
+  &--box-title {
+    font-size: $medium-font-size;
+    flex: 1;
+  }
+}
+
+.editor-info {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  justify-content: center;
+  flex: 3;
+  margin: 0.5em 0;
+
+  &--img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+  &--name {
+    font-size: $small-font-size;
+  }
+  &--sns-item {
+    margin: 0.5em;
+  }
+}
+
 .contact-form {
   &--title {
     font-size: $large-font-size;
@@ -576,10 +620,8 @@
   &--draft-title {
     font-size: $large-font-size;
     font-weight: 500;
-    margin: 0 2rem;
   }
   &--draft-text {
-    margin: 1rem 8rem 0 8rem;
     font-size: $small-font-size;
     line-height: 2.5em;
     img {
