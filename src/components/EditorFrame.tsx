@@ -9,7 +9,7 @@ import { faComments } from "@fortawesome/free-regular-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 import useResponsive from "~hooks/use-responsive";
-import { useProfiles } from "~hooks/use-profiles";
+import { MembersList, useProfiles } from "~hooks/use-profiles";
 import useCurrentLang from "~hooks/use-currentLang";
 
 //TODO: If interviewer and writer is same, unify them.
@@ -85,7 +85,8 @@ export const EditorFrame: FC<EditorFrameProps> = props => {
             {currentLang === "EN" ? <p>Writer</p> : <p>ライター</p>}
           </div>
           {writers.map((writer, j) => {
-            const writerPrfoile = getTargetProfile(writer, "en");
+            if (writer === "" && !writer) return;
+            const writerPrfoile = getTargetProfile(writer as MembersList, "en");
             if (!writerPrfoile) return;
             return (
               <EditorInfo
@@ -106,7 +107,11 @@ export const EditorFrame: FC<EditorFrameProps> = props => {
             {currentLang === "EN" ? <p>Interviewer</p> : <p>インタビュアー</p>}
           </div>
           {interviewers.map((interviewer, j) => {
-            const interviewerPrfoile = getTargetProfile(interviewer, "en");
+            if (interviewer === "" && !interviewer) return;
+            const interviewerPrfoile = getTargetProfile(
+              interviewer as MembersList,
+              "en",
+            );
             if (!interviewerPrfoile) return;
             return (
               <EditorInfo
@@ -127,7 +132,11 @@ export const EditorFrame: FC<EditorFrameProps> = props => {
             {currentLang === "EN" ? <p>Translator</p> : <p>翻訳者</p>}
           </div>
           {translators.map((translator, j) => {
-            const translatorProfoile = getTargetProfile(translator, "en");
+            if (!translator && translator === "") return;
+            const translatorProfoile = getTargetProfile(
+              translator as MembersList,
+              "en",
+            );
             if (!translatorProfoile) return;
             return (
               <EditorInfo
