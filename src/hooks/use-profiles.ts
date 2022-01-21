@@ -8,8 +8,15 @@ export type ProfileType = {
   image?: string;
 };
 
+export type MembersList =
+  | "Hayato Waki"
+  | "Shoka Kadoi"
+  | "Nao Yukawa"
+  | "Toma Itagaki"
+  | "Kai Irwin";
+
 export const useProfiles = () => {
-  const getTargetProfile = (name: string, lang: string) => {
+  const getTargetProfile = (name: MembersList, lang: string) => {
     let targetProfile: ProfileType;
 
     switch (name) {
@@ -104,6 +111,28 @@ export const useProfiles = () => {
             "ワシントン大学神経科学部＋電気工学部３年生。現在はユビキタスなニューロテックやヒューマンコンピュータインタフェースの研究を行っている。脳や体のデータを使って Human Experience を数値化し、バイオ＋ニューロインスパイアされたパーソナルアシスタントを開発することを目標にさまざまな分野の勉強をしている。";
         }
         break;
+
+      case "Kai Irwin":
+        targetProfile = {
+          twitterLink: "https://twitter.com/Kai__Irwin",
+          linkedInLink: "https://www.linkedin.com/in/kai-irwin-806a54152/",
+          fbLink: "https://www.facebook.com/kai.irwin.3",
+          image: "/img/about/Kai_Irwin.jpg",
+          name: "",
+          role: "",
+          description: "",
+        };
+        if (lang === "en") {
+          targetProfile["name"] = "Kai Irwin";
+          targetProfile["role"] = "Interviewer/Writer";
+          targetProfile["description"] =
+            "A junior at Keio university. He got interested in Neurotech while researching how he can directly put information in his brain, since studying for school was taking too much of his time.He is passionate about turning difficult research papers into easy-to-read formats, so that everyone can learn about cutting edge neurotech research. While participating in a BCI lab at university, he is an engineer in a startup. Also, he is a member of TNK.";
+        } else {
+          targetProfile["name"] = "アーウィン海 Kai Irwin";
+          targetProfile["role"] = "インタビュアー/ライター";
+          targetProfile["description"] =
+            "慶應義塾大学3年。勉強がめんどくさく、脳に直接情報を入れる方法がないかと思い Neurotech に興味を持つ。Neurotech の論文をわかりやすく編集し、世に広めることがパッション。現在は同大学の BCI に関する研究室に参加しつつ Startup でエンジニアをしている。TNK18期。";
+        }
     }
     return targetProfile;
   };
