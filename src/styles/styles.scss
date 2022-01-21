@@ -463,11 +463,18 @@
   &--box-title {
     font-size: $medium-font-size;
     flex: 1;
+    border-radius: 5px;
+    background: $gray-color;
+    color: white;
+    display: flex;
+    gap: 0.5em;
+    align-items: center;
+    justify-content: center;
+    padding: .1em 0;
   }
   @media screen and (max-width: $mobile-width) {
     flex-direction: column;
     gap: 2rem;
-    padding: 1.5rem;
     &--box {
       padding-bottom: 1.5em;
     }
@@ -498,6 +505,7 @@
     margin: 0.5em;
   }
   @media screen and (max-width: $mobile-width) {
+    margin: 1em 0;
     &--img {
       width: 30px;
       height: 30px;

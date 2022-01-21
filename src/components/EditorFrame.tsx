@@ -4,6 +4,8 @@ import {
   faLinkedin,
   faTwitterSquare,
 } from "@fortawesome/free-brands-svg-icons";
+import { faPencilAlt, faLanguage } from "@fortawesome/free-solid-svg-icons";
+import { faComments } from "@fortawesome/free-regular-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 import useResponsive from "~hooks/use-responsive";
@@ -79,6 +81,7 @@ export const EditorFrame: FC<EditorFrameProps> = props => {
       {writers && writers.length !== 0 && (
         <div className="editor-frame--box">
           <div className="editor-frame--box-title">
+            <FontAwesomeIcon icon={faPencilAlt} />
             {currentLang === "EN" ? <p>Writer</p> : <p>ライター</p>}
           </div>
           {writers.map((writer, j) => {
@@ -99,6 +102,7 @@ export const EditorFrame: FC<EditorFrameProps> = props => {
       {interviewers && interviewers.length !== 0 && (
         <div className="editor-frame--box">
           <div className="editor-frame--box-title">
+            <FontAwesomeIcon icon={faComments} />
             {currentLang === "EN" ? (
               <p>Interviewer</p>
             ) : (
@@ -123,6 +127,7 @@ export const EditorFrame: FC<EditorFrameProps> = props => {
       {translators && translators.length !== 0 && (
         <div className="editor-frame--box">
           <div className="editor-frame--box-title">
+            <FontAwesomeIcon icon={faLanguage} />
             {currentLang === "EN" ? <p>Translator</p> : <p>翻訳者</p>}
           </div>
           {translators.map((translator, j) => {
