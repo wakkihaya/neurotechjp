@@ -464,6 +464,17 @@
     font-size: $medium-font-size;
     flex: 1;
   }
+  @media screen and (max-width: $mobile-width) {
+    flex-direction: column;
+    gap: 2rem;
+    padding: 1.5rem;
+    &--box {
+      padding-bottom: 1.5em;
+    }
+    &--box-title {
+      font-size: $small-font-size;
+    }
+  }
 }
 
 .editor-info {
@@ -485,6 +496,15 @@
   }
   &--sns-item {
     margin: 0.5em;
+  }
+  @media screen and (max-width: $mobile-width) {
+    &--img {
+      width: 30px;
+      height: 30px;
+    }
+    &--name {
+      font-size: $very-small-font-size;
+    }
   }
 }
 

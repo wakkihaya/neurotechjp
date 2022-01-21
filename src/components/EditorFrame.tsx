@@ -9,9 +9,8 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import useResponsive from "~hooks/use-responsive";
 import { useProfiles } from "~hooks/use-profiles";
 
-//TODO: Change post metadata
+//TODO: If interviewer and writer is same, unify them.
 //TODO: deal with en/jp.
-//TODO: Responsive design
 
 interface EditorInfoProps {
   image?: string;
@@ -73,9 +72,6 @@ const EditorInfo: FC<EditorInfoProps> = props => {
 export const EditorFrame: FC<EditorFrameProps> = props => {
   const { writers, interviewers, translators } = props;
   const { getTargetProfile } = useProfiles();
-
-  console.log(writers);
-  console.log(translators);
 
   return (
     <div className="editor-frame">

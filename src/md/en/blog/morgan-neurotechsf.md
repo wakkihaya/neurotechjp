@@ -8,7 +8,7 @@ writer1: "Nao Yukawa"
 writer2: ""
 interviewer1: "Nao Yukawa"
 interviewer2: ""
-translator1: "Nao Yukawa"
+translator1: "Toma Itagaki"
 translator2: ""
 ---
 
