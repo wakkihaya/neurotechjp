@@ -103,11 +103,7 @@ export const EditorFrame: FC<EditorFrameProps> = props => {
         <div className="editor-frame--box">
           <div className="editor-frame--box-title">
             <FontAwesomeIcon icon={faComments} />
-            {currentLang === "EN" ? (
-              <p>Interviewer</p>
-            ) : (
-              <p>インタビューアー</p>
-            )}
+            {currentLang === "EN" ? <p>Interviewer</p> : <p>インタビュアー</p>}
           </div>
           {interviewers.map((interviewer, j) => {
             const interviewerPrfoile = getTargetProfile(interviewer, "en");
