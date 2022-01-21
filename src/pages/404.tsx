@@ -1,21 +1,21 @@
 import React, { useEffect } from "react";
+import type { FC } from "react";
 import { useRouter } from "next/router";
 import useCurrentLang from "~hooks/use-currentLang";
 
-export default function Custom404() {
+const Custom404: FC = () => {
   const router = useRouter();
+  const { currentLang } = useCurrentLang();
 
   useEffect(() => {
-    const currentLang = useCurrentLang();
-
     setTimeout(function () {
-      if (currentLang === "jp") {
+      if (currentLang === "JP") {
         router.replace("/jp");
       } else {
         router.replace("/");
       }
     }, 3000);
-  });
+  }, []);
 
   return (
     <div className="error-container">
@@ -28,4 +28,6 @@ export default function Custom404() {
       </div>
     </div>
   );
-}
+};
+
+export default Custom404;

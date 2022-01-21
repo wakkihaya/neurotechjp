@@ -8,9 +8,9 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 import useResponsive from "~hooks/use-responsive";
 import { useProfiles } from "~hooks/use-profiles";
+import useCurrentLang from "~hooks/use-currentLang";
 
 //TODO: If interviewer and writer is same, unify them.
-//TODO: deal with en/jp.
 
 interface EditorInfoProps {
   image?: string;
@@ -72,12 +72,15 @@ const EditorInfo: FC<EditorInfoProps> = props => {
 export const EditorFrame: FC<EditorFrameProps> = props => {
   const { writers, interviewers, translators } = props;
   const { getTargetProfile } = useProfiles();
+  const { currentLang } = useCurrentLang();
 
   return (
     <div className="editor-frame">
       {writers && writers.length !== 0 && (
         <div className="editor-frame--box">
-          <div className="editor-frame--box-title">Writer</div>
+          <div className="editor-frame--box-title">
+            {currentLang === "EN" ? <p>Writer</p> : <p>ライター</p>}
+          </div>
           {writers.map((writer, j) => {
             const writerPrfoile = getTargetProfile(writer, "en");
             if (!writerPrfoile) return;
@@ -95,7 +98,13 @@ export const EditorFrame: FC<EditorFrameProps> = props => {
       )}
       {interviewers && interviewers.length !== 0 && (
         <div className="editor-frame--box">
-          <div className="editor-frame--box-title">Interviewer</div>
+          <div className="editor-frame--box-title">
+            {currentLang === "EN" ? (
+              <p>Interviewer</p>
+            ) : (
+              <p>インタビューアー</p>
+            )}
+          </div>
           {interviewers.map((interviewer, j) => {
             const interviewerPrfoile = getTargetProfile(interviewer, "en");
             if (!interviewerPrfoile) return;
@@ -113,7 +122,9 @@ export const EditorFrame: FC<EditorFrameProps> = props => {
       )}
       {translators && translators.length !== 0 && (
         <div className="editor-frame--box">
-          <div className="editor-frame--box-title">Translator</div>
+          <div className="editor-frame--box-title">
+            {currentLang === "EN" ? <p>Translator</p> : <p>翻訳者</p>}
+          </div>
           {translators.map((translator, j) => {
             const translatorProfoile = getTargetProfile(translator, "en");
             if (!translatorProfoile) return;
