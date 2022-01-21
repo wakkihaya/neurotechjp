@@ -4,7 +4,12 @@ description: "今回の記事では、Cognitive assessmentの技術の具体的�
 datePublished: "2021/7/25"
 bannerPhoto: "/img/5-startups-cognitive-assessment/cover.jpg"
 category: "コラム"
-writer: "Shoka Kadoi"
+writer1: "Shoka Kadoi"
+writer2: ""
+interviewer1: ""
+interviewer2: ""
+translator1: ""
+translator2: ""
 ---
 
 &nbsp;

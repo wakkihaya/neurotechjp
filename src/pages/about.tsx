@@ -5,8 +5,17 @@ import Footer from "~/components/Footer";
 import Header from "~/components/Header";
 import { Meta } from "~/components/Meta";
 import PersonCard from "~/components/PersonCard";
+import { useProfiles, ProfileType } from "~hooks/use-profiles";
 
 const AboutPage: React.FC = () => {
+  const { getTargetProfile } = useProfiles();
+
+  const wakki = getTargetProfile("Hayato Waki", "en");
+  const shoka = getTargetProfile("Shoka Kadoi", "en");
+  const nao = getTargetProfile("Nao Yukawa", "en");
+  const toma = getTargetProfile("Toma Itagaki", "en");
+  const profiles: ProfileType[] = [wakki, shoka, nao, toma];
+
   return (
     <>
       <Meta
@@ -36,56 +45,20 @@ const AboutPage: React.FC = () => {
         <div className="about-container--index">
           <div className="about-container--index-title">Meet the team</div>
           <div className="about-container--index-box">
-            <PersonCard
-              twitterLink="https://twitter.com/wakkihaya"
-              linkedInLink="https://www.linkedin.com/in/wakkihaya/"
-              fbLink="https://www.facebook.com/waki.hayato.1"
-              name="Hayato Waki"
-              role="Writer/Interviewer"
-              description="He worked on the research project about emotional BCI at Univ of Tsukuba in Japan. After experiencing multiple software startups as a founder/engineer in U.S. and Japan, he was attracted to neurotech and started building this media. Now, he also works for Neurons, the Denish neurotech company, as an engineer. His passion is to become a person who achieves Science-Fiction with creativity and technology."
-              image="/img/about/Hayato_Waki.jpg"
-            />
-            <PersonCard
-              twitterLink="https://twitter.com/kadyboy1216"
-              linkedInLink="https://www.linkedin.com/in/shoka-kadoi-7b95271ba/"
-              fbLink="https://www.facebook.com/shouka.kadoi"
-              name="Shouka Kadoi"
-              role="Writer"
-              description="Graduated from Doshisha University, Faculty of Sociology, Department of Communication Studies.
-                After attending a conference organized by Israel Brain
-                Technologies, he joined Relook, a mindfulness meditation app,
-                where he worked as a CS, web marketer, and PdM, and experienced
-                M&A."
-              image="/img/about/Shouka_Kadoi.jpeg"
-            />
-            <PersonCard
-              twitterLink="https://twitter.com/NaoYukawa"
-              linkedInLink="https://www.linkedin.com/in/nao-yukawa-331615207/"
-              fbLink="https://www.facebook.com/nao.yukawa.56"
-              name="Nao Yukawa"
-              role="Interviewer/Writer"
-              description="A senior majoring in Engineering at the University of Tokyo.
-                While he is doing research on deep learning at an AI research
-                lab in the same university, he is also studying International
-                Business at San Francisco State University. His goal is
-                to contribute to the development of Neuroscience by bridging the
-                gap between academia and industry like Neuralink, a company
-                founded by Elon Musk, is trying to do."
-              image="/img/about/Nao_Yukawa.jpg"
-            />
-            <PersonCard
-              twitterLink="https://twitter.com/tomaitagaki"
-              linkedInLink="https://www.linkedin.com/in/tomaitagaki/"
-              fbLink="https://www.neurotechjp.com/"
-              name="Toma Itagaki"
-              role="Interviewer"
-              description="Third-year Neuroscience and Electrical Engineering student at the
-                           University of Washington researching ubiquitous non-invasive neural
-                           interfaces and human computer interfaces. Toma’s ultimate goal is
-                           to quantify the body and mind and develop bio/neuro-inspired
-                           personalized assistants to improve the Human Experience."
-              image="/img/about/Toma_Itagaki.jpg"
-            />
+            {profiles.map((profile, j) => {
+              return (
+                <PersonCard
+                  key={j}
+                  twitterLink={profile.twitterLink}
+                  linkedInLink={profile.linkedInLink}
+                  fbLink={profile.fbLink}
+                  name={profile.name}
+                  role={profile.role}
+                  description={profile.description}
+                  image={profile.image}
+                />
+              );
+            })}
           </div>
         </div>
         <ContactForm lang="EN" />

@@ -4,7 +4,12 @@ description: "In this article, we have chosen five established university labs t
 datePublished: "2021/12/5"
 bannerPhoto: "/img/5-bci-labs-facilities/cover.jpg"
 category: "Article"
-writer: "Hayato Waki"
+writer1: "Hayato Waki"
+writer2: ""
+interviewer1: ""
+interviewer2: ""
+translator1: "Toma Itagaki"
+translator2: ""
 ---
 
 &nbsp;

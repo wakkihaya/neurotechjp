@@ -4,7 +4,12 @@ description: "In this article, I will introduce five carefully selected startups
 datePublished: "2021/5/24"
 bannerPhoto: "/img/5-startups-of-interest/cover.jpg"
 category: "Article"
-writer: "Hayato Waki"
+writer1: "Hayato Waki"
+writer2: ""
+interviewer1: ""
+interviewer2: ""
+translator1: "Hayato Waki"
+translator2: ""
 ---
 
 &nbsp;

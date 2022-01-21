@@ -4,7 +4,12 @@ description: "今回は、Neuralink の対抗馬になる程の技術や進歩�
 datePublished: "2021/9/19"
 bannerPhoto: "/img/5-startups-invasive-bci/cover.jpg"
 category: "コラム"
-writer: "Hayato Waki"
+writer1: "Hayato Waki"
+writer2: ""
+interviewer1: ""
+interviewer2: ""
+translator1: ""
+translator2: ""
 ---
 
 &nbsp;

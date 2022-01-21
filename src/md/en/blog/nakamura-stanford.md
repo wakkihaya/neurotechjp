@@ -4,7 +4,12 @@ description: "We interviewed Hayato Nakamura, who studied at Boston University f
 datePublished: "2021/10/24"
 bannerPhoto: "/img/dr-nakamura-stanford/cover.jpeg"
 category: "Interview"
-writer: "Nao Yukawa"
+writer1: "Nao Yukawa"
+writer2: ""
+interviewer1: "Nao Yukawa"
+interviewer2: ""
+translator1: "Nao Yukawa"
+translator2: ""
 ---
 
 &nbsp;

@@ -4,7 +4,12 @@ description: "今回は、ニューロモデュレーションという技術を
 datePublished: "2021/7/17"
 bannerPhoto: "/img/5-startups-neuromodulation/cover.jpg"
 category: "コラム"
-writer: "Shoka Kadoi"
+writer1: "Shoka Kadoi"
+writer2: ""
+interviewer1: ""
+interviewer2: ""
+translator1: ""
+translator2: ""
 ---
 
 &nbsp;

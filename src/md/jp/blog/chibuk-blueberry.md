@@ -4,7 +4,12 @@ description: "今回は、優れた着用性と持ち運び性を兼ね備える
 datePublished: "2021/8/1"
 bannerPhoto: "/img/chibuk-blueberry/cover.jpg"
 category: "インタビュー"
-writer: "Hayato Waki"
+writer1: "Hayato Waki"
+writer2: ""
+interviewer1: "Hayato Waki"
+interviewer2: ""
+translator1: ""
+translator2: ""
 ---
 
 &nbsp;

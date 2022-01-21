@@ -4,7 +4,12 @@ description: "今回は、Neuropharmacologyの技術を使う企業の中でも�
 datePublished: "2021/8/8"
 bannerPhoto: "/img/5-startups-neuropharmacology/cover.jpg"
 category: "コラム"
-writer: "Shoka Kadoi"
+writer1: "Shoka Kadoi"
+writer2: ""
+interviewer1: ""
+interviewer2: ""
+translator1: ""
+translator2: ""
 ---
 
 ## はじめに

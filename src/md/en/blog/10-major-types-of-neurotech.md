@@ -4,7 +4,12 @@ description: "In this article, we will introduce the first five of the ten categ
 datePublished: "2021/7/8"
 category: "Article"
 bannerPhoto: "/img/10-major-types-of-neurotech/ogp.jpg"
-writer: "Shoka Kadoi"
+writer1: "Shoka Kadoi"
+writer2: ""
+interviewer1: ""
+interviewer2: ""
+translator1: "Hayato Waki"
+translator2: ""
 ---
 
 &nbsp;

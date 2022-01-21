@@ -9,11 +9,25 @@ import Header from "~/components/Header";
 import { SocialMediaShare } from "./SocialMediaShare";
 
 import type { PostData } from "~/hooks/loader";
+import { EditorFrame } from "./EditorFrame";
 
 export const BlogPost: React.FunctionComponent<{ post: PostData }> = ({
   post,
 }) => {
-  const { title, datePublished, bannerPhoto, category, canonicalUrl } = post;
+  const {
+    title,
+    datePublished,
+    bannerPhoto,
+    category,
+    canonicalUrl,
+    writer1,
+    writer2,
+    interviewer1,
+    interviewer2,
+    translator1,
+    translator2,
+  } = post;
+
   return (
     <>
       <PostMeta post={post} />
@@ -41,7 +55,17 @@ export const BlogPost: React.FunctionComponent<{ post: PostData }> = ({
             <Markdown source={post.content} />
           </div>
         </div>
-        <div className="blog-content--writer">Written by {post.writer}</div>
+        <EditorFrame
+          writers={[writer1, writer2].filter(
+            item => item !== null && item !== "",
+          )}
+          interviewers={[interviewer1, interviewer2].filter(
+            item => item !== null && item !== "",
+          )}
+          translators={[translator1, translator2].filter(
+            item => item !== null && item !== "",
+          )}
+        />
       </div>
       <Footer />
     </>

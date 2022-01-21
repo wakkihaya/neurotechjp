@@ -444,6 +444,78 @@
   }
 }
 
+.editor-frame {
+  background-color: $light-blue-color;
+  width: 100%;
+  min-height: 200px;
+  display: flex;
+  gap: 4rem;
+  padding: 3rem;
+
+  &--box {
+    background: white;
+    flex: 1;
+    padding: 0.5em 1em;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+  }
+  &--box-title {
+    font-size: $medium-font-size;
+    flex: 1;
+    border-radius: 5px;
+    background: $gray-color;
+    color: white;
+    display: flex;
+    gap: 0.5em;
+    align-items: center;
+    justify-content: center;
+    padding: .1em 0;
+  }
+  @media screen and (max-width: $mobile-width) {
+    flex-direction: column;
+    gap: 2rem;
+    &--box {
+      padding-bottom: 1.5em;
+    }
+    &--box-title {
+      font-size: $small-font-size;
+    }
+  }
+}
+
+.editor-info {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  justify-content: center;
+  flex: 3;
+  margin: 0.5em 0;
+
+  &--img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+  &--name {
+    font-size: $small-font-size;
+  }
+  &--sns-item {
+    margin: 0.5em;
+  }
+  @media screen and (max-width: $mobile-width) {
+    margin: 1em 0;
+    &--img {
+      width: 30px;
+      height: 30px;
+    }
+    &--name {
+      font-size: $very-small-font-size;
+    }
+  }
+}
+
 .contact-form {
   &--title {
     font-size: $large-font-size;
@@ -576,12 +648,11 @@
   &--draft-title {
     font-size: $large-font-size;
     font-weight: 500;
-    margin: 0 2rem;
   }
   &--draft-text {
-    margin: 1rem 8rem 0 8rem;
     font-size: $small-font-size;
     line-height: 2.5em;
+    margin-bottom: 10em;
     img {
       width: 80%;
       display: block;
@@ -635,11 +706,6 @@
       border-bottom: solid 0.5px $gray-color;
       margin: 1em 0;
     }
-  }
-  &--writer {
-    color: $gray-color;
-    font-size: $small-font-size;
-    text-align: right;
   }
   a {
     text-decoration: underline;

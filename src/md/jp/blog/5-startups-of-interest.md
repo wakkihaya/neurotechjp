@@ -4,7 +4,12 @@ description: "この記事では、我々の生活をNeurotechnologyで革新し
 datePublished: "2021/5/24"
 bannerPhoto: "/img/5-startups-of-interest/cover.jpg"
 category: "コラム"
-writer: "Hayato Waki"
+writer1: "Hayato Waki"
+writer2: ""
+interviewer1: ""
+interviewer2: ""
+translator1: ""
+translator2: ""
 ---
 
 &nbsp;
