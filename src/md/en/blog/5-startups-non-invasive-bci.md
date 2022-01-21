@@ -4,7 +4,12 @@ description: "In this article, we will carefully select five non-invasive BCI st
 datePublished: "2021/9/5"
 bannerPhoto: "/img/5-startups-non-invasive-bci/cover.jpg"
 category: "Article"
-writer: "Hayato Waki"
+writer1: "Hayato Waki"
+writer2: ""
+interviewer1: ""
+interviewer2: ""
+translator1: "Hayato Waki"
+translator2: ""
 ---
 
 &nbsp;

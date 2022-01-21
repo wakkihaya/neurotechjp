@@ -4,7 +4,12 @@ description: "今回は、学部1年生からボストン大学に留学した�
 datePublished: "2021/10/24"
 bannerPhoto: "/img/dr-nakamura-stanford/cover.jpeg"
 category: "インタビュー"
-writer: "Nao Yukawa"
+writer1: "Nao Yukawa"
+writer2: ""
+interviewer1: "Nao Yukawa"
+interviewer2: ""
+translator1: ""
+translator2: ""
 ---
 
 &nbsp;

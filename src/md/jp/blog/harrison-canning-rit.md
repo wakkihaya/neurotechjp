@@ -4,7 +4,12 @@ description: "今回は、RITでNeurotechnologyを専攻する学生をする傍
 datePublished: "2021/6/6"
 bannerPhoto: "/img/harrison-canning-rit/harrison-top.jpg"
 category: "インタビュー"
-writer: "Hayato Waki"
+writer1: "Hayato Waki"
+writer2: ""
+interviewer1: "Hayato Waki"
+interviewer2: ""
+translator1: ""
+translator2: ""
 ---
 
 &nbsp;

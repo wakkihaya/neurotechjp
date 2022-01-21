@@ -8,7 +8,7 @@ writer1: "Shoka Kadoi"
 writer2: ""
 interviewer1: ""
 interviewer2: ""
-translator1: "Hayato Waki"
+translator1: "Toma Itagaki"
 translator2: ""
 ---
 

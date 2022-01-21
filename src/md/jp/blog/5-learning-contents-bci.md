@@ -4,7 +4,12 @@ description: "今回は、Neurotechの中でも特に注目されているBCIを
 datePublished: "2021/12/18"
 bannerPhoto: "/img/5-learning-contents-bci/cover.jpg"
 category: "コラム"
-writer: "Shoka Kadoi"
+writer1: "Shoka Kadoi"
+writer2: ""
+interviewer1: ""
+interviewer2: ""
+translator1: ""
+translator2: ""
 ---
 
 &nbsp;

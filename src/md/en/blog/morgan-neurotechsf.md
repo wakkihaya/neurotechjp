@@ -4,7 +4,12 @@ description: "For this interview, we had an opportunity to interview Morgan Houg
 datePublished: "2021/11/21"
 bannerPhoto: "/img/morgan-neurotechsf/cover.jpg"
 category: "Interview"
-writer: "Nao Yukawa"
+writer1: "Nao Yukawa"
+writer2: ""
+interviewer1: "Nao Yukawa"
+interviewer2: ""
+translator1: "Nao Yukawa"
+translator2: ""
 ---
 
 &nbsp;

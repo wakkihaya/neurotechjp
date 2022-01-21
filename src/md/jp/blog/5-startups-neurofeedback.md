@@ -4,7 +4,12 @@ description: "今回は、ニューロフィードバックの技術を応用し
 datePublished: "2021/10/17"
 bannerPhoto: "/img/5-startups-neurofeedback/cover.jpg"
 category: "コラム"
-writer: "Hayato Waki"
+writer1: "Hayato Waki"
+writer2: ""
+interviewer1: ""
+interviewer2: ""
+translator1: ""
+translator2: ""
 ---
 
 &nbsp;

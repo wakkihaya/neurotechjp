@@ -4,7 +4,12 @@ description: "今回は、UCSFにて線虫を使って、意識の仕組みを�
 datePublished: "2021/8/15"
 bannerPhoto: "/img/dr-ikeda-ucsf/cover.jpg"
 category: "インタビュー"
-writer: "Hayato Waki"
+writer1: "Hayato Waki"
+writer2: ""
+interviewer1: "Hayato Waki"
+interviewer2: ""
+translator1: ""
+translator2: ""
 ---
 
 &nbsp;

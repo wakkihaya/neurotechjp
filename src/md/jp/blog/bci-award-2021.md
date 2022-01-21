@@ -5,7 +5,12 @@ description: "BCI Awardは、世界で最も革新的なBCI(Brain-Computer Inter
 datePublished: '2021/11/14'
 bannerPhoto: '/img/bci-award-2021/cover.jpg'
 category: "コラム"
-writer: "Hayato Waki"
+writer1: "Hayato Waki"
+writer2: ""
+interviewer1: ""
+interviewer2: ""
+translator1: ""
+translator2: ""
 ---
 
 &nbsp;

@@ -4,7 +4,12 @@ description: "今回は、ニューロフィードバック技術を用いて集
 datePublished: "2021/6/26"
 bannerPhoto: "/img/ria-rustagi-neuphony/neuphony-top.jpg"
 category: "インタビュー"
-writer: "Hayato Waki"
+writer1: "Hayato Waki"
+writer2: ""
+interviewer1: "Hayato Waki"
+interviewer2: ""
+translator1: ""
+translator2: ""
 ---
 
 &nbsp;

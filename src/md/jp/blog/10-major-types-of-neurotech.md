@@ -4,7 +4,12 @@ description: "この記事では、10種類に分類された現代のNeurotech�
 datePublished: "2021/7/8"
 category: "コラム"
 bannerPhoto: "/img/10-major-types-of-neurotech/ogp.jpg"
-writer: "Shoka Kadoi"
+writer1: "Shoka Kadoi"
+writer2: ""
+interviewer1: ""
+interviewer2: ""
+translator1: ""
+translator2: ""
 ---
 
 &nbsp;

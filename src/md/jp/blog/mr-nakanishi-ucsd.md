@@ -4,7 +4,12 @@ datePublished: "2021/5/16"
 bannerPhoto: "/img/mr-nakanishi-ucsd/mr-nakanishi-ucsd.jpg"
 description: '今回は、世界トップレベルの研究を行う、UC SanDiegoのSCCNという研究施設にて、Assistant Project Scientistとして活躍する中西正樹さんに、自身の軌跡と、世界記録を更新した"SSVEP"という技術の可能性についてインタビューをさせていただいた。'
 category: "インタビュー"
-writer: "Hayato Waki"
+writer1: "Hayato Waki"
+writer2: ""
+interviewer1: "Hayato Waki"
+interviewer2: ""
+translator1: ""
+translator2: ""
 ---
 
 &nbsp;

@@ -4,7 +4,12 @@ description: " In this article, we will highlight five of the companies that are
 datePublished: "2021/8/8"
 bannerPhoto: "/img/5-startups-neuropharmacology/cover.jpg"
 category: "Article"
-writer: "Shoka Kadoi"
+writer1: "Shoka Kadoi"
+writer2: ""
+interviewer1: ""
+interviewer2: ""
+translator1: "Hayato Waki"
+translator2: ""
 ---
 
 ## Introduction

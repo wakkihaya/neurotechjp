@@ -9,8 +9,9 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import useResponsive from "~hooks/use-responsive";
 import { useProfiles } from "~hooks/use-profiles";
 
+//TODO: Change post metadata
 //TODO: deal with en/jp.
-//TODO: Responsive
+//TODO: Responsive design
 
 interface EditorInfoProps {
   image?: string;
