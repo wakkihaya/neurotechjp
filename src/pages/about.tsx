@@ -14,7 +14,8 @@ const AboutPage: React.FC = () => {
   const shoka = getTargetProfile("Shoka Kadoi", "en");
   const nao = getTargetProfile("Nao Yukawa", "en");
   const toma = getTargetProfile("Toma Itagaki", "en");
-  const profiles: ProfileType[] = [wakki, shoka, nao, toma];
+  const kai = getTargetProfile("Kai Irwin", "en");
+  const profiles: ProfileType[] = [wakki, shoka, nao, toma, kai];
 
   return (
     <>
