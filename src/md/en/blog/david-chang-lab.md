@@ -57,7 +57,7 @@ David's other research includes [utilizing the encoder-decoder model used in mac
 David’s hope is to research interfaces that will improve communication for patients with speech difficulties using neural speech decoding.
 
 > All that work I just described for my PhD, was with patients who could speak naturally.
-> But then the new work that came out and part of this ongoing clinical trial is to
+> But the goal of the new work that came out as part of this ongoing clinical trial is to
 > **evaluate if these approaches can work in someone who is actually paralyzed and cannot speak.**
 > For these people, it is very hard to communicate not being able to speak, they have to use other methods to communicate.
 > And our clinical trial participants also have limb motor disabilities, so they cannot move their arms or type either.
@@ -74,15 +74,17 @@ David’s hope is to research interfaces that will improve communication for pat
 David led the team that conducted this research.
 
 > My role was to lead this project. Dr. Chang was the principal investigator and supervised everything,
-> but I was the one who was leading the effort trying to make the design decisions for the task,
-> and making sure that the data was collected and analyzed properly, and all that stuff.
+> and I led the effort making design decisions for the task,
+> making sure that the data was collected and analyzed properly, writing the real-time processing software,
+> and generally coordinating various aspects of the research and publication.
 
 &nbsp;
 
 Neural speech decoding, tested on subjects without speech impairments, has been successfully demonstrated in the past; David’s study would be the first to demonstrate speech decoding from subjects with Anarthria (or complete speech paralysis). David reflected on the challenges and risks of attempting such a novel study.
 
 > There were **logistical and clinical challenges of getting the trial set up and going, and recruiting the participant**.
-> I did not have a direct role, but I know that it is very challenging to get everything set up to where we can work with this.
+> I did not have a direct role in recruitment,
+> but I know that it is very challenging to get everything set up to where we can work on this project.
 >
 > When you get down to the actual approach, there were so many things that could have gone wrong.
 > It is hard to say what the most difficult part was,
@@ -115,7 +117,7 @@ To answer this, David mentioned the following three points.
 2. **Noise**
 
 > And then just the inherent Signal to Noise limitations compared to, for example, trying to decode speech from an acoustic waveform.
-> It is much harder to do so from neural activity because brain activity is not just noisy but
+> It is much harder to do so from neural activity because brain recordings are not just noisy but
 > **there are a lot of background processes that are not relevant to speech**.
 > So I think as hardware improves, like getting higher spatial resolution and coverage,
 > we should see improvement in the ability to decode speech from brain activity.
@@ -139,16 +141,16 @@ David says that there are still a number of problems that need to be overcome.
 
 > I think there are many hurdles.
 > On top of the scientific and engineering hurdles, there are regulatory hurdles.
-> It is reasonable to make sure that people are getting brain surgeries and something useful,
+> It is reasonable to make sure that people that are getting brain surgeries are receiving something useful,
 > but I think that it is going to take some time.
 > It is really hard to put a true timeline on it. I think for people with extremely severe disabilities,
-> getting something that improves their standard of communication and a commercial application
+> getting something that improves their standard of communication via a commercial application
 > may **take a decade**.
 > It may be possible within five years, but I think it depends.
 >
 > Before I feel really comfortable making some kind of claim for this,
 > I would want to **make sure that our approach can work in more than just this one person**.
-> And many people say that even with different people and different disabilities we are able to decode
+> If we see that even with different people and different disabilities we are able to decode
 > what they intend to say to some degree, and if that degree is useful and offers increased benefit over
 > their current non-BCI modes of communication, then I think that would accelerate my timeline.
 
@@ -162,14 +164,13 @@ On the other hand, Meta (formerly Facebook) was once interested in Chang Lab and
 > I am not saying that it could never happen.
 > It seems like the application would have to be capable of something inherently different than developing a speech neuroprosthesis.
 >
-> **From my understanding of Meta’s publicly announced goals for this was that they were interested in making a non-invasive brain computer interface**
+> **From my understanding of Meta’s publicly announced goals for this, they were interested in making a non-invasive brain computer interface**
 > **that would allow someone to control, for example, their smartphone without having to speak or look at it or anything**.
-> They just control it volitionally from their thoughts. And it is a lofty goal.
 > I think one of the reasons they funded us was because they believe in what we are trying to do in terms of helping paralyzed people
 > and **wanted to see how far the technology could be pushed with invasive methods**, not because they wanted to do anything invasive.
 >
 > But now, funding with them has ended,
-> and they have also announced that they are no longer pursuing the brain computer interface but focusing more on their EMG control.
+> and they have also announced that they are now focusing more on their EMG control.
 
 
 ![Meta EMG](https://cdn.vox-cdn.com/thumbor/I06tNv-46yUx79qkJ1LpP1HmH2w=/0x0:711x400/1200x800/filters:focal(243x58:355x170)/cdn.vox-cdn.com/uploads/chorus_image/image/68988252/Visual_3.0.png)
@@ -182,8 +183,6 @@ Lastly, we asked David about his future plans.
 > Right now I am still focused more on shorter term goals of projects that we have going on as part of the ongoing clinical trial.
 > So I am definitely still interested in working with paralyzed participants and trying to take this technology closer to application.
 > It would be really interesting to see this technology developed into something that is practically useful.
-> Whichever path I choose, I do not know the exact steps or path that I personally am going to acheive it.
-> But for now I think this is what I want to keep working on.
 
 &nbsp;
 
