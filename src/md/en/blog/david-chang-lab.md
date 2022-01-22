@@ -1,19 +1,20 @@
 ---
-title: “Decoding Speech from Brain Data: An Interview with BCI Award 2021 Second Place Winner, David Moses”
+title: 'Decoding Speech from Brain Data: An Interview with BCI Award 2021 Second Place Winner, David Moses'
 description: "We interviewed Dr. David Moses, who is working as a postdoctoral fellow at Chang Lab, and asked him about the current status, challenges, and future direction of neural speech decoding."
 datePublished: "2022/1/23"
 bannerPhoto: "/img/david-chang-lab/cover.jpg"
+category: "Interview"
 writer1: "Nao Yukawa"
 writer2: ""
 interviewer1: "Nao Yukawa"
 interviewer2: ""
 translator1: "Toma Itagaki"
-translator2: "Kai Irwin" //空白でもok
+translator2: "Kai Irwin"
 ---
 
 &nbsp;
 
-Many neural engineering labs are researching neural decoding, a process in which a *decoder* attempts to translate neural data into understandable information. There exists a wide range of decoders, from [decoding motor control information to allow quadriplegic patients to move a robotic arm,](https://www.nature.com/articles/nature11076) while [others have reconstructed images that subjects are looking at, solely from brain activity.](https://www.nature.com/articles/nn1444)
+Many neural engineering labs are researching neural decoding, a process in which a decoder attempts to translate neural data into understandable information. There exists a wide range of decoders, from [decoding motor control information to allow quadriplegic patients to move a robotic arm,](https://www.nature.com/articles/nature11076) while [others have reconstructed images that subjects are looking at, solely from brain activity.](https://www.nature.com/articles/nn1444)
 
 [Chang Lab](http://changlab.ucsf.edu/), led by Edward Chang of UCSF, is working on decoding speech from brain activity data, and won second place in last year’s [BCI Award](https://www.bci-award.com/2021). We interviewed [Dr. David Moses](https://scholar.google.com/citations?user=yW593xUAAAAJ&hl=en), who is working as a postdoctoral fellow at Chang Lab, and asked him about the current status, challenges, and future direction of neural speech decoding.
 
@@ -39,7 +40,7 @@ David's other research includes [utilizing the encoder-decoder model used in mac
 > At UCSF, there are patients who visit UCSF for treatment of medically intractable epilepsy.
 > They have seizures, they have epilepsy, but medicine does not work to to treat their condition and they need to get brain surgery.
 > So neurosurgeons such as my boss, Eddie Chang, first perform a surgery to implant a sheet of electrodes on the surface of the brain.
-> This  technology is called [Electrocorticography](https://en.wikipedia.org/wiki/Electrocorticography#:~:text=Electrocorticography%20(ECoG)%2C%20or%20intracranial, activity%20from%20the%20cerebral%20cortex.), ECoG, for short.
+> This  technology is called [Electrocorticography](https://en.wikipedia.org/wiki/Electrocorticography), ECoG, for short.
 > From these electrodes, they record brain activity to try to find the sources of the seizure.
 > And then, they do a second surgery where they try to resect the part of the brain that is causing the seizures.
 > For a lot of these patients, they volunteer to participate in our research, which are speech studies.
