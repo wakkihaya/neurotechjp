@@ -24,7 +24,7 @@ const SlidesPage: React.FC = () => {
       <div className="slides-container">
         <SlideContent
           linkRef="/slides/basic-theories-of-neurotechnology"
-          imgSrc="/img/slides/slide-basic-theory-neurotech-jp.jpg"
+          imgSrc="/img/slides/slide-basic-theory-neurotech.jpg"
           title="Basic Theories of Neurotechnology"
         >
           This slide is about the basic theories of Neurotechnology. It shows{" "}
