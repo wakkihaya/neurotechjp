@@ -470,7 +470,7 @@
     gap: 0.5em;
     align-items: center;
     justify-content: center;
-    padding: .1em 0;
+    padding: 0.1em 0;
   }
   @media screen and (max-width: $mobile-width) {
     flex-direction: column;
@@ -480,6 +480,7 @@
     }
     &--box-title {
       font-size: $small-font-size;
+      padding: 0;
     }
   }
 }
@@ -505,7 +506,7 @@
     margin: 0.5em;
   }
   @media screen and (max-width: $mobile-width) {
-    margin: 1em 0;
+    margin: 2em 0;
     &--img {
       width: 30px;
       height: 30px;
