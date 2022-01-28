@@ -110,7 +110,7 @@ _画像: Connexus_
 
 ## [Synchron](https://synchron.com/)
 
-Synchron は、**麻痺障害のある患者に対して、血管内に埋め込む小さなデバイス"Stentrode™"を**提供するスタートアップだ。埋め込むには約 2 時間ほどの手術を必要とするが、首の血管からデバイスを入れ、血管内で脳の位置へとデバイスを移動させるので、**切開不要**で埋め込みが可能だ。
+Synchron は、**麻痺障害のある患者に対して、血管内に埋め込む小さなデバイス"Stentrode™"を**提供するスタートアップだ。埋め込むには約 2 時間ほどの手術を必要とするが、首の血管からデバイスを入れ、血管内で脳の位置へとデバイスを移動させるので、**脳の切開不要**で埋め込みが可能だ。
 
 [![Synchron 紹介](https://neurotechjp.com/img/5-startups-invasive-bci/synchron.jpg)](https://youtu.be/mm95r05hui0)
 _動画: Synchron 紹介_
