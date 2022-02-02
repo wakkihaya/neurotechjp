@@ -8,21 +8,21 @@ writer1: "Shoka Kadoi"
 writer2: ""
 interviewer1: ""
 interviewer2: ""
-translator1: "Hayato Waki"
+translator1: "Toma Itagaki"
 translator2: ""
 ---
 
 &nbsp;
 
-The technology of Neurotech is the result of many layers of research woven together by the history of various studies by our great predecessors.
+Neurotech - the word itself combines neuroscience and technology. A truly interdisciplinary field, neurotech now sits at the frontier of science, technology, and medicine to deliver new ways to understand, interface, and treat the brain. 
 
-When you first came into contact with Neurotech, you may have been fascinated by the Brain-Computer Interface(BCI) that connects the brain to the computer and imagined a future of science fiction.
+Multiple fields combine to deliver multiple perspective into the brain, but what exactly are the applications that neurotechnology uniquely opens?
 
-In this series, however, we will explain the technical characteristics of the 10 major types of Neurotech technologies from a bird's eye view, not only BCI.
+In this series, we explain the high-level technical overviews of the 10 major types of neurotechnologies today.
 
 &nbsp;
 
-In this article, we would like to introduce the first five technologies.
+This article will cover the first five, check back for the other five technologies.
 
 ![Neurotech 10 technologies](https://neurotechjp.com/img/10-major-types-of-neurotech/neurotech-10-tech.jpg)
 
@@ -34,17 +34,17 @@ In this article, we would like to introduce the first five technologies.
 
 &nbsp;
 
-Cognitive assessment and enhancing is **a practice designed to help people improve their brain and cognitive development, social cognition, and increase vocational capabilities**.
+Cognitive assessment and enhancing is **a practice designed to help people improve cognitive development, social cognition, and vocational capabilities**.
 
 &nbsp;
 
-Over the past 30 years, amazing discoveries in neuroscience have opened up the future of our cognitive function. While cognitive function typically declines with age, **new nervous echnologies can improve brain health and performance.**
+Over the past 30 years, amazing discoveries in neuroscience have opened up the future of cognitive functions. While cognitive function typically declines with age, **new neurotechnologies can counteract the effects of aging on brain health and performance.**
 
 New research has shown that cognitive function can be assessed and enhanced through a variety of activities, including meditation, video games, smart drugs, nutritional supplements, nutrition, brain stimulation, exercise, music, and cognitive training.
 
-When the cognitive function is enhanced, the brain becomes more efficient, allowing us to solve complex problems and understand new perspectives.
+When cognitive function is enhanced, the brain becomes more efficient, allowing us to solve complex problems and understand new perspectives.
 
-Some of the leading companies are [Virtuleap](https://virtuleap.com/), [Neurotrack](https://neurotrack.com/), [Mindstrong Health](https://mindstrong.com/),and others.
+Some of the leading companies are [Virtuleap](https://virtuleap.com/), [Neurotrack](https://neurotrack.com/), [Mindstrong Health](https://mindstrong.com/), among others.
 
 [![Viruleap Youtube](https://neurotechjp.com/img/10-major-types-of-neurotech/virtuleap.jpg)](https://youtu.be/6Efs-DiU8hY)
 _Youtube: Virtuleap |　 Service introduction video_
@@ -57,29 +57,29 @@ _Youtube: Virtuleap |　 Service introduction video_
 
 &nbsp;
 
-Neuropharmacology is **the study of** **both the treatment of curing sick people and improving their moods for the better**. Hence, it applies to everything from drugs prescribed to help the sick to the latest "smart drugs".
+Neuropharmacology **aims to treat neurological diseases and improve patient mood**. Hence, it applies to everything from drugs prescribed to help the sick to the recreational "smart drugs".
 
 &nbsp;
 
-Neuropharmacology can be broadly divided into **molecular neuropharmacology** and **behavioral neuropharmacology**.
+Neuropharmacology is broadly divided into **molecular neuropharmacology** and **behavioral neuropharmacology**.
 
-Molecular neuropharmacology is the study of how drugs affect cellular functions and neural mechanisms with the aim of developing drugs with beneficial neurological effects, while behavioral neuropharmacology is the study of how drugs affect human behavior, including how drug dependence and addiction affect the human brain.
+Molecular neuropharmacology is the study of how drugs affect cellular functions and neural mechanisms with the goal of developing drugs with beneficial neurological effects, while behavioral neuropharmacology is the study of how drugs affect human behavior, including how drug dependence and addiction affect the human brain.
 
 &nbsp;
 
 Researchers at pharmaceutical companies, universities, and research hospitals **spend more than $137 billion per year to discover new neurotherapeutics**, and the pipeline is extremely inefficient, currently taking **more than 12 years and $1.5 billion to bring a drug to market**. The initial phase of R&D, before clinical trials begin, typically takes 3.5 years.
 
-Some of the leading companies are [Sage Therapeutics](https://www.sagerx.com/), [AZTherapies](https://aztherapies.com/), [BlackThornx](https://www.blackthornrx.com/), and others.
+Some of the leading companies are [Sage Therapeutics](https://www.sagerx.com/), [AZTherapies](https://aztherapies.com/), [BlackThornx](https://www.blackthornrx.com/), among others.
 
 &nbsp;
 
 ## 3. Neuromodulation
 
-Neuromodulation is a "**changing in nervous activity through the delivery of stimulus**", a technique that alters neural activity by applying electrical or chemical stimuli to specific nerve sites in the body.
+Neuromodulation is "**manipulating nerves and neurons through the delivery of artificial stimulus.**" Examples of this would be to alter neural activity by applying electrical or chemical stimuli to specific nerve sites in the body.
 
 Neuromodulation is a diverse field, with applications ranging from diagnosis and treatment of various diseases to tools for medical and neuroscience research. It also includes pharmacological stimulation with drugs.
 
-Each of those types of stimulation has different characteristics.
+Each type of stimulation has different characteristics.
 
 &nbsp;
 
@@ -100,7 +100,7 @@ _Neuromodulation stimulation types_
 
 According to a market study by NeuroTech Reports, the global neuromodulation market is expected to grow from $8.4 billion in 2018 to **$13.3 billion by 2022**.
 
-Some of the leading companies are [Thync](https://thync.com/), [Axonic](https://www.axonics.com/), [ElectroCore](https://www.electrocore.com/), and others.
+Some of the leading companies are [Thync](https://thync.com/), [Axonic](https://www.axonics.com/), [ElectroCore](https://www.electrocore.com/), among others.
 
 ![Thync image](https://images.techhive.com/images/article/2016/05/thync-main-100662444-primary.idge.jpg)
 _Image: Thync device_
@@ -126,7 +126,7 @@ _Neuromonitoring/imaging types_
 
 2. **PET scan**
 
-   PET scan, which stands for Positron Emission Tomography, is a tomography scan using a radioactive material called a tracer to examine the brain for disease or damage.
+   PET scan, which stands for Positron Emission Tomography, is a tomography scan using a radioactive tracer to examine the brain for disease or damage.
 
 3. **CT scan**
 
@@ -138,7 +138,7 @@ _Neuromonitoring/imaging types_
 
 1. **EEG (ElectroEncephaloGraphy)**
 
-   EEG can measure the electrical activity occurring in different cortical layers of the brain. EEG is used to record brain processes that occur immediately after visual or auditory stimulation, but it can also monitor brain states that reflect interaction and motivation over longer periods.
+   EEG can measure the electrical activity occurring in different corticies of the brain. EEG is used to record brain processes that occur immediately after visual or auditory stimulation, but it can also monitor brain states that reflect interaction and motivation over longer periods.
 
 2. **MEG (MagnetoEncephaloGraphy)**
 
@@ -155,7 +155,7 @@ _Neuromonitoring/imaging types_
 \*Spatial resolution: How well we can distinguish even the smallest objects.
 &nbsp;
 
-Some of the leading companies are [InSightec](https://www.insightec.com/), [NeuroMetrix](https://www.neurometrix.com/), and others.
+Some of the leading companies are [InSightec](https://www.insightec.com/), [NeuroMetrix](https://www.neurometrix.com/), among others.
 
 [![Insightec Youtube](https://neurotechjp.com/img/10-major-types-of-neurotech/insightec.jpg)](https://youtu.be/O_PL8_bDHOY)
 _Youtube: Insightec 　| introduction video_
@@ -167,7 +167,7 @@ _Neurofeedback flow_
 
 &nbsp;
 
-Neurofeedback is a technology **that visualizes brainwave activity in real-time and trains it, thereby changing brainwaves and leading to self-regulation of brain functions.**
+Neurofeedback is a technology **that visualizes brainwave activity in real-time to understand and train the brain, thereby changing brainwaves and leading to self-regulation of brain functions.**
 
 By showing information about the patient's brain wave activity, the patient can learn to change his or her brain waves. Neurofeedback can be used to treat a variety of neurological conditions, such as ADHD, as well as to improve concentration and work productivity.
 
@@ -175,7 +175,7 @@ By showing information about the patient's brain wave activity, the patient can 
 
 According to Market Watch reports, the neurofeedback market is projected to be worth $43 million in 2019 and **$66 million by 2026**.
 
-Some of the leading companies are [Muse by InteraXon](https://choosemuse.com/), [Myndlift](https://www.myndlift.com/), [BrainCo](https://www.brainco.tech/), and others.
+Some of the leading companies are [Muse by InteraXon](https://choosemuse.com/), [Myndlift](https://www.myndlift.com/), [BrainCo](https://www.brainco.tech/), among others.
 
 ![Muse device](https://choosemuse.com/app/uploads/2018/10/muse-2-facebook-3.jpg)
 _Image: Muse device_
@@ -186,7 +186,7 @@ _Image: Muse device_
 
 In this article, we introduced the first five of the ten technologies that represent Neurotech.
 
-As we have seen, Neurotech is a huge market where technologies from various disciplines such as pharmacy and engineering are applied in addition to BCI. There will be more and more startups applying this technology in the future, such as Neuromodulation, which NeurotechJP is especially interested in.
+As we have seen, Neurotech is a huge field where technologies from various disciplines such as pharmacy and engineering are applied. There will be more and more startups applying this technology in the future, such as Neuromodulation, which NeurotechJP is especially interested in.
 
 &nbsp;
 
