@@ -1,6 +1,6 @@
 ---
 title: "Student entrepreneur in neurotechnology | Harrison Canning"
-description: "For this interview, I had the opportunity to talk with Harrison Canning, a student at RIT majoring in neurotechnology, a founder and leader of a 90-member student research team in neurotechnology, and a founder of a media company that provides original contents on neurotechnology."
+description: "We interviewed Harrison Canning, a student at RIT majoring in neurotechnology, a founder and leader of a 90-member student research team in neurotechnology, and a founder of a media company that provides original contents on neurotechnology."
 datePublished: "2021/6/6"
 bannerPhoto: "/img/harrison-canning-rit/harrison-top.jpg"
 category: "Interview"
@@ -8,29 +8,29 @@ writer1: "Hayato Waki"
 writer2: ""
 interviewer1: "Hayato Waki"
 interviewer2: ""
-translator1: "Hayato Waki"
+translator1: "Toma Itagaki"
 translator2: ""
 ---
 
 &nbsp;
 
-In order to start a startup using neurotechnology, it is essential to have a deep understanding of these three elements: neuroscience, which is the understanding of how the brain works; software engineering, which is centered on the basics machine learning; and highly usable hardware engineering.
+In order to develop a neurotechnology startup, it is essential to have a rich understanding of these three elements: neuroscience for the understanding of how the brain works; software engineering centered around data anlysis and machine learning; and highly usable hardware engineering.
 
-Most of the hot startups previously introduced in ["5 featured startups in Neurotechnology"](https://www.neurotechjp.com/blog/5-startups-of-interest/) were spin-off companies founded by Ph.D. holders or professors, and they were doing research in the above one of three areas.
+Many hot startups previously introduced in ["5 featured startups in Neurotechnology"](https://www.neurotechjp.com/blog/5-startups-of-interest/) were spin-off companies founded by scientists or professors, many of whom were inolved in research in the three stated fields.
 
 &nbsp;
 
 Neurotechnology is a technology that requires learning in many areas, but there is a young man who is actively working with students to lower the hurdles to learning, [Harrison Canning](http://harrisoncanning.com/).
 
-Canning is a student at RIT majoring in neurotechnology, a founder and leader of a 90-member student research team in neurotechnology, and also a founder of a media company that provides original content on neurotechnology.
+That said, neurotechnology itself is an incredibly interdisciplinary study, requiring skills and understanding of multiple high-level scientific and mathematical concepts. To educate aspiring neurotech developers and reduce the educational barrier to entry in neurotech, a young scientist named [Harrison Canning](http://harrisoncanning.com/) is developing resources for students to learn the multitude of concepts in neurotech.
 
-For this post, I had the opportunity to talk with him about **his background, vision, and future of neurotechnology.**
+Canning is a student at Rochester Institute of Technology (RIT) majoring in neurotechnology, a founder and leader of a 90-member student research team in neurotechnology, and also a founder of a media company that provides original content on neurotechnology.
+
+Canning is no doubt a pioneer in free and accesible neurotech education, and NeurotechJP had the opportunity to talk with him about **his background, vision, and future of neurotechnology.**
 
 &nbsp;
 
 ## A childhood accident sparked his interest in neurotechnology.
-
-Canning is a student at [Rochester Institute of Technology (RIT)](https://www.rit.edu/) majoring in Neurotechnology and is active in a variety of activities.
 
 Founded in 2018, [the Neurotechnology Exploration Team (NXT)](https://sites.google.com/view/bciresearchrit/home/introduction?authuser=0) is a research group consisting of over 90 researchers and students in total, primarily from RIT. The team is working on several projects using [electroencephalography (EEG)](https://en.wikipedia.org/wiki/Electroencephalography) and [electromyography (EMG)](https://en.wikipedia.org/wiki/Electromyography), including a wheelchair that can be moved by the mind and a device that moves a cursor solely based on intent. Their achievements have even earned them a Maker of Merit award at [the 2019 Dubai International Maker Faire](https://dubai.makerfaire.com/).
 
@@ -42,30 +42,29 @@ Canning said that in both cases, **his motivation is to remove the barrier to en
 
 Canning works with neurotechnology and business, and he told me that **his work was inspired by an unfortunate accident he suffered when was 13 years old.**
 
-> "I got a bad concussion in an accident when I was 13, and lost abilities to speak, reading, and writing well for a couple of years after that.
+> "I got a bad concussion in an accident when I was 13, and lost the abilities to speak, read, and write well for a couple of years after that.
 > Someday, I was thinking of a robotic exosuit that I had wanted to design. And I was thinking like, how can you control it? Because I wanted this for people with ALS, people that can't move their bodies normally. So if you can't move your bodies, then how can you control it? And so I was thinking about the brain a lot, probably because of the concussion stuff.
 > And so I was wondering if maybe you can control the exosuit with your mind. And so I got really excited about that. And my mind just started to wander and think about where this could go in the future."
 
 &nbsp;
 
-Canning had studied robotics engineering from an early age. However, after an accident that left him unable to do the math and forced him to abandon his engineering career, he thought that
+Canning had studied robotics engineering from an early age. However, after an accident that left him unable to do the math and forced him to abandon his engineering career, he thought
 
-> "**I can't be an engineer, but I want to be a business leader to really push this vision and try to develop the technology.**."
-> and ever since, he has changed his course to become business-minded.
+> "**I can't be an engineer, but I want to be a business leader to really push this vision and try to develop the technology.**" 
 
-Afterwards, when he was in high school, he studied business and computer science online and started his own e-commerce and digital marketing company.
+and ever since, he has changed course to be business-minded.
 
-Later, in college, Canning dedicated his passion to neurotechnology and founded NXT and The BCI Guys.
+Afterwards, when he was in high school, he studied business and computer science online and started his own e-commerce and digital marketing company. Later, in college, Canning dedicated his passion to neurotechnology and founded NXT and The BCI Guys.
 
 &nbsp;
 
-## Killer use cases
+## Killer Use Cases
 
 I asked Canning about how the technology will be used in our lives, dividing the killer use cases into two categories: current and future.
 
 &nbsp;
 
-Canning replied that **the current killer use case is Neuromodulation.**
+Canning replied that **the current killer use case is in Neuromodulation.**
 
 &nbsp;
 
@@ -87,7 +86,7 @@ Also, Canning replied that **the killer use case of the future is manipulating a
 
 ## Timing and solving technical issues are critical to the establishment of neurotechnology.
 
-While the technology is like something out of science fiction, Canning said that **in order for the technology to reach healthy people, it is necessary to determine where it's good enough for them to start using it.**
+While the technology seems like something straight out of science fiction, Canning said that **in order for the technology to reach healthy people, it is necessary to determine where it's good enough for them to start using it.**
 
 He explained that
 
@@ -101,11 +100,9 @@ _Neuralink Device_
 
 &nbsp;
 
-For this technology to become a technology that will make a significant difference in our lives in years and decades, we need to not only be cautious about adapting it to people but also have the potential to solve the technical challenges.
+For this technology to truly infiltrate our lives and stay ubiquitous, we must carefully navigate how consumers adopt these devices and confirm that the value proposition is large enough for the lifestyle changes that such a technology could have.
 
-When I asked him what the biggest challenge is at the present, Canning told me that **the challenge is how to acquire and process data with the least amount of noise.**
-
-He also said that
+When we asked about his opinion on the biggest challenge that neurotech currently faces, Canning answered that **the challenge is how to acquire and process data with the least amount of noise.**
 
 > "Especially with EEG, which is recording on the scalp, we need to try to cancel out the noise. We also need to keep training the algorithms to read what the brain is doing from the EEG."
 
@@ -129,6 +126,6 @@ Also, as for the future of BCI Guys, which provides a lot of online technical ma
 
 ## Conclusion
 
-This time, I had the pleasure of interviewing Harrison Canning.
+This time, we had the pleasure of interviewing Harrison Canning.
 
-I found the contents of The BCI Guys to be very helpful in studying this field, so I would highly recommend watching their contents to everybody interested in this field.
+The contents of The BCI Guys are extremely helpful in entering this field, and NeurotechJP highly recommend watching their contents to everybody interested in starting in this field.
