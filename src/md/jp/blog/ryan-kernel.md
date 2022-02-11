@@ -1,7 +1,7 @@
 ---
 title: "BCIによる脳活動計測をメインストリームに。非侵襲型BCIの開発を行うKernel CTOにインタビュー。| Ryan Field"
 description: "今回はKernelでCTOを務めるRyan Fieldにインタビューを行い、Kernelが非侵襲型BCIに開発にかける思いとその現状、さらには今後の展望を伺った。"
-datePublished: "2021/2/13"
+datePublished: "2022/2/13"
 bannerPhoto: "/img/ryan-kernel/cover.jpg"
 category: "インタビュー"
 writer1: "Nao Yukawa"
