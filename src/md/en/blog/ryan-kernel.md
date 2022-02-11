@@ -37,7 +37,7 @@ Its initial mission was to develop technology to both read and write to the brai
 
 This pivot had several key advantages for Kernel. The first being reduced regulatory approvals; invasive techniques must be approved by the FDA involving long clinical trials. Non-invasive techniques would eliminate these hurdles, allowing Kernel to iterate faster on their technology. The other key advantage was that non-invasive techniques allowed Kernel to develop less localized recordings of the brain compared to invasive techniques that often require localized implants.
 
-> Non-invasive techniques gave us the opportunity to look at the whole brain. Most implanted devices are
+> Non-invasive techniques gave us the opportunity to **look at the whole brain**. Most implanted devices are
 > highly localized and typically focused on restoring brain functions like movement or speech.
 >
 > By not limiting us to implants in a localized region, we're able to get a more complete
@@ -102,7 +102,7 @@ As mentioned above, Kernel had to develop new chips from the ground-up; somethin
 
 Now, with newfound insights they are beginning to iterate on their technology with R&D underway for the next generation Flow.
 > I think time-domain fNIRS is one of the best technologies for non-invasively measuring the brain with precision.
-> For the technology that's enabled us to do that, **there is still a lot of room for improvement on our existing Kernel Flow**.
+> For the technology that has enabled us to do that, **there is still a lot of room for improvement on our existing Kernel Flow**.
 
 &nbsp;
 
@@ -129,8 +129,8 @@ Flow is capable of high quality measurements of brain activity, but the device d
 
 Ryan says that stimulations are simply a modality to modify the brain — an intervention. These can range from direct stimulation with TMS, to chemical interventions with drugs, and even learning which takes more time. But the challenge now is not in exploring new interventions of the brain, but in understanding how current interventions affect the brain.
 
-> **Kernel can become an interventions company at some point in the future.**
-> **But we really believe that the most important thing to do now is to characterize interventions based on brain measurements.**
+> **Kernel can become an interventions company at some point in the future**.
+> But **we really believe that the most important thing to do now is to characterize interventions based on brain measurements.**
 
 &nbsp;
 
