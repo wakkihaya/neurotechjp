@@ -34,7 +34,7 @@ export const useProfiles = () => {
           targetProfile["name"] = "Hayato Waki";
           targetProfile["role"] = "Writer/Interviewer";
           targetProfile["description"] =
-            "He worked on the research project about emotional BCI at Univ of Tsukuba in Japan. After experiencing multiple software startups as a founder/engineer in U.S. and Japan, he was attracted to neurotech and started building this media. Now, he also works for Neurons, the Denish neurotech company, as an engineer. His passion is to become a person who achieves Science-Fiction with creativity and technology.";
+            "He worked on the research project about emotional BCI at Univ of Tsukuba in Japan. After experiencing multiple software startups as a founder/engineer in U.S. and Japan, he was attracted to neurotech and started building this media. Now, he also works for Neurons, the Danish neurotech company, as an engineer. His passion is to become a person who achieves Science-Fiction with creativity and technology.";
         } else {
           targetProfile["name"] = "和木勇人 Hayato Waki";
           targetProfile["role"] = "ライター/インタビュアー";

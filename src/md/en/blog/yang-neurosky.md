@@ -22,7 +22,6 @@ Although BCIs have been around for more than 30 years, the turning point for con
 
 When "NeuroPort" and other early BCIs hit the consumer market, many devices never gain any traction. Yet, one pioneering company was able to deliver a non-invasive BCI device that would establish the consumer BCI market for the coming years. That company is [NeuroSky](http://neurosky.com/), led by [Stanley Yang](https://www.linkedin.com/in/stanley-yang-8173602/), who joined us for this interview.
 
-
 &nbsp;
 
 For this interview, we had the opportunity to talk with Stanley Yang, the CEO of NeuroSky, about the history and future of the company: how they developed the market, and what their strategy is as a pioneering company in recent years under intense competition.
@@ -37,7 +36,7 @@ Yang, who studied electrical engineering at UC Berkeley, has a talent for buildi
 
 &nbsp;
 
-In 2009, NeuroSky collaborated with two companies, [Mattel](https://en.wikipedia.org/wiki/Mattel) to launch [Mindflex](https://en.wikipedia.org/wiki/Mindflex), a toy that uses brain waves to control a ball in a maze, and [Uncle Milton](https://www.unclemilton.com/) to launch [Star Wars Science Force Trainer](https://en.wikipedia.org/wiki/Force_Trainer), a game that allows users to experience the Star Wars _Force_. As a manufacturer of these devices, the company was active as an [OEM](https://en.wikipedia.org/wiki/Original_equipment_manufacturer). Based on those findings and experiences, the company then started offering a BCI called Mindset, along with a game called ["Neuroboy"](https://store.neurosky.com/products/the-adventures-of-neuroboy-bci-technology-demo) that allows users to move objects with brain waves.
+In 2009, NeuroSky collaborated with two companies, [Mattel](https://en.wikipedia.org/wiki/Mattel) to launch [Mindflex](https://en.wikipedia.org/wiki/Mindflex), a toy that uses brain waves to control a ball in a maze, and [Uncle Milton](https://www.unclemilton.com/) to launch [Star Wars Science Force Trainer](https://en.wikipedia.org/wiki/Force_Trainer), a game that allows users to experience the Star Wars "Force". As a manufacturer of these devices, the company was active as an [OEM](https://en.wikipedia.org/wiki/Original_equipment_manufacturer). Based on those findings and experiences, the company then started offering a BCI called Mindset, along with a game called ["Neuroboy"](https://store.neurosky.com/products/the-adventures-of-neuroboy-bci-technology-demo) that allows users to move objects with brain waves.
 
 Currently, the company not only offers **[consumer EEG devices](https://store.neurosky.com/)** that **can be purchased from $100** but also provides **SDK kits** for developers free of charge. The company is also in the business of selling the **chips**, which is their core technology, to a number of BCI companies.
 
