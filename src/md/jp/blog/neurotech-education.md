@@ -1,5 +1,5 @@
 ---
-title: "ニューロテックのキャリアに最も相応しいは？"
+title: "ニューロテックのキャリアに最もふさわしい学部は？"
 description: "この記事では、ニューロテック企業10社の従業員の学歴を分析してニューロテック企業で働く人にどのような専門が最も多く見られるかを調べた。"
 datePublished: "2022/3/8"
 bannerPhoto: "/img/neurotech-education/ogp.png"
