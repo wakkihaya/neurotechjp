@@ -14,7 +14,7 @@ translator2: ""
 
 &nbsp;
 
-The emergence of Elon Musk’s [Neuralink](https://neuralink.com/) in 2017 sparked a burst of research and development in the world of neurotechnology, with **the market growing from $8.4B in 2018 to $13.3B in 2022 [(Neurotech Reports)](https://www.prnewswire.com/news-releases/global-neurotechnology-market-2018-2022-largest-segment-is-currently-neuromodulation-followed-by-neuroprosthetics-and-neurosensing-300775578.html).** This boom in the neurotech market will no doubt inspire young engineers and scientists, who want to join the battle at this scientific frontier.
+The emergence of Elon Musk’s [Neuralink](https://neuralink.com/) in 2017 sparked a burst of research and development in the world of neurotechnology, with **the market growing from $8.4B in 2018 to $13.3B in 2022 [(Neurotech Reports)](https://www.prnewswire.com/news-releases/global-neurotechnology-market-2018-2022-largest-segment-is-currently-neuromodulation-followed-by-neuroprosthetics-and-neurosensing-300775578.html).** This boom in the neurotech market will no doubtedly inspire young engineers and scientists who want to join the battle at this scientific frontier.
 
 &nbsp;
 
@@ -173,7 +173,7 @@ This perspective teaches us that neurotech is simply an application of engineeri
 
 ## Finding your path: what to consider?
 
-For readers who are interesting in working on neurotech but have yet to choose a discipline or major, there are two questions that may help guide your educational path.
+For readers who are interested in working on neurotech but have yet to choose a discipline or major, there are two questions that may help guide your educational path.
 
 Ask yourself **what applications of neurotech you are personally interested in, and what part of the neurotech stack you’d like to work on.**
 
