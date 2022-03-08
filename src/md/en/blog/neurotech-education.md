@@ -26,7 +26,7 @@ However, **the interdisciplinary nature of neurotech, combined with the relative
 
 To accumulate data on educational backgrounds of employees, we used LinkedIn’s “People” tab which shows a split of location, school, role, **education**, and skills.
 
-![LinkedIn figure](https://neurotechjp.com/img/neurotech-education/figure1.png)
+![LinkedIn figure](https://neurotechjp.com/img/neurotech-education/figure1.jpg)
 _Caption: The LinkedIn People page displays “What they studied” in this format. These numbers are based on the employee’s self-reported LinkedIn profiles._
 
 &nbsp;

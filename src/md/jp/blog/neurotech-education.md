@@ -26,7 +26,7 @@ translator2: ""
 
 ニューロテック企業で働く社員のデータを蓄積するために、LinkedIn の「People」タブで、場所、学校、役割、**学歴**、スキルに分かれて表示されるものを利用した。
 
-![LinkedIn figure](https://neurotechjp.com/img/neurotech-education/figure1.png)
+![LinkedIn figure](https://neurotechjp.com/img/neurotech-education/figure1.jpg)
 _画像:LinkedIn People のページでは、このような形式で「何を専攻したのか」が表示される。この数字は社員が自己申告した LinkedIn のプロフィールをもとに作成されたものだ。_
 
 &nbsp;
