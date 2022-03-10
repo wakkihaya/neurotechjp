@@ -135,6 +135,11 @@ Flow 50は2ヶ月間のみの募集にもかかわらず、多くの研究機関
 
 さらにKernelではFlow 50などを通じた研究機関との協力に加えて、二つの企業との提携もアナウンスされている。一社は[Cybin](https://cybin.com/)という、幻覚剤によるメンタルヘルスの治療に注力する会社で、もう一社は[Statespace](https://statespace.gg/)という、eSportsやビデオゲームでのパフォーマンスの最適化を目指す[Aim Lab](https://aimlab.gg/)を所有する会社である。
 
+![Cybin-and-Kernel](https://www.kernel.com/static/be417d4d8f47953d691b931b598a01f4/5fc9a/61856ce7f69d07807d2e5eb8_Cybin_Kernel.png)
+_Image: Cybin × Kernel_
+
+&nbsp;
+
 Kernelは、脳に対して何かしらの働きかけを行う企業や機関との提携に興味を示している。KernelのBCIにより正確な測定で、提携企業は自社プロダクトがどのように脳に影響を与えているかを知ることができる。特にRyanは、メンタルヘルスやゲームがKernelの脳活動計測の恩恵を受ける領域として挙げている。
 
 > 脳計測を用いたロバストなアプリケーションであれば、私たちはどんな種類のものでも興味があります。

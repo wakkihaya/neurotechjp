@@ -142,6 +142,11 @@ Given the short application window of around two months for Flow 50, a hundred a
 
 In addition to collaborating with research institutes through Flow 50, Kernel has also announced partnerships with two companies. One with [Cybin](https://cybin.com/), a company that focuses on the treatment of mental health with psychedelic molecules. The other with [Statespace](https://statespace.gg/), the publisher of [Aim Lab](https://aimlab.gg/), which aims to optimize performance in eSports and video games.
 
+![Cybin-and-Kernel](https://www.kernel.com/static/be417d4d8f47953d691b931b598a01f4/5fc9a/61856ce7f69d07807d2e5eb8_Cybin_Kernel.png)
+_Image: Cybin × Kernel_
+
+&nbsp;
+
 Kernel is interested in partnerships with companies and institutions that provide brain interventions. Providing precision measurements, partners can learn more about how their product might be affecting the brain through Kernel’s BCIs. Additionally, Ryan mentions mental health and gaming being specific applications that will benefit from Kernel’s brain measurement technology.
 
 > We are interested in all application areas as long as it is a robust application of brain measurement.
