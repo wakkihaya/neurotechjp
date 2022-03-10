@@ -14,11 +14,7 @@ translator2: ""
 
 &nbsp;
 
-The demo by [Neuralink](https://neuralink.com/), a company led by Elon Musk, left its mark on the world this past year. [The Link](https://neuralink.com/approach/#:~:text=The%20Link,to%20an%20implant%2C%20the%20Link.), an implantable chip they are developing, is an invasive BCI, which requires surgery. Though invasive BCIs have unique strengths, the invasive nature limits its use cases to medical applications with current regulations.
-
-On the other hand, non-invasive BCIs — not requiring invasive surgeries — are better suited for the general market. The company leading the charge in non-invasive BCIs is [Kernel](https://www.kernel.com/). Developing at a remarkable pace, Kernel has reached incredible heights in terms of funding and technology. When it comes to invasive BCIs, Neuralink is most famous, but Kernel is making its name known as a big player in the non-invasive market.
-
-We interviewed [Ryan Field](https://www.linkedin.com/in/ryanmfield/), CTO of Kernel, about his thoughts on the development, current state, and future of non-invasive BCIs.
+The company leading the charge in non-invasive BCIs is [Kernel](https://www.kernel.com/). Developing at a remarkable pace, Kernel has reached incredible heights in terms of funding and technology. We interviewed [Ryan Field](https://www.linkedin.com/in/ryanmfield/), CTO of Kernel, about his thoughts on the development, current state, and future of non-invasive BCIs.
 
 &nbsp;
 
@@ -26,7 +22,7 @@ We interviewed [Ryan Field](https://www.linkedin.com/in/ryanmfield/), CTO of Ker
 
 As covered in a [previous article](https://neurotechjp.com/blog/5-startups-non-invasive-bci/), Kernel was founded in 2016 by [Bryan Johnson](https://www.linkedin.com/in/bryanrjohnson/), who previously founded a fintech company called [Braintree](https://www.braintreepayments.com/), which acquired Venmo and was then sold to PayPal for 800 million dollars. Bryan has personally invested 50 million dollars in Kernel based on the huge amount of capital obtained at that time. In 2020, the company raised its Series C, growing its **valuation to over 100 million dollars.**
 
-![Kernel logo](https://res.cloudinary.com/crunchbase-production/image/upload/c_lpad,f_auto,q_auto:eco,dpr_1/vtkmcdz3nfbwkoavyqnq)
+![Kernel logo](https://neurotechjp.com/img/ryan-kernel/kernel-logo.jpg)
 _Image: Kernel logo_
 
 &nbsp;
@@ -47,23 +43,21 @@ This pivot had several key advantages for Kernel. The first being reduced regula
 
 ## The Crux of Non-Invasive BCIs, The Kernel Flow
 
-Kernel currently is developing a device called Flow.
-
-The Flow is a multimodal BCI headset, but mainly houses technology called **[TD-fNIRS (Time Domain Functional Near-Infrared Spectroscopy)](https://pubmed.ncbi.nlm.nih.gov/23747285/)**. [fNIRS](https://en.wikipedia.org/wiki/Functional_near-infrared_spectroscopy) uses near-infrared light to record brain activity by measuring changes in the amount of oxygenation in the blood associated with neural activity in the brain. There is another technique called [CW-fNIRS (Continuous Wave fNIRS)](https://nirx.net/cwfnirs). TD-fNIRS is expected to provide more information than CW-fNIRS due to the use of pulsed lasers, but is more complicated and difficult to develop.
+Kernel built Flow, which is a multimodal BCI headset, but mainly houses technology called **[TD-fNIRS (Time Domain Functional Near-Infrared Spectroscopy)](https://pubmed.ncbi.nlm.nih.gov/23747285/)**, the gold standard of optical measurement. [fNIRS](https://en.wikipedia.org/wiki/Functional_near-infrared_spectroscopy) uses near-infrared light to record brain activity by measuring changes in the amount of oxygenation in the blood associated with neural activity in the brain. TD-based devices traditionally present impracticalities through its immobile and large form factor. In turn, these devices have the highest depth sensitivity and are capable of presenting highly accurate values of hemoglobin concentration and oxygenation.
 
 ![Flow](https://www.kernel.com/static/a72a3c3cb35c0bef323dea7318a4e1f1/8afe2/HeadSet2.png)
 _Image: Flow_
 
 &nbsp;
 
-Kernel is currently accepting participants for [studies using its Flow headset]((https://www.kernel.com/participate)) in Los Angeles, where its headquarters are located, and NeurotechJP was able to participate and experience it firsthand. The demo can be viewed on YouTube from the link below.
+Kernel is currently accepting participants for [studies using its Flow headset]((https://www.kernel.com/participate)) in Los Angeles by signing up through the Kernel app (download [here](https://apps.apple.com/us/app/kernel-app/id1534622186)). NeurotechJP was able to participate and experience it firsthand. The demo can be viewed on YouTube from the link below.
 
 ![Flow demo](https://neurotechjp.com/img/ryan-kernel/flow-demo.jpg)
 _Video: Flow demo experience_
 
 &nbsp;
 
-Besides the Flow, Kernel initially was developing another headset named the Flux, which used Optically-Pumped Magnetoencephalography, which detects the magnetics fields generated by the brain. The company is now fully focused on Flow, discontinuing development of the Flux as it presented challenges in ubiquity.
+Besides Flow, Kernel initially was developing another headset named Flux, which used Optically-Pumped Magnetoencephalography, which detects the magnetics fields generated by the brain. The company is now fully focused on Flow, discontinuing development of Flux as it presented challenges in ubiquity.
 
 > When Kernel switched from invasive to non-invasive techniques about four and a half years ago,
 > the company looked at every technology that was out there: EEG, MEG, optical based, ultrasound.
@@ -72,7 +66,7 @@ Besides the Flow, Kernel initially was developing another headset named the Flux
 
 &nbsp;
 
-Many other startups developing non-invasive devices use EEG, but Kernel chose to tackle a difficult problem of getting robust time-domain recordings of fNIRS. Ryan says that fNIRS has been around for decades, but time-domain never developed into a widespread device even in research since the hardware is very challenging to get right. And Kernel faced this exact issue as they developed the Flow.
+Many other startups developing non-invasive devices use EEG, but Kernel chose to tackle a difficult problem of getting robust time-domain recordings of fNIRS. Ryan says that fNIRS has been around for decades, but time-domain never developed into a widespread device even in research since the hardware is very challenging to get right. And Kernel faced this exact issue as they developed Flow.
 
 > One of the most difficult things we had to overcome in developing Kernel Flow was that
 > **we couldn't use any available hardware. We had to build our own custom integrated circuits and custom chips**
@@ -80,7 +74,7 @@ Many other startups developing non-invasive devices use EEG, but Kernel chose to
 
 &nbsp;
 
-Despite these challenges, Kernel successfully released the Flow this past year. The device today can be connected to via a single USB-C cable with all of the electronics integrated into the headset.
+Despite these challenges, Kernel successfully released Flow this past year. The device today can be connected to via a single USB-C cable with all of the electronics integrated into the headset.
 
 &nbsp;
 
@@ -116,7 +110,7 @@ Ryan estimates that the earliest consumer-oriented products could be ready aroun
 
 &nbsp;
 
-The brain is one of the complex organs to understand in the human body, and Kernel recognizes that creating a robust device for consumers is far from trivial in terms of the science and technology. The biggest challenge is in creating a device that is able to capture reliable signals from the brain.
+The brain is one of the most complex organs to understand in the human body, and Kernel recognizes that creating a robust device for consumers is far from trivial in terms of the science and technology. The biggest challenge is in creating a device that is able to capture reliable signals from the brain.
 
 > **To make brain measurements mainstream, you need a solid scientific and technological foundation.**
 > **The device needs to read signals that can be measured reliably every time**. It can't work 75% of the time.
@@ -136,7 +130,7 @@ Ryan says that stimulations are simply a modality to modify the brain — an int
 
 ## Collaborations in Research Lead to New Applications
 
-Kernel previously hosted a program dubbed Flow 50 where fifty research institutes and companies could rent a Kernel Flow. Out of a hundred applications, Ryan and his team chose each project carefully with the hope that the program would contribute to neuroscience research but also further the applications of Flow and brain measurement devices.
+Kernel previously hosted a program dubbed Flow 50 where fifty research institutes and companies could try out a Flow headset. Out of a hundred applications, Ryan and his team chose each project carefully with the hope that the program would contribute to neuroscience research but also further the applications of Flow and brain measurement devices.
 
 > We chose projects that have **the potential to make meaningful contributions to society and the future of neuro-measurement**.
 
@@ -146,16 +140,11 @@ Given the short application window of around two months for Flow 50, a hundred a
 
 &nbsp;
 
-![Flow U](https://neurotechjp.com/img/ryan-kernel/flow-u.jpg)
-_Image: Website of Flow U_
+In addition to collaborating with research institutes through Flow 50, Kernel has also announced partnerships with two companies. One with [Cybin](https://cybin.com/), a company that focuses on the treatment of mental health with psychedelic molecules. The other with [Statespace](https://statespace.gg/), the publisher of [Aim Lab](https://aimlab.gg/), which aims to optimize performance in eSports and video games.
 
-&nbsp;
+Kernel is interested in partnerships with companies and institutions that provide brain interventions. Providing precision measurements, partners can learn more about how their product might be affecting the brain through Kernel’s BCIs. Additionally, Ryan mentions mental health and gaming being specific applications that will benefit from Kernel’s brain measurement technology.
 
-In addition to collaborating with research institutes through Flow 50, Kernel has also announced partnerships with two companies. One with [Cybin](https://cybin.com/), a company that focuses on the treatment of mental health problems caused by psychedelics. The other with [Statespace](https://statespace.gg/), the publisher of [Aim Lab](https://aimlab.gg/), which aims to optimize performance in eSports and video games.
-
-Kernel is interested in partnerships with companies and institutions that provides brain interventions. Providing precision measurements, partners can learn more about how their product might be affecting the brain through Kernel’s BCIs. Additionally, Ryan mentions mental health and gaming being specific applications that will benefit from Kernel’s brain measurement technology.
-
-> We are interested in all application services as long as it is a robust application of brain measurement.
+> We are interested in all application areas as long as it is a robust application of brain measurement.
 
 &nbsp;
 
