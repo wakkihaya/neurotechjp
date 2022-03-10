@@ -20,7 +20,7 @@ translator2: ""
 
 ## 非侵襲型BCIの開発により、脳測定をメインストリームに
 
-[以前NeurotechJPでも取り上げた](https://neurotechjp.com/jp/blog/5-startups-non-invasive-bci/)Kernelは、2016年に設立された。CEOの[Bryan Johnson](https://www.linkedin.com/in/bryanrjohnson/)はかつて[Braintree](https://www.braintreepayments.com/)と呼ばれるフィンテックの会社を創業し、Venmoを買収したのち、PayPalに800億円で売却した経歴を持つ。BryanはKernelに対して50億円もの投資を行なっている。2020年には外部からの資金調達も行い、総資金調達学は合計で**100億円**を超える。
+[以前NeurotechJPでも取り上げた](https://neurotechjp.com/jp/blog/5-startups-non-invasive-bci/)Kernelは、2016年に設立された。CEOの[Bryan Johnson](https://www.linkedin.com/in/bryanrjohnson/)はかつて[Braintree](https://www.braintreepayments.com/)と呼ばれるフィンテックの会社を創業し、Venmoを買収したのち、PayPalに800億円で売却した経歴を持つ。BryanはKernelに対して50億円もの投資を行なっている。2020年には外部からの資金調達も行い、総資金調達額は合計で**100億円**を超える。
 
 ![Kernel logo](https://neurotechjp.com/img/ryan-kernel/kernel-logo.jpg)
 _画像: Kernelロゴ_
@@ -34,7 +34,7 @@ _画像: Kernelロゴ_
 
 このピボットは、Kernelにとってもいくつかのメリットがあったという。一つは、規制の緩和だ。侵襲型の手法の場合、FDAからの承認が必要で、これにはそれなりに時間がかかる。一方で非侵襲型の場合は、こうした規制が幾分か緩くなり、開発スピードも向上した。もう一つのメリットは、局所的なインプラントを用いるような侵襲型の手法と比べて、包括的な脳活動の記録が行えるようになることである。
 
-> また非侵襲型にすることで、**脳全体を見ることができる**ようになります。ほとんどのインプラントはとても局所的で、
+> 非侵襲型にすることで、**脳全体を見ることができる**ようになります。ほとんどのインプラントはとても局所的で、
 > 何か特定の脳の機能を回復させることに主眼が置かれています。例えば麻痺を抱えていたり、発話に問題があったり、
 > その他の病気があったりした場合に、インプラントが使われて、治療に充てられます。
 >
@@ -52,7 +52,7 @@ _画像: Flow_
 
 &nbsp;
 
-なおFlowについて、現在Kernelはロサンゼルスで[一般公募の実験](https://www.kernel.com/participate)参加者を募集しており、アプリからサインアップすることで参加できる(アプリのダウンロードは[こちら](https://apps.apple.com/us/app/kernel-app/id1534622186))。NeurotechJPも今回、このデモに参加することで実際に体験することができた。デモの様子は下記リンクからご覧いただける。
+なおFlowについて、現在Kernelはロサンゼルスで[一般公募の実験](https://www.kernel.com/participate)参加者を募集しており、アプリからサインアップすることで参加できる(アプリのダウンロードは[こちら](https://apps.apple.com/us/app/kernel-app/id1534622186))。NeurotechJPも今回、このデモに参加することで実際に体験することができた。デモの様子は下記YouTubeリンクからご覧いただける。
 
 ![Flow demo](https://neurotechjp.com/img/ryan-kernel/flow-demo.jpg)
 _動画: Flowデモ体験の様子_
