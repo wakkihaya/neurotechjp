@@ -20,7 +20,7 @@ The company leading the charge in non-invasive BCIs is [Kernel](https://www.kern
 
 ## Making Brain Measurements Mainstream with Non-Invasive BCIs
 
-As covered in a [previous article](https://neurotechjp.com/blog/5-startups-non-invasive-bci/), Kernel was founded in 2016 by [Bryan Johnson](https://www.linkedin.com/in/bryanrjohnson/), who previously founded a fintech company called [Braintree](https://www.braintreepayments.com/), which acquired Venmo and was then sold to PayPal for 800 million dollars. Bryan has personally invested 50 million dollars in Kernel based on the huge amount of capital obtained at that time. In 2020, the company raised its Series C, growing its **valuation to over 100 million dollars.**
+As covered in a [previous article](https://neurotechjp.com/blog/5-startups-non-invasive-bci/), Kernel was founded in 2016 by [Bryan Johnson](https://www.linkedin.com/in/bryanrjohnson/), who previously founded a fintech company called [Braintree](https://www.braintreepayments.com/), which acquired Venmo and was then sold to PayPal for $800 million. Bryan has personally invested $54 million in Kernel. In 2020, the company raised its Series C, **surpassing $100 million in total capital raised**.
 
 ![Kernel logo](https://neurotechjp.com/img/ryan-kernel/kernel-logo.jpg)
 _Image: Kernel logo_
