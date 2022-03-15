@@ -75,6 +75,8 @@
   }
   &--social {
     flex: 0.1;
+    display: flex;
+    gap: 5px;
   }
   &--social-item {
     .fa-border {
@@ -119,7 +121,11 @@
 }
 
 .footer {
-  background-image: linear-gradient(to bottom right, $blue-color, $deep-blue-color);
+  background-image: linear-gradient(
+    to bottom right,
+    $blue-color,
+    $deep-blue-color
+  );
   padding: 1em 0;
 
   &--newsletter {
