@@ -85,7 +85,6 @@ const HeaderSocial: React.FC<HeaderDeviceProps> = ({ lang, device }) => {
   } else {
     if (device === "Desktop") {
       return (
-        //TODO: fix style
         <>
           <a
             href="https://twitter.com/NeurotechJP"
@@ -182,16 +181,22 @@ const HamburgerMenu: React.FC<HeaderDeviceProps> = ({ lang, device }) => {
   );
 };
 
-//2022/1/17: CES 2022 Banner
+//2022/3/17: Discord Banner
 const RenderBanner: React.FC<HeaderProps> = props => {
   const { lang } = props;
   if (lang === "JP") {
     return (
       <Banner>
         <p>
-          CES2022 ニューロテックレポートを販売中！詳細は
-          <Link href="/jp/slides/ces-2022/">こちら</Link>
-          から
+          Neurotech Discordコミュニティは
+          <a
+            target="_blank"
+            rel="noreferrer"
+            href="https://discord.gg/ERh2pzQ6AW"
+          >
+            こちら
+          </a>
+          から！
         </p>
       </Banner>
     );
