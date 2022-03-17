@@ -2,7 +2,7 @@ import Link from "next/link";
 import { useRouter } from "next/router";
 import React, { useState, useEffect } from "react";
 import { slide as Menu } from "react-burger-menu";
-import { faTwitter } from "@fortawesome/free-brands-svg-icons";
+import { faDiscord, faTwitter } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 import useResponsive from "~/hooks/use-responsive";
@@ -85,25 +85,45 @@ const HeaderSocial: React.FC<HeaderDeviceProps> = ({ lang, device }) => {
   } else {
     if (device === "Desktop") {
       return (
-        <a
-          href="https://twitter.com/NeurotechJP"
-          target="_blank"
-          className="header--social-item"
-          rel="noreferrer"
-        >
-          <FontAwesomeIcon icon={faTwitter} size="4x" border />
-        </a>
+        <>
+          <a
+            href="https://twitter.com/NeurotechJP"
+            target="_blank"
+            className="header--social-item"
+            rel="noreferrer"
+          >
+            <FontAwesomeIcon icon={faTwitter} size="4x" border />
+          </a>
+          <a
+            href="https://discord.gg/ERh2pzQ6AW"
+            target="_blank"
+            className="header--social-item"
+            rel="noreferrer"
+          >
+            <FontAwesomeIcon icon={faDiscord} size="4x" border />
+          </a>
+        </>
       );
     } else {
       return (
-        <a
-          href="https://twitter.com/NeurotechJP"
-          target="_blank"
-          className="header--social-item"
-          rel="noreferrer"
-        >
-          <FontAwesomeIcon icon={faTwitter} size="2x" border />
-        </a>
+        <>
+          <a
+            href="https://twitter.com/NeurotechJP"
+            target="_blank"
+            className="header--social-item"
+            rel="noreferrer"
+          >
+            <FontAwesomeIcon icon={faTwitter} size="2x" border />
+          </a>
+          <a
+            href="https://discord.gg/ERh2pzQ6AW"
+            target="_blank"
+            className="header--social-item"
+            rel="noreferrer"
+          >
+            <FontAwesomeIcon icon={faDiscord} size="2x" border />
+          </a>
+        </>
       );
     }
   }
@@ -161,16 +181,22 @@ const HamburgerMenu: React.FC<HeaderDeviceProps> = ({ lang, device }) => {
   );
 };
 
-//2022/1/17: CES 2022 Banner
+//2022/3/17: Discord Banner
 const RenderBanner: React.FC<HeaderProps> = props => {
   const { lang } = props;
   if (lang === "JP") {
     return (
       <Banner>
         <p>
-          CES2022 ニューロテックレポートを販売中！詳細は
-          <Link href="/jp/slides/ces-2022/">こちら</Link>
-          から
+          Neurotech Discordコミュニティは
+          <a
+            target="_blank"
+            rel="noreferrer"
+            href="https://discord.gg/ERh2pzQ6AW"
+          >
+            こちら
+          </a>
+          から！
         </p>
       </Banner>
     );

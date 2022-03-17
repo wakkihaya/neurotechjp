@@ -12,8 +12,6 @@ import useResponsive from "~hooks/use-responsive";
 import { MembersList, useProfiles } from "~hooks/use-profiles";
 import useCurrentLang from "~hooks/use-currentLang";
 
-//TODO: If interviewer and writer is same, unify them.
-
 interface EditorInfoProps {
   image?: string;
   name?: string;
