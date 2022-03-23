@@ -54,7 +54,7 @@ _画像: Flow_
 
 なおFlowについて、現在Kernelはロサンゼルスで[一般公募の実験](https://www.kernel.com/participate)参加者を募集しており、アプリからサインアップすることで参加できる(アプリのダウンロードは[こちら](https://apps.apple.com/us/app/kernel-app/id1534622186))。NeurotechJPも今回、このデモに参加することで実際に体験することができた。デモの様子は下記YouTubeリンクからご覧いただける。
 
-![Flow demo](https://neurotechjp.com/img/ryan-kernel/flow-demo.jpg)
+[![Flow demo](https://neurotechjp.com/img/ryan-kernel/flow-demo.jpg)](https://youtu.be/dTClMLKx8bk)
 _動画: Flowデモ体験の様子_
 
 &nbsp;
