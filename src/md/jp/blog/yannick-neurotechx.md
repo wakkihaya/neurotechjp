@@ -1,7 +1,7 @@
 ---
 title: "世界最大のニューロテックコミュニティ 'NeuroTechX'の設立背景と成長要因とは| Yannick Roy"
 description: "今回はNeuroTechXの創業者 Yannick Royと運営メンバーであるBryan Jenkinsに、コミュニティ設立の背景に加え、サイエンスコミュニティの発展や運営のメソッドに関してインタビューさせて頂いた。"
-datePublished: "2022/3/14"
+datePublished: "2022/4/10"
 bannerPhoto: "/img/yannick-neurotechx/ogp.jpg"
 category: "インタビュー"
 writer1: "Hayato Waki"

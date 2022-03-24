@@ -1,7 +1,7 @@
 ---
 title: "Founding & growing the world's largest neurotech community 'NeuroTechX' | Yannick Roy"
 description: "This time we interviewed Yannick Roy, founder of NeuroTechX, and Bryan Jenkins, a member of the NeuroTechX management team. In addition to the background of the establishment of the community, we also interviewed about the development of the science community and the methods used in its operation."
-datePublished: "2022/3/14"
+datePublished: "2022/4/10"
 bannerPhoto: "/img/yannick-neurotechx/ogp.jpg"
 category: "Interview"
 writer1: "Hayato Waki"
