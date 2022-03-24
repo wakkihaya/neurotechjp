@@ -16,7 +16,7 @@ translator2: ""
 
 サイエンスの発展にはコミュニティが欠かせない。
 
-ニューロテックもその例外ではなく、世界およそ 100 カ国以上に渡り 17000 人以上が参加するコミュニティ”[NeuroTechX](https://neurotechx.com/)”がその発展を促進している。NeurotechJP では[NeuroTechX SF チャプターのリーダーでもある Morgan にインタビュー](https://neurotechjp.com/jp/blog/morgan-neurotechsf/)し、その最前線を聞いていた。
+ニューロテックもその例外ではなく、世界およそ 100 カ国以上に渡り 18000 人以上が参加するコミュニティ”[NeuroTechX](https://neurotechx.com/)”がその発展を促進している。NeurotechJP では[NeuroTechX SF チャプターのリーダーでもある Morgan にインタビュー](https://neurotechjp.com/jp/blog/morgan-neurotechsf/)し、その最前線を聞いていた。
 
 今回は NeuroTechX の創業者 [Yannick Roy](https://www.linkedin.com/in/yannick-roy-8aa5286/)と運営メンバーである[Bryan Jenkins](https://www.linkedin.com/in/bryanjenkins27/)に、コミュニティ設立の背景に加え、サイエンスコミュニティの発展や運営のメソッドに関してインタビューさせて頂いた。
 

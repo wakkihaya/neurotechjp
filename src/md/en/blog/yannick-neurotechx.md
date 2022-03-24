@@ -16,7 +16,7 @@ translator2: ""
 
 Communities are essential to the development of science.
 
-Neurotech is no exception, and a community of more than 17,000 participants in over 100 countries "[NeuroTechX](https://neurotechx.com/)" is facilitating its development. [NeurotechJP interviewed Morgan, the leader of the NeuroTechX SF chapter](https://neurotechjp.com/blog/morgan-neurotechsf/), to learn more about the front lines.
+Neurotech is no exception, and a community of more than 18,000 participants in over 100 countries "[NeuroTechX](https://neurotechx.com/)" is facilitating its development. [NeurotechJP interviewed Morgan, the leader of the NeuroTechX SF chapter](https://neurotechjp.com/blog/morgan-neurotechsf/), to learn more about the front lines.
 
 This time we interviewed [Yannick Roy](https://www.linkedin.com/in/yannick-roy-8aa5286/), founder of NeuroTechX, and [Bryan Jenkins](https://www.linkedin.com/in/bryanjenkins27/), a member of the NeuroTechX management team. In addition to the background of the establishment of the community, we also interviewed about the development of the science community and the methods used in its operation.
 
