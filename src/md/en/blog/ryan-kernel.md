@@ -50,7 +50,7 @@ _Image: Flow_
 
 Kernel is currently accepting participants for [studies using its Flow headset]((https://www.kernel.com/participate)) in Los Angeles by signing up through the Kernel app (download [here](https://apps.apple.com/us/app/kernel-app/id1534622186)). NeurotechJP was able to participate and experience it firsthand. The demo can be viewed on YouTube from the link below.
 
-[![Flow demo](https://neurotechjp.com/img/ryan-kernel/flow-demo.jpg)](https://youtu.be/dTClMLKx8bk)
+[![Flow demo](https://neurotechjp.com/img/ryan-kernel/flow-demo-v2.jpg)](https://youtu.be/dTClMLKx8bk)
 _Video: Flow demo experience_
 
 &nbsp;
