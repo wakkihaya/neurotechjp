@@ -35,11 +35,12 @@ export const useProfiles = () => {
           targetProfile["role"] = "President";
           targetProfile["description"] =
             "He worked on the research project about emotional BCI at Univ of Tsukuba in Japan. After experiencing multiple software startups as a founder/engineer in U.S. and Japan, he was attracted to neurotech and started building this media. Now, he also works for Neurons, the Danish neurotech company, as an engineer. His passion is to become a person who achieves Science-Fiction with creativity and technology.";
+          targetProfile["twitterLink"] = "https://twitter.com/wakki_neurotech";
         } else {
           targetProfile["name"] = "和木勇人 Hayato Waki";
           targetProfile["role"] = "プロジェクトマネージャー";
           targetProfile["description"] =
-            "筑波大学にてBCIに関する研究に従事。日本と米国でソフトウェアスタートアップを起業、エンジニアとしての経験を詰んだ後、ニューロテックの魅力に惹かれ当サイトを立ち上げる。現在はデンマークのニューロテック会社'Neurons'にてエンジニアとしても働く。彼のパッションは、「創造性と技術力を持って、Science-Fictionを実現する1人になること」である。";
+            "筑波大学にてBCIに関する研究に従事。日本と米国でソフトウェアスタートアップを起業、エンジニアとしての経験を詰んだ後、ニューロテックの魅力に惹かれ当メディアを立ち上げる。現在はデンマークのニューロテック会社'Neurons'にてエンジニアとしても働く。彼のパッションは、「創造性と技術力を持って、Science-Fictionを実現する1人になること」である。";
         }
         break;
 
