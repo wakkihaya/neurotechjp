@@ -32,12 +32,12 @@ export const useProfiles = () => {
         };
         if (lang === "en") {
           targetProfile["name"] = "Hayato Waki";
-          targetProfile["role"] = "Writer/Interviewer";
+          targetProfile["role"] = "President";
           targetProfile["description"] =
             "He worked on the research project about emotional BCI at Univ of Tsukuba in Japan. After experiencing multiple software startups as a founder/engineer in U.S. and Japan, he was attracted to neurotech and started building this media. Now, he also works for Neurons, the Danish neurotech company, as an engineer. His passion is to become a person who achieves Science-Fiction with creativity and technology.";
         } else {
           targetProfile["name"] = "和木勇人 Hayato Waki";
-          targetProfile["role"] = "ライター/インタビュアー";
+          targetProfile["role"] = "プロジェクトマネージャー";
           targetProfile["description"] =
             "筑波大学にてBCIに関する研究に従事。日本と米国でソフトウェアスタートアップを起業、エンジニアとしての経験を詰んだ後、ニューロテックの魅力に惹かれ当サイトを立ち上げる。現在はデンマークのニューロテック会社'Neurons'にてエンジニアとしても働く。彼のパッションは、「創造性と技術力を持って、Science-Fictionを実現する1人になること」である。";
         }
@@ -55,12 +55,12 @@ export const useProfiles = () => {
         };
         if (lang === "en") {
           targetProfile["name"] = "Shoka Kadoi";
-          targetProfile["role"] = "Writer";
+          targetProfile["role"] = "Bizdev Lead";
           targetProfile["description"] =
             "Graduated from Doshisha University, Faculty of Sociology, Department of Communication Studies. After attending a conference organized by Israel Brain Technologies, he joined Relook, a mindfulness meditation app, where he worked as a CS, web marketer, and PdM, and experienced M&A.";
         } else {
           targetProfile["name"] = "門井 翔佳 Shoka Kadoi";
-          targetProfile["role"] = "ライター";
+          targetProfile["role"] = "Bizdev リード";
           targetProfile["description"] =
             "2018年、同志社大学社会学部メディア学科卒業。社会心理学専攻。Israel Brain Technologiesの主宰するカンファレンスに参加を機に、2019年6月よりマインドフルネス瞑想アプリ『Relook』にジョイン。CS、Webマーケ、プロダクトマネージャーとして働きM&Aを経験。";
         }
@@ -78,12 +78,12 @@ export const useProfiles = () => {
         };
         if (lang === "en") {
           targetProfile["name"] = "Nao Yukawa";
-          targetProfile["role"] = "Interviewer/Writer";
+          targetProfile["role"] = "Community Lead";
           targetProfile["description"] =
             "A senior majoring in Engineering at the University of Tokyo. While he is doing research on deep learning at an AI research lab in the same university, he is also studying International Business at San Francisco State University. His goal is to contribute to the development of Neuroscience by bridging the gap between academia and industry like Neuralink, a company founded by Elon Musk, is trying to do.";
         } else {
           targetProfile["name"] = "湯川 直旺 Nao Yukawa";
-          targetProfile["role"] = "インタビュアー/ライター";
+          targetProfile["role"] = "コミュニティ リード";
           targetProfile["description"] =
             "東京大学工学部4年生。現在は同大学の松尾研究室で深層学習関連の研究を行う傍ら、米国SanFranciscoにてInternational Businessを学んでいる。 Elon Musk率いるNeuralinkのように、ビジネスとNeurotechnologyを組み合わせることで、神経科学の発展に寄与することが目標。";
         }
