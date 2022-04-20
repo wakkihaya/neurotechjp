@@ -20,11 +20,11 @@ Consumer Brain-Computer Interface has been attracting attention in recent years,
 
 Although BCIs have been around for more than 30 years, the turning point for consumer BCIs dates back more than 20 years. Research in invasive BCIs was rapidly accelerating in the mid-1990s. [Cyberkinetics](https://www.braingate.org/), founded in 2001 by a team of researchers from [Brown University](https://www.brown.edu/), provided the world's first consumer BCI, "NeuroPort," two years after its establishment, enabling users to monitor their activity of the nervous system.
 
-When "NeuroPort" and other early BCIs hit the consumer market, many devices never gain any traction. Yet, one pioneering company was able to deliver a non-invasive BCI device that would establish the consumer BCI market for the coming years. That company is [NeuroSky](http://neurosky.com/), led by [Stanley Yang](https://www.linkedin.com/in/stanley-yang-8173602/), who joined us for this interview.
+When "NeuroPort" and other early BCIs hit the consumer market, many devices never gained any traction. Yet, one pioneering company was able to deliver a non-invasive BCI device that would establish the consumer BCI market for the coming years. That company is [NeuroSky](http://neurosky.com/), led by [Stanley Yang](https://www.linkedin.com/in/stanley-yang-8173602/), who joined us for this interview.
 
 &nbsp;
 
-For this interview, we had the opportunity to talk with Stanley Yang, the CEO of NeuroSky, about the history and future of the company: how they developed the market, and what their strategy is as a pioneering company in recent years under intense competition.
+We had the opportunity to talk with Stanley Yang, the CEO of NeuroSky, about the history and future of the company: how they developed the market, and what their strategy is as a pioneering company in recent years under intense competition.
 
 &nbsp;
 
@@ -67,10 +67,10 @@ How did Yang and the team at NeuroSky approach educating the general public abou
 ![Neurosky Starwars trainer](https://blogofwishes.com/wp-content/uploads/2010/04/star-wars-force-trainer-brain-controlled-toy.jpg)
 _Image: Neurosky Star Wars Force Trainer_
 
-As a breakthrough, **they "trained the market" by offering a toy that people were familiar with: the "Force" from Star Wars**.
+As a breakthrough, **they "trained the market" by offering a toy that people were familiar with: the Force from Star Wars**.
 
 > At that time, it was very difficult to convince customers to use a brainwave measuring product without obvious applications.
-> That's why we went with "Star Wars" because they have the _force_ that many people are familiar with.
+> That's why we went with "Star Wars" because they have the force that many people are familiar with.
 
 > “The Force” replaced “brainwaves”. Then they became curious because everybody knew the force is not real. People investigated the technology behind the Force Trainer and found NeuroSky's Brainwave EEG technology.
 > That's called “training the market”
@@ -150,4 +150,4 @@ In addition, he said that they will adapt the AI and hardware technologies that 
 
 A special thanks to Stanley Yang, the founder of NeuroSky, for interviewing with us about NeuroSky, their history, strategy, and future.
 
-Just as NeuroSky had a lot of trouble getting people to recognize the BCI when it was first launched, it is essential to train the market to provide people with technology that was thought to be unfeasible. These lessons may be applicable beyond Neurotech, for social implementation of the latest technology in many other fields.
+Just as NeuroSky had a lot of trouble getting people to recognize the BCI when it was first launched, it is essential to train the market to provide people with technology that was once thought to be unfeasible. These lessons may be applicable beyond Neurotech, for social implementation of the latest technology in many other fields.
