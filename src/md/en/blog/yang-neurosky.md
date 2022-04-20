@@ -20,11 +20,11 @@ Consumer Brain-Computer Interface has been attracting attention in recent years,
 
 Although BCIs have been around for more than 30 years, the turning point for consumer BCIs dates back more than 20 years. Research in invasive BCIs was rapidly accelerating in the mid-1990s. [Cyberkinetics](https://www.braingate.org/), founded in 2001 by a team of researchers from [Brown University](https://www.brown.edu/), provided the world's first consumer BCI, "NeuroPort," two years after its establishment, enabling users to monitor their activity of the nervous system.
 
-When "NeuroPort" and other early BCIs hit the consumer market, many devices never gain any traction. Yet, one pioneering company was able to deliver a non-invasive BCI device that would establish the consumer BCI market for the coming years. That company is [NeuroSky](http://neurosky.com/), led by [Stanley Yang](https://www.linkedin.com/in/stanley-yang-8173602/), who joined us for this interview.
+When "NeuroPort" and other early BCIs hit the consumer market, many devices never gained any traction. Yet, one pioneering company was able to deliver a non-invasive BCI device that would establish the consumer BCI market for the coming years. That company is [NeuroSky](http://neurosky.com/), led by [Stanley Yang](https://www.linkedin.com/in/stanley-yang-8173602/), who joined us for this interview.
 
 &nbsp;
 
-For this interview, we had the opportunity to talk with Stanley Yang, the CEO of NeuroSky, about the history and future of the company: how they developed the market, and what their strategy is as a pioneering company in recent years under intense competition.
+We had the opportunity to talk with Stanley Yang, the CEO of NeuroSky, about the history and future of the company: how they developed the market, and what their strategy is as a pioneering company in recent years under intense competition.
 
 &nbsp;
 
@@ -51,11 +51,11 @@ _Image: Neurosky device "MindWave"_
 
 ## Background on Successful Market Development. "Training the market first."
 
-There is no doubt that NeuroSky's devices, along with exciting applications and gamas that popularized BCIs to consumers in the 2000s.
+There is no doubt that it was NeuroSky's devices, along with exciting applications and games, that popularized BCIs to consumers in the 2000s.
 
 Yang told me that **it took a lot of hard work to install the concept of BCI in people** as most people had never heard of "brain waves."
 
-> At that time, if I asked people to use brainwave technology, or product, nobody knew what it was.
+> At that time, if I asked people to use brainwave technology, or products, nobody knew what it was.
 > Although the medical industry measured brainwaves, the general consumer had no idea how or why they should use a product to measure brainwaves.
 
 &nbsp;
@@ -102,8 +102,8 @@ Yang answered that **providing good applications with a purpose is important.**
 
 NeuroSky's focus now is on **educational** and **industrial** areas, providing devices not only for end-users but also for **organizations and businesses**.
 
-> We are now very popular in some kind of practical application such as schools and gyms around the world that use a headset for education.
-> Also, many construction companies around the world are now using our brainwave technology in the workers' helmets to monitor if they are in poor condition. It helps them prevent accidents and save their lives and save the company costs.
+> We are now very popular in practical applications such as schools and gyms around the world that use our headsets for education.
+> Also, many construction companies around the world are now using our brainwave technology in workers' helmets to monitor if they are in poor condition. It helps them prevent accidents and save their lives and save the company costs.
 
 &nbsp;
 
@@ -150,4 +150,4 @@ In addition, he said that they will adapt the AI and hardware technologies that 
 
 A special thanks to Stanley Yang, the founder of NeuroSky, for interviewing with us about NeuroSky, their history, strategy, and future.
 
-Just as NeuroSky had a lot of trouble getting people to recognize the BCI when it was first launched, it is essential to train the market to provide people with technology that was thought to be unfeasible. These lessons may be applicable beyond Neurotech, for social implementation of the latest technology in many other fields.
+Just as NeuroSky had a lot of trouble getting people to recognize the BCI when it was first launched, it is essential to train the market to provide people with technology that was once thought to be unfeasible. These lessons may be applicable beyond Neurotech, for social implementation of the latest technology in many other fields.
