@@ -18,7 +18,7 @@ The world of neurotech has seen many research institutes develop Brain Computer 
 
 &nbsp;
 
-[Rajesh Rao](https://www.rajeshpnrao.com/), Professor of [Computer Science and Engineering](https://www.cs.washington.edu/) and [Electrical and Computer Engineering](https://www.ece.uw.edu/) at the University of Washington and author of [Brain Computer Interfacing: An Introduction](http://bci.cs.washington.edu/), leads the [Neural Systems Lab](https://neural.cs.washington.edu/) where they conduct research at the intersection of the brain and AI. We interviewed Dr. Rao about his path to neurotech, BrainNet, and the future of neurotech.
+[Rajesh Rao](https://www.rajeshpnrao.com/), Professor of [Computer Science and Engineering](https://www.cs.washington.edu/) and [Electrical and Computer Engineering](https://www.ece.uw.edu/) at the University of Washington and author of [Brain Computer Interfacing: An Introduction](http://bci.cs.washington.edu/), leads the [Center for Neurotechnology](https://centerforneurotech.uw.edu/) and [Neural Systems Lab](https://neural.cs.washington.edu/) where they conduct research at the intersection of the brain and AI. We interviewed Dr. Rao about his path to neurotech, BrainNet, and the future of neurotech.
 
 &nbsp;
 
@@ -231,7 +231,7 @@ Finally, in the pursuit of a ubiquitous BCI, we asked Dr. Rao regarding his spec
 
 ## Conclusion
 
-Huge thanks to Dr. Rajesh Rao of the University of Washington’s Neural Systems Lab and **[Center for Neurotechnology](https://centerforneurotech.uw.edu/)** for his time. The team at NeurotechJP learned a ton from this conversation regarding his cutting-edge research, as well as his visions about the neurotech field.
+Huge thanks to Dr. Rajesh Rao of the University of Washington’s Neural Systems Lab and [Center for Neurotechnology](https://centerforneurotech.uw.edu/) for his time. The team at NeurotechJP learned a ton from this conversation regarding his cutting-edge research, as well as his visions about the neurotech field.
 
 &nbsp;
 
