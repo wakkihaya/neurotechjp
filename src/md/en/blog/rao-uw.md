@@ -26,7 +26,7 @@ The world of neurotech has seen many research institutes develop Brain Computer 
 
 Similar to many, Dr. Rao spent his childhood Sundays watching and reading Science Fiction literature and TV shows like Star Trek. **Showcasing many far-fetched technologies, Star Trek inspired Dr. Rao to ask the crucial question:**
 
-> Is it really just science **fiction** or is possible?
+> Is it really just science **fiction** or is it possible?
 
 &nbsp;
 
@@ -98,7 +98,7 @@ There are clearly limitations with the current technology; EEG is limited in ban
 > There's a finite number of words, and there's going to be limitations to the person's capacity to express their knowledge.
 > How can we remove that bottleneck?
 
-**Language is inherently a bottleneck in communication requiring the encoding (thought to language) and the decoding (language to thought). BrainNet and direct brain to brain communication, given the signal resolution improves significantly, could reduce the friction of language.**
+**Language is inherently a bottleneck in communication requiring encoding (thought to language) and decoding (language to thought). BrainNet and direct brain to brain communication, given the signal resolution improves significantly, could reduce the friction of language.**
 
 &nbsp;
 
@@ -112,14 +112,14 @@ Another application of brain to brain BCIs could be better abstract communicatio
 Another futuristic application would be to transfer knowledge directly like in the Matrix.
 
 > Can I download Kung Fu into my brain?
-> You cannot directly download it and expect it to work, you'll have to do a lot of practice after you've downloaded it, but it's possible to download it and have a good initial starting point.
+> You cannot directly download it and expect it to work, you'll have to do a lot of practice after you've downloaded it, but it may be possible to download it and have a good initial starting point.
 
 ![matrix](https://neurotechjp.com/img/rao-uw/matrix.png)
 _Caption: Interface from The Matrix (1999) where Neo “downloads” Kung Fu. Link to clip: https://www.youtube.com/watch?v=_UUFu8zjRxE_
 
 &nbsp;
 
-Finally, Dr. Rao points out that **combining brains could improve human creativity by putting together multiple brains, each brining a unique perspective to a problem.**
+Finally, Dr. Rao points out that **combining brains could improve human creativity by putting together multiple brains, each bringing a unique perspective to a problem.**
 
 > Imagine if you can directly [collaborate] by harnessing brains direclty. **The creativity of the human condition may be amplified and maybe we'll come up with solutions to some of the harder problems that a single mind may not be able to solve.**
 > If you put 100 minds together, perhaps that can solve a very hard problem that, because of our neural real estate limitations, we cannot solve.
@@ -136,19 +136,19 @@ Dr. Rao’s lab is currently pursuing the idea of brain co-processors, where dec
 
 &nbsp;
 
-**This co-processing would potentially improve various brain capacities such bridging brain region after a stroke, or healing brain regions through adaptive stimulation.** [This relates to the statement Elon Musk made about a “tertiary [cortical] layer” regarding the possible use of Neuralink.](https://www.inverse.com/article/60897-elon-musk-says-neuralink-could-bring-a-i-superintelligence-to-the-brain)
+**This co-processing would potentially improve various brain capacities such bridging brain regions after a stroke, or healing brain regions through adaptive stimulation.** [This relates to the statement Elon Musk made about a “tertiary [cortical] layer” regarding the possible use of Neuralink.](https://www.inverse.com/article/60897-elon-musk-says-neuralink-could-bring-a-i-superintelligence-to-the-brain)
 
 &nbsp;
 
-Dr. Rao also touched on an important idea of 'explainable AI'. **Neural networks are being used in many applications of AI, but when the algorithm fails we will not understand why it failed.** When dealing with highly-involved applications like self-driving cars and BCIs these mistakes can be detrimental.
+Dr. Rao also touched on the important idea of 'explainable AI'. **Neural networks are being used in many applications of AI, but when the algorithm fails we will not understand why it failed.** When dealing with highly-involved applications like self-driving cars and BCIs these mistakes can be detrimental.
 
 > If you don't understand the brain, at some point, you're not going to understand the behavior of both the brain and the interface.
 
 &nbsp;
 
-This parallel work between AI, Neuroscience, and BCIs speaks to the state of AI and the neuroscience.
+This parallel work between AI, Neuroscience, and BCIs speaks to the state of AI and neuroscience.
 
-> Once you understand how the brain works, it makes it easier to also interface with the brain. **Instead of using a blackbox AI interface of the brain, we can understand what happens when I stimulate the brain.**
+> Once you understand how the brain works, it makes it easier to also interface with the brain. **Instead of using a blackbox AI interface of the brain, we can understand what happens when you stimulate the brain.**
 
 &nbsp;
 
@@ -158,7 +158,7 @@ We asked Dr. Rao how neurotech will advance both in terms of applications and te
 
 &nbsp;
 
-**He explained that neurotech will likely follow a similar trajectory as plastic surgery.** In the 1950s, plastic surgery was mainly used for medical treatment for cancer patients. However, as the technology developed and the risk of surgery dropped, plastic surgery has become a routine treatment for many.
+**He explained that neurotech will likely follow a similar trajectory as plastic surgery.** In the 1950s and 1960s, plastic surgery was mainly used for medical treatment for cancer patients. However, as the technology developed and the risk of surgery dropped, plastic surgery has become a routine treatment for many.
 
 > I think in the same way, we are in the phase where a lot of the neurotechnology is being developed for medical purposes. And that's exactly where it needs to be.
 
@@ -170,7 +170,7 @@ Past the technologies being developed with a medicinal purpose, Dr. Rao explains
 
 &nbsp;
 
-**But what exactly does it mean the augment the human brain?**
+**But what exactly does it mean to augment the human brain?**
 
 &nbsp;
 
@@ -186,7 +186,7 @@ Dr. Rao explains that augmentation has been happening since the beginning of hum
 
 Dr. Rao also commented on the current state of commercial neurotech with advancements from Meta’s CTRL-Labs, Neuralink, and Kernel.
 
-He mentions the prospects within educational neurotechnologies where some companies are looking into tDCS and alternate current stimulation devices to speed up knowledge acquisition.
+He mentions the prospects within neurotechnologies for accelerating learning and improving attention where some companies are looking into tDCS and alternate current stimulation devices to speed up knowledge acquisition.
 
 > You can almost draw parallels between some of these other kinds of augmentations. We've done it with drugs like caffeine, but this is a more direct interaction with the brain.
 
@@ -204,14 +204,14 @@ We asked Dr. Rao about his opinions on the developments around non-invasive reco
 
 He mentions that the lab works with EEG, but in constrained lab settings where artifacts are controlled to a minimum. **But when considering naturalistic settings where the user might be moving and talking, the EEG signal quality will likely fail.**
 
-> There is an accuracy issue. The reliability is very questionable for EEG. For any kind of non-invasive technology, we have not seen a very reliable product in the market where it consistently performs to ahigh degree of accuracy and the recordings are really clean.
+> There is an accuracy issue. The reliability is very questionable for EEG. For any kind of non-invasive technology, we have not seen a very reliable product in the market where it consistently performs to a high degree of accuracy and the recordings are really clean.
 
 &nbsp;
 
 He also mentions that innovators like Kernel, who developed a non-invasive device using time-domain fNIRS technology, will push the capabilities of non-invasive BCIs further.
 
 > It's great that there are companies like Kernel and even Neuralink that are experimenting and coming up with new ways [of recording].
-> We need more contributions from material scientistcs, physicists, other fields that come up with new ways of imaging the brain.
+> We need more contributions from material scientists, physicists, other fields that come up with new ways of imaging the brain.
 
 &nbsp;
 
@@ -225,13 +225,13 @@ Finally, in the pursuit of a ubiquitous BCI, we asked Dr. Rao regarding his spec
 
 **With Dr. Rao’s explanation of risk-benefit, there may be a point where invasive implants become as ubiquitous as plastic surgery. With non-invasive technologies, rather than considering the risk, the question lies in the signal and whether it can provide any benefit.**
 
-> To pick one, the people will probably bet on the invasive technology being the one that will end up being the most reliable if they are able to bring down the cost and risk of surgery.
+> To pick one, many people will probably bet on invasive technology being the one that will end up being the most reliable if they are able to bring down the cost and risk of surgery.
 
 &nbsp;
 
 ## Conclusion
 
-Huge thanks to Dr. Rajesh Rao of the University of Washington’s Neural Systems Lab for his time. The team at NeurotechJP learned a ton from this conversation regarding his cutting-edge research, as well as his visions about the neurotech field.
+Huge thanks to Dr. Rajesh Rao of the University of Washington’s Neural Systems Lab and **[Center for Neurotechnology](https://centerforneurotech.uw.edu/)** for his time. The team at NeurotechJP learned a ton from this conversation regarding his cutting-edge research, as well as his visions about the neurotech field.
 
 &nbsp;
 
