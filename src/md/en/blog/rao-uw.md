@@ -34,7 +34,7 @@ After excelling in high school science, Dr. Rao first experienced scientific res
 
 &nbsp;
 
-He would go on to complete his M.S. and Ph.D. at the University of Rochester where he began to combine his interests in computers and brain through Computer Vision; a field of computer science and AI that conducts video analysis through various machine learning algorithms. He would go on to begin neuroscience work during his postdoc.
+He would go on to complete his M.S. and Ph.D. at the University of Rochester where he began to combine his interests in computers and brain through Computer Vision; a field of computer science and AI that conducts video analysis through various machine learning algorithms. He would then go on to begin neuroscience work during his postdoc.
 
 &nbsp;
 
@@ -57,7 +57,7 @@ _Caption: Dr. Rao as the sender in the first iteration of BrainNet. He is wearin
 
 &nbsp;
 
-[**The second iteration**](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0137303) **featured conscious decision making in the communication flow.** A 20 Questions game was played, where the sender would think of an object and the receiver would ask questions (explicitly) and the sender would answer yes or no to that question through stimulation on the visual cortex.
+[**The second iteration**](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0137303) **featured conscious decision making in the communication flow.** A 20 Questions game was played, where the sender would think of an object and the receiver would ask questions (explicitly) and the sender would answer yes or no to that question through stimulation to the visual cortex.
 
 > We played a 20 Questions game where I think of an object and you repeatedly ask me yes or no questions.
 > The person will eventually figure out that I was thinking of a truck only through brain to brain interaction.
@@ -136,7 +136,7 @@ Dr. Rao’s lab is currently pursuing the idea of brain co-processors, where dec
 
 &nbsp;
 
-**This co-processing would potentially improve various brain capacities such bridging brain regions after a stroke, or healing brain regions through adaptive stimulation.** [This relates to the statement Elon Musk made about a “tertiary [cortical] layer” regarding the possible use of Neuralink.](https://www.inverse.com/article/60897-elon-musk-says-neuralink-could-bring-a-i-superintelligence-to-the-brain)
+**This co-processing would potentially improve various brain capacities such as bridging brain regions after a stroke, or healing brain regions through adaptive stimulation.** [This relates to the statement Elon Musk made about a “tertiary [cortical] layer” regarding the possible use of Neuralink.](https://www.inverse.com/article/60897-elon-musk-says-neuralink-could-bring-a-i-superintelligence-to-the-brain)
 
 &nbsp;
 
