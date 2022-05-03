@@ -2,7 +2,7 @@
 title: "非侵襲型BCI ガジェットレビュー5選"
 description: "今回の記事では、「ちょっとBCI触って脳活動データ分析してみたいんだけど何を使えば良いのか分からない」という脳活動データを使って何かしてみたい開発者の方に対して、一般消費者用のBCIの中でもNeurotechJPが取り上げた特に注目すべき5つのBCIを、実際に使用した感想と共に紹介していく。"
 datePublished: "2022/5/8"
-bannerPhoto: "/img/5-bci-gadget-reviews/cover.jpg"
+bannerPhoto: "/img/5-bci-gadget-reviews/cover.png"
 category: "コラム"
 writer1: "Hayato Waki"
 writer2: ""

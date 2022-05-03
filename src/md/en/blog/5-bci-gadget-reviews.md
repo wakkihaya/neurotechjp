@@ -2,7 +2,7 @@
 title: "5 non-invasive BCI Gadget Reviews"
 description: "In this article, we introduce five consumer BCIs that are particularly noteworthy, along with our impressions of their actual use."
 datePublished: "2022/5/8"
-bannerPhoto: "/img/5-bci-gadget-reviews/cover.jpg"
+bannerPhoto: "/img/5-bci-gadget-reviews/cover.png"
 category: "Column"
 writer1: "Hayato Waki"
 writer2: ""
