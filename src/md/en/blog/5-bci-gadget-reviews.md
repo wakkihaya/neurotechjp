@@ -245,6 +245,11 @@ The company offers the following types of EEG devices, but you also need to purc
 
 - Not only the EEG device, but also the Cyton Board and other boards need to be purchased, resulting in a cost of $1k~$2k. Other parts are also expensive, so replacing them is also a hurdle.
 
+\*Emotiv Pro
+
+- Standard: $99/mo
+- Student: $29/mo
+
 &nbsp;
 
 ### Resources
@@ -338,6 +343,8 @@ Neurosity offers a proprietary BCI "Crown" with excellent design and processing 
 
 - The SDK for developers is quite extensive, and the hurdles for BCI application development are low.
 
+- The device has CPU in itself, so you can try to implement functionalities of data saving, background processing, and so on.
+
 &nbsp;
 
 ### Cons
@@ -355,11 +362,11 @@ None so far
 
 ## By use
 
-**If you just want to do a little EEG analysis at a low cost, Muse, NeuroSky.**
+**If you are a beginner in this space, who hasn’t experienced EEG analysis and want to try EEG analysis for the first time, use low cost device relatively, such as Muse, NeuroSky.**
 
-**If you want to measure and analyze properly, use Emotiv, OpenBCI.**
+**If you have already experienced EEG analysis and want to measure/analyze/develop based on rich data, use Emotiv, OpenBCI.**
 
-**If you want to build a full stack of BCI apps, Neurosity.**
+**If you want to build a full stack of BCI apps integrated with mobile or web, use Neurosity.**
 
 &nbsp;
 
