@@ -42,8 +42,8 @@ const HeaderIndexBlog: React.FC<HeaderProps> = ({ lang }) => {
 const HeaderIndexSlides: React.FC<HeaderProps> = ({ lang }) => {
   return (
     <>
-      {lang === "EN" && <Link href="/slides">Slides</Link>}
-      {lang === "JP" && <Link href="/jp/slides">Slides</Link>}
+      {lang === "EN" && <Link href="/slides">Reports</Link>}
+      {lang === "JP" && <Link href="/jp/slides">Reports</Link>}
     </>
   );
 };
