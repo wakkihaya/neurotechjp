@@ -48,7 +48,7 @@ We introduced the BCI landscape at the beginning of this article, and the figure
 
 &nbsp;
 
-This article will review the following five devices, which are the most widely used non-invasive BCIs.
+This article will review the following five featured devices.
 
 - Muse
 - Emotiv
