@@ -25,8 +25,8 @@ const BlogPage: React.FC<BlogPageProps> = props => {
     <>
       <Meta
         meta={{
-          title: "NeurotechJP",
-          desc: "NeurotechJPはニューロテックのキラーユースケースを明らかにする目的で運営しています。ニューロテクノロジー分野の最先端で活躍する先人へのインタビューやトレンド、コラムなどを発信していきます。",
+          title: "NeurotechJP |  ニューロテックJP",
+          desc: "NeurotechJP (ニューロテックJP）はニューロテックのキラーユースケースを明らかにする目的で運営しています。ニューロテクノロジー分野の最先端で活躍する先人へのインタビューやトレンド、コラムなどを発信していきます。",
           link: "https://neurotechjp.com",
           image: "https://neurotechjp.com/ogp.png",
         }}
