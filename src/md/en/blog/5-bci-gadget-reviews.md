@@ -1,6 +1,6 @@
 ---
 title: "5 non-invasive BCI Gadget Reviews"
-description: "In this article, we introduce five consumer BCIs that are particularly noteworthy, along with our impressions of their actual use."
+description: "This article introduces five consumer BCIs that are noteworthy for developers who want to work with brain activity data"
 datePublished: "2022/5/8"
 bannerPhoto: "/img/5-bci-gadget-reviews/cover.png"
 category: "Column"
@@ -14,26 +14,24 @@ translator2: ""
 
 &nbsp;
 
-BCI companies around the world are working on a variety of use cases.
+BCI (Brain-Computer Interface) companies around the world are developing devices for a variety of applications.
 
-Although BCI is best known for its use for device control and medical purposes, it is also being used in education, sports, and other areas familiar to the average consumer.
+Although BCIs are best known for device control and medical purposes, more companies are developing BCIs for education, sports, and other areas more familiar to an average consumer.
 
 ![BCI2022 landscape](https://neurotechjp.com/img/5-bci-gadget-reviews/bci-landscape-en.jpg)
 _Image: BCI landscape 2022_
 
 &nbsp;
 
-In particular, the number of companies offering non-invasive BCI has increased over the years, and **large companies are acquiring non-invasive BCI startups**. The news in March of this year that **[Snap acquired non-invasive BCI startup NextMind](https://newsroom.snap.com/welcome-nextmind/)** may have surprised many people.
+In particular, the number of companies offering non-invasive BCI has increased over the years, and **large companies are acquiring non-invasive BCI startups**. In March, the news that **[Snap acquired non-invasive BCI startup NextMind](https://newsroom.snap.com/welcome-nextmind/)** may have surprised many.
 
 &nbsp;
 
-NeurotechJP has [previously introduced5 featured non-invasive BCI startups](https://neurotechjp.com/blog/5-startups-non-invasive-bci/), but **not only researchers but also general consumers can easily use BCIs are increasing in number, and BCIs for general consumers are gaining attention due to their functionality and cost-effectiveness**.
+NeurotechJP has [previously introduced 5 featured non-invasive BCI startups](https://neurotechjp.com/blog/5-startups-non-invasive-bci/), but **many devices are beginning to trend towards becoming more friendly to general consumers. Many of these devices also house high functionality at a relatively low-cost, garnering the attention of experts and consumers.**
 
-In this article,
-for developers, who want to do something with brain activity data, with the question:
-”I'd like to touch a BCI to analyze brain activity data, but I don't know what to use.”
+&nbsp;
 
-we introduce five consumer BCIs that are particularly noteworthy, along with our impressions of their actual use.
+If you’ve ever asked the question, ”I'd like to use a BCI to analyze brain data, but don't know which one to purchase,” this article introduces five consumer BCIs that are noteworthy for developers who want to work with brain activity data.
 
 &nbsp;
 
@@ -42,7 +40,7 @@ we introduce five consumer BCIs that are particularly noteworthy, along with our
 ![Affordable-BCI-main-players--competitive-advantage](https://neurotechjp.com/img/5-bci-gadget-reviews/affordable-bcis-en.jpg)
 _Image: Affordable BCI major players | Competitive advantages_
 
-We introduced the BCI landscape at the beginning of this article, and the figure above picks out the major non-invasive BCI players **whose devices can be purchased** and summarizes their competitive advantages on the axis of **price range and intended use**.
+We introduced the BCI landscape at the beginning of this article, and the figure above picks out the major non-invasive BCI players **whose devices can be purchased** and summarizes their competitive advantages on the axes of **price range** and **intended use**.
 
 \*While some companies may have different prices for the devices they offer, they are mapped based on the average price of the device.
 
@@ -73,7 +71,7 @@ _Image：Muse2_
 
 Muse is a device that measures EEG (electroencephalogram) and heart rate, and when used in conjunction with a unique mobile app, can improve meditation and sleep quality.
 
-There are two types of products offered, with the following differences
+There are two products offered, with the following differences:
 
 &nbsp;
 
@@ -81,27 +79,28 @@ There are two types of products offered, with the following differences
 
 [Muse 2](https://choosemuse.com/muse-2/)
 
-| Price                        | $250                                          |
-| ---------------------------- | --------------------------------------------- |
-| Channels                     | 4 channels(TP9, TP10, AF7, AF8) [Dry]         |
-| Functionalities              | ・EEG measurement ・Meditation session in app |
-| Possible to acquire raw data | Yes                                           |
+| Price              | $250                                            |
+| ------------------ | ----------------------------------------------- |
+| Channels           | 4 channels(TP9, TP10, AF7, AF8) [Dry]           |
+| Key features       | ・EEG measurements ・Meditation session(in-app) |
+| Access to raw data | Yes                                             |
 
 &nbsp;
 
 [Muse S](https://choosemuse.com/muse-s/)
 
-| Price                        | $400                                                                 |
-| ---------------------------- | -------------------------------------------------------------------- |
-| Channels                     | 4 channels(TP9, TP10, AF7, AF8) [Dry]                                |
-| Functionalities              | ・EEG measurement ・Meditation session in app ・Sleep session in app |
-| Possible to acquire raw data | Yes                                                                  |
+| Price              | $400                                                                    |
+| ------------------ | ----------------------------------------------------------------------- |
+| Channels           | 4 channels(TP9, TP10, AF7, AF8) [Dry]                                   |
+| Key features       | ・EEG measurements ・Meditation session(in-app) ・Sleep session(in-app) |
+| Access to raw data | Yes                                                                     |
 
 &nbsp;
 
 ### Pros
 
-- It has enough channels to measure the frontal lobes, yet it is inexpensive and cost-effective.
+- Enough channels to measure the frontal lobes.
+- Inexpensive and cost-effective.
 - The library and SDK for data acquisition and processing are well-developed.
 
 &nbsp;
@@ -129,11 +128,11 @@ There are two types of products offered, with the following differences
 
 _Image：Emotiv EpocX_
 
-| Company            | Emotiv |
-| ------------------ | ------ |
-| Year of foundation | 2011   |
-| Total funding      | $120K  |
-| Country            |        |
+| Company            | Emotiv              |
+| ------------------ | ------------------- |
+| Year of foundation | 2011                |
+| Total funding      | $120K               |
+| Country            | San Francisco, U.S. |
 
 &nbsp;
 
@@ -147,31 +146,31 @@ There are three main types of devices offered.
 
 [Emotiv Insight](https://www.emotiv.com/insight/)
 
-| Price                        | $500                               |
-| ---------------------------- | ---------------------------------- |
-| Channels                     | 5 channels [Semi-dry]              |
-| Functionalities              | ・EEG measurement                  |
-| Possible to acquire raw data | Yes (Need to subscribe Emotiv Pro) |
+| Price              | $500                               |
+| ------------------ | ---------------------------------- |
+| Channels           | 5 channels [Semi-dry]              |
+| Key features       | ・EEG measurements                 |
+| Access to raw data | Yes (Need to subscribe Emotiv Pro) |
 
 &nbsp;
 
 [Emotiv Epoc-X](https://www.emotiv.com/epoc-x/)
 
-| Price                        | $850                               |
-| ---------------------------- | ---------------------------------- |
-| Channels                     | 14 channels [Semi-dry]             |
-| Functionalities              | ・EEG measurement                  |
-| Possible to acquire raw data | Yes (Need to subscribe Emotiv Pro) |
+| Price              | $850                               |
+| ------------------ | ---------------------------------- |
+| Channels           | 14 channels [Semi-dry]             |
+| Key features       | ・EEG measurements                 |
+| Access to raw data | Yes (Need to subscribe Emotiv Pro) |
 
 &nbsp;
 
 [Emotiv Epoc-Flex](https://www.emotiv.com/epoc-flex/)
 
-| Price                        | $1699+                             |
-| ---------------------------- | ---------------------------------- |
-| Channels                     | Up to 32 channels                  |
-| Functionalities              | ・EEG measurement                  |
-| Possible to acquire raw data | Yes (Need to subscribe Emotiv Pro) |
+| Price              | $1699+                             |
+| ------------------ | ---------------------------------- |
+| Channels           | Up to 32 channels                  |
+| Key features       | ・EEG measurements                 |
+| Access to raw data | Yes (Need to subscribe Emotiv Pro) |
 
 &nbsp;
 
@@ -183,7 +182,12 @@ There are three main types of devices offered.
 
 ### Cons
 
-- Requires charging for Emotiv Pro to get Raw data, which is expensive (cheaper for students).
+- Requires Emotiv Pro to access raw data, which is expensive (cheaper for students).
+
+\*Emotiv Pro
+
+- Standard: $99/mo
+- Student: $29/mo
 
 &nbsp;
 
@@ -207,7 +211,7 @@ _Image：OpenBCi “Mark IV”_
 
 &nbsp;
 
-OpenBCI provides devices that can acquire all kinds of biological signals, not only EEG. The company also provides its own software [OpenBCI GUI](https://openbci.com/downloads) for real-time EEG monitoring.
+OpenBCI provides devices that can acquire all kinds of biological signals, not only EEG. The company also provides its own [OpenBCI GUI](https://openbci.com/downloads) for real-time EEG monitoring.
 
 The company offers the following types of EEG devices, but you also need to purchase a board to acquire EEG signals and transmit them to your PC. ([Cyton Board](https://shop.openbci.com/products/cyton-biosensing-board-8-channel?variant=38958638542))
 
@@ -217,40 +221,36 @@ The company offers the following types of EEG devices, but you also need to purc
 
 [Ultracortex “Mark IV” EEG Headset](https://shop.openbci.com/collections/frontpage/products/ultracortex-mark-iv?variant=23280742211)
 
-| Price                        | $1149(Max)                                              |
-| ---------------------------- | ------------------------------------------------------- |
-| Channels                     | Up to 16 channels                                       |
-| Functionalities              | ・EEG measurement ・35 locations along the 10-20 system |
-| Possible to acquire raw data | Yes                                                     |
+| Price              | $1149(Max)                                               |
+| ------------------ | -------------------------------------------------------- |
+| Channels           | Up to 16 channels                                        |
+| Key features       | ・EEG measurements ・35 locations along the 10-20 system |
+| Access to raw data | Yes                                                      |
 
 &nbsp;
 
 [EEG Electrode Cap Kit](https://shop.openbci.com/products/openbci-eeg-electrocap?variant=16456881766472)
 
-| Price                        | $799(Max)         |
-| ---------------------------- | ----------------- |
-| Channels                     | 21 channels       |
-| Functionalities              | ・EEG measurement |
-| Possible to acquire raw data | Yes               |
+| Price              | $799(Max)          |
+| ------------------ | ------------------ |
+| Channels           | 21 channels        |
+| Key features       | ・EEG measurements |
+| Access to raw data | Yes                |
 
 &nbsp;
 
 ### Pros
 
-- "Mark IV" can be customized with 16 electrodes in 10-20 system preferred locations to meet any need, such as taking the main occipital lobe
+- "Mark IV" can be customized with 16 electrodes in 10-20 system preferred locations to meet the need of many applications.
 
 &nbsp;
 
 ### Cons
 
-- Not only the EEG device, but also the Cyton Board and other boards need to be purchased, resulting in a cost of $1k~$2k. Other parts are also expensive, so replacing them is also a hurdle.
+- The Cyton Board and other boards need to be purchased alongside electrodes and other components, resulting in a cost of $1k~$2k.
+- Each part is also expensive, so replacing parts can be a hurdle.
 
-\*Emotiv Pro
-
-- Standard: $99/mo
-- Student: $29/mo
-
-&nbsp;
+  &nbsp;
 
 ### Resources
 
@@ -273,7 +273,7 @@ _Image：NeuroSky_
 
 &nbsp;
 
-NeuroSky will not only offer [EEG devices](https://store.neurosky.com/), which can be purchased starting at $100 for consumers, but will also provide SDK kits for developers free of charge. The company will also be in the business of selling the chip infrastructure that is NeuroSky's core technology.
+NeuroSky not only offers [EEG devices](https://store.neurosky.com/), which can be purchased starting at $100 for consumers, but will also provide SDK kits for developers free of charge. The company is also in the business of selling chip infrastructure which is NeuroSky's core technology.
 
 NeuroSky has been a pioneer in the BCI industry, and [NeurotechJP was able to interview its CEO, Stanley](https://neurotechjp.com/blog/yang-neurosky/).
 
@@ -283,23 +283,24 @@ NeuroSky has been a pioneer in the BCI industry, and [NeurotechJP was able to in
 
 [MindWave Mobile2](https://www.neurosky.jp/mindwave-mobile2/)
 
-| Price                        | $110                     |
-| ---------------------------- | ------------------------ |
-| Channels                     | 1 channel (Frontal lobe) |
-| Functionalities              | ・EEG measurement        |
-| Possible to acquire raw data | Yes                      |
+| Price              | $110                     |
+| ------------------ | ------------------------ |
+| Channels           | 1 channel (Frontal lobe) |
+| Key features       | ・EEG measurements       |
+| Access to raw data | Yes                      |
 
 &nbsp;
 
 ### Pros
 
-- Anyway, it's cheap, and there are a lot of SDKs and OSS to hack NeuroSky.
+- Low cost
+- Many SDKs and OSS to hack NeuroSky.
 
 &nbsp;
 
 ### Cons
 
-- There is only one channel of electrodes, so what can be done is quite limited. (e.g., alpha wave acquisition)
+- There is only one channel, limiting the range of possible applications. (e.g., alpha wave acquisition)
 
 &nbsp;
 
@@ -323,7 +324,7 @@ _Image：Neurosity “CROWN”_
 
 &nbsp;
 
-Neurosity offers a proprietary BCI "Crown" with excellent design and processing power and a developer's SDK, which is widely used by developers who want to try brainwave control. [NeurotechJP interviewed Alex, the CTO and co-founder of Neurosity](https://neurotechjp.com/blog/castillo-neurosity/), and asked him about the company's path to developing BCI.
+Neurosity offers a proprietary BCI "Crown" with excellent design and processing power and a developer SDK, which is widely used by developers who want to try brainwave control. [NeurotechJP interviewed Alex, the CTO and co-founder of Neurosity](https://neurotechjp.com/blog/castillo-neurosity/), and asked him about the company's path to developing BCI.
 
 &nbsp;
 
@@ -331,25 +332,24 @@ Neurosity offers a proprietary BCI "Crown" with excellent design and processing 
 
 [Crown](https://neurosity.co/tech-specs)
 
-| Price                        | $1000                                           |
-| ---------------------------- | ----------------------------------------------- |
-| Channels                     | 8 channels (CP3, C3, F5, PO3, PO4, F6, C4, CP4) |
-| Functionalities              | ・EEG measurement ・Focus session in app        |
-| Possible to acquire raw data | Yes                                             |
+| Price              | $1000                                           |
+| ------------------ | ----------------------------------------------- |
+| Channels           | 8 channels (CP3, C3, F5, PO3, PO4, F6, C4, CP4) |
+| Key features       | ・EEG measurements ・Focus session in app       |
+| Access to raw data | Yes                                             |
 
 &nbsp;
 
 ### Pros
 
-- The SDK for developers is quite extensive, and the hurdles for BCI application development are low.
-
-- The device has CPU in itself, so you can try to implement functionalities of data saving, background processing, and so on.
+- Extensive developer SDK, reducing the hurdles for BCI application development.
+- The device has CPU in itself, so you can try to implement data saving, background processing, and so on.
 
 &nbsp;
 
 ### Cons
 
-None so far
+- None so far
 
 &nbsp;
 
@@ -362,16 +362,22 @@ None so far
 
 ## By use
 
-**If you are a beginner in this space, who hasn’t experienced EEG analysis and want to try EEG analysis for the first time, use low cost device relatively, such as Muse, NeuroSky.**
+**For beginners who have no experience with EEG data analysis, we recommend one of the low cost devices from Muse or Neurosky.**
 
-**If you have already experienced EEG analysis and want to measure/analyze/develop based on rich data, use Emotiv, OpenBCI.**
+**For those with experience in EEG analysis, the Emotiv or OpenBCI products offers richer data and higher versatility.**
 
-**If you want to build a full stack of BCI apps integrated with mobile or web, use Neurosity.**
+**For those wanting to develop a full stack BCI application (mobile/web), we recommend the Neurosity Crown.**
 
 &nbsp;
 
 ## Conclusion
 
-In this article, we have covered five non-invasive BCIs with their advantages and disadvantages. All of them are affordable and have extensive SDKs, so we encourage those who want to try a bit of EEG analysis to give them a try.
+In this article, we covered five non-invasive BCI companies and their products, highlighting some of their advantages and disadvantages. These are purely based on the opinion of NeurotechJP and is in no way an exhaustive list of pros and cons.
 
-In general, it is important for businesses in the BCI industry to find killer use cases using BCI, but at the same time, they need to make this new type of device available to a wider audience. As we saw in the BCI introduced here, BCI that is affordable, functional, and easy to customize will become the mainstream BCI in our real lives in the future.
+&nbsp;
+
+Every device listed in this article is much more affordable than traditional research grade devices and we encourage those who are interested in tinkering with neural data to give these options a shot.
+
+&nbsp;
+
+Alongside the development of killer applications of BCIs, the industry must continue to reach a wider audience through more affordable and friendly devices. Like we see in the devices showcased in this article, BCIs that have high functionality and high versatility will likely push BCIs towards becoming more mainstream.
