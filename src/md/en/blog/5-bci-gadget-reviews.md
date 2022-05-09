@@ -1,5 +1,5 @@
 ---
-title: "5 non-invasive BCI Gadget Reviews"
+title: "Consumer BCI Review: 5 EEG Headsets for Developers"
 description: "This article introduces five consumer BCIs that are noteworthy for developers who want to work with brain activity data"
 datePublished: "2022/5/8"
 bannerPhoto: "/img/5-bci-gadget-reviews/cover.png"
