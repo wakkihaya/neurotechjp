@@ -27,10 +27,7 @@ const BCILandscape2022: React.FC = () => {
           各分野における今後注目の企業のみを紹介しているので、是非今後の事業立案、研究方針等にご活用下さい！
         </div>
         <div className="slides-item--button">
-          <a
-            href="https://neurotechjp.com/img/slides/bci-landscape-2022-jp.jpg"
-            download
-          >
+          <a href="/img/slides/bci-landscape-2022-jp.jpg" download>
             ダウンロード
           </a>
         </div>

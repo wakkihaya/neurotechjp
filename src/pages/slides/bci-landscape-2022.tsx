@@ -28,10 +28,7 @@ const BCILandscape2022: React.FC = () => {
           your new business ideas and research !
         </div>
         <div className="slides-item--button">
-          <a
-            href="https://neurotechjp.com/img/slides/bci-landscape-2022-en.jpg"
-            download
-          >
+          <a href="/img/slides/bci-landscape-2022-en.jpg" download>
             Download
           </a>
         </div>
