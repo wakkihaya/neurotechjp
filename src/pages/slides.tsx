@@ -34,6 +34,16 @@ const SlidesPage: React.FC = () => {
           neuroscience, and software engineering. <br />
           3. Use cases with neurotechnologies.
         </SlideContent>
+        <SlideContent
+          linkRef="/slides/bci-landscape-2022"
+          imgSrc="/img/slides/bci-landscape-2022-en.jpg"
+          title="BCI landscape 2022"
+        >
+          BCI Landscape 2022 is out now LIVE! 🧠
+          <br />
+          The landscape shows major players in various categories that are
+          developing life-changing BCI technologies in 2022.
+        </SlideContent>
       </div>
       <Footer />
     </>

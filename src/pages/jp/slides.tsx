@@ -55,7 +55,15 @@ const SlidesPage: React.FC = () => {
           imgSrc="/img/slides/ces2022.jpg"
           title="CES2022 ニューロテックレポート"
         >
-          CES2022に出向き、世界中から集まるニューロテック企業に現地インタビューを行いました。その最先端をまとめたレポート資料です。
+          【有料】CES2022に出向き、世界中から集まるニューロテック企業に現地インタビューを行いました。その最先端をまとめたレポート資料です。
+        </SlideContent>
+        <SlideContent
+          linkRef="/jp/slides/bci-landscape-2022"
+          imgSrc="/img/slides/bci-landscape-2022-jp.jpg"
+          title="BCI カオスマップ 2022"
+        >
+          【無料】2022年最新版のBCI市場カオスマップを公開しました！
+          各分野における今後注目の企業のみを紹介しているので、是非今後の事業立案、研究方針等にご活用下さい！
         </SlideContent>
       </div>
       <Footer />
