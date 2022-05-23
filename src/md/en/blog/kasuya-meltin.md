@@ -18,9 +18,9 @@ translator2: ""
 
 &nbsp;
 
-Founded in 2013, MELTIN MMI is [a Japanese cyborg venture that has made a name for itself around the world](https://finders.me/articles.php?id=1176), and is planning to launch a new market for [robotic neurorehabilitation devices for the hand](https://www.meltin.jp/en/products/medical/finger-rehabilitation/) by the end of 2022.
+Founded in 2013, MELTIN is [a Japanese cyborg venture that has made a name for itself around the world](https://finders.me/articles.php?id=1176), and is planning to launch a new market for [robotic neurorehabilitation devices for the hand](https://www.meltin.jp/en/products/medical/finger-rehabilitation/) by the end of 2022.
 
-In this interview, we talked to [Masahiro Kasuya](https://www.linkedin.com/in/masahiro-kasuya-02970349/) (Mark), CEO of MELTIN MMI, about his ambitions in life, experience founding MELTIN MMI, and thoughts regarding the future of his work including space exploration.
+In this interview, we talked to [Masahiro Kasuya](https://www.linkedin.com/in/masahiro-kasuya-02970349/) (Mark), CEO of MELTIN, about his ambitions in life, experience founding MELTIN, and thoughts regarding the future of his work including space exploration.
 
 &nbsp;
 
@@ -37,7 +37,7 @@ Born in Saitama, Japan, in 1988, Mark has been aware of the limits of humanity s
 
 At 14, Mark had already begun researching cyborg technology.
 
-> In junior high, I wanted to experiment using invasive electrodes, but after some research and upon reaching high school, realized that **invasive technologies are hurdled, especially with ethical considerations.**
+> In junior high, I wanted to experiment using invasive electrodes, but after some research and upon reaching high school, realized that **invasive technologies are hurdled, especially with ethical and technical considerations.**
 
 &nbsp;
 
@@ -47,16 +47,16 @@ He then entered the School of Science and Engineering at Waseda University with 
 
 Why did Mark see the potential in the fusion of medicine and engineering and why did he focus on EMG?
 
-> Although I would have liked to get signals directly from the brain, **I would have to verify that the electrodes are working correctly, and justify that the signals read from these electrodes are actually spawning from the brain. By starting with EMG, I can concentrate on the analysis and algorithms with decent confidence that the signals are being obtained correctly.**
+> Although I would have liked to get signals directly from the brain, **I would have to verify that the electrodes are working correctly, and justify that the signals read from these electrodes are not noise but actually spawning from the brain. By starting with EMG, I can concentrate on the analysis and algorithms with decent confidence that the signals are being obtained correctly.**
 
 > When tackling human augmentation, there are high technical and ethical hurdles that you must overcome.
 > Considering this, we started with reliable EMG signals for medical applications.
 
 &nbsp;
 
-## The Founding of MELTIN MMI and the Impact of MEKTANT-α
+## The Founding of MELTIN and the Impact of MEKTANT-α
 
-In 2011, Mark received the Robotics Society of Japan's Research Encouragement Award, given to researchers under 35 years old who have significant contributions to the field of robotics. **Then in 2013, he founded MELTIN MMI with the aim of commercializing cyborg technology.**
+In 2011, Mark received the Robotics Society of Japan's Research Encouragement Award, given to researchers under 35 years old who have significant contributions to the field of robotics. **Then in 2013, he founded MELTIN with the aim of commercializing cyborg technology.**
 
 After completing his graduate studies, he was a JSPS Research Fellow, and in 2016, he received his PhD in robotics and artificial intelligence engineering from the University of Electro-Communications, Graduate School of Information Science and Engineering, Intelligent Machinery Engineering.
 
@@ -69,14 +69,9 @@ _Video： Meltant alpha_
 
 &nbsp;
 
-“[MELTANT-α](https://www.meltin.jp/en/technology/)" is a cyborg prototype developed by MELTIN MMI.
+“[MELTANT-α](https://www.meltin.jp/en/technology/)" is a cyborg prototype developed by MELTIN.
 
 What were the difficulties in the development of MELTANT-α?
-
-> I think that EMG is in a state where it can be analyzed, whereas EEG and brain implants are further from being established from a technical point.
-> MELTIN MMI started out as a myoelectric prosthetic with this exact consideration.
-
-> I started with prosthetics for hands using EMG because of how integral hands are in actuating human creativity. It also allowed for a lot of exploration of maximizing creativity through prosthetics, which is a key focus.
 
 > When controlling MELTANT which is a humanoid robot, it is difficult to extract 100% of motor intent from the EMG alone. It is often faster to use motion capture or gloves for sensing, and MELTANT basically does not incorporate the biosignals.
 
@@ -89,11 +84,11 @@ _Video： 3rd arm test_
 
 ## Neurorehabilitation to establish biosignal technology
 
-In October 2021, a prototype of MELTIN MMI's new product, ["a robotic neurorehabilitation device for the hand](https://www.meltin.jp/en/products/medical/finger-rehabilitation/)" was completed. **Clinical research is currently underway at Juntendo University, with an aim to commercialize** within 2022.
+In October 2021, a prototype of MELTIN's new product, ["a robotic neurorehabilitation device for the hand](https://www.meltin.jp/en/products/medical/finger-rehabilitation/)" was completed. **Clinical research is currently underway at Juntendo University, with an aim to commercialize** within 2022.
 
 &nbsp;
 
-Neurorehabilitation is a rehabilitation method based on neuroscience that has been gaining attention over the past couple of years. In brief, Neurorehabilitation promotes the reconstruction of the brain's motor function circuitry by utilizing the brain's plasticity to perform assisted movements in sync with motor intentions. This hastens recovery for patients who have suffered some form of damage to motor-related areas of the brain, such as a stroke, with symptoms of physical paralysis or reduced motor function. Companies researching and developing similar products include [myomo](https://myomo.com/), Tylomotion, and [connect](https://connect-technology.jp/).
+Neurorehabilitation is a rehabilitation method based on neuroscience that has been gaining attention over the past couple of years. In brief, Neurorehabilitation promotes the reconstruction of the brain's motor function circuitry by utilizing the brain's plasticity to perform assisted movements in sync with motor intentions. This hastens recovery for patients who have suffered some form of damage to motor-related areas of the brain, such as a stroke, with symptoms of physical paralysis or reduced motor function. Companies researching and developing similar products include [myomo](https://myomo.com/), Tyromotion, and [connect](https://connect-technology.jp/).
 
 ![neurorehabilitation 1](https://www.meltin.jp/cms/wp-content/themes/meltin/assets/images/products/medical/finger-rehabilitation/qa--02.jpg)
 
@@ -112,10 +107,8 @@ What do you see as the biggest technological challenge in this area in the futur
 
 He also envisions entering the space industry in the 2040s. Mark's vision is on an extraterrestrial scale, but first, what are some of the difficulties he faces in developing his business on a global scale?
 
-> MELTIN MMI has yet to create a commoditized product, so our immediate goal is to sell a product.
-
-> In the US market, MELTIN MMI would need to sell equipment to various insurance companies, bringing marketing and sales costs up. Japan, however, has universal health insurance, making the model much simpler.
-> We are looking establish a solid business model first in Japan before expanding globally.
+> In the US market, MELTIN would need to sell equipment to various insurance companies, bringing marketing and sales costs up. Japan, however, has universal health insurance, making the model much simpler.
+> With this in mind, we intend to enter the market globally, taking into account the characteristics of each country.
 
 ![neurorehabilitation 2](https://www.meltin.jp/cms/wp-content/themes/meltin/assets/images/products/medical/finger-rehabilitation/qa--03.jpg)
 
@@ -123,7 +116,7 @@ He also envisions entering the space industry in the 2040s. Mark's vision is on 
 
 ## Cyborg Technology is Infrastructure: Neurotech’s Killer Use Case
 
-What is the killer use case for when cyborg technology becomes a reality?
+What is the use case Mark personally would like to use when cyborg technology becomes a reality?
 
 > For me personally, the best use case would be space exploration.
 > There is no way to exceed the speed of communication or the speed of light. I would disperse my consciousness, copy it, put it on an avatar, fly around the stars, and then collect it somewhere to synchronize.
@@ -138,8 +131,8 @@ What is the killer use case for when cyborg technology becomes a reality?
 He also gave his unique perspective on the universe as an extension of cyberspace through VR today.
 
 > There is talk like it would be good to build a civilization in VR space, but basically it should be a space known to humans.
-> Of course, there is a possibility that by including algorithms, things that humans are ignorant of could be imagined, but I think there is a limit because those algorithms are also only thought up by humans.
-> There are efforts to build a civiliation in VR space, but this created space would [lack novelty]. Of course, algorithms could create entities foreign to humans, but I think there is a limit to his approach, given that these algorithms are developed by humans.
+> Of course, there is a possibility that by including algorithms such as randomness and automatic generation, things that humans are unknown could be imagined, but I think there is a limit because those algorithms are also only thought up by humans.
+> That's why MELTIN retains elements of the physical body that also encompass the real.
 
 [![The vision of meltin](https://neurotechjp.com/img/kasuya-meltin/vision.jpg)](https://youtu.be/OrUdzZKJ50o)
 _動画： The vision of Meltin_
@@ -148,6 +141,6 @@ _動画： The vision of Meltin_
 
 ## Conclusion
 
-We had the opportunity of hearing from Masahiro Kasuya of MELTIN MMI about the fundamentals to the future of the company. They are headed full-speed towards approval for their medical neurorehabilitation device. Alongside their development of the Avatar products, the company has also supposedly started iterating on their neurorehabilitation devices. As Japan’s leader in neurotechnology, we hope to hear and see more exciting developments coming out of MELTIN MMI.
+We had the opportunity of hearing from Masahiro Kasuya of MELTIN about the fundamentals to the future of the company. They are headed full-speed towards approval for their medical neurorehabilitation device. Alongside their development of the Avatar products, the company has also supposedly started iterating on their neurorehabilitation devices. As Japan’s leader in neurotechnology, we hope to hear and see more exciting developments coming out of MELTIN.
 
 Meanwhile, the company is also looking to expand into markets outside of Japan, those interested can contact them [here](https://www.meltin.jp/en/contact/#inquiry).
