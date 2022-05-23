@@ -20,13 +20,13 @@ translator2: ""
 
 Founded in 2013, MELTIN MMI is [a Japanese cyborg venture that has made a name for itself around the world](https://finders.me/articles.php?id=1176), and is planning to launch a new market for [robotic neurorehabilitation devices for the hand](https://www.meltin.jp/en/products/medical/finger-rehabilitation/) by the end of 2022.
 
-In this interview, we talked to [Masahiro Kasuya](https://www.linkedin.com/in/masahiro-kasuya-02970349/), CEO of MELTIN MMI, about his ambitions in life, experience founding MELTIN MMI, and thoughts regarding the future of his work including space exploration.
+In this interview, we talked to [Masahiro Kasuya](https://www.linkedin.com/in/masahiro-kasuya-02970349/) (Mark), CEO of MELTIN MMI, about his ambitions in life, experience founding MELTIN MMI, and thoughts regarding the future of his work including space exploration.
 
 &nbsp;
 
 ## The root is the desire to understand everything in this universe
 
-Born in Saitama, Japan, in 1988, Masahiro has been aware of the limits of humanity since the age of three. At the **early age of ten, he saw potential in combining the fields of medicine and engineering**.
+Born in Saitama, Japan, in 1988, Mark has been aware of the limits of humanity since the age of three. At the **early age of ten, he saw potential in combining the fields of medicine and engineering**.
 
 > Some of my earliest thoughts included questions like, why does this world exist? Why do I exist? Or rather, what is this world?
 > Since we did not have the Internet at that time, I read illustrated books and found that the earth seemed to be in the universe.
@@ -35,7 +35,7 @@ Born in Saitama, Japan, in 1988, Masahiro has been aware of the limits of humani
 
 &nbsp;
 
-At 14, Masahiro had already begun researching cyborg technology.
+At 14, Mark had already begun researching cyborg technology.
 
 > In junior high, I wanted to experiment using invasive electrodes, but after some research and upon reaching high school, realized that **invasive technologies are hurdled, especially with ethical considerations.**
 
@@ -45,7 +45,7 @@ He then entered the School of Science and Engineering at Waseda University with 
 
 &nbsp;
 
-Why did Masahiro see the potential in the fusion of medicine and engineering and why did he focus on EMG?
+Why did Mark see the potential in the fusion of medicine and engineering and why did he focus on EMG?
 
 > Although I would have liked to get signals directly from the brain, **I would have to verify that the electrodes are working correctly, and justify that the signals read from these electrodes are actually spawning from the brain. By starting with EMG, I can concentrate on the analysis and algorithms with decent confidence that the signals are being obtained correctly.**
 
@@ -56,7 +56,7 @@ Why did Masahiro see the potential in the fusion of medicine and engineering and
 
 ## The Founding of MELTIN MMI and the Impact of MEKTANT-α
 
-In 2011, Masahiro received the Robotics Society of Japan's Research Encouragement Award, given to researchers under 35 years old who have significant contributions to the field of robotics. **Then in 2013, he founded MELTIN MMI with the aim of commercializing cyborg technology.**
+In 2011, Mark received the Robotics Society of Japan's Research Encouragement Award, given to researchers under 35 years old who have significant contributions to the field of robotics. **Then in 2013, he founded MELTIN MMI with the aim of commercializing cyborg technology.**
 
 After completing his graduate studies, he was a JSPS Research Fellow, and in 2016, he received his PhD in robotics and artificial intelligence engineering from the University of Electro-Communications, Graduate School of Information Science and Engineering, Intelligent Machinery Engineering.
 
@@ -99,7 +99,7 @@ Neurorehabilitation is a rehabilitation method based on neuroscience that has be
 
 &nbsp;
 
-What do you see as the biggest technological challenge in this area in the future? Masahiro claims that the key is obviously in analysis techniques but even more so in the **interactive interface**.
+What do you see as the biggest technological challenge in this area in the future? Mark claims that the key is obviously in analysis techniques but even more so in the **interactive interface**.
 
 > The output alone is less meaningful than providing direct feedback to the user. Creating this feedback loop is essential, and the neurorehabilitation device we are developing incorporates just that.
 
@@ -110,7 +110,7 @@ What do you see as the biggest technological challenge in this area in the futur
 
 &nbsp;
 
-He also envisions entering the space industry in the 2040s. Masahiro’s vision is on an extraterrestrial scale, but first, what are some of the difficulties he faces in developing his business on a global scale?
+He also envisions entering the space industry in the 2040s. Mark's vision is on an extraterrestrial scale, but first, what are some of the difficulties he faces in developing his business on a global scale?
 
 > MELTIN MMI has yet to create a commoditized product, so our immediate goal is to sell a product.
 
