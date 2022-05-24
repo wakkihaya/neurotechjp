@@ -1,5 +1,5 @@
 ---
-title: "Unleashing Human Creativity with Cyborg Technology, MELTIN MMI | Masahiro Kasuya"
+title: "Unleashing Human Creativity with Cyborg Technology, MELTIN MMI | Masahiro Kasuya(Mark)"
 description: "In this interview, we talked to Masahiro Kasuya, CEO of MELTIN MMI, about his life's ambitions, from the founding of MELTIN MMI to the current difficulties he has faced, and the future space exploration he is aiming for."
 datePublished: "2022/5/22"
 bannerPhoto: "/img/kasuya-meltin/cover.jpg"
@@ -54,7 +54,7 @@ Why did Mark see the potential in the fusion of medicine and engineering and why
 
 &nbsp;
 
-## The Founding of MELTIN and the Impact of MEKTANT-α
+## The Founding of MELTIN and the Impact of MELTANT-α
 
 In 2011, Mark received the Robotics Society of Japan's Research Encouragement Award, given to researchers under 35 years old who have significant contributions to the field of robotics. **Then in 2013, he founded MELTIN with the aim of commercializing cyborg technology.**
 
@@ -73,7 +73,7 @@ _Video： Meltant alpha_
 
 What were the difficulties in the development of MELTANT-α?
 
-> When controlling MELTANT which is a humanoid robot, it is difficult to extract 100% of motor intent from the EMG alone. It is often faster to use motion capture or gloves for sensing, and MELTANT basically does not incorporate the biosignals.
+> Since avatars such as MELTANT are humanoid robots, **they can be controlled by sensing their own movements using motion capture, gloves,** etc., without daring to use biometric signals or other difficult technologies. This would make it easier to enter the market for industrial applications, and there is no need to use biometric signals, which are difficult to use. Therefore, MELTANT basically does not use biometric signals.
 
 > However, when controlling a component that cannot be controlled by your organs, such as a third hard, biometric signals are key.
 
