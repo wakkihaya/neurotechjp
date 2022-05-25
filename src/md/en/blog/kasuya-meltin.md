@@ -18,13 +18,13 @@ translator2: ""
 
 &nbsp;
 
-Founded in 2013, MELTIN is [a Japanese cyborg venture that has made a name for itself around the world](https://finders.me/articles.php?id=1176), and is planning to launch a new market for [robotic neurorehabilitation devices for the hand](https://www.meltin.jp/en/products/medical/finger-rehabilitation/) by the end of 2022.
+Founded in 2013, MELTIN is [a Japanese cyborg venture that has made a name for itself around the world](https://finders.me/articles.php?id=1176), and is planning to create a new market for [robotic neurorehabilitation devices for the hand](https://www.meltin.jp/en/products/medical/finger-rehabilitation/) by the end of 2022.
 
-In this interview, we talked to [Masahiro Kasuya](https://www.linkedin.com/in/masahiro-kasuya-02970349/) (Mark), CEO of MELTIN, about his ambitions in life, experience founding MELTIN, and thoughts regarding the future of his work including space exploration.
+In this interview, we talked to [Masahiro "Mark" Kasuya](https://www.linkedin.com/in/masahiro-kasuya-02970349/), CEO of MELTIN, about his ambitions in life, experience founding MELTIN, and thoughts regarding the future of his work including space exploration.
 
 &nbsp;
 
-## The root is the desire to understand everything in this universe
+## It all stems from the desire to understand everything in this universe
 
 Born in Saitama, Japan, in 1988, Mark has been aware of the limits of humanity since the age of three. At the **early age of ten, he saw potential in combining the fields of medicine and engineering**.
 
@@ -37,7 +37,7 @@ Born in Saitama, Japan, in 1988, Mark has been aware of the limits of humanity s
 
 At 14, Mark had already begun researching cyborg technology.
 
-> In junior high, I wanted to experiment using invasive electrodes, but after some research and upon reaching high school, realized that **invasive technologies are hurdled, especially with ethical and technical considerations.**
+> In junior high, I wanted to experiment using invasive electrodes, but after some research and upon reaching high school, realized that **invasive technologies are hurdled with ample ethical and technical considerations.**
 
 &nbsp;
 
@@ -56,7 +56,7 @@ Why did Mark see the potential in the fusion of medicine and engineering and why
 
 ## The Founding of MELTIN and the Impact of MELTANT-α
 
-In 2011, Mark received the Robotics Society of Japan's Research Encouragement Award, given to researchers under 35 years old who have significant contributions to the field of robotics. **Then in 2013, he founded MELTIN with the aim of commercializing cyborg technology.**
+In 2011, Mark received the Robotics Society of Japan's Research Encouragement Award, given to researchers under 35 years old who have made significant contributions to the field of robotics. **He went on to found MELTIN with the aim of commercializing cyborg technology in 2013.**
 
 After completing his graduate studies, he was a JSPS Research Fellow, and in 2016, he received his PhD in robotics and artificial intelligence engineering from the University of Electro-Communications, Graduate School of Information Science and Engineering, Intelligent Machinery Engineering.
 
@@ -73,7 +73,7 @@ _Video： Meltant alpha_
 
 What were the difficulties in the development of MELTANT-α?
 
-> Since avatars such as MELTANT are humanoid robots, **they can be controlled by sensing their own movements using motion capture, gloves,** etc., without daring to use biometric signals or other difficult technologies. This would make it easier to enter the market for industrial applications, and there is no need to use biometric signals, which are difficult to use. Therefore, MELTANT basically does not use biometric signals.
+> Since avatars such as MELTANT are humanoid robots, **they can be controlled by sensing their own movements using motion capture, gloves,** etc., without the need to use biometric signals or other difficult technologies. This also makes it easier to enter the market for industrial applications. So MELTANT basically does not use biometric signals.
 
 > However, when controlling a component that cannot be controlled by your organs, such as a third hard, biometric signals are key.
 
@@ -130,9 +130,10 @@ What is the use case Mark personally would like to use when cyborg technology be
 
 He also gave his unique perspective on the universe as an extension of cyberspace through VR today.
 
-> There is talk like it would be good to build a civilization in VR space, but basically it should be a space known to humans.
-> Of course, there is a possibility that by including algorithms such as randomness and automatic generation, things that humans are unknown could be imagined, but I think there is a limit because those algorithms are also only thought up by humans.
-> That's why MELTIN retains elements of the physical body that also encompass the real.
+> There is a lot of hype around building a civilization in VR space, but it will likely be a space known to humans.
+> Of course algorithms can create experiences that are novel to humans in some way, but I think there is a limit because those exact algorithms are created by humans.
+> MELTIN embodies that sense of reality that comes with a physical body.
+
 
 [![The vision of meltin](https://neurotechjp.com/img/kasuya-meltin/vision.jpg)](https://youtu.be/OrUdzZKJ50o)
 _動画： The vision of Meltin_
@@ -141,6 +142,6 @@ _動画： The vision of Meltin_
 
 ## Conclusion
 
-We had the opportunity of hearing from Masahiro Kasuya of MELTIN about the fundamentals to the future of the company. They are headed full-speed towards approval for their medical neurorehabilitation device. Alongside their development of the Avatar products, the company has also supposedly started iterating on their neurorehabilitation devices. As Japan’s leader in neurotechnology, we hope to hear and see more exciting developments coming out of MELTIN.
+We had the opportunity of hearing from Masahiro ”Mark" Kasuya of MELTIN about the fundamentals to the future of the company. They are headed full-speed towards approval for their medical neurorehabilitation device. Alongside their development of the Avatar products, the company has also supposedly started iterating on their neurorehabilitation devices. As Japan’s leader in neurotechnology, we hope to hear and see more exciting developments coming out of MELTIN.
 
 Meanwhile, the company is also looking to expand into markets outside of Japan, those interested can contact them [here](https://www.meltin.jp/en/contact/#inquiry).
