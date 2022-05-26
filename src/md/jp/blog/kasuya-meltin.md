@@ -1,7 +1,7 @@
 ---
 title: "サイボーグ技術で人間の創造性を解き放つ、MELTIN MMI | 粕谷昌宏"
 description: "今回はMELTIN MMIのCEOである粕谷昌宏に人生での志を起点としたMELTIN MMI創業から現在に至るまでの苦労、そして目指している未来の宇宙探索までお話をお聞きした。"
-datePublished: "2022/5/22"
+datePublished: "2022/5/29"
 bannerPhoto: "/img/kasuya-meltin/cover.jpg"
 category: "インタビュー"
 writer1: "Shoka Kadoi"

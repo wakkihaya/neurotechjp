@@ -1,7 +1,7 @@
 ---
 title: "Unleashing Human Creativity with Cyborg Technology, MELTIN MMI | Masahiro Kasuya(Mark)"
 description: "In this interview, we talked to Masahiro Kasuya, CEO of MELTIN MMI, about his life's ambitions, from the founding of MELTIN MMI to the current difficulties he has faced, and the future space exploration he is aiming for."
-datePublished: "2022/5/22"
+datePublished: "2022/5/29"
 bannerPhoto: "/img/kasuya-meltin/cover.jpg"
 category: "Interview"
 writer1: "Shoka Kadoi"
