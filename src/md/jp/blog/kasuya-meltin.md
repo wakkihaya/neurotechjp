@@ -88,7 +88,7 @@ _動画： 3rd arm test_
 
 &nbsp;
 
-ニューロリハビリテーションとは、脳神経科学に基づいたリハビリテーションの手法として近年注目されている。脳卒中などなんらかの形で脳の運動に関わる部位が損傷し身体の麻痺症状や運動機能の低下を示す患者さんに対して、脳の可塑性を活かし運動意図に合わせた補助動作を行うことにより脳の運動機能回路の再構築を促すのが、ニューロリハビリテーションだ。類似する製品を研究開発する企業としては、[myomo](https://myomo.com/)社、Tyromotion 社、[connect](https://connect-technology.jp/)社などがある。
+ニューロリハビリテーションとは、脳神経科学に基づいたリハビリテーションの手法として近年注目されている。脳卒中などなんらかの形で脳の運動に関わる部位が損傷し身体の麻痺症状や運動機能の低下を示す患者さんに対して、脳の可塑性を活かし運動意図に合わせた補助動作を行うことにより脳の運動機能回路の再構築を促すのが、ニューロリハビリテーションだ。類似する製品を研究開発する企業としては、[myomo](https://myomo.com/)社、[Tyromotion](https://tyromotion.com/) 社、[connect](https://connect-technology.jp/)社などがある。
 
 ![neurorehabilitation 1](https://www.meltin.jp/cms/wp-content/themes/meltin/assets/images/products/medical/finger-rehabilitation/qa--02.jpg)
 

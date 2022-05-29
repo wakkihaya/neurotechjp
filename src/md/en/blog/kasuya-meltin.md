@@ -88,7 +88,7 @@ In October 2021, a prototype of MELTIN's new product, ["a robotic neurorehabilit
 
 &nbsp;
 
-Neurorehabilitation is a rehabilitation method based on neuroscience that has been gaining attention over the past couple of years. In brief, Neurorehabilitation promotes the reconstruction of the brain's motor function circuitry by utilizing the brain's plasticity to perform assisted movements in sync with motor intentions. This hastens recovery for patients who have suffered some form of damage to motor-related areas of the brain, such as a stroke, with symptoms of physical paralysis or reduced motor function. Companies researching and developing similar products include [myomo](https://myomo.com/), Tyromotion, and [connect](https://connect-technology.jp/).
+Neurorehabilitation is a rehabilitation method based on neuroscience that has been gaining attention over the past couple of years. In brief, Neurorehabilitation promotes the reconstruction of the brain's motor function circuitry by utilizing the brain's plasticity to perform assisted movements in sync with motor intentions. This hastens recovery for patients who have suffered some form of damage to motor-related areas of the brain, such as a stroke, with symptoms of physical paralysis or reduced motor function. Companies researching and developing similar products include [myomo](https://myomo.com/), [Tyromotion](https://tyromotion.com/en), and [connect](https://connect-technology.jp/).
 
 ![neurorehabilitation 1](https://www.meltin.jp/cms/wp-content/themes/meltin/assets/images/products/medical/finger-rehabilitation/qa--02.jpg)
 
