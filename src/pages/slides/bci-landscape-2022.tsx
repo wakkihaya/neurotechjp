@@ -19,7 +19,7 @@ const BCILandscape2022: React.FC = () => {
         <div className="slides-item--main">
           <img src="/img/slides/bci-landscape-2022-jp.jpg" />
         </div>
-        <div className="slides-item--title">BCI カオスマップ 2022</div>
+        <div className="slides-item--title">BCI Landscape 2022</div>
         <div className="slides-item--subtitle">
           BCI Landscape 2022 is out now LIVE! 🧠
           <br />
