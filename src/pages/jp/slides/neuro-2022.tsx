@@ -17,7 +17,7 @@ const Neuro2022: React.FC = () => {
       <Header isBgTransparent={false} />
       <div className="slides-item">
         <div className="slides-item--main">
-          <img src="/img/slides/neuro2022-menu.jpg" />
+          <img src="/img/slides/neuro-2022-menu.jpg" />
         </div>
         <div className="slides-item--title">
           NEURO2022 ニューロテックレポート
@@ -30,7 +30,7 @@ const Neuro2022: React.FC = () => {
           購入にご興味ある方/お話から聞いてみたい方は、下記のフォームからご連絡下さい！
           <br />
           <br />
-          単価価格：10万円~ (要相談)
+          単価価格：10万円~ (応相談)
         </div>
         <div className="slides-item--button">
           <a
