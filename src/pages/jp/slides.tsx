@@ -70,7 +70,7 @@ const SlidesPage: React.FC = () => {
           imgSrc="/img/slides/neuro-2022.jpg"
           title="Neuro2022 レポート"
         >
-          【有料】Neuro2022に出向き、現地で発表された注目の最新研究をまとめたレポート資料です。
+          【有料】NEURO2022に出向き、現地で発表された注目の最新研究をまとめたレポート資料です。
         </SlideContent>
       </div>
       <Footer />
