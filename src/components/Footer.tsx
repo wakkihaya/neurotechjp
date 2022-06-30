@@ -18,7 +18,7 @@ const Footer: React.FC = () => {
       </div>
       <div className="footer--sns">
         <a
-          href="https://twitter.com/NeurotechJPeng"
+          href="https://twitter.com/NeurotechJP_en"
           target="_blank"
           className="footer--sns-twitter"
           rel="noreferrer"

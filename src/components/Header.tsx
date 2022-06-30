@@ -62,7 +62,7 @@ const HeaderSocial: React.FC<HeaderDeviceProps> = ({ lang, device }) => {
     if (device === "Desktop") {
       return (
         <a
-          href="https://twitter.com/NeurotechJPeng"
+          href="https://twitter.com/NeurotechJP_en"
           target="_blank"
           className="header--social-item"
           rel="noreferrer"
@@ -73,7 +73,7 @@ const HeaderSocial: React.FC<HeaderDeviceProps> = ({ lang, device }) => {
     } else {
       return (
         <a
-          href="https://twitter.com/NeurotechJPeng"
+          href="https://twitter.com/NeurotechJP_en"
           target="_blank"
           className="header--social-item"
           rel="noreferrer"
