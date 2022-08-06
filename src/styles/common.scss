@@ -82,8 +82,8 @@
     .fa-border {
       border: solid 1px white !important;
       border-radius: 50px !important;
-      width: 40px;
-      height: 40px;
+      max-width: 30px;
+      padding: 5px;
     }
   }
   @media (max-width: $mobile-width) {
