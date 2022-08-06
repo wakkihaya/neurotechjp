@@ -9,8 +9,9 @@ import { faComments } from "@fortawesome/free-regular-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 import useResponsive from "~hooks/use-responsive";
-import { MembersList, useProfiles } from "~hooks/use-profiles";
+import { useProfiles } from "~hooks/use-profiles";
 import useCurrentLang from "~hooks/use-currentLang";
+import type { MembersList } from "~hooks";
 
 interface EditorInfoProps {
   image?: string;
@@ -84,15 +85,15 @@ export const EditorFrame: FC<EditorFrameProps> = props => {
           </div>
           {writers.map((writer, j) => {
             if (writer === "" && !writer) return;
-            const writerPrfoile = getTargetProfile(writer as MembersList, "en");
+            const writerPrfoile = getTargetProfile(writer as MembersList);
             if (!writerPrfoile) return;
             return (
               <EditorInfo
                 key={j}
                 image={writerPrfoile.image}
                 linkedInLink={writerPrfoile.linkedInLink}
-                twitterLink={writerPrfoile.twitterLink}
-                name={writerPrfoile.name}
+                twitterLink={writerPrfoile.enTwitterLink}
+                name={writerPrfoile.enName}
               />
             );
           })}
@@ -108,7 +109,6 @@ export const EditorFrame: FC<EditorFrameProps> = props => {
             if (interviewer === "" && !interviewer) return;
             const interviewerPrfoile = getTargetProfile(
               interviewer as MembersList,
-              "en",
             );
             if (!interviewerPrfoile) return;
             return (
@@ -116,8 +116,8 @@ export const EditorFrame: FC<EditorFrameProps> = props => {
                 key={j}
                 image={interviewerPrfoile.image}
                 linkedInLink={interviewerPrfoile.linkedInLink}
-                twitterLink={interviewerPrfoile.twitterLink}
-                name={interviewerPrfoile.name}
+                twitterLink={interviewerPrfoile.enTwitterLink}
+                name={interviewerPrfoile.enName}
               />
             );
           })}
@@ -133,7 +133,6 @@ export const EditorFrame: FC<EditorFrameProps> = props => {
             if (!translator && translator === "") return;
             const translatorProfoile = getTargetProfile(
               translator as MembersList,
-              "en",
             );
             if (!translatorProfoile) return;
             return (
@@ -141,8 +140,8 @@ export const EditorFrame: FC<EditorFrameProps> = props => {
                 key={j}
                 image={translatorProfoile.image}
                 linkedInLink={translatorProfoile.linkedInLink}
-                twitterLink={translatorProfoile.twitterLink}
-                name={translatorProfoile.name}
+                twitterLink={translatorProfoile.enTwitterLink}
+                name={translatorProfoile.enName}
               />
             );
           })}
