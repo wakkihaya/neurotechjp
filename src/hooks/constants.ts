@@ -18,6 +18,7 @@ export const profiles: Record<MembersList, ProfileType> = {
   },
   "Shoka Kadoi": {
     twitterLink: "https://twitter.com/kadyboy1216",
+    enTwitterLink: "https://twitter.com/kadyboy1216",
     linkedInLink: "https://www.linkedin.com/in/shoka-kadoi-7b95271ba/",
     fbLink: "https://www.facebook.com/shouka.kadoi",
     image: "/img/about/Shouka_Kadoi.jpeg",
@@ -47,6 +48,7 @@ export const profiles: Record<MembersList, ProfileType> = {
   },
   "Toma Itagaki": {
     twitterLink: "https://twitter.com/tomaitagaki",
+    enTwitterLink: "https://twitter.com/tomaitagaki",
     linkedInLink: "https://www.linkedin.com/in/tomaitagaki/",
     fbLink: "",
     image: "/img/about/Toma_Itagaki.jpg",
@@ -62,6 +64,7 @@ export const profiles: Record<MembersList, ProfileType> = {
 
   "Kai Irwin": {
     twitterLink: "https://twitter.com/Kai__Irwin",
+    enTwitterLink: "https://twitter.com/Kai__Irwin",
     linkedInLink: "https://www.linkedin.com/in/kai-irwin-806a54152/",
     fbLink: "https://www.facebook.com/kai.irwin.3",
     image: "/img/about/Kai_Irwin.jpg",
@@ -77,6 +80,7 @@ export const profiles: Record<MembersList, ProfileType> = {
 
   "Hannah Kodama": {
     twitterLink: "https://twitter.com/hmdougla",
+    enTwitterLink: "https://twitter.com/hmdougla",
     linkedInLink: "https://www.linkedin.com/in/hannah-douglas-b9553ab7",
     image: "/img/about/Hana_Kodama.png",
     name: "児玉　英　Hana Kodama",
@@ -91,6 +95,7 @@ export const profiles: Record<MembersList, ProfileType> = {
 
   "Hiroki Noyama": {
     twitterLink: "https://twitter.com/gakki_curry",
+    enTwitterLink: "https://twitter.com/gakki_curry",
     image: "/img/about/Hiroki_Noyama.jpeg",
     name: "野山 大樹 Hiroki Noyama",
     enName: "Hiroki Noyama",
