@@ -5,17 +5,12 @@ import Footer from "~/components/Footer";
 import Header from "~/components/Header";
 import { Meta } from "~/components/Meta";
 import PersonCard from "~/components/PersonCard";
-import { useProfiles, ProfileType } from "~hooks/use-profiles";
+import { useProfiles } from "~hooks/use-profiles";
 
 const AboutPage: React.FC = () => {
-  const { getTargetProfile } = useProfiles();
+  const { getAllProfiles } = useProfiles();
 
-  const wakki = getTargetProfile("Hayato Waki", "en");
-  const shoka = getTargetProfile("Shoka Kadoi", "en");
-  const nao = getTargetProfile("Nao Yukawa", "en");
-  const toma = getTargetProfile("Toma Itagaki", "en");
-  const kai = getTargetProfile("Kai Irwin", "en");
-  const profiles: ProfileType[] = [wakki, shoka, nao, toma, kai];
+  const profiles = getAllProfiles();
 
   return (
     <>
@@ -50,12 +45,12 @@ const AboutPage: React.FC = () => {
               return (
                 <PersonCard
                   key={j}
-                  twitterLink={profile.twitterLink}
+                  twitterLink={profile.enTwitterLink}
                   linkedInLink={profile.linkedInLink}
                   fbLink={profile.fbLink}
-                  name={profile.name}
-                  role={profile.role}
-                  description={profile.description}
+                  name={profile.enName}
+                  role={profile.enRole}
+                  description={profile.enDescription}
                   image={profile.image}
                 />
               );

@@ -9,7 +9,6 @@ import Header from "~/components/Header";
 import { SocialMediaShare } from "./SocialMediaShare";
 
 import type { PostData } from "~/hooks/loader";
-import type { MembersList } from "~hooks/use-profiles";
 import { EditorFrame } from "./EditorFrame";
 
 export const BlogPost: React.FunctionComponent<{ post: PostData }> = ({

@@ -5,6 +5,8 @@ import Document, { Head, Html, Main, NextScript } from "next/document";
 import React from "react";
 
 import { GA_TRACKING_ID } from "~/lib/gtag";
+import { config, dom } from "@fortawesome/fontawesome-svg-core";
+config.autoAddCss = false;
 
 type WithNonceProp = {
   nonce: string;
@@ -32,6 +34,8 @@ export default class MyDocument extends Document<WithNonceProp> {
             async={true}
             src={`https://www.googletagmanager.com/gtag/js?id=${GA_TRACKING_ID}`}
           />
+          <style>{dom.css()}</style>{" "}
+          {/* Need to load icon style for make sizing works correctly. */}
           <script
             dangerouslySetInnerHTML={{
               __html: `
