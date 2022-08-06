@@ -74,4 +74,31 @@ export const profiles: Record<MembersList, ProfileType> = {
     enDescription:
       "A junior at Keio university. He got interested in Neurotech while researching how he can directly put information in his brain, since studying for school was taking too much of his time.He is passionate about turning difficult research papers into easy-to-read formats, so that everyone can learn about cutting edge neurotech research. While participating in a BCI lab at university, he is an engineer in a startup. Also, he is a member of TNK.",
   },
+
+  "Hannah Kodama": {
+    twitterLink: "https://twitter.com/hmdougla",
+    linkedInLink: "https://www.linkedin.com/in/hannah-douglas-b9553ab7",
+    image: "/img/about/Hana_Kodama.jpg",
+    name: "児玉　英　Hana Kodama",
+    enName: "Hannah Kodama",
+    role: "Podcast インタビュアー",
+    enRole: "Podcast interviewer",
+    description:
+      "プリンストン大学計算論的神経科学の博士課程に在籍中。カーネギーメロン大学で統計学学士号を取得後、神経科学にも興味を持つ。その後、米国国立衛生研究所 (NIH) で光遺伝学的刺激に関する手技を習得。侵襲的刺激に関する学術的専門知識をニューロテックの分野に活用し、人間の生命・生活を向上することに貢献するのが希望。",
+    enDescription:
+      "PhD candidate in computational neuroscience at Princeton University. She previously earned her B.S. in statistics at Carnegie Mellon University, where she initially gained an interest in neurotech. She continued her training working with optogenetic stimulation at the National Institutes of Health. She hopes to bring her academic expertise in invasive stimulation to the field of neurotech with the goal of improving human life.",
+  },
+
+  "Hiroki Noyama": {
+    twitterLink: "https://twitter.com/gakki_curry",
+    image: "/img/about/Hiroki_Noyama.jpg",
+    name: "野山 大樹 Hiroki Noyama",
+    enName: "Hiroki Noyama",
+    role: "ライター",
+    enRole: "Writer",
+    description:
+      "東京大学大学院 工学系研究科 博士2年。NIRSに関する研究に従事する傍らで、脳科学若手の会スタッフとして精力的に談話会などを開催している。日本のアカデミアと一般の方々の科学に対するギャップに危機感を感じており、将来的にはサイエンスコミュニケーションを通じて科学に対するイメージを変えていきたいと変えていきたいと考えている。",
+    enDescription:
+      "Second year of a doctoral course, School of Engineering, The University of Tokyo. While engaged in research related to NIRS, he also actively organizes talks as a staff member of Society for Young researchers on Neuroscience. He feels a sense of crisis about the gap between science in academia and the general public in Japan, and hopes to change the image of science through science communication in the future.",
+  },
 };

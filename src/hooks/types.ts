@@ -17,4 +17,6 @@ export type MembersList =
   | "Shoka Kadoi"
   | "Nao Yukawa"
   | "Toma Itagaki"
-  | "Kai Irwin";
+  | "Kai Irwin"
+  | "Hannah Kodama"
+  | "Hiroki Noyama";
