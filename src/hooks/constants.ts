@@ -78,7 +78,7 @@ export const profiles: Record<MembersList, ProfileType> = {
   "Hannah Kodama": {
     twitterLink: "https://twitter.com/hmdougla",
     linkedInLink: "https://www.linkedin.com/in/hannah-douglas-b9553ab7",
-    image: "/img/about/Hana_Kodama.jpg",
+    image: "/img/about/Hana_Kodama.png",
     name: "児玉　英　Hana Kodama",
     enName: "Hannah Kodama",
     role: "Podcast インタビュアー",
@@ -91,7 +91,7 @@ export const profiles: Record<MembersList, ProfileType> = {
 
   "Hiroki Noyama": {
     twitterLink: "https://twitter.com/gakki_curry",
-    image: "/img/about/Hiroki_Noyama.jpg",
+    image: "/img/about/Hiroki_Noyama.jpeg",
     name: "野山 大樹 Hiroki Noyama",
     enName: "Hiroki Noyama",
     role: "ライター",
