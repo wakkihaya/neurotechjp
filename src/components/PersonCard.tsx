@@ -22,8 +22,15 @@ type Device = "Mobile" | "Desktop";
 export const PersonCard: React.FC<PersonCardProps> = props => {
   const device: Device = useResponsive();
 
-  const { twitterLink, fbLink, linkedInLink, name, role, description, image } =
-    props;
+  const {
+    twitterLink,
+    fbLink,
+    linkedInLink,
+    name,
+    role,
+    description,
+    image = "/img/about/Anonymous.png",
+  } = props;
 
   return (
     <div className="person-card">
