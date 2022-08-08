@@ -1,0 +1,77 @@
+@import "../../styles/variables.scss";
+
+.person-card {
+  display: flex;
+  flex-direction: row;
+  margin: 7em 0;
+
+  &--img-container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  &--img-container-image {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 5px;
+  }
+
+  &--img-container-sns {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    &--item {
+      margin: 1em;
+    }
+  }
+
+  &--text {
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+    padding-left: 5em;
+
+    &--name {
+      font-size: $medium-font-size;
+      font-weight: 500;
+    }
+
+    &--role {
+      font-size: $small-font-size;
+      color: $heavy-gray-color;
+    }
+
+    &--description {
+      margin-top: 1em;
+      font-size: $small-font-size;
+      color: $heavy-gray-color;
+      line-height: 1.5em;
+    }
+  }
+
+  @media screen and (max-width: $mobile-width) {
+    flex-direction: column;
+    margin: 4em 0;
+
+    &--img-container-image {
+      width: 100px;
+      height: 100px;
+    }
+    &--text {
+      padding-left: 0;
+      text-align: center;
+
+      &--name {
+        font-size: $small-font-size;
+      }
+
+      &--role,
+      &--description {
+        font-size: $sp-desc-small-font-size;
+      }
+    }
+  }
+}
