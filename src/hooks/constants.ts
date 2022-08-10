@@ -56,9 +56,9 @@ export const profiles: Record<MembersList, ProfileType> = {
     enName: "板垣 透馬 Toma Itagaki",
     role: "インタビュアー/ライター",
     enRole: "Interviewer/Writer",
-    description:
-      "Third-year Neuroscience and Electrical Engineering student at the University of Washington researching ubiquitous non-invasive neural interfaces and human computer interfaces. Toma’s ultimate goal is to quantify the body and mind and develop bio/neuro-inspired personalized assistants to improve the Human Experience.",
     enDescription:
+      "Third-year Neuroscience and Electrical Engineering student at the University of Washington researching ubiquitous non-invasive neural interfaces and human computer interfaces. Toma’s ultimate goal is to quantify the body and mind and develop bio/neuro-inspired personalized assistants to improve the Human Experience.",
+    description:
       "ワシントン大学神経科学部＋電気工学部３年生。現在はユビキタスなニューロテックやヒューマンコンピュータインタフェースの研究を行っている。脳や体のデータを使って Human Experience を数値化し、バイオ＋ニューロインスパイアされたパーソナルアシスタントを開発することを目標にさまざまな分野の勉強をしている。",
   },
 
