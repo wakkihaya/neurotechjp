@@ -2,6 +2,8 @@ import React, { useState, useEffect } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faTimes } from "@fortawesome/free-solid-svg-icons";
 
+import styles from "./Banner.module.scss";
+
 type BannerProps = {
   children: React.ReactNode;
 };
@@ -35,9 +37,9 @@ export const Banner: React.FC<BannerProps> = props => {
   return (
     <>
       {bannerState === "Open" && (
-        <div className="banner">
-          <div className="banner--text">{children}</div>
-          <div className="banner--close" onClick={onClickCloseButton}>
+        <div className={styles.banner}>
+          <div className={styles["banner--text"]}>{children}</div>
+          <div className={styles["banner--close"]} onClick={onClickCloseButton}>
             <FontAwesomeIcon icon={faTimes} size="2x" />
           </div>
         </div>
