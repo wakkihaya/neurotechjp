@@ -1,7 +1,7 @@
 import React from "react";
 
 import { ContactForm } from "~components/ContactForm";
-import Footer from "~/components/Footer";
+import { Footer } from "~components/Footer";
 import Header from "~/components/Header";
 import { Meta } from "~/components/Meta";
 import { PersonCard } from "~components/PersonCard";

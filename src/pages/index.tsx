@@ -3,7 +3,7 @@ import React from "react";
 import { GetStaticPropsResult } from "next";
 import Typical from "react-typical";
 
-import Footer from "~/components/Footer";
+import { Footer } from "~components/Footer";
 import Header from "~/components/Header";
 
 import { Meta } from "~/components/Meta";

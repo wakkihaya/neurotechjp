@@ -1,42 +1,44 @@
 import React from "react";
 import CookieConsent from "react-cookie-consent";
-import NewsLetterMailForm from "~/components/NewsLetter";
+import { NewsLetterMailForm } from "~components/NewsLetter";
 
 import { faTwitter } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
-const Footer: React.FC = () => {
+import styles from "./Footer.module.scss";
+
+export const Footer: React.FC = () => {
   return (
-    <div className="footer">
-      <div className="footer--newsletter">
-        <div className="footer--newsletter-text">
+    <div className={styles.footer}>
+      <div className={styles["footer--newsletter"]}>
+        <div className={styles["footer--newsletter--text"]}>
           Join the newsletter and get blog updates!
         </div>
-        <div className="footer--newsletter-form">
+        <div className={styles["footer--newsletter--form"]}>
           <NewsLetterMailForm />
         </div>
       </div>
-      <div className="footer--sns">
+      <div className={styles["footer--sns"]}>
         <a
           href="https://twitter.com/NeurotechJP_en"
           target="_blank"
-          className="footer--sns-twitter"
+          className={styles["footer--sns--twitter"]}
           rel="noreferrer"
         >
-          <div className="footer--sns-twitter-text">EN</div>
+          <div className={styles["footer--sns--twitter--text"]}>EN</div>
           <FontAwesomeIcon icon={faTwitter} size="2x" />
         </a>
         <a
           href="https://twitter.com/NeurotechJP"
           target="_blank"
-          className="footer--sns-twitter"
+          className={styles["footer--sns--twitter"]}
           rel="noreferrer"
         >
-          <div className="footer--sns-twitter-text">JP</div>
+          <div className={styles["footer--sns--twitter--text"]}>JP</div>
           <FontAwesomeIcon icon={faTwitter} size="2x" />
         </a>
       </div>
-      <footer className="footer--org">@2021 NeurotechJP</footer>
+      <footer className={styles["footer--org"]}>@2021 NeurotechJP</footer>
 
       <CookieConsent
         location="bottom"
@@ -56,5 +58,3 @@ const Footer: React.FC = () => {
     </div>
   );
 };
-
-export default Footer;

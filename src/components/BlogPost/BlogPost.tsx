@@ -4,7 +4,7 @@ import { Markdown } from "../Markdown";
 
 import { PostMeta } from "../PostMeta";
 
-import Footer from "~/components/Footer";
+import { Footer } from "~components/Footer";
 import { EditorFrame } from "~components/EditorFrame";
 import Header from "~/components/Header";
 import { SocialMediaShare } from "../SocialMediaShare";
