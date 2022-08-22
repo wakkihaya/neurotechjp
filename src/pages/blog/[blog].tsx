@@ -2,7 +2,7 @@ import glob from "glob";
 import React from "react";
 import { GetStaticPropsResult } from "next";
 
-import { BlogPost } from "~/components/BlogPost";
+import { BlogPost } from "~components/BlogPost";
 import { loadENPost, PostData } from "~/hooks/loader";
 
 type StaticPathsProps = { paths: string[]; fallback: boolean };
