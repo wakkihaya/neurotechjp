@@ -1,37 +1,42 @@
 import { useForm, ValidationError } from "@formspree/react";
 import React from "react";
 
+import styles from "./ContactForm.module.scss";
+
 type ContactFormProps = {
   lang: string;
 };
 
-const ContactForm: React.FC<ContactFormProps> = ({ lang }) => {
+export const ContactForm: React.FC<ContactFormProps> = ({ lang }) => {
   const [state, handleSubmit] = useForm("mzbyvdko");
   if (state.succeeded) {
     return (
-      <div className="contact-form">
-        <div className="contact-form--title">
+      <div className={styles["contact-form"]}>
+        <div className={styles["contact-form--title"]}>
           {lang === "EN" && <p> Contact us</p>}
           {lang === "JP" && <p> ご連絡はこちらから</p>}
         </div>
-        <div className="contact-form--done"> Thanks for contacting!</div>
+        <div className={styles["contact-form--done"]}>
+          {" "}
+          Thanks for contacting!
+        </div>
       </div>
     );
   }
   return (
-    <div className="contact-form">
-      <div className="contact-form--title">
+    <div className={styles["contact-form"]}>
+      <div className={styles["contact-form--title"]}>
         {lang === "EN" && <p> Contact us</p>}
         {lang === "JP" && <p> ご連絡はこちらから</p>}
       </div>
-      <div className="contact-form--detail">
+      <div className={styles["contact-form--detail"]}>
         <form onSubmit={handleSubmit}>
           <label htmlFor="name">Name</label>
           <input
             id="name"
             type="name"
             name="name"
-            className="contact-form--detail-text"
+            className={styles["contact-form--detail-text"]}
             required
           />
           <ValidationError prefix="Name" field="name" errors={state.errors} />
@@ -40,7 +45,7 @@ const ContactForm: React.FC<ContactFormProps> = ({ lang }) => {
             id="email"
             type="email"
             name="email"
-            className="contact-form--detail-text"
+            className={styles["contact-form--detail-text"]}
             required
           />
           <ValidationError prefix="Email" field="email" errors={state.errors} />
@@ -49,7 +54,7 @@ const ContactForm: React.FC<ContactFormProps> = ({ lang }) => {
             id="message"
             name="message"
             rows={5}
-            className="contact-form--detail-text"
+            className={styles["contact-form--detail-text"]}
             required
           />
           <ValidationError
@@ -57,7 +62,7 @@ const ContactForm: React.FC<ContactFormProps> = ({ lang }) => {
             field="message"
             errors={state.errors}
           />
-          <div className="contact-form--detail-submit">
+          <div className={styles["contact-form--detail-submit"]}>
             <button type="submit" disabled={state.submitting}>
               Submit
             </button>
@@ -67,5 +72,3 @@ const ContactForm: React.FC<ContactFormProps> = ({ lang }) => {
     </div>
   );
 };
-
-export default ContactForm;
