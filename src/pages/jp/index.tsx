@@ -4,7 +4,7 @@ import Typical from "react-typical";
 import React from "react";
 
 import { Footer } from "~components/Footer";
-import Header from "~/components/Header";
+import { Header } from "~components/Header";
 
 import { Meta } from "~/components/Meta";
 import type { PostData } from "~/hooks/loader";

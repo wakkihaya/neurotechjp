@@ -6,7 +6,7 @@ import { PostMeta } from "../PostMeta";
 
 import { Footer } from "~components/Footer";
 import { EditorFrame } from "~components/EditorFrame";
-import Header from "~/components/Header";
+import { Header } from "~components/Header";
 import { SocialMediaShare } from "../SocialMediaShare";
 
 import type { PostData } from "~/hooks/loader";

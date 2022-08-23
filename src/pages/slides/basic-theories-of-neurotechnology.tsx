@@ -1,5 +1,5 @@
 import { Footer } from "~components/Footer";
-import Header from "~components/Header";
+import { Header } from "~components/Header";
 import { Meta } from "~components/Meta";
 import React from "react";
 
