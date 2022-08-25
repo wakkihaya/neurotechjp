@@ -138,27 +138,33 @@ const HamburgerMenu: React.FC<HeaderDeviceProps> = ({ lang, device }) => {
   );
 };
 
-//2022/3/17: Discord Banner
+//2022/8/28: Neurotech Daily Banner
 const RenderBanner: React.FC<HeaderProps> = props => {
   const { lang } = props;
   if (lang === "JP") {
     return (
       <Banner>
         <p>
-          Neurotech Discordコミュニティは
-          <a
-            target="_blank"
-            rel="noreferrer"
-            href="https://discord.gg/ERh2pzQ6AW"
-          >
-            こちら
-          </a>
-          から！
+          ニューロテックPodcast{" "}
+          <a target="_blank" rel="noreferrer" href="https://neurotechdaily.com">
+            "Neurotech Daily"
+          </a>{" "}
+          開設！
         </p>
       </Banner>
     );
   } else {
-    return <></>;
+    return (
+      <Banner>
+        <p>
+          We've opened the neurotech podcast channel{" "}
+          <a target="_blank" rel="noreferrer" href="https://neurotechdaily.com">
+            "Neurotech Daily"
+          </a>{" "}
+          !
+        </p>
+      </Banner>
+    );
   }
 };
 
