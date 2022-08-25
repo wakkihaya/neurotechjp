@@ -89,31 +89,40 @@ const HamburgerMenu: React.FC<HeaderDeviceProps> = ({ lang, device }) => {
     >
       <div className={styles["header--index"]}>
         <div
-          className={styles["header--index-home"]}
+          className={[
+            styles["header--index--item"],
+            styles["header--index--item__home"],
+          ].join(" ")}
           onClick={() => setIsMenuOpen(!isMenuOpen)}
         >
           <Link href={lang === "EN" ? "/" : "/jp"}>Home</Link>
         </div>
         <div
-          className={styles["header--index-blog"]}
+          className={styles["header--index--item"]}
           onClick={() => setIsMenuOpen(!isMenuOpen)}
         >
           <Link href={lang === "EN" ? "/blog" : "/jp/blog"}>Blog</Link>
         </div>
+        <div className={styles["header--index--item"]}>
+          <Link href={lang === "EN" ? "/podcast" : "/jp/podcast"}>Podcast</Link>
+        </div>
         <div
-          className={styles["header--index-slides"]}
+          className={styles["header--index--item"]}
           onClick={() => setIsMenuOpen(!isMenuOpen)}
         >
           <Link href={lang === "EN" ? "/slides" : "/jp/slides"}>Reports</Link>
         </div>
         <div
-          className={styles["header--index-about"]}
+          className={styles["header--index--item"]}
           onClick={() => setIsMenuOpen(!isMenuOpen)}
         >
           <Link href={lang === "EN" ? "/about" : "/jp/about"}>About us</Link>
         </div>
         <div
-          className={styles["header--index-social"]}
+          className={[
+            styles["header--index--item"],
+            styles["header--index--item__social"],
+          ].join(" ")}
           onClick={() => setIsMenuOpen(!isMenuOpen)}
         >
           <HeaderSocial lang={lang} device={device} />
@@ -204,18 +213,28 @@ export const Header: React.FC<{ isBgTransparent: boolean }> = props => {
           {device === "Desktop" && (
             <>
               <div className={styles["header--index"]}>
-                <div className={styles["header--index-home"]}>
+                <div
+                  className={[
+                    styles["header--index--item"],
+                    styles["header--index--item__home"],
+                  ].join(" ")}
+                >
                   <Link href={lang === "EN" ? "/" : "/jp"}>Home</Link>
                 </div>
-                <div className={styles["header--index-blog"]}>
+                <div className={styles["header--index--item"]}>
                   <Link href={lang === "EN" ? "/blog" : "/jp/blog"}>Blog</Link>
                 </div>
-                <div className={styles["header--index-slides"]}>
+                <div className={styles["header--index--item"]}>
+                  <Link href={lang === "EN" ? "/podcast" : "/jp/podcast"}>
+                    Podcast
+                  </Link>
+                </div>
+                <div className={styles["header--index--item"]}>
                   <Link href={lang === "EN" ? "/slides" : "/jp/slides"}>
                     Reports
                   </Link>
                 </div>
-                <div className={styles["header--index-about"]}>
+                <div className={styles["header--index--item"]}>
                   <Link href={lang === "EN" ? "/about" : "/jp/about"}>
                     About us
                   </Link>

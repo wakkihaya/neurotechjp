@@ -46,20 +46,19 @@
     flex: 2;
     font-size: $medium-font-size;
     justify-content: center;
-  }
-  &--index-about:hover,
-  &--index-blog:hover,
-  &--index-home:hover,
-  &--index-slides:hover {
-    text-decoration: underline;
-  }
 
-  &--index-about,
-  &--index-blog,
-  &--index-slides {
-    padding-left: 5rem;
-  }
+    &--item {
+      padding-left: 5rem;
 
+      &__home {
+        padding-left: 0;
+      }
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
   &--lang {
     display: flex;
     flex: 0.3;
@@ -95,33 +94,31 @@
       color: white;
       font-size: $medium-font-size;
       margin-top: 10rem;
+
+      &--item {
+        padding: 0;
+        margin-top: 3rem;
+        font-family: $armata-font-family;
+
+        &__home {
+          margin-top: 0;
+        }
+
+        &__social {
+          display: flex;
+          gap: 10px;
+        }
+      }
     }
-    &--index-about,
-    &--index-blog,
-    &--index-slides,
-    &--index-social {
-      padding: 0;
-      margin-top: 3rem;
-    }
-    &--index-home,
-    &--index-about,
-    &--index-blog,
-    &--index-slides {
-      font-family: $armata-font-family;
-    }
+
     &--index_menu-space {
       width: 30px;
     }
-    &--index--social {
-      text-align: center;
-    }
+
     &--lang {
       font-size: $very-small-font-size;
     }
-    &--index-social {
-      display: flex;
-      gap: 10px;
-    }
+
     &--social-item {
       svg {
         width: 30px !important;
