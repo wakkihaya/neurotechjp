@@ -1,12 +1,10 @@
 import React from "react";
 
 import { Markdown } from "../Markdown";
-
 import { PostMeta } from "../PostMeta";
-
-import { Footer } from "~components/Footer";
-import { EditorFrame } from "~components/EditorFrame";
-import { Header } from "~components/Header";
+import { Footer } from "../Footer";
+import { EditorFrame } from "../EditorFrame";
+import { Header } from "../Header";
 import { SocialMediaShare } from "../SocialMediaShare";
 
 import type { PostData } from "~/hooks/loader";

@@ -1,6 +1,6 @@
 import React from "react";
 import CookieConsent from "react-cookie-consent";
-import { NewsLetterMailForm } from "~components/NewsLetter";
+import { NewsLetterMailForm } from "../NewsLetter";
 
 import { faTwitter } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";

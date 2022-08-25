@@ -6,7 +6,7 @@ import { faDiscord, faTwitter } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 import useResponsive from "~/hooks/use-responsive";
-import { Banner } from "~components/Banner";
+import { Banner } from "../Banner";
 
 import styles from "./Header.module.scss";
 

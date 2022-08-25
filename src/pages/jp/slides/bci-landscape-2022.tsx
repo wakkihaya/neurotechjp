@@ -1,6 +1,4 @@
-import { Footer } from "~components/Footer";
-import { Header } from "~components/Header";
-import { Meta } from "~components/Meta";
+import { Footer, Header, Meta } from "~components";
 import React from "react";
 
 const BCILandscape2022: React.FC = () => {
