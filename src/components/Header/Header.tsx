@@ -61,73 +61,50 @@ const HeaderIndexAbout: React.FC<HeaderProps> = ({ lang }) => {
 
 const HeaderSocial: React.FC<HeaderDeviceProps> = ({ lang, device }) => {
   if (lang === "EN") {
-    if (device === "Desktop") {
-      return (
-        <a
-          href="https://twitter.com/NeurotechJP_en"
-          target="_blank"
-          className={styles["header--social-item"]}
-          rel="noreferrer"
-        >
-          <FontAwesomeIcon icon={faTwitter} size="3x" border />
-        </a>
-      );
-    } else {
-      return (
-        <a
-          href="https://twitter.com/NeurotechJP_en"
-          target="_blank"
-          className={styles["header--social-item"]}
-          rel="noreferrer"
-        >
-          <FontAwesomeIcon icon={faTwitter} size="2x" border />
-        </a>
-      );
-    }
+    return (
+      <a
+        href="https://twitter.com/NeurotechJP_en"
+        target="_blank"
+        className={styles["header--social-item"]}
+        rel="noreferrer"
+      >
+        {/* TODO: somehow size wrong */}
+        <FontAwesomeIcon
+          icon={faTwitter}
+          size={device === "Desktop" ? "3x" : "2x"}
+          border
+        />
+      </a>
+    );
   } else {
-    if (device === "Desktop") {
-      return (
-        <>
-          <a
-            href="https://twitter.com/NeurotechJP"
-            target="_blank"
-            className={styles["header--social-item"]}
-            rel="noreferrer"
-          >
-            <FontAwesomeIcon icon={faTwitter} size="3x" border />
-          </a>
-          <a
-            href="https://discord.gg/ERh2pzQ6AW"
-            target="_blank"
-            className={styles["header--social-item"]}
-            rel="noreferrer"
-          >
-            <FontAwesomeIcon icon={faDiscord} size="3x" border />
-          </a>
-        </>
-      );
-    } else {
-      return (
-        <>
-          <a
-            href="https://twitter.com/NeurotechJP"
-            target="_blank"
-            className={styles["header--social-item"]}
-            rel="noreferrer"
-          >
-            <FontAwesomeIcon icon={faTwitter} size="2x" border />
-          </a>
-          <a
-            href="https://discord.gg/ERh2pzQ6AW"
-            target="_blank"
-            className={styles["header--social-item"]}
-            rel="noreferrer"
-          >
-            <FontAwesomeIcon icon={faDiscord} size="2x" border />
-          </a>
-        </>
-      );
-    }
+    return (
+      <>
+        <a
+          href="https://twitter.com/NeurotechJP"
+          target="_blank"
+          className={styles["header--social-item"]}
+          rel="noreferrer"
+        >
+          <FontAwesomeIcon
+            icon={faTwitter}
+            size={device === "Desktop" ? "3x" : "2x"}
+            border
+          />
+        </a>
+        <a
+          href="https://discord.gg/ERh2pzQ6AW"
+          target="_blank"
+          className={styles["header--social-item"]}
+          rel="noreferrer"
+        >
+          <FontAwesomeIcon
+            icon={faDiscord}
+            size={device === "Desktop" ? "3x" : "2x"}
+            border
+          />
+        </a>
+      </>
+    );
   }
 };
 

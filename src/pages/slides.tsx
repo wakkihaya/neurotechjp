@@ -1,4 +1,4 @@
-import SlideContent from "~components/SlideContent";
+import { SlideContent } from "~components/SlideContent";
 import { Footer } from "~components/Footer";
 import { Header } from "~components/Header";
 import { Meta } from "~components/Meta";
