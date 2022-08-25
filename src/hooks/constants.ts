@@ -24,8 +24,8 @@ export const profiles: Record<MembersList, ProfileType> = {
     image: "/img/about/Shouka_Kadoi.jpeg",
     name: "門井 翔佳 Shoka Kadoi",
     enName: "Shoka Kadoi",
-    role: "Bizdev リード",
-    enRole: "Bizdev Lead",
+    role: "営業",
+    enRole: "Salse",
     description:
       "2018年、同志社大学社会学部メディア学科卒業。社会心理学専攻。Israel Brain Technologiesの主宰するカンファレンスに参加を機に、2019年6月よりマインドフルネス瞑想アプリ『Relook』にジョイン。CS、Webマーケ、プロダクトマネージャーとして働きM&Aを経験。",
     enDescription:
