@@ -1,0 +1,31 @@
+@import "../../styles/variables.scss";
+
+.social-media {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  &--icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  &--share {
+    margin-right: 1em;
+  }
+  @media screen and (max-width: $mobile-width) {
+    flex-direction: column;
+    background: $light-gray-color;
+    &--icons {
+      flex-direction: column;
+      animation: fadeIn 1.5s ease 0s 1 normal;
+    }
+    &--share {
+      margin: 1rem 0;
+    }
+    &--close {
+      margin: 1rem 0;
+      animation: fadeIn 1.5s ease 0s 1 normal;
+    }
+  }
+}

@@ -6,7 +6,9 @@ import { faDiscord, faTwitter } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 import useResponsive from "~/hooks/use-responsive";
-import Banner from "~/components/Banner";
+import { Banner } from "../Banner";
+
+import styles from "./Header.module.scss";
 
 type Lang = "EN" | "JP" | "NotSpecified";
 
@@ -59,73 +61,50 @@ const HeaderIndexAbout: React.FC<HeaderProps> = ({ lang }) => {
 
 const HeaderSocial: React.FC<HeaderDeviceProps> = ({ lang, device }) => {
   if (lang === "EN") {
-    if (device === "Desktop") {
-      return (
-        <a
-          href="https://twitter.com/NeurotechJP_en"
-          target="_blank"
-          className="header--social-item"
-          rel="noreferrer"
-        >
-          <FontAwesomeIcon icon={faTwitter} size="3x" border />
-        </a>
-      );
-    } else {
-      return (
-        <a
-          href="https://twitter.com/NeurotechJP_en"
-          target="_blank"
-          className="header--social-item"
-          rel="noreferrer"
-        >
-          <FontAwesomeIcon icon={faTwitter} size="2x" border />
-        </a>
-      );
-    }
+    return (
+      <a
+        href="https://twitter.com/NeurotechJP_en"
+        target="_blank"
+        className={styles["header--social-item"]}
+        rel="noreferrer"
+      >
+        {/* TODO: somehow size wrong */}
+        <FontAwesomeIcon
+          icon={faTwitter}
+          size={device === "Desktop" ? "3x" : "2x"}
+          border
+        />
+      </a>
+    );
   } else {
-    if (device === "Desktop") {
-      return (
-        <>
-          <a
-            href="https://twitter.com/NeurotechJP"
-            target="_blank"
-            className="header--social-item"
-            rel="noreferrer"
-          >
-            <FontAwesomeIcon icon={faTwitter} size="3x" border />
-          </a>
-          <a
-            href="https://discord.gg/ERh2pzQ6AW"
-            target="_blank"
-            className="header--social-item"
-            rel="noreferrer"
-          >
-            <FontAwesomeIcon icon={faDiscord} size="3x" border />
-          </a>
-        </>
-      );
-    } else {
-      return (
-        <>
-          <a
-            href="https://twitter.com/NeurotechJP"
-            target="_blank"
-            className="header--social-item"
-            rel="noreferrer"
-          >
-            <FontAwesomeIcon icon={faTwitter} size="2x" border />
-          </a>
-          <a
-            href="https://discord.gg/ERh2pzQ6AW"
-            target="_blank"
-            className="header--social-item"
-            rel="noreferrer"
-          >
-            <FontAwesomeIcon icon={faDiscord} size="2x" border />
-          </a>
-        </>
-      );
-    }
+    return (
+      <>
+        <a
+          href="https://twitter.com/NeurotechJP"
+          target="_blank"
+          className={styles["header--social-item"]}
+          rel="noreferrer"
+        >
+          <FontAwesomeIcon
+            icon={faTwitter}
+            size={device === "Desktop" ? "3x" : "2x"}
+            border
+          />
+        </a>
+        <a
+          href="https://discord.gg/ERh2pzQ6AW"
+          target="_blank"
+          className={styles["header--social-item"]}
+          rel="noreferrer"
+        >
+          <FontAwesomeIcon
+            icon={faDiscord}
+            size={device === "Desktop" ? "3x" : "2x"}
+            border
+          />
+        </a>
+      </>
+    );
   }
 };
 
@@ -145,33 +124,33 @@ const HamburgerMenu: React.FC<HeaderDeviceProps> = ({ lang, device }) => {
       isOpen={isMenuOpen}
       onStateChange={state => handleStateChange(state)}
     >
-      <div className="header--index">
+      <div className={styles["header--index"]}>
         <div
-          className="header--index-home"
+          className={styles["header--index-home"]}
           onClick={() => setIsMenuOpen(!isMenuOpen)}
         >
           <HeaderIndexHome lang={lang} />
         </div>
         <div
-          className="header--index-blog"
+          className={styles["header--index-blog"]}
           onClick={() => setIsMenuOpen(!isMenuOpen)}
         >
           <HeaderIndexBlog lang={lang} />
         </div>
         <div
-          className="header--index-slides"
+          className={styles["header--index-slides"]}
           onClick={() => setIsMenuOpen(!isMenuOpen)}
         >
           <HeaderIndexSlides lang={lang} />
         </div>
         <div
-          className="header--index-about"
+          className={styles["header--index-about"]}
           onClick={() => setIsMenuOpen(!isMenuOpen)}
         >
           <HeaderIndexAbout lang={lang} />
         </div>
         <div
-          className="header--index-social"
+          className={styles["header--index-social"]}
           onClick={() => setIsMenuOpen(!isMenuOpen)}
         >
           <HeaderSocial lang={lang} device={device} />
@@ -205,7 +184,7 @@ const RenderBanner: React.FC<HeaderProps> = props => {
   }
 };
 
-const Header: React.FC<{ isBgTransparent: boolean }> = props => {
+export const Header: React.FC<{ isBgTransparent: boolean }> = props => {
   const isBgTransparent = props.isBgTransparent ?? false;
   const router = useRouter();
 
@@ -249,43 +228,43 @@ const Header: React.FC<{ isBgTransparent: boolean }> = props => {
       <RenderBanner lang={lang} />
       <div
         className={[
-          "header-container",
-          isBgTransparent ? "bg-none" : null,
+          styles["header-container"],
+          isBgTransparent ? styles["bg-none"] : null,
         ].join(" ")}
       >
         {device === "Mobile" && <HamburgerMenu lang={lang} device={device} />}
-        <header className="header">
-          <div className="header--logo">
+        <header className={styles["header"]}>
+          <div className={styles["header--logo"]}>
             {lang === "EN" && <Link href="/">NeurotechJP </Link>}
             {lang === "JP" && <Link href="/jp">NeurotechJP </Link>}
           </div>
           {device === "Desktop" && (
             <>
-              <div className="header--index">
-                <div className="header--index-home">
+              <div className={styles["header--index"]}>
+                <div className={styles["header--index-home"]}>
                   <HeaderIndexHome lang={lang} />
                 </div>
-                <div className="header--index-blog">
+                <div className={styles["header--index-blog"]}>
                   <HeaderIndexBlog lang={lang} />
                 </div>
-                <div className="header--index-slides">
+                <div className={styles["header--index-slides"]}>
                   <HeaderIndexSlides lang={lang} />
                 </div>
-                <div className="header--index-about">
+                <div className={styles["header--index-about"]}>
                   <HeaderIndexAbout lang={lang} />
                 </div>
               </div>
-              <div className="header--social">
+              <div className={styles["header--social"]}>
                 <HeaderSocial lang={lang} device={device} />
               </div>
             </>
           )}
 
-          <div className="header--lang">
+          <div className={styles["header--lang"]}>
             <div
               className={[
-                "header--lang-char",
-                lang === "EN" ? "active" : null,
+                styles["header--lang-char"],
+                lang === "EN" ? styles.active : null,
               ].join(" ")}
               onClick={() => {
                 changeLang("EN");
@@ -296,8 +275,8 @@ const Header: React.FC<{ isBgTransparent: boolean }> = props => {
             </div>
             <div
               className={[
-                "header--lang-char",
-                lang === "JP" ? "active" : null,
+                styles["header--lang-char"],
+                lang === "JP" ? styles.active : null,
               ].join(" ")}
               onClick={() => {
                 changeLang("JP");
@@ -307,12 +286,14 @@ const Header: React.FC<{ isBgTransparent: boolean }> = props => {
               JP
             </div>
           </div>
-          {device === "Mobile" && <div className="header--index_menu-space" />}
+          {device === "Mobile" && (
+            <div className={styles["header--index_menu-space"]} />
+          )}
         </header>
         <div
           className={[
-            "header-container--brain-wave",
-            isBgTransparent ? "bg-none" : null,
+            styles["header-container--brain-wave"],
+            isBgTransparent ? styles["bg-none"] : null,
           ].join(" ")}
         >
           <img
@@ -325,5 +306,3 @@ const Header: React.FC<{ isBgTransparent: boolean }> = props => {
     </>
   );
 };
-
-export default Header;

@@ -1,10 +1,7 @@
 import React, { useState } from "react";
 import { GetStaticPropsResult } from "next";
 
-import Footer from "~/components/Footer";
-import Header from "~/components/Header";
-
-import { Meta } from "~/components/Meta";
+import { Footer, Header, Meta } from "~components";
 import type { PostData } from "~/hooks/loader";
 import { loadBlogJPPosts } from "~/hooks/loader";
 

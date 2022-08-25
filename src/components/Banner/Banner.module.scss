@@ -1,0 +1,38 @@
+@import "../../styles/variables.scss";
+
+.banner {
+  min-height: 50px;
+  width: 100%;
+  background-color: $red-color;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  &--text {
+    font-size: $small-font-size;
+    text-align: center;
+    height: 100%;
+    margin-left: auto;
+  }
+
+  &--close {
+    margin-left: auto;
+    top: 0;
+    right: 5em;
+    padding-right: 2em;
+    cursor: pointer;
+  }
+
+  a {
+    text-decoration: underline;
+  }
+
+  @media (max-width: $mobile-width) {
+    &--text {
+      font-size: $very-small-font-size;
+      padding: 0 1em;
+      line-height: 1.5em;
+    }
+  }
+}

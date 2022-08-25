@@ -13,6 +13,8 @@ import { useProfiles } from "~hooks/use-profiles";
 import useCurrentLang from "~hooks/use-currentLang";
 import type { MembersList } from "~hooks";
 
+import styles from "./EditorFrame.module.scss";
+
 interface EditorInfoProps {
   image?: string;
   name?: string;
@@ -33,15 +35,15 @@ const EditorInfo: FC<EditorInfoProps> = props => {
   const device: Device = useResponsive();
 
   return (
-    <div className="editor-info">
-      <img src={image} className="editor-info--img" />
-      <div className="editor-info--name">{name}</div>
-      <div className="editor-info--sns">
+    <div className={styles["editor-info"]}>
+      <img src={image} className={styles["editor-info--img"]} />
+      <div className={styles["editor-info--name"]}>{name}</div>
+      <div className={styles["editor-info--sns"]}>
         {linkedInLink && (
           <a
             href={linkedInLink}
             target="_blank"
-            className="editor-info--sns-item"
+            className={styles["editor-info--sns-item"]}
             rel="noreferrer"
           >
             {device === "Desktop" ? (
@@ -55,7 +57,7 @@ const EditorInfo: FC<EditorInfoProps> = props => {
           <a
             href={twitterLink}
             target="_blank"
-            className="editor-info--sns-item"
+            className={styles["editor-info--sns-item"]}
             rel="noreferrer"
           >
             {device === "Desktop" ? (
@@ -76,10 +78,10 @@ export const EditorFrame: FC<EditorFrameProps> = props => {
   const { currentLang } = useCurrentLang();
 
   return (
-    <div className="editor-frame">
+    <div className={styles["editor-frame"]}>
       {writers && writers.length !== 0 && (
-        <div className="editor-frame--box">
-          <div className="editor-frame--box-title">
+        <div className={styles["editor-frame--box"]}>
+          <div className={styles["editor-frame--box-title"]}>
             <FontAwesomeIcon icon={faPencilAlt} />
             {currentLang === "EN" ? <p>Writer</p> : <p>ライター</p>}
           </div>
@@ -100,8 +102,8 @@ export const EditorFrame: FC<EditorFrameProps> = props => {
         </div>
       )}
       {interviewers && interviewers.length !== 0 && (
-        <div className="editor-frame--box">
-          <div className="editor-frame--box-title">
+        <div className={styles["editor-frame--box"]}>
+          <div className={styles["editor-frame--box-title"]}>
             <FontAwesomeIcon icon={faComments} />
             {currentLang === "EN" ? <p>Interviewer</p> : <p>インタビュアー</p>}
           </div>
@@ -124,8 +126,8 @@ export const EditorFrame: FC<EditorFrameProps> = props => {
         </div>
       )}
       {translators && translators.length !== 0 && (
-        <div className="editor-frame--box">
-          <div className="editor-frame--box-title">
+        <div className={styles["editor-frame--box"]}>
+          <div className={styles["editor-frame--box-title"]}>
             <FontAwesomeIcon icon={faLanguage} />
             {currentLang === "EN" ? <p>Translator</p> : <p>翻訳者</p>}
           </div>

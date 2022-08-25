@@ -1,6 +1,8 @@
 import MailchimpSubscribe from "react-mailchimp-subscribe";
 import React from "react";
 
+import styles from "./NewsLetter.module.scss";
+
 const CustomForm = ({ status, message, onValidated }) => {
   let email;
   const submit = async () => {
@@ -35,22 +37,25 @@ const CustomForm = ({ status, message, onValidated }) => {
                 placeholder="Email"
               />
               {status === "sending" ? (
-                <div className="footer--newsletter-sending">Sending...</div>
+                <div className={styles["newsletter--sending"]}>Sending...</div>
               ) : (
                 <button onClick={submit}>Subscribe</button>
               )}
             </>
           ) : (
-            <div className="footer--newsletter-success">You're subscribed!</div>
+            <div className={styles["newsletter--success"]}>
+              You're subscribed!
+            </div>
           )}
         </>
       ) : (
-        <div className="footer--newsletter-error">Error! {message}</div>
+        <div className={styles["newsletter--error"]}>Error! {message}</div>
       )}
     </>
   );
 };
-const NewsLetterMailForm: React.FC = () => {
+
+export const NewsLetterMailForm: React.FC = () => {
   const url = process.env.MAILCHIMP_URL || "";
 
   return (
@@ -66,5 +71,3 @@ const NewsLetterMailForm: React.FC = () => {
     />
   );
 };
-
-export default NewsLetterMailForm;
