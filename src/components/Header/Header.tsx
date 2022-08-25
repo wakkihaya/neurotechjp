@@ -104,7 +104,13 @@ const HamburgerMenu: React.FC<HeaderDeviceProps> = ({ lang, device }) => {
           <Link href={lang === "EN" ? "/blog" : "/jp/blog"}>Blog</Link>
         </div>
         <div className={styles["header--index--item"]}>
-          <Link href={lang === "EN" ? "/podcast" : "/jp/podcast"}>Podcast</Link>
+          <a
+            href="https://www.neurotechdaily.com/"
+            target={"_blank"}
+            rel="noreferrer"
+          >
+            Podcast
+          </a>
         </div>
         <div
           className={styles["header--index--item"]}
@@ -225,7 +231,11 @@ export const Header: React.FC<{ isBgTransparent: boolean }> = props => {
                   <Link href={lang === "EN" ? "/blog" : "/jp/blog"}>Blog</Link>
                 </div>
                 <div className={styles["header--index--item"]}>
-                  <Link href={lang === "EN" ? "/podcast" : "/jp/podcast"}>
+                  <Link
+                    href={"https://www.neurotechdaily.com/"}
+                    target={"_blank"}
+                    rel="noreferrer"
+                  >
                     Podcast
                   </Link>
                 </div>
