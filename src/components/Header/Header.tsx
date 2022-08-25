@@ -237,13 +237,13 @@ export const Header: React.FC<{ isBgTransparent: boolean }> = props => {
                   <Link href={lang === "EN" ? "/blog" : "/jp/blog"}>Blog</Link>
                 </div>
                 <div className={styles["header--index--item"]}>
-                  <Link
+                  <a
                     href={"https://www.neurotechdaily.com/"}
                     target={"_blank"}
                     rel="noreferrer"
                   >
                     Podcast
-                  </Link>
+                  </a>
                 </div>
                 <div className={styles["header--index--item"]}>
                   <Link href={lang === "EN" ? "/slides" : "/jp/slides"}>
