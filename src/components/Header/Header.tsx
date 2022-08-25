@@ -23,42 +23,6 @@ type HeaderDeviceProps = {
   device: Device;
 };
 
-const HeaderIndexHome: React.FC<HeaderProps> = ({ lang }) => {
-  return (
-    <>
-      {lang === "EN" && <Link href="/">Home</Link>}
-      {lang === "JP" && <Link href="/jp">Home</Link>}
-    </>
-  );
-};
-
-const HeaderIndexBlog: React.FC<HeaderProps> = ({ lang }) => {
-  return (
-    <>
-      {lang === "EN" && <Link href="/blog">Blog</Link>}
-      {lang === "JP" && <Link href="/jp/blog">Blog</Link>}
-    </>
-  );
-};
-
-const HeaderIndexSlides: React.FC<HeaderProps> = ({ lang }) => {
-  return (
-    <>
-      {lang === "EN" && <Link href="/slides">Reports</Link>}
-      {lang === "JP" && <Link href="/jp/slides">Reports</Link>}
-    </>
-  );
-};
-
-const HeaderIndexAbout: React.FC<HeaderProps> = ({ lang }) => {
-  return (
-    <>
-      {lang === "EN" && <Link href="/about">About us</Link>}
-      {lang === "JP" && <Link href="/jp/about">About us</Link>}
-    </>
-  );
-};
-
 const HeaderSocial: React.FC<HeaderDeviceProps> = ({ lang, device }) => {
   if (lang === "EN") {
     return (
@@ -68,7 +32,6 @@ const HeaderSocial: React.FC<HeaderDeviceProps> = ({ lang, device }) => {
         className={styles["header--social-item"]}
         rel="noreferrer"
       >
-        {/* TODO: somehow size wrong */}
         <FontAwesomeIcon
           icon={faTwitter}
           size={device === "Desktop" ? "3x" : "2x"}
@@ -129,25 +92,25 @@ const HamburgerMenu: React.FC<HeaderDeviceProps> = ({ lang, device }) => {
           className={styles["header--index-home"]}
           onClick={() => setIsMenuOpen(!isMenuOpen)}
         >
-          <HeaderIndexHome lang={lang} />
+          <Link href={lang === "EN" ? "/" : "/jp"}>Home</Link>
         </div>
         <div
           className={styles["header--index-blog"]}
           onClick={() => setIsMenuOpen(!isMenuOpen)}
         >
-          <HeaderIndexBlog lang={lang} />
+          <Link href={lang === "EN" ? "/blog" : "/jp/blog"}>Blog</Link>
         </div>
         <div
           className={styles["header--index-slides"]}
           onClick={() => setIsMenuOpen(!isMenuOpen)}
         >
-          <HeaderIndexSlides lang={lang} />
+          <Link href={lang === "EN" ? "/slides" : "/jp/slides"}>Reports</Link>
         </div>
         <div
           className={styles["header--index-about"]}
           onClick={() => setIsMenuOpen(!isMenuOpen)}
         >
-          <HeaderIndexAbout lang={lang} />
+          <Link href={lang === "EN" ? "/about" : "/jp/about"}>About us</Link>
         </div>
         <div
           className={styles["header--index-social"]}
@@ -242,16 +205,20 @@ export const Header: React.FC<{ isBgTransparent: boolean }> = props => {
             <>
               <div className={styles["header--index"]}>
                 <div className={styles["header--index-home"]}>
-                  <HeaderIndexHome lang={lang} />
+                  <Link href={lang === "EN" ? "/" : "/jp"}>Home</Link>
                 </div>
                 <div className={styles["header--index-blog"]}>
-                  <HeaderIndexBlog lang={lang} />
+                  <Link href={lang === "EN" ? "/blog" : "/jp/blog"}>Blog</Link>
                 </div>
                 <div className={styles["header--index-slides"]}>
-                  <HeaderIndexSlides lang={lang} />
+                  <Link href={lang === "EN" ? "/slides" : "/jp/slides"}>
+                    Reports
+                  </Link>
                 </div>
                 <div className={styles["header--index-about"]}>
-                  <HeaderIndexAbout lang={lang} />
+                  <Link href={lang === "EN" ? "/about" : "/jp/about"}>
+                    About us
+                  </Link>
                 </div>
               </div>
               <div className={styles["header--social"]}>
