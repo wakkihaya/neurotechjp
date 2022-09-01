@@ -52,8 +52,8 @@ export const profiles: Record<MembersList, ProfileType> = {
     linkedInLink: "https://www.linkedin.com/in/tomaitagaki/",
     fbLink: "",
     image: "/img/about/Toma_Itagaki.jpg",
-    name: "Toma Itagaki",
-    enName: "板垣 透馬 Toma Itagaki",
+    enName: "Toma Itagaki",
+    name: "板垣 透馬 Toma Itagaki",
     role: "インタビュアー/ライター",
     enRole: "Interviewer/Writer",
     enDescription:
