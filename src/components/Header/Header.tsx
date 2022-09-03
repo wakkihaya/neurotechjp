@@ -23,42 +23,6 @@ type HeaderDeviceProps = {
   device: Device;
 };
 
-const HeaderIndexHome: React.FC<HeaderProps> = ({ lang }) => {
-  return (
-    <>
-      {lang === "EN" && <Link href="/">Home</Link>}
-      {lang === "JP" && <Link href="/jp">Home</Link>}
-    </>
-  );
-};
-
-const HeaderIndexBlog: React.FC<HeaderProps> = ({ lang }) => {
-  return (
-    <>
-      {lang === "EN" && <Link href="/blog">Blog</Link>}
-      {lang === "JP" && <Link href="/jp/blog">Blog</Link>}
-    </>
-  );
-};
-
-const HeaderIndexSlides: React.FC<HeaderProps> = ({ lang }) => {
-  return (
-    <>
-      {lang === "EN" && <Link href="/slides">Reports</Link>}
-      {lang === "JP" && <Link href="/jp/slides">Reports</Link>}
-    </>
-  );
-};
-
-const HeaderIndexAbout: React.FC<HeaderProps> = ({ lang }) => {
-  return (
-    <>
-      {lang === "EN" && <Link href="/about">About us</Link>}
-      {lang === "JP" && <Link href="/jp/about">About us</Link>}
-    </>
-  );
-};
-
 const HeaderSocial: React.FC<HeaderDeviceProps> = ({ lang, device }) => {
   if (lang === "EN") {
     return (
@@ -68,7 +32,6 @@ const HeaderSocial: React.FC<HeaderDeviceProps> = ({ lang, device }) => {
         className={styles["header--social-item"]}
         rel="noreferrer"
       >
-        {/* TODO: somehow size wrong */}
         <FontAwesomeIcon
           icon={faTwitter}
           size={device === "Desktop" ? "3x" : "2x"}
@@ -126,31 +89,46 @@ const HamburgerMenu: React.FC<HeaderDeviceProps> = ({ lang, device }) => {
     >
       <div className={styles["header--index"]}>
         <div
-          className={styles["header--index-home"]}
+          className={[
+            styles["header--index--item"],
+            styles["header--index--item__home"],
+          ].join(" ")}
           onClick={() => setIsMenuOpen(!isMenuOpen)}
         >
-          <HeaderIndexHome lang={lang} />
+          <Link href={lang === "EN" ? "/" : "/jp"}>Home</Link>
         </div>
         <div
-          className={styles["header--index-blog"]}
+          className={styles["header--index--item"]}
           onClick={() => setIsMenuOpen(!isMenuOpen)}
         >
-          <HeaderIndexBlog lang={lang} />
+          <Link href={lang === "EN" ? "/blog" : "/jp/blog"}>Blog</Link>
+        </div>
+        <div className={styles["header--index--item"]}>
+          <a
+            href="https://www.neurotechdaily.com/"
+            target={"_blank"}
+            rel="noreferrer"
+          >
+            Podcast
+          </a>
         </div>
         <div
-          className={styles["header--index-slides"]}
+          className={styles["header--index--item"]}
           onClick={() => setIsMenuOpen(!isMenuOpen)}
         >
-          <HeaderIndexSlides lang={lang} />
+          <Link href={lang === "EN" ? "/slides" : "/jp/slides"}>Reports</Link>
         </div>
         <div
-          className={styles["header--index-about"]}
+          className={styles["header--index--item"]}
           onClick={() => setIsMenuOpen(!isMenuOpen)}
         >
-          <HeaderIndexAbout lang={lang} />
+          <Link href={lang === "EN" ? "/about" : "/jp/about"}>About us</Link>
         </div>
         <div
-          className={styles["header--index-social"]}
+          className={[
+            styles["header--index--item"],
+            styles["header--index--item__social"],
+          ].join(" ")}
           onClick={() => setIsMenuOpen(!isMenuOpen)}
         >
           <HeaderSocial lang={lang} device={device} />
@@ -160,27 +138,33 @@ const HamburgerMenu: React.FC<HeaderDeviceProps> = ({ lang, device }) => {
   );
 };
 
-//2022/3/17: Discord Banner
+//2022/8/28: Neurotech Daily Banner
 const RenderBanner: React.FC<HeaderProps> = props => {
   const { lang } = props;
   if (lang === "JP") {
     return (
       <Banner>
         <p>
-          Neurotech Discordコミュニティは
-          <a
-            target="_blank"
-            rel="noreferrer"
-            href="https://discord.gg/ERh2pzQ6AW"
-          >
-            こちら
-          </a>
-          から！
+          ニューロテックPodcast{" "}
+          <a target="_blank" rel="noreferrer" href="https://neurotechdaily.com">
+            "Neurotech Daily"
+          </a>{" "}
+          開設！
         </p>
       </Banner>
     );
   } else {
-    return <></>;
+    return (
+      <Banner>
+        <p>
+          We've opened the neurotech podcast channel{" "}
+          <a target="_blank" rel="noreferrer" href="https://neurotechdaily.com">
+            "Neurotech Daily"
+          </a>{" "}
+          !
+        </p>
+      </Banner>
+    );
   }
 };
 
@@ -241,17 +225,35 @@ export const Header: React.FC<{ isBgTransparent: boolean }> = props => {
           {device === "Desktop" && (
             <>
               <div className={styles["header--index"]}>
-                <div className={styles["header--index-home"]}>
-                  <HeaderIndexHome lang={lang} />
+                <div
+                  className={[
+                    styles["header--index--item"],
+                    styles["header--index--item__home"],
+                  ].join(" ")}
+                >
+                  <Link href={lang === "EN" ? "/" : "/jp"}>Home</Link>
                 </div>
-                <div className={styles["header--index-blog"]}>
-                  <HeaderIndexBlog lang={lang} />
+                <div className={styles["header--index--item"]}>
+                  <Link href={lang === "EN" ? "/blog" : "/jp/blog"}>Blog</Link>
                 </div>
-                <div className={styles["header--index-slides"]}>
-                  <HeaderIndexSlides lang={lang} />
+                <div className={styles["header--index--item"]}>
+                  <a
+                    href={"https://www.neurotechdaily.com/"}
+                    target={"_blank"}
+                    rel="noreferrer"
+                  >
+                    Podcast
+                  </a>
                 </div>
-                <div className={styles["header--index-about"]}>
-                  <HeaderIndexAbout lang={lang} />
+                <div className={styles["header--index--item"]}>
+                  <Link href={lang === "EN" ? "/slides" : "/jp/slides"}>
+                    Reports
+                  </Link>
+                </div>
+                <div className={styles["header--index--item"]}>
+                  <Link href={lang === "EN" ? "/about" : "/jp/about"}>
+                    About us
+                  </Link>
                 </div>
               </div>
               <div className={styles["header--social"]}>
