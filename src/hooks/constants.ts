@@ -106,4 +106,18 @@ export const profiles: Record<MembersList, ProfileType> = {
     enDescription:
       "Second year of a doctoral course, School of Engineering, The University of Tokyo. While engaged in research related to NIRS, he also actively organizes talks as a staff member of Society for Young researchers on Neuroscience. He feels a sense of crisis about the gap between science in academia and the general public in Japan, and hopes to change the image of science through science communication in the future.",
   },
+
+  "Kenta Kubota": {
+    twitterLink: "https://twitter.com/wr2k7s",
+    enTwitterLink: "https://twitter.com/wr2k7s",
+    image: "/img/about/Kenta_Kubota.jpeg",
+    name: "久保田　健太 Kenta Kubota",
+    enName: "Kenta Kubota",
+    role: "インタビュアー/ライター",
+    enRole: "Interviewer/Writer",
+    description:
+      "北海道大学工学部3年生。石黒浩教授の講演を聴講したことをきっかけに人間とは何か、意識とは何なのかに興味を持つ。不死の世界を実現することを目標に広く情報のインプットを行っている。",
+    enDescription:
+      "Third-year student in Engineering at Hokkaido University. After attending a lecture by Prof Hiroshi Ishiguro, he became interested in what human beings are and what consciousness is. He has been widely inputting information with the goal of realizing an immortal world.",
+  },
 };
