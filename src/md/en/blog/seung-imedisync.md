@@ -44,7 +44,7 @@ The company was founded in 2012 by Seung, who worked as a physician specializing
 
 The company was founded when he realized that there was a pressing need for **an ethical at-home brain imaging solution.**
 
-> Chronic pain is basically a combination of emotional and cognitive problems Therefore, it is common practice to diagnose symptoms by measuring brain function.
+> Chronic pain is basically a combination of emotional and cognitive problems. Therefore, it is common practice to diagnose symptoms by measuring brain function.
 > However, ethical issues prevent us from measuring brain function in some patients. I realized that we needed a solution for brain function measurements that could be quantitatively measured on an individual basis for each patient.
 
 &nbsp;
@@ -60,7 +60,7 @@ After deciding to create a functional brain mapping solution, Seung says there h
 
 There are other methods of measuring brain activity, such as MRI, as well as EEG, as a way to map brain function and diagnose brain-related symptoms. Why does the company use EEG?
 
-> The changes in emotional and cognitive functions that we focus on are also reflected in EEG. By measuring EEG, we can measure emotional and cognitive states. > Additionally, EEG is a good match for neurofeedback using stimulation techniques because we can get data in real time.
+> The changes in emotional and cognitive functions that we focus on are also reflected in EEG. By measuring EEG, we can measure emotional and cognitive states. Additionally, EEG is a good match for neurofeedback using stimulation techniques because we can get data in real time.
 
 &nbsp;
 
@@ -91,7 +91,7 @@ Seung says that the company chose LED technology because of **the minimal number
 
 Although iSyncWave combines many functions, there were many challenges to its device design.
 
-> The most difficult part was the device design. We wanted to make sure that the electrodes were placed in close contact with the correct positions on the scalp **We needed the device to automatically fit** along the shape of each individual's head.
+> The most difficult part was the device design. We wanted to make sure that the electrodes were placed in close contact with the correct positions on the scalp. **We needed the device to automatically fit** along the shape of each individual's head.
 
 &nbsp;
 
