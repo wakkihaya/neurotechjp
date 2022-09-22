@@ -22,9 +22,9 @@ translator2: ""
 
 &nbsp;
 
-### [iMediSync 社](https://www.imedisync.com/en/)とは
+## [iMediSync 社](https://www.imedisync.com/en/)とは
 
-同社は、**独自の EEG デバイス"[iSyncWave](https://www.imedisync.com/en/products/isyncwave/)”に加え、[脳波解析 AI とクラウドベースのプラットフォーム](https://www.imedisync.com/en/products/isyncbrain/)**を提供する。
+同社は、**独自の EEG デバイス"[iSyncWave](https://www.imedisync.com/en/products/isyncwave/)”に加え、[脳波解析 AI とクラウドベースのプラットフォーム](https://www.imedisync.com/en/products/isyncbrain/)を**提供する。
 
 ![isyncwave](https://i0.wp.com/healthtechinsider.com/wp-content/uploads/EEGScanneriSync.jpg?fit=600%2C275&ssl=1)
 _iSyncWave_

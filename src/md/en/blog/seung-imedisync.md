@@ -1,6 +1,6 @@
 ---
 title: "All-in-one device for EEG measurement and LED stimulation iMediSync | Seung-Wan Kang"
-description: "About 2,300 companies exhibited at the world's largest technology event CES2022, including many neurotech companies. One of the exhibitors attracted a great deal of attention with their demonstration of their unique EEG device "iSyncWave". The company is iMediSync. We interviewed Seung-Wan Kang, CEO of iMediSync, about the company's technology behind the scenes and its future prospects."
+description: 'About 2,300 companies exhibited at the world's largest technology event CES2022, including many neurotech companies. One of the exhibitors attracted a great deal of attention with their demonstration of their unique EEG device "iSyncWave". The company is iMediSync. We interviewed Seung-Wan Kang, CEO of iMediSync, about the company's technology behind the scenes and its future prospects.'
 datePublished: "2022/9/25"
 bannerPhoto: "/img/seung-imedisync/cover.jpg"
 category: "Interview"
@@ -22,7 +22,7 @@ We interviewed [Seung-Wan Kang](https://www.linkedin.com/in/seungwankang/), CEO 
 
 &nbsp;
 
-### About [iMediSync](https://www.imedisync.com/en/)
+## About [iMediSync](https://www.imedisync.com/en/)
 
 The company provides **its own EEG device "[iSyncWave](https://www.imedisync.com/en/products/isyncwave/)" as well as a [EEG analysis AI and cloud-based platform](https://www.imedisync.com/en/products/isyncbrain/)**.
 
