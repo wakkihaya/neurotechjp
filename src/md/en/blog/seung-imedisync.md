@@ -113,6 +113,8 @@ CES attracts visitors from all over the world in a variety of industry domains. 
 
 iMediSync is no exception. Thanks in part to the attention-grabbing demonstration, **the company has received business offers for joint development and service purchases** from many companies in Europe, the United States, Australia, and other countries, not limited to Asian countries. They are planning to expand overseas in the future.
 
+The company also received the approval of pre-market clearance (510k) from the FDA last month to sell its medical devices in the US. As a result, the company's devices will soon be distributed in the United States. The company is also planning to apply for a medical device cetification in Japan.
+
 &nbsp;
 
 ## Conclusion
