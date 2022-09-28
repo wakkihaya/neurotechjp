@@ -120,4 +120,11 @@ export const profiles: Record<MembersList, ProfileType> = {
     enDescription:
       "Third-year student in Engineering at Hokkaido University. After attending a lecture by Prof Hiroshi Ishiguro, he became interested in what human beings are and what consciousness is. He has been widely inputting information with the goal of realizing an immortal world.",
   },
+  Ami: {
+    image: "/img/about/Anonymous.png",
+    name: "Ami",
+    enName: "Ami",
+    role: "インタビュアー/ライター",
+    enRole: "Interviewer/Writer",
+  },
 };
