@@ -36,7 +36,7 @@ _iSyncWave_
 ![CES2022デモで取得した診断結果PDF (HRVに関するレポート)](https://neurotechjp.com/img/seung-imedisync/report.jpg)
 _CES2022 デモで取得した診断結果 PDF (HRV に関するレポート)_
 
-![CES2022デモで取得した診断結果PDF イメージ](https://neurotechjp.com/img/seung-imedisync/report-img.jpg)
+![CES2022デモで取得した診断結果PDF イメージ](https://neurotechjp.com/img/seung-imedisync/report-img.png)
 _画像：診断結果イメージ EEG_
 
 &nbsp;

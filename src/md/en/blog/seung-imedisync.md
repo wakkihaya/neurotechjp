@@ -36,7 +36,7 @@ At CES2022, booth visitors had their brain activity measured and processed into 
 ![PDF of diagnostic results obtained from CES2022 demo (report on HRV)](https://neurotechjp.com/img/seung-imedisync/report.jpg)
 _PDF of diagnostic results obtained from CES2022 demo (report on HRV)_
 
-![Image of eeg](https://neurotechjp.com/img/seung-imedisync/report-img.jpg)
+![Image of eeg](https://neurotechjp.com/img/seung-imedisync/report-img.png)
 _Image： Diagnostic results of EEG_
 
 &nbsp;
