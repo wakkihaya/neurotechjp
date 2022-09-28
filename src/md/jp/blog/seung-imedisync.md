@@ -33,8 +33,11 @@ _iSyncWave_
 
 実際に CES2022 のデモでは、ブース訪問者の脳活動を計測し、後日およそ 4 枚にわたる診断結果を PDF 形式で取得することができた。
 
-![CES2022デモで取得した診断結果PDF (HRVに関するレポート)](https://neurotechjp.com/img/seung-imedisync/report.png)
+![CES2022デモで取得した診断結果PDF (HRVに関するレポート)](https://neurotechjp.com/img/seung-imedisync/report.jpg)
 _CES2022 デモで取得した診断結果 PDF (HRV に関するレポート)_
+
+![CES2022デモで取得した診断結果PDF イメージ](https://neurotechjp.com/img/seung-imedisync/report-img.jpg)
+_画像：診断結果イメージ EEG_
 
 &nbsp;
 
