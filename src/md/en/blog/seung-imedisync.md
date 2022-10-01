@@ -92,7 +92,9 @@ Seung says that the company chose LED technology because of **the minimal number
 
 ## Challenges in device design
 
-Although iSyncWave combines many functions, there were many challenges to its device design.
+iSyncWave has won the international product design [Red Dot Design Award](https://www.prnewswire.com/news-releases/first-ever-integrated-eeg-and-neurotherapeutics-device-isyncwave-wins-the-2022-red-dot-design-award-301511473.html) in 2022.
+
+Although iSyncWave combines many functions in addition to its design, there were many challenges to its device design.
 
 > The most difficult part was the device design. We wanted to make sure that the electrodes were placed in close contact with the correct positions on the scalp. **We needed the device to automatically fit** along the shape of each individual's head.
 

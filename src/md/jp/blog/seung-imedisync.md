@@ -93,7 +93,9 @@ _画像：診断結果イメージ EEG_
 
 ## デバイス設計での課題
 
-多くの機能を兼ね備える iSyncWave であるが、そのデバイス設計には多くの壁があったという。
+iSyncWave は国際的なプロダクトデザイン賞である [Red Dot Design Award](https://www.prnewswire.com/news-releases/first-ever-integrated-eeg-and-neurotherapeutics-device-isyncwave-wins-the-2022-red-dot-design-award-301511473.html) を 2022 年に獲得している。
+
+そのデザイン性に加え多くの機能を兼ね備える iSyncWave であるが、そのデバイス設計には多くの壁があったという。
 
 > 一番苦労したのはデバイス設計でした。頭皮の正しい位置に電極が密着して配置されるようにしたかったので、**各個人の頭の形に沿って自動でデバイスをフィット**させる必要がありました。
 
