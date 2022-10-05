@@ -21,4 +21,6 @@ export type MembersList =
   | "Hannah Kodama"
   | "Hiroki Noyama"
   | "Kenta Kubota"
+  | "Yusuke Sugita"
+  | "Hiroto Takeuchi"
   | "Ami";
