@@ -105,6 +105,17 @@ export const profiles: Record<MembersList, ProfileType> = {
       "A junior at Keio university. He got interested in Neurotech while researching how he can directly put information in his brain, since studying for school was taking too much of his time.He is passionate about turning difficult research papers into easy-to-read formats, so that everyone can learn about cutting edge neurotech research. While participating in a BCI lab at university, he is an engineer in a startup. Also, he is a member of TNK.",
   },
 
+  "Hiroo Miyata": {
+    twitterLink: "https://twitter.com/hr_myt",
+    enTwitterLink: "https://twitter.com/hr_myt",
+    linkedInLink: "https://www.linkedin.com/in/hiroo-miyata/",
+    image: "/img/about/Hiroo_Miyata.jpeg",
+    name: "宮田 寛生 Hiroo Miyata",
+    enName: "Hiroo Miyata",
+    role: "レポート ライター",
+    enRole: "Report Writer",
+  },
+
   "Hiroki Noyama": {
     twitterLink: "https://twitter.com/gakki_curry",
     enTwitterLink: "https://twitter.com/gakki_curry",
