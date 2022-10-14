@@ -109,7 +109,7 @@ export const profiles: Record<MembersList, ProfileType> = {
     twitterLink: "https://twitter.com/hr_myt",
     enTwitterLink: "https://twitter.com/hr_myt",
     linkedInLink: "https://www.linkedin.com/in/hiroo-miyata/",
-    image: "/img/about/Hiroo_Miyata.jpeg",
+    image: "/img/about/Hiroo_Miyata.jpg",
     name: "宮田 寛生 Hiroo Miyata",
     enName: "Hiroo Miyata",
     role: "レポート ライター",
