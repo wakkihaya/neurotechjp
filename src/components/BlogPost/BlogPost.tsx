@@ -1,16 +1,15 @@
 import React from "react";
 
-import { Markdown } from "./Markdown";
-
-import { PostMeta } from "./PostMeta";
-
-import Footer from "~/components/Footer";
-import Header from "~/components/Header";
-import { SocialMediaShare } from "./SocialMediaShare";
+import { Markdown } from "../Markdown";
+import { PostMeta } from "../PostMeta";
+import { Footer } from "../Footer";
+import { EditorFrame } from "../EditorFrame";
+import { Header } from "../Header";
+import { SocialMediaShare } from "../SocialMediaShare";
 
 import type { PostData } from "~/hooks/loader";
-import type { MembersList } from "~hooks/use-profiles";
-import { EditorFrame } from "./EditorFrame";
+
+import styles from "./BlogPost.module.scss";
 
 export const BlogPost: React.FunctionComponent<{ post: PostData }> = ({
   post,
@@ -33,26 +32,30 @@ export const BlogPost: React.FunctionComponent<{ post: PostData }> = ({
     <>
       <PostMeta post={post} />
       <Header isBgTransparent={false} />
-      <div className="blog-content">
-        <div className="blog-content--top">
-          <div className="blog-content--top-pic">
+      <div className={styles["blog-content"]}>
+        <div className={styles["blog-content--top"]}>
+          <div className={styles["blog-content--top-pic"]}>
             {post.bannerPhoto && (
               <img src={bannerPhoto} alt={`NeurotechJP banner ${title}`} />
             )}
           </div>
-          <div className="blog-content--top-info">
-            <div className="blog-content--top-info_container">
-              <div className="blog-content--top-info-category">{category}</div>
-              <div className="blog-content--top-info-date">{datePublished}</div>
+          <div className={styles["blog-content--top-info"]}>
+            <div className={styles["blog-content--top-info__container"]}>
+              <div className={styles["blog-content--top-info--category"]}>
+                {category}
+              </div>
+              <div className={styles["blog-content--top-info--date"]}>
+                {datePublished}
+              </div>
             </div>
-            <div className="blog-content--top-info-share">
+            <div className={styles["blog-content--top-info--share"]}>
               <SocialMediaShare url={canonicalUrl} />
             </div>
           </div>
         </div>
-        <div className="blog-content--draft">
-          <div className="blog-content--draft-title">{title}</div>
-          <div className="blog-content--draft-text">
+        <div className={styles["blog-content--draft"]}>
+          <div className={styles["blog-content--draft--title"]}>{title}</div>
+          <div className={styles["blog-content--draft--text"]}>
             <Markdown source={post.content} />
           </div>
         </div>

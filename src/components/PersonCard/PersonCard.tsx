@@ -7,6 +7,8 @@ import {
 } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
+import styles from "./PersonCard.module.scss";
+
 type PersonCardProps = {
   twitterLink?: string;
   fbLink?: string;
@@ -22,19 +24,29 @@ type Device = "Mobile" | "Desktop";
 export const PersonCard: React.FC<PersonCardProps> = props => {
   const device: Device = useResponsive();
 
-  const { twitterLink, fbLink, linkedInLink, name, role, description, image } =
-    props;
+  const {
+    twitterLink,
+    fbLink,
+    linkedInLink,
+    name,
+    role,
+    description,
+    image = "/img/about/Anonymous.png",
+  } = props;
 
   return (
-    <div className="person-card">
-      <div className="person-card--img-container">
-        <img src={image} className="person-card--img-container-image" />
-        <div className="person-card--img-container-sns">
+    <div className={styles["person-card"]}>
+      <div className={styles["person-card--img-container"]}>
+        <img
+          src={image}
+          className={styles["person-card--img-container-image"]}
+        />
+        <div className={styles["person-card--img-container-sns"]}>
           {linkedInLink && (
             <a
               href={linkedInLink}
               target="_blank"
-              className="person-card--img-container-sns-item"
+              className={styles["person-card--img-container-sns--item"]}
               rel="noreferrer"
             >
               {device === "Desktop" ? (
@@ -48,7 +60,7 @@ export const PersonCard: React.FC<PersonCardProps> = props => {
             <a
               href={fbLink}
               target="_blank"
-              className="person-card--img-container-sns-item"
+              className={styles["person-card--img-container-sns--item"]}
               rel="noreferrer"
             >
               {device === "Desktop" ? (
@@ -62,7 +74,7 @@ export const PersonCard: React.FC<PersonCardProps> = props => {
             <a
               href={twitterLink}
               target="_blank"
-              className="person-card--img-container-sns-item"
+              className={styles["person-card--img-container-sns--item"]}
               rel="noreferrer"
             >
               {device === "Desktop" ? (
@@ -74,10 +86,12 @@ export const PersonCard: React.FC<PersonCardProps> = props => {
           )}
         </div>
       </div>
-      <div className="person-card--text">
-        <div className="person-card--text-name">{name}</div>
-        <div className="person-card--text-role">{role}</div>
-        <div className="person-card--text-description">{description}</div>
+      <div className={styles["person-card--text"]}>
+        <div className={styles["person-card--text--name"]}>{name}</div>
+        <div className={styles["person-card--text--role"]}>{role}</div>
+        <div className={styles["person-card--text--description"]}>
+          {description}
+        </div>
       </div>
     </div>
   );

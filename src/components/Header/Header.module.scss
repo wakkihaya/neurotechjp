@@ -1,0 +1,128 @@
+@import "../../styles/variables.scss";
+
+.header-container {
+  position: relative;
+  &--brain-wave {
+    position: absolute;
+    z-index: 5;
+    bottom: -15%;
+    margin: auto;
+    right: 0;
+    padding: 0 3rem;
+    left: 0;
+  }
+  @media (max-width: $mobile-width) {
+    &--brain-wave {
+      bottom: 5%;
+      padding: 0 0.1rem;
+    }
+  }
+
+  &--brain-wave:not(.bg-none) {
+    background-color: $blue-color;
+  }
+  &:not(.bg-none) {
+    background-color: $blue-color;
+  }
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 80px;
+  font-family: $armata-font-family;
+  position: relative;
+  z-index: 10;
+  color: white;
+  &--logo {
+    font-size: $large-font-size;
+    flex: 1;
+  }
+  &--index {
+    display: flex;
+    flex: 2;
+    font-size: $medium-font-size;
+    justify-content: center;
+
+    &--item {
+      padding-left: 5rem;
+
+      &__home {
+        padding-left: 0;
+      }
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+  &--lang {
+    display: flex;
+    flex: 0.3;
+    font-size: $medium-font-size;
+    justify-content: center;
+  }
+  &--lang-char:hover {
+    text-decoration: underline;
+    cursor: pointer;
+  }
+  &--lang-char.active {
+    color: $red-color;
+  }
+  &--social {
+    flex: 0.1;
+    display: flex;
+    gap: 10px;
+  }
+  &--social-item {
+    .fa-border {
+      border: solid 1px white !important;
+      border-radius: 50px !important;
+      max-width: 30px;
+      padding: 5px;
+    }
+  }
+  @media (max-width: $mobile-width) {
+    &--logo {
+      font-size: $medium-font-size;
+      flex: 0.6;
+    }
+    &--index {
+      color: white;
+      font-size: $medium-font-size;
+      margin-top: 10rem;
+
+      &--item {
+        padding: 0;
+        margin-top: 3rem;
+        font-family: $armata-font-family;
+
+        &__home {
+          margin-top: 0;
+        }
+
+        &__social {
+          display: flex;
+          gap: 10px;
+        }
+      }
+    }
+
+    &--index_menu-space {
+      width: 30px;
+    }
+
+    &--lang {
+      font-size: $very-small-font-size;
+    }
+
+    &--social-item {
+      svg {
+        width: 30px !important;
+      }
+    }
+  }
+}

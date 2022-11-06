@@ -1,7 +1,4 @@
-import Footer from "~components/Footer";
-import Header from "~components/Header";
-import { Meta } from "~components/Meta";
-import SlideContent from "~components/SlideContent";
+import { Footer, Header, Meta, SlideContent } from "~components";
 import React from "react";
 
 const SlidesPage: React.FC = () => {
@@ -64,6 +61,13 @@ const SlidesPage: React.FC = () => {
         >
           【無料】2022年最新版のBCI市場カオスマップを公開しました！
           各分野における今後注目の企業のみを紹介しているので、是非今後の事業立案、研究方針等にご活用下さい！
+        </SlideContent>
+        <SlideContent
+          linkRef="/jp/slides/neurotech-overview-2022"
+          imgSrc="/img/slides/neurotech-overview-2022.jpg"
+          title="世界のニューロテックの概況とビジネス応用への道(2022)"
+        >
+          【無料】最前線で活躍する世界のニューロテック企業の概況やビジネス応用への道、並びに彼らが抱えてきた課題とその解決策についてまとめたスライドです。
         </SlideContent>
         <SlideContent
           linkRef="/jp/slides/neuro-2022"

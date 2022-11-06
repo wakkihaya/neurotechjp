@@ -12,6 +12,8 @@ import {
   HatenaIcon,
 } from "react-share";
 
+import styles from "./SocialMediaShare.module.scss";
+
 type Device = "Mobile" | "Desktop";
 
 type SocialMediaShareProps = {
@@ -23,12 +25,12 @@ export const SocialMediaShare: React.FC<SocialMediaShareProps> = props => {
 
   if (device == "Desktop") {
     return (
-      <div className="socialMedia">
+      <div className={styles["social-media"]}>
         <img
           src="/img/share.png"
           width={25}
           height={25}
-          className="socialMedia--share"
+          className={styles["social-media--share"]}
         />
         <SocialMediaList url={url} iconSize={45} />
       </div>
@@ -51,18 +53,18 @@ const MDSocialMediaShare: React.FC<SocialMediaShareProps> = props => {
         src="/img/share.png"
         width={15}
         height={15}
-        className="socialMedia--share"
+        className={styles["social-media--share"]}
         onClick={onClickShareButton}
       />
     );
   } else {
     return (
-      <div className="socialMedia">
+      <div className={styles["social-media"]}>
         <img
           src="/img/close.png"
           width={15}
           height={15}
-          className="socialMedia--close"
+          className={styles["social-media--close"]}
           onClick={onClickShareButton}
         />
         <SocialMediaList url={url} iconSize={30} />
@@ -79,17 +81,29 @@ type SocialMediaListProps = {
 const SocialMediaList: React.FC<SocialMediaListProps> = props => {
   const { url, iconSize } = props;
   return (
-    <div className="socialMedia--icons">
-      <FacebookShareButton url={url} className="socialMedia--icons-item">
+    <div className={styles["social-media--icons"]}>
+      <FacebookShareButton
+        url={url}
+        className={styles["social-media--icons-item"]}
+      >
         <FacebookIcon size={iconSize} />
       </FacebookShareButton>
-      <TwitterShareButton url={url} className="socialMedia--icons-item">
+      <TwitterShareButton
+        url={url}
+        className={styles["social-media--icons-item"]}
+      >
         <TwitterIcon size={iconSize} />
       </TwitterShareButton>
-      <LinkedinShareButton url={url} className="socialMedia--icons-item">
+      <LinkedinShareButton
+        url={url}
+        className={styles["social-media--icons-item"]}
+      >
         <LinkedinIcon size={iconSize} />
       </LinkedinShareButton>
-      <HatenaShareButton url={url} className="socialMedia--icons-item">
+      <HatenaShareButton
+        url={url}
+        className={styles["social-media--icons-item"]}
+      >
         <HatenaIcon size={iconSize} />
       </HatenaShareButton>
     </div>

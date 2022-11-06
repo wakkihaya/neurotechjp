@@ -3,10 +3,8 @@ import { GetStaticPropsResult } from "next";
 import Typical from "react-typical";
 import React from "react";
 
-import Footer from "~/components/Footer";
-import Header from "~/components/Header";
+import { Footer, Header, Meta } from "~components";
 
-import { Meta } from "~/components/Meta";
 import type { PostData } from "~/hooks/loader";
 import { loadBlogJPPosts } from "~/hooks/loader";
 

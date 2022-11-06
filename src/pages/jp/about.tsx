@@ -1,21 +1,12 @@
 import React from "react";
 
-import ContactForm from "~/components/ContactForm";
-import Footer from "~/components/Footer";
-import Header from "~/components/Header";
-import { Meta } from "~/components/Meta";
-import PersonCard from "~/components/PersonCard";
-import { useProfiles, ProfileType } from "~hooks/use-profiles";
+import { Footer, Header, Meta, ContactForm, PersonCard } from "~components";
+import { useProfiles } from "~hooks/use-profiles";
 
 const AboutPage: React.FC = () => {
-  const { getTargetProfile } = useProfiles();
+  const { getAllProfiles } = useProfiles();
 
-  const wakki = getTargetProfile("Hayato Waki", "jp");
-  const shoka = getTargetProfile("Shoka Kadoi", "jp");
-  const nao = getTargetProfile("Nao Yukawa", "jp");
-  const toma = getTargetProfile("Toma Itagaki", "jp");
-  const kai = getTargetProfile("Kai Irwin", "jp");
-  const profiles: ProfileType[] = [wakki, shoka, nao, toma, kai];
+  const profiles = getAllProfiles();
   return (
     <>
       <Meta

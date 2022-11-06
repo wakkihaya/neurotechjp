@@ -1,0 +1,21 @@
+@import "../../styles/variables.scss";
+
+.newsletter {
+  &--sucess {
+    font-size: $small-font-size;
+    font-family: $armata-font-family;
+  }
+
+  &--sending,
+  &--success,
+  &--error {
+    font-size: $very-small-font-size;
+    color: $blue-color;
+    text-align: center;
+    padding: 1rem;
+  }
+
+  &--error {
+    color: $red-color;
+  }
+}
