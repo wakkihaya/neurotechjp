@@ -69,6 +69,13 @@ const SlidesPage: React.FC = () => {
         >
           【無料】最前線で活躍する世界のニューロテック企業の概況やビジネス応用への道、並びに彼らが抱えてきた課題とその解決策についてまとめたスライドです。
         </SlideContent>
+        <SlideContent
+          linkRef="/jp/slides/neuro-2022"
+          imgSrc="/img/slides/neuro-2022.jpg"
+          title="Neuro2022 レポート"
+        >
+          【有料】NEURO2022に出向き、現地で発表された注目の最新研究をまとめたレポート資料です。
+        </SlideContent>
       </div>
       <Footer />
     </>

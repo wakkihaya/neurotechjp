@@ -24,7 +24,7 @@ const CES2022: React.FC = () => {
           購入にご興味ある方/お話から聞いてみたい方は、下記のフォームからご連絡下さい！
           <br />
           <br />
-          単価価格：30万円
+          単価価格：30万円~
         </div>
         <div className="slides-item--button">
           <a
