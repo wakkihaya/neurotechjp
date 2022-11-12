@@ -12,7 +12,15 @@ type HomeProps = {
   posts: PostData[];
 };
 
+const bestArticlePath = "blog/ryan-kernel";
+const secondArticlePath = "blog/neurotech-education";
+
 const Home: React.FC<HomeProps> = props => {
+  const bestArticle = props.posts.find(({ path }) => path === bestArticlePath);
+  const secondArticle = props.posts.find(
+    ({ path }) => path === secondArticlePath,
+  );
+
   return (
     <>
       <Meta
@@ -48,8 +56,8 @@ const Home: React.FC<HomeProps> = props => {
       </div>
       <div className="top-blog">
         <div className="blog-container--posts">
-          <BlogItem key={0} post={props.posts[0]} />
-          <BlogItem key={1} post={props.posts[1]} />
+          <BlogItem key={0} post={bestArticle} />
+          <BlogItem key={1} post={secondArticle} />
         </div>
         <div className="top-blog--readmore">
           <Link href="/blog">More posts</Link>
