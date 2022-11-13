@@ -32,7 +32,7 @@ const Neuro2022: React.FC = () => {
         </div>
         <div className="slides-item--button">
           <a
-            href="https://survey.typeform.com/to/ZbFoeipy"
+            href="https://survey.typeform.com/to/QK2tDWR9"
             target="_blank"
             rel="noreferrer"
           >
