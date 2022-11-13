@@ -72,9 +72,25 @@ const SlidesPage: React.FC = () => {
         <SlideContent
           linkRef="/jp/slides/neuro-2022"
           imgSrc="/img/slides/neuro-2022.jpg"
-          title="Neuro2022 レポート"
+          title="Neuro2022 ニューロテックレポート"
         >
           【有料】NEURO2022に出向き、現地で発表された注目の最新研究をまとめたレポート資料です。
+        </SlideContent>
+        <SlideContent
+          linkRef="/jp/slides/ces-2023"
+          imgSrc="/img/slides/ces2023.png"
+          title="CES2023 ニューロテックレポート"
+        >
+          【有料】CES2023に出向き、世界中から集まるニューロテック企業に現地インタビューを行いました。その最先端をまとめたレポート資料です。
+        </SlideContent>
+        <SlideContent
+          linkRef="/jp/slides/neurotech-2023"
+          imgSrc="/img/slides/neurotech2023.png"
+          title="NEUROTECH 2023 レポート"
+        >
+          【有料】CES2023 や NEURO2022
+          ニューロテックレポートをお手頃価格でまとめたパッケージレポートです。
+          産業面と学術面の両方から、今年度最新のニューロテック情報をまとめております。
         </SlideContent>
       </div>
       <Footer />
