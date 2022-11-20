@@ -2,7 +2,7 @@
 title: "The Science of Consciousness and Uploading Consciousness - The Only Way to Avoid Unwanted Death| Masataka Watanabe"
 description: "We interviewed Dr. Masataka Watanabe of the University of Tokyo, who is tackling the mysteries of consciousness with artificial consciousness, and asked him about his vision for the future of consciousness research."
 datePublished: "2022/11/22"
-bannerPhoto: "/img/yang-neurosky/cover.jpg"
+bannerPhoto: "/img/watanabe-ut/cover.jpg"
 category: "Interview"
 writer1: "Kenta Kubota"
 writer2: ""

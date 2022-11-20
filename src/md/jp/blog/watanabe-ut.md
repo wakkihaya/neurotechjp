@@ -2,7 +2,7 @@
 title: "意識の科学と意識のアップロード　－望まぬ死を回避するための唯一の方法－| 渡辺正峰"
 description: "今回は人工意識を通して意識の謎に挑む、東京大学の渡辺正峰先生にインタビューをさせていただき、今後の意識研究に対する展望を伺った。"
 datePublished: "2022/11/22"
-bannerPhoto: "/img/yang-neurosky/cover.jpg"
+bannerPhoto: "/img/watanabe-ut/cover.jpg"
 category: "インタビュー"
 writer1: "Kenta Kubota"
 writer2: ""
