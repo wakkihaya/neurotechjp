@@ -40,7 +40,7 @@ In his book "Brain Consciousness Machine Consciousness," Dr. Watanabe states tha
 > Uploading consciousness means transplanting human consciousness into a machine and continuing to live inside the machine. The greatest advantage to realizing consciousness uploading is that it opens up the option for those who desire immortality and those who, for whatever reason, have not been able to live even if they wanted to; to continue living for as long as they wish, which has the potential to radically change the way humans live.
 
 ![Image of a world where consciousness is uploaded into a machine](http://mindinadevice.com/wp-content/uploads/2019/03/upload4.png)
-_Image of a world where consciousness is uploaded into a machine_
+_Image of a world where consciousness is uploaded into a machine(Illustrator: Yogi Tomoko, quoted from MinD in a Device's HP)_
 
 &nbsp;
 
