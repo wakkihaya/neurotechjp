@@ -59,6 +59,10 @@ He outlines the steps as follows:
 As a measure to upload consciousness, Dr. Watanabe proposes the process of connecting a machine hemisphere to the human brain hemisphere, integrating the consciousness of both hemispheres, and then transferring memories.
 
 > The machine is implanted with its own BMI, as if a knife were inserted into the corpus callosum, which connects the left and right hemispheres of the brain. This allows information to be read and written at the individual neuron level for all of the neural contacts that serve to integrate the consciousness that resides in each of the left and right hemispheres of the brain. We believe that the establishment of two-way brain-machine communication will enable the integration of the machine hemisphere's consciousness with the biological brain hemisphere.
+
+![Masataka Watanabe, "From Biological to Artificial Consciousness" (Springer-Nature), 2022](https://neurotechjp.com/img/watanabe-ut/architecture.jpg)
+_Masataka Watanabe, "From Biological to Artificial Consciousness" (Springer-Nature), 2022_
+
 > If you insert a BMI into the middle of the corpus callosum, you will cut the axons, and you may feel uneasy about that, but axons have regenerative ability. For example, they can stretch and connect to the original muscle by many centimeters even after a serious injury such as a complex fracture. By attaching IPS cells to the surface of the BMI, we plan to make them serve as targets for axonal regeneration and synapse formation.
 > Unfortunately, the regenerative capacity of axons in the central nervous system is not high. Although this problem needs to be solved, it is an area where a large budget is being spent as a treatment for stroke. Dr. Watanabe believes that once it is actually solved, the realization of consciousness uploading will be accelerated at once.
 
