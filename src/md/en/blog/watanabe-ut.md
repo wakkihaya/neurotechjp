@@ -137,4 +137,4 @@ Dr. Watanabe first expressed the importance of animal experiments.
 
 ## Conclusion
 
-In this issue, we asked Dr. Masamine Watanabe of the University of Tokyo about the prospects for research to elucidate consciousness, with a focus on the uploading of consciousness. He gave us valuable insights about how the uploading of consciousness itself is only a methodology, and that the goal is to elucidate consciousness, and that the establishment of a research institute outside academia will be the turning point in this process. We will continue to follow the future of consciousness research closely.
+In this issue, we asked Dr. Masataka Watanabe of the University of Tokyo about the prospects for research to elucidate consciousness, with a focus on the uploading of consciousness. He gave us valuable insights about how the uploading of consciousness itself is only a methodology, and that the goal is to elucidate consciousness, and that the establishment of a research institute outside academia will be the turning point in this process. We will continue to follow the future of consciousness research closely.
