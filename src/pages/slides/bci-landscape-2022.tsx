@@ -15,7 +15,7 @@ const BCILandscape2022: React.FC = () => {
       <Header isBgTransparent={false} />
       <div className="slides-item">
         <div className="slides-item--main">
-          <img src="/img/slides/bci-landscape-2022-jp.jpg" />
+          <img src="/img/slides/bci-landscape-2022-en.jpg" />
         </div>
         <div className="slides-item--title">BCI Landscape 2022</div>
         <div className="slides-item--subtitle">
