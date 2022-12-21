@@ -160,11 +160,14 @@ const RenderBanner: React.FC<HeaderProps> = props => {
     return (
       <Banner>
         <p>
-          We've opened the neurotech podcast channel{" "}
-          <a target="_blank" rel="noreferrer" href="https://neurotechdaily.com">
-            "Neurotech Daily"
+          <a
+            target="_blank"
+            rel="noreferrer"
+            href="https://neurotechjp.com/slides/ces-2023/"
+          >
+            CES2023 Neurotech Report
           </a>{" "}
-          !
+          now on sale!
         </p>
       </Banner>
     );

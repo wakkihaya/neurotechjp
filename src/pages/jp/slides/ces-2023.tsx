@@ -6,7 +6,7 @@ const CES2023: React.FC = () => {
     <>
       <Meta
         meta={{
-          title: "CES2023 ニューロテックレポート | NeurotechJP",
+          title: "CES2023 Neurotech Report | NeurotechJP",
           desc: "CES2023に出向き、世界中から集まるニューロテック企業に現地インタビューを行いました。その最先端をまとめたレポート資料です。",
           link: "https://neurotechjp.com/jp/slides/ces-2023/",
           image: "https://neurotechjp.com/img/slides/ces2023.png",
