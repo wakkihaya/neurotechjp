@@ -24,22 +24,40 @@ const SlidesPage: React.FC = () => {
           imgSrc="/img/slides/slide-basic-theory-neurotech.jpg"
           title="Basic Theories of Neurotechnology"
         >
-          This slide is about the basic theories of Neurotechnology. It shows{" "}
-          <br />
+          【Free】This slide is about the basic theories of Neurotechnology. It
+          shows <br />
           1. An overview of this area with a market value. <br />
           2. Basic knowledge including types of neurotechnologies, basics of
           neuroscience, and software engineering. <br />
           3. Use cases with neurotechnologies.
         </SlideContent>
         <SlideContent
+          linkRef="/slides/ces-2022"
+          imgSrc="/img/slides/ces2022-en.jpg"
+          title="CES2022 Neurotech Report"
+        >
+          【Paid】 We went to CES2022 and conducted on-site interviews with
+          neurotech companies from around the world. This is a report document
+          summarizing the cutting-edge neurotech.
+        </SlideContent>
+        <SlideContent
           linkRef="/slides/bci-landscape-2022"
           imgSrc="/img/slides/bci-landscape-2022-en.jpg"
           title="BCI landscape 2022"
         >
-          BCI Landscape 2022 is out now LIVE! 🧠
+          【Free】BCI Landscape 2022 is out now LIVE! 🧠
           <br />
           The landscape shows major players in various categories that are
           developing life-changing BCI technologies in 2022.
+        </SlideContent>
+        <SlideContent
+          linkRef="/slides/ces-2023"
+          imgSrc="/img/slides/ces2023-en.jpg"
+          title="CES2023 Neurotech Report"
+        >
+          【Paid】 We went to CES2023 and conducted on-site interviews with
+          neurotech companies from around the world. This is a report document
+          summarizing the cutting-edge neurotech.
         </SlideContent>
       </div>
       <Footer />
