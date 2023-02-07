@@ -10,6 +10,7 @@ export type ProfileType = {
   description?: string;
   enDescription?: string;
   image?: string;
+  shouldHide?: boolean;
 };
 
 export type MembersList =

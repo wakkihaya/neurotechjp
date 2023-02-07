@@ -36,6 +36,9 @@ const AboutPage: React.FC = () => {
           <div className="about-container--index-title">NeurotechJP チーム</div>
           <div className="about-container--index-box">
             {profiles.map((profile, j) => {
+              if (profile.shouldHide) {
+                return null;
+              }
               return (
                 <PersonCard
                   key={j}
