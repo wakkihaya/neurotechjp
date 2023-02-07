@@ -75,6 +75,20 @@ export const profiles: Record<MembersList, ProfileType> = {
     enDescription:
       "PhD candidate in computational neuroscience at Princeton University. She previously earned her B.S. in statistics at Carnegie Mellon University, where she initially gained an interest in neurotech. She continued her training working with optogenetic stimulation at the National Institutes of Health. She hopes to bring her academic expertise in invasive stimulation to the field of neurotech with the goal of improving human life.",
   },
+  "Genji Kawakita": {
+    twitterLink: "https://twitter.com/gen21ka",
+    enTwitterLink: "https://twitter.com/gen21ka",
+    linkedInLink: "https://www.linkedin.com/in/genji-kawakita/",
+    image: "/img/about/Genji_Kawakita.jpg",
+    name: "川北 源二 Genji Kawakita",
+    enName: "Genji Kawakita",
+    role: "Podcast インタビュアー",
+    enRole: "Podcast Interviewer",
+    description:
+      "インペリアルカレッジロンドンの修士学生（専攻：ニューロテクノロジー）。米国スワースモア大学を数学専攻で卒業。意識と運動制御に興味があり主に計算論的神経科学の研究に従事。研究成果をより良いリハビリや運動学習の手法の開発に生かすことを長期的な目標。分散型科学(DeSci)にも興味を持っている。",
+    enDescription:
+      "Master’s student in Neurotechnology at Imperial College London. He graduated with B.A. in Mathematics from Swarthmore College in the U.S. He is interested in consciousness and motor control and mainly work on computational neuroscience research on these topics. His long-term goal is to translate research findings into developing better rehabilitation and motor learning methods. He is also interested in Decentralized Science.",
+  },
   "Hiroto Takeuchi": {
     twitterLink: "https://twitter.com/steve950213",
     enTwitterLink: "https://twitter.com/steve950213",

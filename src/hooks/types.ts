@@ -24,4 +24,5 @@ export type MembersList =
   | "Kenta Kubota"
   | "Yusuke Sugita"
   | "Hiroto Takeuchi"
+  | "Genji Kawakita"
   | "Ami";
