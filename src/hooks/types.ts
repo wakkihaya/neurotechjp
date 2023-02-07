@@ -10,6 +10,7 @@ export type ProfileType = {
   description?: string;
   enDescription?: string;
   image?: string;
+  shouldHide?: boolean;
 };
 
 export type MembersList =
@@ -24,4 +25,5 @@ export type MembersList =
   | "Kenta Kubota"
   | "Yusuke Sugita"
   | "Hiroto Takeuchi"
+  | "Genji Kawakita"
   | "Ami";

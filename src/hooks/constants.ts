@@ -30,6 +30,7 @@ export const profiles: Record<MembersList, ProfileType> = {
       "2018年、同志社大学社会学部メディア学科卒業。社会心理学専攻。Israel Brain Technologiesの主宰するカンファレンスに参加を機に、2019年6月よりマインドフルネス瞑想アプリ『Relook』にジョイン。CS、Webマーケ、プロダクトマネージャーとして働きM&Aを経験。",
     enDescription:
       "Graduated from Doshisha University, Faculty of Sociology, Department of Communication Studies. After attending a conference organized by Israel Brain Technologies, he joined Relook, a mindfulness meditation app, where he worked as a CS, web marketer, and PdM, and experienced M&A.",
+    shouldHide: true,
   },
   "Nao Yukawa": {
     twitterLink: "https://twitter.com/NaoYukawa",
@@ -74,6 +75,20 @@ export const profiles: Record<MembersList, ProfileType> = {
       "プリンストン大学計算論的神経科学の博士課程に在籍中。カーネギーメロン大学で統計学学士号を取得後、神経科学にも興味を持つ。その後、米国国立衛生研究所 (NIH) で光遺伝学的刺激に関する手技を習得。侵襲的刺激に関する学術的専門知識をニューロテックの分野に活用し、人間の生命・生活を向上することに貢献するのが希望。",
     enDescription:
       "PhD candidate in computational neuroscience at Princeton University. She previously earned her B.S. in statistics at Carnegie Mellon University, where she initially gained an interest in neurotech. She continued her training working with optogenetic stimulation at the National Institutes of Health. She hopes to bring her academic expertise in invasive stimulation to the field of neurotech with the goal of improving human life.",
+  },
+  "Genji Kawakita": {
+    twitterLink: "https://twitter.com/gen21ka",
+    enTwitterLink: "https://twitter.com/gen21ka",
+    linkedInLink: "https://www.linkedin.com/in/genji-kawakita/",
+    image: "/img/about/Genji_Kawakita.jpg",
+    name: "川北 源二 Genji Kawakita",
+    enName: "Genji Kawakita",
+    role: "Podcast インタビュアー",
+    enRole: "Podcast Interviewer",
+    description:
+      "インペリアルカレッジロンドンの修士学生（専攻：ニューロテクノロジー）。米国スワースモア大学を数学専攻で卒業。意識と運動制御に興味があり主に計算論的神経科学の研究に従事。研究成果をより良いリハビリや運動学習の手法の開発に生かすことを長期的な目標。分散型科学(DeSci)にも興味を持っている。",
+    enDescription:
+      "Master’s student in Neurotechnology at Imperial College London. He graduated with B.A. in Mathematics from Swarthmore College in the U.S. He is interested in consciousness and motor control and mainly work on computational neuroscience research on these topics. His long-term goal is to translate research findings into developing better rehabilitation and motor learning methods. He is also interested in Decentralized Science.",
   },
   "Hiroto Takeuchi": {
     twitterLink: "https://twitter.com/steve950213",
