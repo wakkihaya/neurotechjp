@@ -58,9 +58,9 @@ export const profiles: Record<MembersList, ProfileType> = {
     role: "Podcast 共同リード",
     enRole: "Podcast Co-Lead",
     enDescription:
-      "Third-year Neuroscience and Electrical Engineering student at the University of Washington researching ubiquitous non-invasive neural interfaces and human computer interfaces. Toma’s ultimate goal is to quantify the body and mind and develop bio/neuro-inspired personalized assistants to improve the Human Experience.",
+      "Fourth year Neuroscience student at the University of Washington researching ubiquitous non-invasive neural interfaces and human computer interaction. Toma’s ultimate goal is to quantify the body and mind and develop bio/neuro-inspired personalized assistants to improve the Human Experience.",
     description:
-      "ワシントン大学神経科学部＋電気工学部３年生。現在はユビキタスなニューロテックやヒューマンコンピュータインタフェースの研究を行っている。脳や体のデータを使って Human Experience を数値化し、バイオ＋ニューロインスパイアされたパーソナルアシスタントを開発することを目標にさまざまな分野の勉強をしている。",
+      "ワシントン大学の神経科学専攻の4年生。ユビキタスな非侵襲性神経インターフェースとヒューマンコンピュータインタラクションを研究。彼の最終目標は、身体と心を定量化し、バイオ/ニューロに触発されたパーソナライズド・アシスタントを開発して、人間体験を向上させることである。",
   },
   "Hannah Kodama": {
     twitterLink: "https://twitter.com/hmdougla",
