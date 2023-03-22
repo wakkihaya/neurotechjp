@@ -69,7 +69,8 @@
       line-height: 2.5em;
       margin-bottom: 10em;
       img {
-        width: 80%;
+        max-height: 630px;
+        max-width: 80%;
         display: block;
         margin: auto;
       }
