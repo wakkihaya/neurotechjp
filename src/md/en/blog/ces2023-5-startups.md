@@ -136,4 +136,4 @@ If you are interested in this report, please contact us using this form.
 ![CES2023 neurotech report](https://neurotechjp.com/img/ces2023-5-startups/ces-2023-en.jpg)
 
 Details:
-[https://neurotechjp.com/slides/ces-2023/](https://neurotechjp.com/jp/slides/ces-2023/)
+[https://neurotechjp.com/slides/ces-2023/](https://neurotechjp.com/slides/ces-2023/)
