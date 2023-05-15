@@ -12,16 +12,17 @@ const EventsPage: React.FC = () => {
           image: "https://neurotechjp.com/ogp.png",
         }}
       />
-      <div className="evnets__bg">
+      <div className="slides__bg">
         <Header isBgTransparent={true} />
         <div className="events--title">Neurotech Events</div>
       </div>
-      <div className="events-container">
+      <div className="events--container">
         <EventItem
           linkRef="https://neurotechtokyo.peatix.com/"
           title="Neurotech Tokyo"
           imgSrc="/img/events/5.24-neurotechtokyo/cover.jpg"
           place="Tokyo"
+          date="2023.5.24"
           description={
             <>
               日本のneurotechの未来を担うU40の若き学生、研究者、起業家等、
@@ -35,7 +36,9 @@ const EventsPage: React.FC = () => {
             </>
           }
         />
+        <hr className="events--container--divider" />
       </div>
+
       <Footer />
     </>
   );
