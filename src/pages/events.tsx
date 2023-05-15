@@ -22,7 +22,19 @@ const EventsPage: React.FC = () => {
           title="Neurotech Tokyo"
           imgSrc="/img/events/5.24-neurotechtokyo/cover.jpg"
           place="Tokyo"
-          description="Neurotech Tokyo open."
+          description={
+            <>
+              This is an on-site event for all young people involved in
+              neurotech, including young U40 students, researchers, and
+              entrepreneurs who are the future of neurotech in Japan! <br />{" "}
+              Panel discussion by guests who are commercializing the latest
+              research technologies Networking opportunities will be provided
+              for all participants in the field of neurotech! <br />
+              <br />
+              Let's make this an event that will further boost neurotech in
+              Japan!"
+            </>
+          }
         />
       </div>
       <Footer />

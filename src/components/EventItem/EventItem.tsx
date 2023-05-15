@@ -1,4 +1,5 @@
 import React from "react";
+import type { ReactNode } from "react";
 
 import styles from "./EventItem.module.scss";
 
@@ -7,7 +8,7 @@ interface EventItemProps {
   imgSrc?: string;
   title?: string;
   place?: string;
-  description?: string;
+  description?: ReactNode;
 }
 
 export const EventItem: React.FC<EventItemProps> = props => {

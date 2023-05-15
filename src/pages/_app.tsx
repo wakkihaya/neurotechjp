@@ -8,6 +8,7 @@ import * as gtag from "~/lib/gtag";
 
 const MyApp: React.FC<AppProps> = ({ Component, pageProps }) => {
   const router = useRouter();
+
   useEffect(() => {
     const handleRouteChange = (url: string) => {
       gtag.pageview(url);
@@ -17,6 +18,7 @@ const MyApp: React.FC<AppProps> = ({ Component, pageProps }) => {
       router.events.off("routeChangeComplete", handleRouteChange);
     };
   }, [router.events]);
+
   return <Component {...pageProps} />;
 };
 
