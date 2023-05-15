@@ -361,7 +361,6 @@
 }
 
 /// Slides page
-/// About page.
 .slides {
   &__bg {
     background-image: linear-gradient(
@@ -444,6 +443,45 @@
     &--button {
       font-size: $small-font-size;
       margin: 2rem auto;
+    }
+  }
+}
+
+//Evnets page
+.events {
+  &--bg {
+    background-image: linear-gradient(
+      to bottom right,
+      $blue-color,
+      $deep-blue-color
+    );
+    padding-bottom: 0.1rem;
+  }
+
+  &--title {
+    width: $content-width;
+    margin: 2em auto;
+    font-size: $large-font-size;
+    font-weight: bold;
+    font-family: $armata-font-family;
+    color: white;
+  }
+
+  @media screen and (max-width: $mobile-width) {
+    &--title {
+      width: 80%;
+      margin: 1.5em auto;
+      font-size: $medium-font-size;
+    }
+  }
+
+  &--container {
+    min-height: calc(100vh - 330px - 50px); ///Minus header and footer height.
+    padding: 50px 0;
+
+    &--divider {
+      width: 100%;
+      border-top: solid $blue-color 1px;
     }
   }
 }

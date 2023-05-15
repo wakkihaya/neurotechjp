@@ -11,3 +11,4 @@ export * from "./SocialMediaShare";
 export * from "./Markdown";
 export * from "./Meta";
 export * from "./PostMeta";
+export * from "./EventItem";

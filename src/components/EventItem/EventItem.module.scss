@@ -1,0 +1,70 @@
+@import "../../styles/variables.scss";
+
+.event-item {
+  width: 100%;
+  min-height: 500px;
+  display: flex;
+  padding: 10px 50px;
+  align-items: center;
+  gap: 20px;
+
+  &:hover {
+    background-color: $light-gray-color;
+    transition: background-color 1s ease;
+  }
+
+  &--image {
+    flex: 1;
+    text-align: center;
+    padding: 0 20px;
+
+    img {
+      width: 100%;
+      object-fit: cover;
+    }
+  }
+
+  &--content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+
+    &--title {
+      font-size: $large-font-size;
+      font-weight: bold;
+      color: $deep-blue-color;
+      text-decoration: underline;
+    }
+
+    &--place {
+      font-size: $small-font-size;
+      color: $heavy-gray-color;
+    }
+
+    &--description {
+      margin-top: 10px;
+      font-size: $very-small-font-size;
+      color: $gray-color;
+      text-overflow: ellipsis;
+    }
+  }
+
+  @media screen and (max-width: $mobile-width) {
+    flex-direction: column;
+
+    &--image {
+      padding: 0;
+    }
+
+    &--content {
+      &--title {
+        font-size: $medium-font-size;
+      }
+
+      &--place {
+        font-size: $very-small-font-size;
+      }
+    }
+  }
+}

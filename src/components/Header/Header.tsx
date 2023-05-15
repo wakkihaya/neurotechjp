@@ -122,6 +122,12 @@ const HamburgerMenu: React.FC<HeaderDeviceProps> = ({ lang, device }) => {
           className={styles["header--index--item"]}
           onClick={() => setIsMenuOpen(!isMenuOpen)}
         >
+          <Link href={lang === "EN" ? "/events" : "/jp/events"}>Events</Link>
+        </div>
+        <div
+          className={styles["header--index--item"]}
+          onClick={() => setIsMenuOpen(!isMenuOpen)}
+        >
           <Link href={lang === "EN" ? "/about" : "/jp/about"}>About us</Link>
         </div>
         <div
@@ -254,6 +260,11 @@ export const Header: React.FC<{ isBgTransparent: boolean }> = props => {
                 <div className={styles["header--index--item"]}>
                   <Link href={lang === "EN" ? "/slides" : "/jp/slides"}>
                     Reports
+                  </Link>
+                </div>
+                <div className={styles["header--index--item"]}>
+                  <Link href={lang === "EN" ? "/events" : "/jp/events"}>
+                    Events
                   </Link>
                 </div>
                 <div className={styles["header--index--item"]}>
