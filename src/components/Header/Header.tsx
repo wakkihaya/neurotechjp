@@ -122,6 +122,12 @@ const HamburgerMenu: React.FC<HeaderDeviceProps> = ({ lang, device }) => {
           className={styles["header--index--item"]}
           onClick={() => setIsMenuOpen(!isMenuOpen)}
         >
+          <Link href={lang === "EN" ? "/events" : "/jp/events"}>Events</Link>
+        </div>
+        <div
+          className={styles["header--index--item"]}
+          onClick={() => setIsMenuOpen(!isMenuOpen)}
+        >
           <Link href={lang === "EN" ? "/about" : "/jp/about"}>About us</Link>
         </div>
         <div
