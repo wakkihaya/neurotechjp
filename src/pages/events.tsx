@@ -19,7 +19,7 @@ const EventsPage: React.FC = () => {
       <div className="events--container">
         <EventItem
           linkRef="https://neurotechtokyo.peatix.com/"
-          title="Neurotech Tokyo"
+          title="Neurotech Tokyo -vol 1-"
           imgSrc="/img/events/5.24-neurotechtokyo/cover.jpg"
           place="Tokyo"
           date="2023.5.24"

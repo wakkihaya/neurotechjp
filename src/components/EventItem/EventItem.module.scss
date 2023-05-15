@@ -34,6 +34,7 @@
       font-size: $large-font-size;
       font-weight: bold;
       color: $deep-blue-color;
+      text-decoration: underline;
     }
 
     &--place {
@@ -46,6 +47,24 @@
       font-size: $very-small-font-size;
       color: $gray-color;
       text-overflow: ellipsis;
+    }
+  }
+
+  @media screen and (max-width: $mobile-width) {
+    flex-direction: column;
+
+    &--image {
+      padding: 0;
+    }
+
+    &--content {
+      &--title {
+        font-size: $medium-font-size;
+      }
+
+      &--place {
+        font-size: $very-small-font-size;
+      }
     }
   }
 }
