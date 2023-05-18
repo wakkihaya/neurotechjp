@@ -92,6 +92,13 @@ const SlidesPage: React.FC = () => {
           ニューロテックレポートをお手頃価格でまとめたパッケージレポートです。
           産業面と学術面の両方から、今年度最新のニューロテック情報をまとめております。
         </SlideContent>
+        <SlideContent
+          linkRef="/jp/slides/viva-2023"
+          imgSrc="/img/slides/viva2023.jpg"
+          title="VivaTech2023 ニューロテックレポート"
+        >
+          【有料】VivaTech2023に出向き、世界中から集まるニューロテック企業に現地インタビューを行いました。その最先端をまとめたレポート資料です。
+        </SlideContent>
       </div>
       <Footer />
     </>
