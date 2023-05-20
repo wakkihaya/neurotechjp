@@ -9,7 +9,7 @@ export const profiles: Record<MembersList, ProfileType> = {
     image: "/img/about/Hayato_Waki.jpg",
     name: "和木勇人 Hayato Waki",
     enName: "Hayato Waki",
-    role: "プロジェクトマネージャー",
+    role: "代表",
     enRole: "President",
     description:
       "筑波大学にてBCIに関する研究に従事。日本と米国でソフトウェアスタートアップを起業、エンジニアとしての経験を詰んだ後、ニューロテックの魅力に惹かれ当メディアを立ち上げる。現在はデンマークのニューロテック会社'Neurons'にてエンジニアとしても働く。彼のパッションは、「創造性と技術力を持って、Science-Fictionを実現する1人になること」である。",
@@ -31,21 +31,6 @@ export const profiles: Record<MembersList, ProfileType> = {
     enDescription:
       "Graduated from Doshisha University, Faculty of Sociology, Department of Communication Studies. After attending a conference organized by Israel Brain Technologies, he joined Relook, a mindfulness meditation app, where he worked as a CS, web marketer, and PdM, and experienced M&A.",
     shouldHide: true,
-  },
-  "Nao Yukawa": {
-    twitterLink: "https://twitter.com/NaoYukawa",
-    enTwitterLink: "https://twitter.com/nyneurotech",
-    linkedInLink: "https://www.linkedin.com/in/nao-yukawa-331615207/",
-    fbLink: "https://www.facebook.com/nao.yukawa.56",
-    image: "/img/about/Nao_Yukawa.jpg",
-    name: "湯川 直旺 Nao Yukawa",
-    enName: "Nao Yukawa",
-    role: "コミュニティ リード",
-    enRole: "Community Lead",
-    description:
-      "東京大学工学部4年生。現在は同大学の松尾研究室で深層学習関連の研究を行う傍ら、米国SanFranciscoにてInternational Businessを学んでいる。 Elon Musk率いるNeuralinkのように、ビジネスとNeurotechnologyを組み合わせることで、神経科学の発展に寄与することが目標。",
-    enDescription:
-      "A senior majoring in Engineering at the University of Tokyo. While he is doing research on deep learning at an AI research lab in the same university, he is also studying International Business at San Francisco State University. His goal is to contribute to the development of Neuroscience by bridging the gap between academia and industry like Neuralink, a company founded by Elon Musk, is trying to do.",
   },
   "Toma Itagaki": {
     twitterLink: "https://twitter.com/tomaitagaki",
@@ -90,6 +75,21 @@ export const profiles: Record<MembersList, ProfileType> = {
     enDescription:
       "Master’s student in Neurotechnology at Imperial College London. He graduated with B.A. in Mathematics from Swarthmore College in the U.S. He is interested in consciousness and motor control and mainly work on computational neuroscience research on these topics. His long-term goal is to translate research findings into developing better rehabilitation and motor learning methods. He is also interested in Decentralized Science.",
   },
+  "Yusuke Sugita": {
+    twitterLink: "https://twitter.com/yuo0y",
+    enTwitterLink: "https://twitter.com/yuo0y",
+    fbLink: "https://www.facebook.com/profile.php?id=100064701321832",
+    linkedInLink: "https://www.linkedin.com/in/yusuke-sugita-a18437234/",
+    image: "/img/about/Yusuke_Sugita.jpeg",
+    name: "杉田祐輔　Yusuke Sugita",
+    enName: "Yusuke Sugita",
+    role: "コミュニティ/イベントリード",
+    enRole: "Community/Event Manager",
+    description:
+      "東京理科大学4年。学部1年の時に”てんかん”を発症し、脳・神経科学全般について興味を持つ。現在は、脳が持つ高次機能の獲得に胎児期発生が寄与することに関心を持ち、東京都医学総合研究所にて神経発生に関する研究を行う。社会実装などアカデミアと産業の連携について関心があり、他団体にてBioTechベンチャーの起業支援事業も行う。",
+    enDescription:
+      "Fourth-year student at Tokyo University of Science. He developed epilepsy during his first year of undergraduate studies, which sparked his interest in the brain and neuroscience in general. Currently, he is interested in the contribution of embryonic development to the acquisition of higher functions of the brain, and conducts research on neurogenesis at the Tokyo Metropolitan Institute of Medical Science. He is also interested in the collaboration between academia and industry, such as social implementation, and is involved in a start-up support project for BioTech ventures at another organization.",
+  },
   "Hiroto Takeuchi": {
     twitterLink: "https://twitter.com/steve950213",
     enTwitterLink: "https://twitter.com/steve950213",
@@ -97,8 +97,8 @@ export const profiles: Record<MembersList, ProfileType> = {
     image: "/img/about/Hiroto_Takeuchi.jpg",
     name: "竹内啓人 Hiroto Takeuchi",
     enName: "Hiroto Takeuchi",
-    role: "レポート リード",
-    enRole: "Report Lead",
+    role: "レポート事業リード",
+    enRole: "Report Project Manager",
     description:
       "九州大学大学院システム生命科学府修了。注意欠陥・多動性の傾向が強かったことから、脳・神経科学に興味を持つ。現在は、株式会社Actraなど、複数の企業にて脳・神経科学を活用したサービスの提供・事業開発に取り組む。「人の変化に寄り添い、変化を後押しする」ようなサービス・技術を提供することが目標。",
     enDescription:
@@ -144,7 +144,21 @@ export const profiles: Record<MembersList, ProfileType> = {
     enDescription:
       "Second year of a doctoral course, School of Engineering, The University of Tokyo. While engaged in research related to NIRS, he also actively organizes talks as a staff member of Society for Young researchers on Neuroscience. He feels a sense of crisis about the gap between science in academia and the general public in Japan, and hopes to change the image of science through science communication in the future.",
   },
-
+  "Nao Yukawa": {
+    twitterLink: "https://twitter.com/NaoYukawa",
+    enTwitterLink: "https://twitter.com/nyneurotech",
+    linkedInLink: "https://www.linkedin.com/in/nao-yukawa-331615207/",
+    fbLink: "https://www.facebook.com/nao.yukawa.56",
+    image: "/img/about/Nao_Yukawa.jpg",
+    name: "湯川 直旺 Nao Yukawa",
+    enName: "Nao Yukawa",
+    role: "ブログ インタビュアー/ライター",
+    enRole: "Article Interviewer/Writer",
+    description:
+      "東京大学工学部4年生。現在は同大学の松尾研究室で深層学習関連の研究を行う傍ら、米国SanFranciscoにてInternational Businessを学んでいる。 Elon Musk率いるNeuralinkのように、ビジネスとNeurotechnologyを組み合わせることで、神経科学の発展に寄与することが目標。",
+    enDescription:
+      "A senior majoring in Engineering at the University of Tokyo. While he is doing research on deep learning at an AI research lab in the same university, he is also studying International Business at San Francisco State University. His goal is to contribute to the development of Neuroscience by bridging the gap between academia and industry like Neuralink, a company founded by Elon Musk, is trying to do.",
+  },
   "Kenta Kubota": {
     twitterLink: "https://twitter.com/wr2k7s",
     enTwitterLink: "https://twitter.com/wr2k7s",
@@ -157,22 +171,6 @@ export const profiles: Record<MembersList, ProfileType> = {
       "北海道大学工学部3年生。石黒浩教授の講演を聴講したことをきっかけに人間とは何か、意識とは何なのかに興味を持つ。不死の世界を実現することを目標に広く情報のインプットを行っている。",
     enDescription:
       "Third-year student in Engineering at Hokkaido University. After attending a lecture by Prof Hiroshi Ishiguro, he became interested in what human beings are and what consciousness is. He has been widely inputting information with the goal of realizing an immortal world.",
-  },
-
-  "Yusuke Sugita": {
-    twitterLink: "https://twitter.com/yuo0y",
-    enTwitterLink: "https://twitter.com/yuo0y",
-    fbLink: "https://www.facebook.com/profile.php?id=100064701321832",
-    linkedInLink: "https://www.linkedin.com/in/yusuke-sugita-a18437234/",
-    image: "/img/about/Yusuke_Sugita.jpeg",
-    name: "杉田祐輔　Yusuke Sugita",
-    enName: "Yusuke Sugita",
-    role: "ブログ ライター",
-    enRole: "Article Writer",
-    description:
-      "東京理科大学4年。学部1年の時に”てんかん”を発症し、脳・神経科学全般について興味を持つ。現在は、脳が持つ高次機能の獲得に胎児期発生が寄与することに関心を持ち、東京都医学総合研究所にて神経発生に関する研究を行う。社会実装などアカデミアと産業の連携について関心があり、他団体にてBioTechベンチャーの起業支援事業も行う。",
-    enDescription:
-      "Fourth-year student at Tokyo University of Science. He developed epilepsy during his first year of undergraduate studies, which sparked his interest in the brain and neuroscience in general. Currently, he is interested in the contribution of embryonic development to the acquisition of higher functions of the brain, and conducts research on neurogenesis at the Tokyo Metropolitan Institute of Medical Science. He is also interested in the collaboration between academia and industry, such as social implementation, and is involved in a start-up support project for BioTech ventures at another organization.",
   },
   Ami: {
     image: "/img/about/Anonymous.png",
