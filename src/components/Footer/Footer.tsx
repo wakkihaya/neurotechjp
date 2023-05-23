@@ -38,7 +38,19 @@ export const Footer: React.FC = () => {
           <FontAwesomeIcon icon={faTwitter} size="2x" />
         </a>
       </div>
-      <footer className={styles["footer--org"]}>@2021 NeurotechJP</footer>
+      <footer className={styles["footer--org"]}>
+        <a
+          className={styles["footer--org--company"]}
+          target="_blank"
+          rel="noreferrer"
+          href={
+            "https://gorgeous-thought-c10.notion.site/About-NeurotechJP-LLC-2001568d112e43d2ae4e36868dcd98ed"
+          }
+        >
+          Company
+        </a>
+        <div className={styles["footer--org--auth"]}> @2023 NeurotechJP</div>
+      </footer>
 
       <CookieConsent
         location="bottom"

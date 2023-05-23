@@ -84,6 +84,13 @@
     text-align: center;
     font-size: $very-small-font-size;
     font-family: $armata-font-family;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+
+    &--company {
+      text-decoration: underline;
+    }
   }
 
   @media (max-width: $mobile-width) {
