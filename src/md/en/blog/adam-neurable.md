@@ -29,7 +29,7 @@ _Image: Enten_
 
 &nbsp;
 
-### Using Biomarkers to Improve Breaks and Focus
+## Using Biomarkers to Improve Breaks and Focus
 
 Adam discusses the use of biomarkers to help individuals take better breaks and improve their focus.
 
@@ -41,7 +41,7 @@ He emphasizes that **people often work themselves to exhaustion and are not as g
 
 &nbsp;
 
-### Hands-Free Control of Augmented Reality Systems and the Future of Neurable
+## Hands-Free Control of Augmented Reality Systems and the Future of Neurable
 
 Adam highlights the importance of **hands-free control in augmented reality (AR) systems and the potential shift in computing paradigms with the rise of AR and virtual reality (VR)**. He mentions ongoing conversations and projects related to partnering with medical or clinical studies, indicating Neurable’s commitment to incorporating control features into their product.
 
@@ -49,7 +49,7 @@ Adam highlights the importance of **hands-free control in augmented reality (AR)
 
 &nbsp;
 
-### Neurable’s Approach to Data Ethics and Privacy in Neurotech
+## Neurable’s Approach to Data Ethics and Privacy in Neurotech
 
 Adam addresses concerns about privacy in neurotech and emphasizes Neurable’s commitment to data ethics. He assures that **data collected will primarily be used for the benefit of the individual and that measures are in place to protect and safeguard the data**. Compliance with regulations like GDPR and HIPAA is a priority for Neurable.
 
@@ -57,7 +57,7 @@ Adam addresses concerns about privacy in neurotech and emphasizes Neurable’s c
 
 &nbsp;
 
-### Making Brain Measurements Ubiquitous
+## Making Brain Measurements Ubiquitous
 
 The ultimate goal of Neurable is to **make brain measurements more accessible**, aiming to create a world without limitations. Adam envisions a future where neurotechnology becomes an equalizing force.
 
@@ -69,7 +69,7 @@ The [Neurable Discord](https://discord.gg/RPK4ABm) serves as a platform for indi
 
 &nbsp;
 
-### In conclusion
+## In conclusion
 
 Neurable, under the leadership of Adam Molnar, is at the forefront of the neurotech industry, harnessing biomarkers to enhance focus, well-being, and productivity. With a strong commitment to data ethics and privacy, Neurable aims to make brain measurements ubiquitous, creating a world where limitations are overcome.
 
