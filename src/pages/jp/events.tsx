@@ -36,6 +36,25 @@ const EventsPage: React.FC = () => {
             </>
           }
         />
+        <EventItem
+          linkRef="https://neurotechtokyo.peatix-2.com/"
+          title="Neurotech Tokyo -vol 2-"
+          imgSrc="/img/events/8.17-neurotechtokyo/cover.jpg"
+          place="Tokyo"
+          date="2023.8.17"
+          description={
+            <>
+              日本のneurotechの未来を担う若き学生、研究者、起業家等、
+              全てのneurotechに関わる若手の方々を対象としたオンサイトイベントです！{" "}
+              <br />
+              最新の研究技術をもとに事業化をおこなっているゲストの方々によるパネルディスカッション
+              neurotechの精鋭である参加者様同士におけるネットワーキングの場をご用意！
+              <br />
+              <br />
+              ぜひ、日本のneurotechをより盛り上げる会にしていきましょう！
+            </>
+          }
+        />
         <hr className="events--container--divider" />
       </div>
 
