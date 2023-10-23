@@ -497,14 +497,6 @@
     color: white;
   }
 
-  @media screen and (max-width: $mobile-width) {
-    &--title {
-      width: 80%;
-      margin: 1.5em auto;
-      font-size: $medium-font-size;
-    }
-  }
-
   &--container {
     width: $content-width;
     text-align: center;
@@ -518,6 +510,23 @@
 
     &--cta {
       text-decoration: underline;
+    }
+  }
+
+  @media screen and (max-width: $mobile-width) {
+    &--title {
+      width: 80%;
+      margin: 1.5em auto;
+      font-size: $medium-font-size;
+    }
+
+    &--container {
+      width: 100%;
+      padding: 0 2em;
+    }
+
+    &--alert {
+      font-size: $very-small-font-size;
     }
   }
 }
