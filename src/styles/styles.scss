@@ -486,6 +486,42 @@
   }
 }
 
+// Consulting page
+.consulting {
+  &--title {
+    width: $content-width;
+    margin: 2em auto;
+    font-size: $large-font-size;
+    font-weight: bold;
+    font-family: $armata-font-family;
+    color: white;
+  }
+
+  @media screen and (max-width: $mobile-width) {
+    &--title {
+      width: 80%;
+      margin: 1.5em auto;
+      font-size: $medium-font-size;
+    }
+  }
+
+  &--container {
+    width: $content-width;
+    text-align: center;
+    margin: 2em auto;
+    min-height: calc(100vh - 330px - 50px); ///Minus header and footer height.
+  }
+
+  &--alert {
+    font-size: $small-font-size;
+    text-align: center;
+
+    &--cta {
+      text-decoration: underline;
+    }
+  }
+}
+
 @keyframes fadeIn {
   0% {
     opacity: 0;
