@@ -32,11 +32,7 @@ const HeaderSocial: React.FC<HeaderDeviceProps> = ({ lang, device }) => {
         className={styles["header--social-item"]}
         rel="noreferrer"
       >
-        <FontAwesomeIcon
-          icon={faTwitter}
-          size={device === "Desktop" ? "3x" : "2x"}
-          border
-        />
+        <FontAwesomeIcon icon={faTwitter} size={"2x"} border />
       </a>
     );
   } else {
@@ -48,11 +44,7 @@ const HeaderSocial: React.FC<HeaderDeviceProps> = ({ lang, device }) => {
           className={styles["header--social-item"]}
           rel="noreferrer"
         >
-          <FontAwesomeIcon
-            icon={faTwitter}
-            size={device === "Desktop" ? "3x" : "2x"}
-            border
-          />
+          <FontAwesomeIcon icon={faTwitter} size={"2x"} border />
         </a>
         <a
           href="https://discord.gg/ERh2pzQ6AW"
@@ -60,11 +52,7 @@ const HeaderSocial: React.FC<HeaderDeviceProps> = ({ lang, device }) => {
           className={styles["header--social-item"]}
           rel="noreferrer"
         >
-          <FontAwesomeIcon
-            icon={faDiscord}
-            size={device === "Desktop" ? "3x" : "2x"}
-            border
-          />
+          <FontAwesomeIcon icon={faDiscord} size={"2x"} border />
         </a>
       </>
     );
