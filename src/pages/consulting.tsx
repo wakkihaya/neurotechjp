@@ -45,7 +45,7 @@ const ConsultingPage: React.FC = () => {
               and products, and the results are used to make improvements and
               refinements. By measuring biometric information, it is possible to
               visualize unconscious and latent information that cannot be
-              obtained through questionnaires.　Please contact us for details.
+              obtained through questionnaires. Please contact us for details.
             </div>
             <a
               href="https://actra.co.jp"
