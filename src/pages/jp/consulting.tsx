@@ -4,10 +4,8 @@ import React from "react";
 const ConsultingPage: React.FC = () => {
   const AlertContent: React.FC = () => (
     <div className="consulting--alert">
-      2023年11月12日に、合同会社NeurotechJPは事業の一部を株式会社Actraに譲渡いたしました。{" "}
-      <br />
-      これに伴い、当メディアは株式会社Actraが行うニューロマーケティングを使ったコンサルティングサービスを支援することとなりました。{" "}
-      <br />
+      2023年11月12日に、合同会社NeurotechJPは事業の一部を株式会社Actraに譲渡いたしました。
+      これに伴い、当メディアは株式会社Actraが行うニューロマーケティングを使ったコンサルティングサービスを支援することとなりました。
       詳しくは
       <a
         href={"https://neurotecjp.com" /**TODO: PR times link */}
@@ -37,6 +35,30 @@ const ConsultingPage: React.FC = () => {
       </div>
       <div className="consulting--container">
         <Alert content={<AlertContent />} />
+        <div className="consulting--content">
+          <div className="consulting--content--explanation">
+            <div className="consulting--content--explanation--title">
+              脳情報計測のマーケティング応用
+            </div>
+            <div className="consulting--content--explanation--description">
+              脳活動を測定し、CMや製品などへの感性を評価し、その結果をもとに改善・改良に繋げるものです。アンケート等では取得ができない無意識、潜在的な情報を、生体情報を測定することによって見える化することが可能です。　詳細はお問い合わせください。
+            </div>
+            <a
+              href="https://actra.co.jp"
+              target="_blank"
+              rel="noreferrer"
+              className="consulting--content--explanation--cta"
+            >
+              詳細をみる
+            </a>
+          </div>
+          <div className="consulting--content--image__wrapper">
+            <img
+              src="/img/consulting/actra-service.jpeg"
+              className="consulting--content--image"
+            />
+          </div>
+        </div>
       </div>
       <Footer />
     </>
