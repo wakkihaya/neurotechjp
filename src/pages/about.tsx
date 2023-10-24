@@ -1,6 +1,13 @@
 import React from "react";
 
-import { Footer, Header, Meta, ContactForm, PersonCard } from "~components";
+import {
+  Footer,
+  Header,
+  Meta,
+  ContactForm,
+  PersonCard,
+  Alert,
+} from "~components";
 import { useProfiles } from "~hooks/use-profiles";
 
 const AboutPage: React.FC = () => {
@@ -25,6 +32,23 @@ const AboutPage: React.FC = () => {
         </div>
       </div>
       <div className="about-container">
+        <Alert
+          content={
+            <div className="consulting--alert">
+              On November 1, 2023, NeurotechJP, LLC transferred its part of
+              business to Actra Corporation. For more information, please refer
+              to{" "}
+              <a
+                href={"https://neurotecjp.com" /**TODO: PR times link */}
+                target="_blank"
+                rel="noreferrer"
+                className="consulting--alert--cta"
+              >
+                this press release.
+              </a>
+            </div>
+          }
+        />
         <div className="about-container--index">
           <img src="/ogp.png" className="about-container--index-image" />
           <div className="about-container--index-subtitle">
