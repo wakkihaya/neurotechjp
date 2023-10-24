@@ -140,21 +140,22 @@ const HamburgerMenu: React.FC<HeaderDeviceProps> = ({ lang, device }) => {
   );
 };
 
-//2022/8/28: Neurotech Daily Banner
+//2023/11/15: 事業譲渡バナー
 const RenderBanner: React.FC<HeaderProps> = props => {
   const { lang } = props;
   if (lang === "JP") {
     return (
       <Banner>
         <p>
+          NeurotechJPは事業の一部を株式会社Actraに譲渡致しました。(
           <a
             target="_blank"
             rel="noreferrer"
-            href="https://neurotechjp.com/jp/slides/neurotech-2023/"
+            href="https://neurotechjp.com/jp/slides/neurotech-2023/" /*TODO: PR Times*/
           >
-            NEUROTECH2023 レポート
-          </a>{" "}
-          販売中！
+            プレスリリース
+          </a>
+          )
         </p>
       </Banner>
     );
@@ -162,14 +163,15 @@ const RenderBanner: React.FC<HeaderProps> = props => {
     return (
       <Banner>
         <p>
+          NeurotechJP transferred its part of business to Actra Corp.(
           <a
             target="_blank"
             rel="noreferrer"
-            href="https://neurotechjp.com/slides/ces-2023/"
+            href="https://neurotechjp.com/jp/slides/neurotech-2023/" /*TODO: PR Times*/
           >
-            CES2023 Neurotech Report
-          </a>{" "}
-          now on sale!
+            Press release
+          </a>
+          )
         </p>
       </Banner>
     );

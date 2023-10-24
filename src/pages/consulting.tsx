@@ -4,7 +4,7 @@ import React from "react";
 const ConsultingPage: React.FC = () => {
   const AlertContent: React.FC = () => (
     <div className="consulting--alert">
-      On November 12, 2023, NeurotechJP, LLC transferred part of its business to
+      On November 1, 2023, NeurotechJP, LLC transferred its part of business to
       Actra Corporation. As a result, our media will support Actra Corporation's
       consulting services using neuromarketing. For more information, please
       refer to{" "}

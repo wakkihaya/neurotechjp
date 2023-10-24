@@ -4,7 +4,7 @@ import React from "react";
 const ConsultingPage: React.FC = () => {
   const AlertContent: React.FC = () => (
     <div className="consulting--alert">
-      2023年11月12日に、合同会社NeurotechJPは事業の一部を株式会社Actraに譲渡いたしました。
+      2023年11月1日に、合同会社NeurotechJPは事業の一部を株式会社Actraに譲渡いたしました。
       これに伴い、当メディアは株式会社Actraが行うニューロマーケティングを使ったコンサルティングサービスを支援することとなりました。
       詳しくは
       <a
