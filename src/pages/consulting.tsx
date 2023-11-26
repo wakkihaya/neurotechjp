@@ -48,7 +48,7 @@ const ConsultingPage: React.FC = () => {
               obtained through questionnaires. Please contact us for details.
             </div>
             <a
-              href="https://actra.co.jp"
+              href="https://actra.co.jp/services"
               target="_blank"
               rel="noreferrer"
               className="consulting--content--explanation--cta"

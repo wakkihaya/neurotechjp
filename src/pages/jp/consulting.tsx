@@ -44,7 +44,7 @@ const ConsultingPage: React.FC = () => {
               脳活動を測定し、CMや製品などへの感性を評価し、その結果をもとに改善・改良に繋げるものです。アンケート等では取得ができない無意識、潜在的な情報を、生体情報を測定することによって見える化することが可能です。詳細はお問い合わせください。
             </div>
             <a
-              href="https://actra.co.jp"
+              href="https://actra.co.jp/services"
               target="_blank"
               rel="noreferrer"
               className="consulting--content--explanation--cta"

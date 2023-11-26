@@ -117,7 +117,7 @@ const HamburgerMenu: React.FC<HeaderDeviceProps> = ({ lang, device }) => {
           onClick={() => setIsMenuOpen(!isMenuOpen)}
         >
           <Link href={lang === "EN" ? "/consulting" : "/jp/consulting"}>
-            Consulting
+            Service
           </Link>
         </div>
         <div
@@ -267,7 +267,7 @@ export const Header: React.FC<{ isBgTransparent: boolean }> = props => {
                 </div>
                 <div className={styles["header--index--item"]}>
                   <Link href={lang === "EN" ? "/consulting" : "/jp/consulting"}>
-                    Consulting
+                    Service
                   </Link>
                 </div>
                 <div className={styles["header--index--item"]}>
