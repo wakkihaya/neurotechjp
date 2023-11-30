@@ -151,7 +151,7 @@ const RenderBanner: React.FC<HeaderProps> = props => {
           <a
             target="_blank"
             rel="noreferrer"
-            href="https://neurotechjp.com/jp/slides/neurotech-2023/" /*TODO: PR Times*/
+            href="https://prtimes.jp/main/html/rd/p/000000004.000111004.html"
           >
             プレスリリース
           </a>
@@ -167,7 +167,7 @@ const RenderBanner: React.FC<HeaderProps> = props => {
           <a
             target="_blank"
             rel="noreferrer"
-            href="https://neurotechjp.com/jp/slides/neurotech-2023/" /*TODO: PR Times*/
+            href="https://prtimes.jp/main/html/rd/p/000000004.000111004.html"
           >
             Press release
           </a>

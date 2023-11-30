@@ -9,7 +9,7 @@ const ConsultingPage: React.FC = () => {
       consulting services using neuromarketing. For more information, please
       refer to{" "}
       <a
-        href={"https://neurotecjp.com" /**TODO: PR times link */}
+        href={"https://prtimes.jp/main/html/rd/p/000000004.000111004.html"}
         target="_blank"
         rel="noreferrer"
         className="consulting--alert--cta"

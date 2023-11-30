@@ -37,7 +37,9 @@ const AboutPage: React.FC = () => {
               2023年11月1日に、合同会社NeurotechJPは事業の一部を株式会社Actraに譲渡いたしました。
               詳しくは
               <a
-                href={"https://neurotecjp.com" /**TODO: PR times link */}
+                href={
+                  "https://prtimes.jp/main/html/rd/p/000000004.000111004.html"
+                }
                 target="_blank"
                 rel="noreferrer"
                 className="consulting--alert--cta"
