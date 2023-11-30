@@ -86,9 +86,9 @@ export const profiles: Record<MembersList, ProfileType> = {
     role: "コミュニティ/イベントリード",
     enRole: "Community/Event Manager",
     description:
-      "東京理科大学4年。学部1年の時に”てんかん”を発症し、脳・神経科学全般について興味を持つ。現在は、脳が持つ高次機能の獲得に胎児期発生が寄与することに関心を持ち、東京都医学総合研究所にて神経発生に関する研究を行う。社会実装などアカデミアと産業の連携について関心があり、他団体にてBioTechベンチャーの起業支援事業も行う。",
+      "早稲田大学院修士1年。学部1年の時に'てんかん'を発症し、脳・神経科学全般について興味を持つ。現在は、脳が持つ高次機能の獲得に胎児期発生が寄与することに関心を持ち、東京都医学総合研究所にて神経発生に関する研究を行う。社会実装などアカデミアと産業の連携について関心があり、他団体にてBioTechベンチャーの起業支援事業も行う。",
     enDescription:
-      "Fourth-year student at Tokyo University of Science. He developed epilepsy during his first year of undergraduate studies, which sparked his interest in the brain and neuroscience in general. Currently, he is interested in the contribution of embryonic development to the acquisition of higher functions of the brain, and conducts research on neurogenesis at the Tokyo Metropolitan Institute of Medical Science. He is also interested in the collaboration between academia and industry, such as social implementation, and is involved in a start-up support project for BioTech ventures at another organization.",
+      "Master's student in Waseda University. He developed epilepsy during his first year of undergraduate studies, which sparked his interest in the brain and neuroscience in general. Currently, he is interested in the contribution of embryonic development to the acquisition of higher functions of the brain, and conducts research on neurogenesis at the Tokyo Metropolitan Institute of Medical Science. He is also interested in the collaboration between academia and industry, such as social implementation, and is involved in a start-up support project for BioTech ventures at another organization.",
   },
   "Hiroto Takeuchi": {
     twitterLink: "https://twitter.com/steve950213",

@@ -1,0 +1,21 @@
+@import "../../styles/variables.scss";
+
+.alert {
+  width: 100%;
+  border: solid 1px $blue-color;
+  padding: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: $light-blue-color;
+  border-radius: 5px;
+  color: $deep-blue-color;
+
+  &--alert {
+    width: 100%;
+  }
+
+  @media screen and (max-width: $mobile-width) {
+    padding: 15px;
+  }
+}

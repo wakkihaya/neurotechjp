@@ -316,6 +316,7 @@
   width: $content-width;
   padding: 0 3em;
   margin: auto;
+  margin-top: 50px;
   animation: fadeIn 1.5s ease 0s 1 normal;
   &--index {
     margin: 10em 0;
@@ -345,6 +346,7 @@
   @media screen and (max-width: $mobile-width) {
     width: 80%;
     padding: 3em 0;
+    margin-top: 20px;
     &--index {
       margin: 0 0 5em 0;
     }
@@ -482,6 +484,113 @@
     &--divider {
       width: 100%;
       border-top: solid $blue-color 1px;
+    }
+  }
+}
+
+// Consulting page
+.consulting {
+  &--title {
+    width: $content-width;
+    margin: 2em auto;
+    font-size: $large-font-size;
+    font-weight: bold;
+    font-family: $armata-font-family;
+    color: white;
+  }
+
+  &--container {
+    width: $content-width;
+    text-align: center;
+    margin: 2em auto;
+    min-height: calc(100vh - 330px - 50px); ///Minus header and footer height.
+  }
+
+  &--alert {
+    font-size: $small-font-size;
+    text-align: center;
+
+    &--cta {
+      text-decoration: underline;
+    }
+  }
+
+  &--content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 80px;
+
+    &--explanation {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+      align-items: flex-start;
+
+      &--title {
+        font-size: $medium-font-size;
+        font-weight: 600;
+        text-align: left;
+      }
+
+      &--description {
+        font-size: $small-font-size;
+        text-align: left;
+        color: $heavy-gray-color;
+      }
+
+      &--cta {
+        color: white;
+        font-size: $small-font-size;
+        border-radius: 5px;
+        padding: 10px 30px;
+        background-color: $deep-blue-color;
+      }
+    }
+
+    &--image {
+      &__wrapper {
+        flex: 1;
+      }
+
+      width: 100%;
+    }
+  }
+
+  @media screen and (max-width: $mobile-width) {
+    &--title {
+      width: 80%;
+      margin: 1.5em auto;
+      font-size: $medium-font-size;
+    }
+
+    &--container {
+      width: 100%;
+      padding: 0 2em;
+      margin: 5em auto;
+    }
+
+    &--alert {
+      font-size: $very-small-font-size;
+    }
+
+    &--content {
+      flex-direction: column;
+      margin-top: 40px;
+
+      &--explanation {
+        order: 2;
+
+        &--description {
+          font-size: $very-small-font-size;
+        }
+
+        &--cta {
+          font-size: $very-small-font-size;
+        }
+      }
     }
   }
 }

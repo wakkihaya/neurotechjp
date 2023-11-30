@@ -43,9 +43,7 @@ export const Footer: React.FC = () => {
           className={styles["footer--org--company"]}
           target="_blank"
           rel="noreferrer"
-          href={
-            "https://gorgeous-thought-c10.notion.site/About-NeurotechJP-LLC-2001568d112e43d2ae4e36868dcd98ed"
-          }
+          href={"https://actra.co.jp"}
         >
           Company
         </a>

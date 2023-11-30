@@ -32,11 +32,7 @@ const HeaderSocial: React.FC<HeaderDeviceProps> = ({ lang, device }) => {
         className={styles["header--social-item"]}
         rel="noreferrer"
       >
-        <FontAwesomeIcon
-          icon={faTwitter}
-          size={device === "Desktop" ? "3x" : "2x"}
-          border
-        />
+        <FontAwesomeIcon icon={faTwitter} size={"2x"} border />
       </a>
     );
   } else {
@@ -48,11 +44,7 @@ const HeaderSocial: React.FC<HeaderDeviceProps> = ({ lang, device }) => {
           className={styles["header--social-item"]}
           rel="noreferrer"
         >
-          <FontAwesomeIcon
-            icon={faTwitter}
-            size={device === "Desktop" ? "3x" : "2x"}
-            border
-          />
+          <FontAwesomeIcon icon={faTwitter} size={"2x"} border />
         </a>
         <a
           href="https://discord.gg/ERh2pzQ6AW"
@@ -60,11 +52,7 @@ const HeaderSocial: React.FC<HeaderDeviceProps> = ({ lang, device }) => {
           className={styles["header--social-item"]}
           rel="noreferrer"
         >
-          <FontAwesomeIcon
-            icon={faDiscord}
-            size={device === "Desktop" ? "3x" : "2x"}
-            border
-          />
+          <FontAwesomeIcon icon={faDiscord} size={"2x"} border />
         </a>
       </>
     );
@@ -128,6 +116,14 @@ const HamburgerMenu: React.FC<HeaderDeviceProps> = ({ lang, device }) => {
           className={styles["header--index--item"]}
           onClick={() => setIsMenuOpen(!isMenuOpen)}
         >
+          <Link href={lang === "EN" ? "/consulting" : "/jp/consulting"}>
+            Service
+          </Link>
+        </div>
+        <div
+          className={styles["header--index--item"]}
+          onClick={() => setIsMenuOpen(!isMenuOpen)}
+        >
           <Link href={lang === "EN" ? "/about" : "/jp/about"}>About us</Link>
         </div>
         <div
@@ -144,21 +140,22 @@ const HamburgerMenu: React.FC<HeaderDeviceProps> = ({ lang, device }) => {
   );
 };
 
-//2022/8/28: Neurotech Daily Banner
+//2023/11/15: 事業譲渡バナー
 const RenderBanner: React.FC<HeaderProps> = props => {
   const { lang } = props;
   if (lang === "JP") {
     return (
       <Banner>
         <p>
+          NeurotechJPは事業の一部を株式会社Actraに譲渡致しました。(
           <a
             target="_blank"
             rel="noreferrer"
-            href="https://neurotechjp.com/jp/slides/neurotech-2023/"
+            href="https://prtimes.jp/main/html/rd/p/000000004.000111004.html"
           >
-            NEUROTECH2023 レポート
-          </a>{" "}
-          販売中！
+            プレスリリース
+          </a>
+          )
         </p>
       </Banner>
     );
@@ -166,14 +163,15 @@ const RenderBanner: React.FC<HeaderProps> = props => {
     return (
       <Banner>
         <p>
+          NeurotechJP transferred its part of business to Actra Corp.(
           <a
             target="_blank"
             rel="noreferrer"
-            href="https://neurotechjp.com/slides/ces-2023/"
+            href="https://prtimes.jp/main/html/rd/p/000000004.000111004.html"
           >
-            CES2023 Neurotech Report
-          </a>{" "}
-          now on sale!
+            Press release
+          </a>
+          )
         </p>
       </Banner>
     );
@@ -265,6 +263,11 @@ export const Header: React.FC<{ isBgTransparent: boolean }> = props => {
                 <div className={styles["header--index--item"]}>
                   <Link href={lang === "EN" ? "/events" : "/jp/events"}>
                     Events
+                  </Link>
+                </div>
+                <div className={styles["header--index--item"]}>
+                  <Link href={lang === "EN" ? "/consulting" : "/jp/consulting"}>
+                    Service
                   </Link>
                 </div>
                 <div className={styles["header--index--item"]}>

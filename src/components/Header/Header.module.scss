@@ -44,12 +44,12 @@
   &--index {
     display: flex;
     flex: 2;
-    font-size: $medium-font-size;
+    font-size: $small-font-size;
     justify-content: center;
     align-items: center;
 
     &--item {
-      padding-left: 5rem;
+      padding-left: 2.5rem;
 
       &__home {
         padding-left: 0;
@@ -63,7 +63,7 @@
   &--lang {
     display: flex;
     flex: 0.3;
-    font-size: $medium-font-size;
+    font-size: $small-font-size;
     justify-content: center;
   }
   &--lang-char:hover {
@@ -82,7 +82,7 @@
     .fa-border {
       border: solid 1px white !important;
       border-radius: 50px !important;
-      max-width: 30px;
+      max-width: 0px;
       padding: 5px;
     }
   }
