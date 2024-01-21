@@ -57,6 +57,25 @@ const EventsPage: React.FC = () => {
             </>
           }
         />
+        <EventItem
+          linkRef="http://ptix.at/Lfjemq"
+          title="Neurotech Tokyo -vol 3-"
+          imgSrc="/img/events/2024.2.9-neurotechtokyo/cover.png"
+          place="Tokyo"
+          date="2024.2.9"
+          description={
+            <>
+              This is an on-site event for all young people involved in
+              neurotech, including young students, researchers, and
+              entrepreneurs who are the future of neurotech in Japan! <br />{" "}
+              This time, we have the lightning talk sessions as well as the
+              networking. <br />
+              <br />
+              Let's make this an event that will further boost neurotech in
+              Japan!"
+            </>
+          }
+        />
         <hr className="events--container--divider" />
       </div>
       <Footer />
