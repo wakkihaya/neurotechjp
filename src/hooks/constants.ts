@@ -130,20 +130,6 @@ export const profiles: Record<MembersList, ProfileType> = {
     role: "レポート ライター",
     enRole: "Report Writer",
   },
-
-  "Hiroki Noyama": {
-    twitterLink: "https://twitter.com/gakki_curry",
-    enTwitterLink: "https://twitter.com/gakki_curry",
-    image: "/img/about/Hiroki_Noyama.jpeg",
-    name: "野山 大樹 Hiroki Noyama",
-    enName: "Hiroki Noyama",
-    role: "ブログ リード",
-    enRole: "Article Lead",
-    description:
-      "東京大学大学院 工学系研究科 博士2年。NIRSに関する研究に従事する傍らで、脳科学若手の会スタッフとして精力的に談話会などを開催している。日本のアカデミアと一般の方々の科学に対するギャップに危機感を感じており、将来的にはサイエンスコミュニケーションを通じて科学に対するイメージを変えていきたいと変えていきたいと考えている。",
-    enDescription:
-      "Second year of a doctoral course, School of Engineering, The University of Tokyo. While engaged in research related to NIRS, he also actively organizes talks as a staff member of Society for Young researchers on Neuroscience. He feels a sense of crisis about the gap between science in academia and the general public in Japan, and hopes to change the image of science through science communication in the future.",
-  },
   "Nao Yukawa": {
     twitterLink: "https://twitter.com/NaoYukawa",
     enTwitterLink: "https://twitter.com/nyneurotech",

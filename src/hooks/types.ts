@@ -21,7 +21,6 @@ export type MembersList =
   | "Hiroo Miyata"
   | "Kai Irwin"
   | "Hannah Kodama"
-  | "Hiroki Noyama"
   | "Kenta Kubota"
   | "Yusuke Sugita"
   | "Hiroto Takeuchi"
