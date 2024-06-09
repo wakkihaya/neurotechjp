@@ -1,6 +1,20 @@
 import type { ProfileType, MembersList } from "./types";
 
 export const profiles: Record<MembersList, ProfileType> = {
+  "Hiroto Takeuchi": {
+    twitterLink: "https://twitter.com/steve950213",
+    enTwitterLink: "https://twitter.com/steve950213",
+    fbLink: "https://www.facebook.com/hiroto0213/",
+    image: "/img/about/Hiroto_Takeuchi.jpg",
+    name: "竹内啓人 Hiroto Takeuchi",
+    enName: "Hiroto Takeuchi",
+    role: "代表",
+    enRole: "Founder",
+    description:
+      "九州大学大学院システム生命科学府修了。注意欠陥・多動性の傾向が強かったことから、脳・神経科学に興味を持つ。現在は、株式会社Actraなど、複数の企業にて脳・神経科学を活用したサービスの提供・事業開発に取り組む。「人の変化に寄り添い、変化を後押しする」ようなサービス・技術を提供することが目標。",
+    enDescription:
+      "Graduated from the Graduate School of Systems Life Science, Kyushu University. He became interested in brain/neuroscience due to his strong tendency toward attention deficit/hyperactivity. Currently, he is involved in the business development utilizing neuroscience at several companies, including Actra Inc. His goal is to provide services and technologies that accompany and encourage people to change.",
+  },
   "Hayato Waki": {
     twitterLink: "https://twitter.com/wakkihaya",
     enTwitterLink: "https://twitter.com/wakki_neurotech",
@@ -9,8 +23,8 @@ export const profiles: Record<MembersList, ProfileType> = {
     image: "/img/about/Hayato_Waki.jpg",
     name: "和木勇人 Hayato Waki",
     enName: "Hayato Waki",
-    role: "代表",
-    enRole: "President",
+    role: "創業者",
+    enRole: "Founder",
     description:
       "筑波大学にてBCIに関する研究に従事。日本と米国でソフトウェアスタートアップを起業、エンジニアとしての経験を詰んだ後、ニューロテックの魅力に惹かれ当メディアを立ち上げる。現在はデンマークのニューロテック会社'Neurons'にてエンジニアとしても働く。彼のパッションは、「創造性と技術力を持って、Science-Fictionを実現する1人になること」である。",
     enDescription:
@@ -89,20 +103,6 @@ export const profiles: Record<MembersList, ProfileType> = {
       "早稲田大学院修士1年。学部1年の時に'てんかん'を発症し、脳・神経科学全般について興味を持つ。現在は、脳が持つ高次機能の獲得に胎児期発生が寄与することに関心を持ち、東京都医学総合研究所にて神経発生に関する研究を行う。社会実装などアカデミアと産業の連携について関心があり、他団体にてBioTechベンチャーの起業支援事業も行う。",
     enDescription:
       "Master's student in Waseda University. He developed epilepsy during his first year of undergraduate studies, which sparked his interest in the brain and neuroscience in general. Currently, he is interested in the contribution of embryonic development to the acquisition of higher functions of the brain, and conducts research on neurogenesis at the Tokyo Metropolitan Institute of Medical Science. He is also interested in the collaboration between academia and industry, such as social implementation, and is involved in a start-up support project for BioTech ventures at another organization.",
-  },
-  "Hiroto Takeuchi": {
-    twitterLink: "https://twitter.com/steve950213",
-    enTwitterLink: "https://twitter.com/steve950213",
-    fbLink: "https://www.facebook.com/hiroto0213/",
-    image: "/img/about/Hiroto_Takeuchi.jpg",
-    name: "竹内啓人 Hiroto Takeuchi",
-    enName: "Hiroto Takeuchi",
-    role: "レポート事業リード",
-    enRole: "Report Project Manager",
-    description:
-      "九州大学大学院システム生命科学府修了。注意欠陥・多動性の傾向が強かったことから、脳・神経科学に興味を持つ。現在は、株式会社Actraなど、複数の企業にて脳・神経科学を活用したサービスの提供・事業開発に取り組む。「人の変化に寄り添い、変化を後押しする」ようなサービス・技術を提供することが目標。",
-    enDescription:
-      "Graduated from the Graduate School of Systems Life Science, Kyushu University. He became interested in brain/neuroscience due to his strong tendency toward attention deficit/hyperactivity. Currently, he is involved in the business development utilizing neuroscience at several companies, including Actra Inc. His goal is to provide services and technologies that accompany and encourage people to change.",
   },
   "Kai Irwin": {
     twitterLink: "https://twitter.com/Kai__Irwin",
