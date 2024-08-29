@@ -1,5 +1,5 @@
 ---
-title: "サイボーグ技術で人間の創造性を解き放つ、MELTIN MMI | 粕谷昌宏"
+title: "脳のハイウェイを解き明かす、Synhcron | Kurt Haggstrom"
 description: "「脳はおそらく、我々が知る中で最も未知の器官です。それはまさにブラックボックスです。私たちが成し遂げたことの中で最も素晴らしいことは、非常に侵襲性が少なく、非常に繊細な方法で、リアルタイムにそのブラックボックスにアクセスできるようにしたことです。」こう語るのは、Synchron社の最高商業責任者（CCO）のKurt Haggstrom氏である。今回は、競争が激化するBCI技術の世界で長い間トップランナーであり続けているSynchron社のKurt氏にお話を伺った。"
 datePublished: "2024/9/14"
 bannerPhoto: "/img/kasuya-meltin/cover.jpg"
@@ -7,7 +7,7 @@ category: "インタビュー"
 writer1: "Ami"
 writer2: ""
 interviewer1: "Hannah Kodama"
-interviewer2: "Ami Maeno"
+interviewer2: "Ami"
 translator1: ""
 translator2: ""
 ---
@@ -16,7 +16,7 @@ translator2: ""
 
 ## Synchron 社とは
 
-Synchron 社は、2012 年より低侵襲ブレイン・マシーン・インターフェース(BMI)の開発を行っているアメリカの企業である。脳の静脈の中に電極を配置し、脳活動によってコンピュータを操作する BMI を開発している。
+[Synchron 社](https://synchron.com/)は、2012 年より低侵襲ブレイン・マシーン・インターフェース(BMI)の開発を行っているアメリカの企業である。脳の静脈の中に電極を配置し、脳活動によってコンピュータを操作する BMI を開発している。
 
 &nbsp;
 

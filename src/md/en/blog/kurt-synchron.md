@@ -1,5 +1,5 @@
 ---
-title: "Title: Uncovering the Highways of the Brain with Synchron | Kurt Haggstrom"
+title: "Uncovering the Highways of the Brain with Synchron | Kurt Haggstrom"
 description: "In this interview, we talked to Kurt Haggstrom, CCO of Synchron, about their challenges and developments."
 datePublished: "2024/9/14"
 bannerPhoto: "/img/kasuya-meltin/cover.jpg"
@@ -7,7 +7,7 @@ category: "Interview"
 writer1: "Hannah Kodama"
 writer2: ""
 interviewer1: "Hannah Kodama"
-interviewer2: "Ami Maeno"
+interviewer2: "Ami"
 translator1: ""
 translator2: ""
 ---
@@ -48,7 +48,7 @@ Kurt’s interest in the biomedical sciences stemmed from a college football inj
 
 Following his schooling, he gained exposure to the world of medical devices at Medtronic. Traveling to medical conferences, he worked closely with the physicians that directly interacted with the implanted patients. He continued to attend various conferences and, in 2015, met Dr. Tom Oxley, who would later go on to found Synchron. Kurt continued to follow Dr. Oxley's work closely, being impressed by the potential of his technology to transform patients' lives.
 
-> ‘I was able to touch on the development and creative side of technology. But at the same time, I get to apply it with a purpose and a mission’
+> I was able to touch on the development and creative side of technology. But at the same time, I get to apply it with a purpose and a mission
 
 &nbsp;
 
@@ -57,9 +57,9 @@ Following his schooling, he gained exposure to the world of medical devices at M
 Kurt is not the only person at Synchron that has transitioned from research. The team is made up of countless neuroscientists, data scientists and engineers.
 We asked Kurt about the unique advantages of having a team with diverse backgrounds spanning research and industry:
 
-> ‘Those in academia and industry have different thoughts on timelines and resources you need for questions that you try to go answer. What we're trying to do (in industry) is develop a product. I think that's where I've seen people get excited that are coming from academics is that it's a real tangible thing when you deliver a product out to market that helps somebody. I think that's a very rewarding thing that I've seen now from folks that have come from the lab or clinic. They come in and see their science come to life.
+> Those in academia and industry have different thoughts on timelines and resources you need for questions that you try to go answer. What we're trying to do (in industry) is develop a product. I think that's where I've seen people get excited that are coming from academics is that it's a real tangible thing when you deliver a product out to market that helps somebody. I think that's a very rewarding thing that I've seen now from folks that have come from the lab or clinic. They come in and see their science come to life.
 
-> I haven't seen as much go back into the research piece. I definitely have seen academics go into industry but maybe not so much the other way around.’
+> I haven't seen as much go back into the research piece. I definitely have seen academics go into industry but maybe not so much the other way around.
 
 &nbsp;
 
@@ -71,7 +71,7 @@ Synchron uses a minimally invasive endovascular procedure to place the Stentrode
 
 &nbsp;
 
-> ‘The great part about our approach is that it’s not new. So we get to leverage all that experience and knowledge.’
+> The great part about our approach is that it’s not new. So we get to leverage all that experience and knowledge.
 
 &nbsp;
 
@@ -79,13 +79,13 @@ Synchron uses a minimally invasive endovascular procedure to place the Stentrode
 
 While are many companies conducting research and development in BCI technology, Kurt says the main reason he joined Synchron was because of the opportunity interact with patients on a daily basis.
 
-> ‘There’s a patient out there that we need to help and we work with them every week. Knowing that there’s an immediate need, we try to create the most efficient, effective and safest path to bring that product to them.’
+> There’s a patient out there that we need to help and we work with them every week. Knowing that there’s an immediate need, we try to create the most efficient, effective and safest path to bring that product to them.
 
 &nbsp;
 
 By working closely with patients, Synchron is differentiating themselves through a detailed understanding of the end user’s needs. These conversations give them a better understanding of the struggles directly from the patient to to best suit the patients’ needs. Synchron's technology not only benefits patients, but gives caretakers more freedom as well.
 
-> ‘There’s an element of restoration of what’s lost in that patient. It’s critical being able to have control, independence and having autonomy. You don’t have to rely on somebody.’
+> There’s an element of restoration of what’s lost in that patient. It’s critical being able to have control, independence and having autonomy. You don’t have to rely on somebody.
 
 &nbsp;
 
