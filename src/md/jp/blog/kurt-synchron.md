@@ -2,7 +2,7 @@
 title: "脳のハイウェイを解き明かす、Synhcron | Kurt Haggstrom"
 description: "「脳はおそらく、我々が知る中で最も未知の器官です。それはまさにブラックボックスです。私たちが成し遂げたことの中で最も素晴らしいことは、非常に侵襲性が少なく、非常に繊細な方法で、リアルタイムにそのブラックボックスにアクセスできるようにしたことです。」こう語るのは、Synchron社の最高商業責任者（CCO）のKurt Haggstrom氏である。今回は、競争が激化するBCI技術の世界で長い間トップランナーであり続けているSynchron社のKurt氏にお話を伺った。"
 datePublished: "2024/9/14"
-bannerPhoto: "/img/kasuya-meltin/cover.jpg"
+bannerPhoto: "/img/kurt-synchron/ogp.png"
 category: "インタビュー"
 writer1: "Ami"
 writer2: ""

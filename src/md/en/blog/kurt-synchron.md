@@ -2,7 +2,7 @@
 title: "Uncovering the Highways of the Brain with Synchron | Kurt Haggstrom"
 description: "In this interview, we talked to Kurt Haggstrom, CCO of Synchron, about their challenges and developments."
 datePublished: "2024/9/14"
-bannerPhoto: "/img/kasuya-meltin/cover.jpg"
+bannerPhoto: "/img/kurt-synchron/ogp.png"
 category: "Interview"
 writer1: "Hannah Kodama"
 writer2: ""
