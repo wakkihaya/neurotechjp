@@ -153,7 +153,7 @@ const RenderBanner: React.FC<HeaderProps> = props => {
             rel="noreferrer"
             href="https://neurotechjp.com/jp/slides/ces-2025/"
           >
-            See here
+            詳細
           </a>
           )
         </p>
