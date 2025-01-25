@@ -99,6 +99,13 @@ const SlidesPage: React.FC = () => {
         >
           【有料】VivaTech2023に出向き、世界中から集まるニューロテック企業に現地インタビューを行いました。その最先端をまとめたレポート資料です。
         </SlideContent>
+        <SlideContent
+          linkRef="/jp/slides/ces-2025"
+          imgSrc="/img/slides/ces2025.png"
+          title="CES2025 ニューロテックレポート"
+        >
+          【有料】CES2025に出向き、世界中から集まるニューロテック企業に現地インタビューを行いました。その最先端をまとめたレポート資料です。
+        </SlideContent>
       </div>
       <Footer />
     </>
