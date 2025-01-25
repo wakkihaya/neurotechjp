@@ -25,8 +25,8 @@ const CES2025: React.FC = () => {
           <br />
           <br />
           [単価価格]
-          <br /> - CES2023 基本レポート: 60万円
-          <br /> - (追加) CES2023 カスタムレポート: 20万円〜
+          <br /> - CES2025 基本レポート: 60万円
+          <br /> - (追加) CES2025 カスタムレポート: 20万円〜
         </div>
         <div className="slides-item--button">
           <a
