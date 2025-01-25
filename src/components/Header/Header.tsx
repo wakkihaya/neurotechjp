@@ -147,34 +147,20 @@ const RenderBanner: React.FC<HeaderProps> = props => {
     return (
       <Banner>
         <p>
-          NeurotechJPは事業の一部を株式会社Actraに譲渡致しました。(
+          CES2025 ニューロテックレポート販売中!.(
           <a
             target="_blank"
             rel="noreferrer"
-            href="https://prtimes.jp/main/html/rd/p/000000004.000111004.html"
+            href="https://neurotechjp.com/jp/slides/ces-2025/"
           >
-            プレスリリース
+            詳細
           </a>
           )
         </p>
       </Banner>
     );
   } else {
-    return (
-      <Banner>
-        <p>
-          NeurotechJP transferred its part of business to Actra Corp.(
-          <a
-            target="_blank"
-            rel="noreferrer"
-            href="https://prtimes.jp/main/html/rd/p/000000004.000111004.html"
-          >
-            Press release
-          </a>
-          )
-        </p>
-      </Banner>
-    );
+    return null;
   }
 };
 
