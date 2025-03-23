@@ -14,12 +14,11 @@ translator2: ""
 
 &nbsp;
 
-What if you could command a robot to wash the dishes - just by thinking about it? 
+What if you could command a robot to wash the dishes - just by thinking about it?
 
 &nbsp;
 
 This isn’t just the stuff of science fiction. In Akihabara, the tech center of Tokyo, one team is working to make this a reality. The Reinforcement Learning Team at the neurotech start-up, Araya, brings together specialists in everything from robotics to neuroscience, all united by a shared mission: to create brain-robot interfaces that empower individuals with motor disabilities. We interviewed the team lead, Dr. Kai Arulkumaran, about his experience building brain-robot interfaces.
-
 
 &nbsp;
 
@@ -50,6 +49,8 @@ In the next few years, Kai envisions combining this system with foundation model
 
 > Instead of telling a robot to “open up the cabinet”, “pick up the plate”, “put the plate in the cabinet”, etc., you could just tell it to “tidy up the table”, and perhaps after a bit of clarification, the robot could just get on with it. In essence, I believe the future of brain-robot interfaces will largely depend on progress on general-purpose AI and robotics, more so than advances in neuroscience. And so that’s what the team is betting on.
 
+&nbsp;
+
 ## Enhancing quality of life for those with limited mobility
 
 The need for brain-controlled robotic assistants extends far beyond convenience. It’s a path to restoring autonomy and dignity to individuals with motor impairments:
@@ -58,16 +59,19 @@ The need for brain-controlled robotic assistants extends far beyond convenience.
 
 > If you ask people what they want AI/technology for, one of the most common responses is ‘to clean up’. We want technology to automate away the mundane tasks in our lives. And of course, people with handicaps or the elderly stand to benefit the most from such technologies. The rising elderly population makes this an even more pressing problem, with a lack of human carers. And having helped care for a relative with Alzheimer’s, I’m very much aware of how important having assistance is.
 
+&nbsp;
+
 ## Bridging the gap between AI and Neurotech
 
-Kai explains that neurotech is one of the many fields that could be revolutionized by AI: 
+Kai explains that neurotech is one of the many fields that could be revolutionized by AI:
 
 > [With neurotechnology], we can collect large amounts of data at high frequency and need to be able to analyze it - this is a great fit for ML
 
-
 &nbsp;
 
-Araya has also been exploring EEG scaling laws and found that collecting large amounts of EEG data leads to a continuous increase in the accuracy of EEG decoders. If these findings generalize, it may be possible to create noninvasive BMI systems with a high bandwidth of decoded information using recent advances in AI. 
+Araya has also been exploring EEG scaling laws and found that collecting large amounts of EEG data leads to a continuous increase in the accuracy of EEG decoders. If these findings generalize, it may be possible to create noninvasive BMI systems with a high bandwidth of decoded information using recent advances in AI.
+
+&nbsp;
 
 ## Building a global team in Tokyo
 
@@ -79,12 +83,13 @@ With a diverse team spanning six countries, the Reinforcement Learning Team oper
 
 &nbsp;
 
-
 He explains that the language barriers are not the only communication challenges to overcome. Managing the expectations across different backgrounds was also an unexpected challenge:
 
 &nbsp;
 
 > Someone outside of neuroscience might see stories of people speaking again through brain implants and think that if it is possible, we should be able to do it too. And on the other hand, someone outside of robotics might see videos of robots walking around or even cooking, and assume that we could do the same. But in fact these are results from the top research labs, and replicating all of this is far from trivial. Still, that’s our goal!
+
+&nbsp;
 
 ## Working at a start-up in Japan
 
@@ -102,9 +107,11 @@ Suggested: There are also unique advantages to developing neurotech in Japan. Ja
 
 > When growing up, it was a dream of mine to visit Japan, the land of technology. My interest in robotics started at a young age, inspired by the Honda ASIMO humanoid robot - a robot that inspired many current roboticists around the world. And even now, even if Japan isn’t seen as being at the cutting edge of all technology, the public sentiment towards advanced technology is very positive. Here, the most famous fictional robot is Doraemon, not the Terminator. In Japan, robots are seen as co-existing with and helping humanity, whereas in the West, fiction often portrays robots as the enemy of humans. And neurotech plays a large role in several popular manga, such as Ghost in the Shell and Sword Art Online, so if you want to deploy robots or BMI in society, this is the place to be.
 
+&nbsp;
+
 ## What do you see as the killer apps of neurotech?
 
-In the short term, the team hopes that building brain-robot interfaces will aid with everyday tasks for those with severe physical disabilities. 
+In the short term, the team hopes that building brain-robot interfaces will aid with everyday tasks for those with severe physical disabilities.
 
 &nbsp;
 
@@ -112,7 +119,7 @@ In the short term, the team hopes that building brain-robot interfaces will aid 
 
 &nbsp;
 
-Further in the future, Kai envisions a society where healthy people opt for neural implants as a way to measure biomarkers. 
+Further in the future, Kai envisions a society where healthy people opt for neural implants as a way to measure biomarkers.
 
 &nbsp;
 
