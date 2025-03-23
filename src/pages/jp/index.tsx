@@ -12,8 +12,8 @@ type HomeProps = {
   posts: PostData[];
 };
 
-const bestArticlePath = "jp/blog/ryan-kernel";
-const secondArticlePath = "jp/blog/neurotech-education";
+const bestArticlePath = "jp/blog/kai-brain-robot-interface";
+const secondArticlePath = "jp/blog/kurt-synchron";
 
 const Home: React.FC<HomeProps> = props => {
   const bestArticle = props.posts.find(({ path }) => path === bestArticlePath);
