@@ -124,3 +124,5 @@ Further in the future, Kai envisions a society where healthy people opt for neur
 &nbsp;
 
 > Step one is being able to monitor how our brains are functioning. Step two - being able to control objects in the physical world using our brain - that would certainly be an exciting future.
+
+![Team photo](https://neurotechjp.com/img/kai-brain-robot/team-photo.png)
