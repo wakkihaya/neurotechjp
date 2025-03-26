@@ -124,3 +124,5 @@ translator2: ""
 &nbsp;
 
 > 最初のステップは、脳がどう機能しているかをモニターできるようにすること、次のステップは、脳を使って物理的世界の物体をコントロールできるようにすることです。
+
+![Team photo](https://neurotechjp.com/img/kai-brain-robot/team-photo.png)
