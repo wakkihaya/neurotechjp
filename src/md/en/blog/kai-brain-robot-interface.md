@@ -101,7 +101,7 @@ Having heard horror stories about the working conditions in Japanese companies, 
 
 &nbsp;
 
-Suggested: There are also unique advantages to developing neurotech in Japan. Japan’s indigenous religion, Shintoism, teaches that there are spirits inhabiting all things, from mountains to pencils. This is in contrast to Abrahamic religions, which place humans as special beings above others. This acceptance of objects as potentially "alive" is thought to contribute to Japan's openness to advanced technologies, including robotics.
+There are also unique advantages to developing neurotech in Japan. Japan’s indigenous religion, Shintoism, teaches that there are spirits inhabiting all things, from mountains to pencils. This is in contrast to Abrahamic religions, which place humans as special beings above others. This acceptance of objects as potentially "alive" is thought to contribute to Japan's openness to advanced technologies, including robotics.
 
 &nbsp;
 
