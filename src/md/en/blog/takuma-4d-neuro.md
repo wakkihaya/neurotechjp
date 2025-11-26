@@ -1,7 +1,7 @@
 ---
 title: "4D Neuroscience Opened Up by Light Field Technology | Takuma Sugi"
 description: "We spoke with Professor Takuma Sugi of Hiroshima University about the development and applications of 4D imaging using light field technology. This technology, which breaks through the limitations of conventional imaging methods and achieves both cell-level spatial resolution and high temporal resolution, holds the potential to revolutionize research from neuroscience to all of biology."
-datePublished: "2025/1/15"
+datePublished: "2025/11/26"
 bannerPhoto: "/img/takuma-4d-neuro/ogp.jpg"
 category: "Interview"
 writer1: ""
@@ -14,17 +14,9 @@ translator2: ""
 
 &nbsp;
 
-# 4D Neuroscience Opened Up by Light Field Technology
-
-&nbsp;
-
 ## Light Field Technology
 
-&nbsp;
-
 ### **What is Light Field?**
-
-&nbsp;
 
 Light field technology is a technique that captures three-dimensional spatial images with a single camera exposure. Most conventional imaging methods construct two-dimensional images, and to obtain three-dimensional spatial images, it is necessary to stack images captured with focus at different depths. In contrast, light field technology achieves imaging by using an imaging element called a microlens array. When this approach is adapted for microscopy, it gives rise to what is known as a light field microscope.
 
@@ -32,21 +24,17 @@ Light field technology is a technique that captures three-dimensional spatial im
 
 **Limitations of Conventional Imaging Methods**
 
-&nbsp;
-
 Conventional imaging methods require determining the depth of focus when capturing images. However, to obtain three-dimensional spatial images with this method, it is necessary to perform "scanning" by repeatedly capturing images while gradually changing the focus position. You would then integrate the individual images, which takes a long time for a single capture. For example, with two-photon microscopy, which is currently the mainstream measurement method for nervous systems, it takes several seconds to several tens of seconds to image a region of a few millimeters in each dimension. Therefore, with conventional imaging techniques, it is difficult to capture phenomena that have three-dimensional extent and change rapidly. Additionally, there is a problem that the timing of imaging differs depending on the location within a single imaging target region, resulting in the loss of temporal information within the region.
 
 &nbsp;
 
 ![Conceptual diagram showing how 2D images are stacked to obtain a 3D image](https://neurotechjp.com/img/takuma-4d-neuro/img1.png)
 
-*Conceptual diagram showing how 2D images are stacked to obtain a 3D image (generated with ChatGPT)*
+_Conceptual diagram showing how 2D images are stacked to obtain a 3D image (generated with ChatGPT)_
 
 &nbsp;
 
 **Advantages and Mechanisms of Light Field Technology**
-
-&nbsp;
 
 When the target region is made wider, the time required to image the entire region becomes longer. To shorten the imaging time, it is necessary to narrow the target region. How can we resolve this trade-off and image four-dimensional phenomena—combining the three dimensions spanning space with the time axis—with high resolution? Light field technology is one solution.
 
@@ -58,7 +46,7 @@ What characterizes light field technology is the microlens array placed in front
 
 ![Conceptual diagram of light field technology](https://neurotechjp.com/img/takuma-4d-neuro/img2.png)
 
-*Conceptual diagram of light field technology (provided by Prof. Sugi)*
+_Conceptual diagram of light field technology (provided by Prof. Sugi)_
 
 &nbsp;
 
@@ -72,15 +60,11 @@ In this way, by using light field technology, it becomes possible to record thre
 
 ### **Novelty of Professor Sugi's Research: Improvement of Spatial Resolution and Application to Optical Fibers**
 
-&nbsp;
-
 While light field technology enables imaging that is completely different from conventional measurement techniques, it also has problems. One issue that stands out is low spatial resolution. Reconstruction algorithms that have been developed for light field technology up until now had the problem of spatial resolution being more than 10 times inferior compared to conventional confocal microscopes.
 
 &nbsp;
 
 **Breakthrough**
-
-&nbsp;
 
 Professor Sugi's research and development achieved a groundbreaking breakthrough by significantly improving the spatial resolution in light field technology. Professor Sugi's team developed a new algorithm that differs from any existing reconstruction algorithms. While maintaining the characteristic of light field technology of recording three-dimensional spatial images with a single capture, they achieved high spatial resolution at the single-cell level, realizing 4D imaging at the cellular level. Furthermore, this algorithm is based on optical computation and is not AI-based. Therefore, there is no limitation of the algorithm's application being restricted to samples used in training data, which is often a problem with AI-based algorithms. Professor Sugi's algorithm enables 4D imaging of various subjects, from C. elegans to organoids to mouse brains.
 
@@ -88,11 +72,7 @@ Professor Sugi's research and development achieved a groundbreaking breakthrough
 
 ### **What Has Become Possible?**
 
-&nbsp;
-
 **Understanding the Spatiotemporal Structure of Neural Population Activity**
-
-&nbsp;
 
 The 4D imaging brought about by the breakthrough of improving the spatial resolution of light field technology has enabled the visualization of detailed spatiotemporal structures of nervous system activity.
 
@@ -100,7 +80,7 @@ The 4D imaging brought about by the breakthrough of improving the spatial resolu
 
 ![Video or image showing how the activity of all neurons in C. elegans was recorded as a smooth video](https://neurotechjp.com/img/takuma-4d-neuro/img3.png)
 
-*Video or image showing how the activity of all neurons in C. elegans was recorded as a smooth video (provided by Prof. Sugi)*
+_Video or image showing how the activity of all neurons in C. elegans was recorded as a smooth video (provided by Prof. Sugi)_
 
 &nbsp;
 
@@ -110,15 +90,13 @@ This is a 4D imaging recording of the activity of all neurons in C. elegans that
 
 **Light Field Endoscopy**
 
-&nbsp;
-
 Furthermore, Professor Sugi discovered that bundles of optical fibers function equivalently to microlens arrays. Each individual fiber in a densely packed bundle of optical fibers has optical properties similar to each individual microlens, providing angular information of incident light. Based on this concept, when the reconstruction algorithm was applied to light information recorded through optical fibers, three-dimensional spatial images of samples at the tip of the fibers could be beautifully obtained.
 
 &nbsp;
 
 ![Conceptual diagram of how bundles of optical fibers function equivalently to microlens arrays](https://neurotechjp.com/img/takuma-4d-neuro/img4.png)
 
-*Conceptual diagram of how bundles of optical fibers function equivalently to microlens arrays (provided by Prof. Sugi)*
+_Conceptual diagram of how bundles of optical fibers function equivalently to microlens arrays (provided by Prof. Sugi)_
 
 &nbsp;
 
@@ -132,7 +110,7 @@ Using this technology, Professor Sugi actually achieved 4D imaging of the hypoth
 
 ![Image obtained using light field endoscopy in the mouse hypothalamus](https://neurotechjp.com/img/takuma-4d-neuro/img5.png)
 
-*Image obtained using light field endoscopy in the mouse hypothalamus (provided by Prof. Sugi)*
+_Image obtained using light field endoscopy in the mouse hypothalamus (provided by Prof. Sugi)_
 
 &nbsp;
 
@@ -141,8 +119,6 @@ The ability to image deep brain activity in living organisms, where measurements
 &nbsp;
 
 **From Correlation Analysis to Causal Biology**
-
-&nbsp;
 
 The 4D imaging enabled by light field microscopy brings a new perspective to neuroscience research and biological research. This is because it makes it possible to grasp causal relationships between interacting microscopic elements.
 
@@ -154,7 +130,7 @@ Much of traditional biological research has been limited to analyzing correlatio
 
 ![Diagram showing how information propagation between three neurons can be captured as causal relationships for the first time through 4D analysis](https://neurotechjp.com/img/takuma-4d-neuro/img6.png)
 
-*Diagram showing how information propagation between three neurons can be captured as causal relationships for the first time through 4D analysis (provided by Prof. Sugi)*
+_Diagram showing how information propagation between three neurons can be captured as causal relationships for the first time through 4D analysis (provided by Prof. Sugi)_
 
 &nbsp;
 
@@ -172,8 +148,6 @@ The ability to grasp causal relationships between individual elements, which bec
 
 ### **What Led to Light Field Technology**
 
-&nbsp;
-
 The circumstances that led to the breakthrough in light field technology are deeply connected to the research stance that Professor Sugi has maintained.
 
 &nbsp;
@@ -190,8 +164,6 @@ Professor Sugi, who values "combining different fields," became interested after
 
 ### **4D Neuroscience - Commercialization of Light Field Technology**
 
-&nbsp;
-
 Professor Sugi's team is preparing to establish a startup in order to further disseminate this technology. They plan to provide services to target fields using two methods for which they have developed the technology: the "microlens array type" and the "fiber type."
 
 &nbsp;
@@ -206,15 +178,11 @@ There are four main areas they are considering for provision.
 
 **Disease Research and Drug Discovery Research (Life Science and Drug Discovery Markets)**
 
-&nbsp;
-
 The first targets are basic research in life sciences and drug discovery research. In research, if one-photon imaging is being performed, 4D imaging becomes possible by introducing the microlens array and processing algorithm. In the drug discovery field, 3D tissue such as organoids can be captured in one shot, enabling high-throughput, high-precision evaluation. This dramatically accelerates development speed. There is potential to complete the same tasks with a process that takes only a fraction of the previous time.
 
 &nbsp;
 
 **Microendoscopic Imaging (Medical Market)**
-
-&nbsp;
 
 As mentioned previously, the "fiber type" technology can make microendoscopic imaging 4D. It can be used in scenarios such as quantifying cancer invasion in 4D, obtaining three-dimensional information, as well as others.
 
@@ -222,15 +190,11 @@ As mentioned previously, the "fiber type" technology can make microendoscopic im
 
 **Microbiome Analysis Testing (Healthcare Market)**
 
-&nbsp;
-
 The technology also shows high compatibility in oral and intestinal microbiome research. For example, it can evaluate the time sequence in which pharmaceuticals like toothpaste kill only harmful bacteria in the oral cavity without killing beneficial bacteria. Similar analysis is also possible for intestinal bacteria.
 
 &nbsp;
 
 **3D Pathology (Medical Market)**
-
-&nbsp;
 
 Finally, there is application in the field of pathological examination. Currently, pathological examination takes a great deal of time, despite the fact that the number of pathologists is gradually decreasing. Sections must be cut and examined one by one, but if 3D imaging becomes possible without cutting sections, that time can be shortened.
 
@@ -238,17 +202,13 @@ Finally, there is application in the field of pathological examination. Currentl
 
 ![Business Concept for Light Field Technology](https://neurotechjp.com/img/takuma-4d-neuro/img7.png)
 
-*Business Concept for Light Field Technology (Provided by Prof. Sugi)*
+_Business Concept for Light Field Technology (Provided by Prof. Sugi)_
 
 &nbsp;
 
 ### **Tackling "Consciousness" with Light Field Technology—Challenging the Ultimate Non-Obviousness**
 
-&nbsp;
-
 **From Pain Research to the Mystery of Consciousness**
-
-&nbsp;
 
 Along with his business plans, the next research area Professor Sugi will tackle using light field technology is "pain." He aims to approach the mystery of "consciousness" through the study of pain.
 
@@ -268,8 +228,6 @@ Light field 4D technology can maintain millisecond-scale temporal resolution whi
 
 **"Non-Obviousness" That Led to Curiosity About the "Brain" and "Consciousness"**
 
-&nbsp;
-
 Professor Sugi's interest in the "brain" and "consciousness" lies in the "non-obviousness" of these subjects.
 
 &nbsp;
@@ -285,8 +243,6 @@ The ultimate non-obviousness—Professor Sugi pushes forward toward the mystery 
 &nbsp;
 
 ## Conclusion
-
-&nbsp;
 
 This time, we had the opportunity to speak with Professor Takuma Sugi of Hiroshima University.
 
