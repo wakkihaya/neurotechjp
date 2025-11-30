@@ -68,7 +68,7 @@ export const profiles: Record<MembersList, ProfileType> = {
     twitterLink: "https://twitter.com/Tuyo_Mayo",
     enTwitterLink: "https://twitter.com/Tuyo_Mayo",
     image: "/img/about/Chihiro_Kubo.JPG",
-    name: "久保茅央",
+    name: "久保茅央 Chihiro Kubo",
     enName: "Chihiro Kubo",
     role: "レポート/ライター",
     enRole: "Reporter/Writer",
